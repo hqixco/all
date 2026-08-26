@@ -1,0 +1,67 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.catalog-category__pagination {
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.pagination__item,
+.pagination__button {
+  @include flex-center;
+  min-width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  background: $color-white;
+  border: none;
+  color: #000;
+  transition: 0.2s ease;
+  font-weight: 400;
+}
+
+.pagination__button {
+  gap: 0;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.pagination__button-icon {
+  display: block;
+  width: 6px;
+  height: auto;
+}
+
+.pagination__button-icon--prev {
+  transform: rotate(180deg);
+}
+
+.pagination__item--active {
+  background: transparent;
+  border-color: #000;
+  border: 1px solid #D4D8DE;
+  color: #000;
+  font-weight: 500;
+}
+
+.pagination__item--dots {
+  background: transparent;
+}
+
+.pagination__button--disabled,
+.pagination__button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.pagination__item:hover,
+.pagination__button:hover:not(:disabled) {
+  color: $color-primary;
+  transform: translateY(-1px);
+}

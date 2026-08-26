@@ -1,0 +1,19 @@
+# Dependencies and generated build output
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+
+# Local backups and deployment archives
+**/.backups/
+**/backups/
+bystrosender-deploy.tar.gz
+
+# Local environment and editor files
+**/.env
+**/.env.*
+!.env.example
+**/.DS_Store
+**/.vscode/
+**/.chrome-check*/
+**/.git-upload-hidden/

@@ -1,0 +1,33 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.grid--products {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid--categories {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid--services {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@include mq-between($breakpoint-tablet, $breakpoint-wide) {
+  .grid--products {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@include mq-down($breakpoint-tablet) {
+  .grid--products,
+  .grid--categories,
+  .grid--services {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

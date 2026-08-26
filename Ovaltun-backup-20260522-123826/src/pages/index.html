@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ОВАЛТУН - Главная</title>
+    <script type="module" src="/src/js/main.js"></script>
+  </head>
+  <body class="page page--home">
+    <div data-include="/partials/header.html"></div>
+
+    <main class="page__main">
+      <section class="home-hero section">
+        <div class="container">
+          <div class="slider home-hero__slider" data-slider>
+            <div class="home-hero__controls slider__controls">
+              <button class="slider__button" type="button" data-slider-prev aria-label="Предыдущий слайд">
+                <img class="slider__button-icon" src="/images/slider-button-arrow.svg" alt="" aria-hidden="true" />
+              </button>
+              <button class="slider__button" type="button" data-slider-next aria-label="Следующий слайд">
+                <img class="slider__button-icon" src="/images/slider-button-arrow.svg" alt="" aria-hidden="true" />
+              </button>
+            </div>
+
+            <div class="slider__viewport home-hero__viewport">
+              <div class="slider__track home-hero__track" data-slider-track>
+                <article class="slider__slide home-hero__slide" data-slider-slide>
+                  <div class="home-hero__banner">
+                    <img class="home-hero__banner-image" src="/images/home-hero-banner.jpg" alt="" aria-hidden="true" />
+                    <div class="home-hero__inner">
+                      <div class="home-hero__content">
+                        <h1 class="home-hero__title">Дом с комфортом: скидка в «ОВАЛТУН»</h1>
+                        <p class="home-hero__date">01.03.26-31.12.26</p>
+                        <div class="home-hero__actions">
+                          <a class="button button--primary" href="/src/pages/catalog.html">Условия</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="slider__slide home-hero__slide" data-slider-slide>
+                  <div class="home-hero__banner home-hero__banner--alt">
+                    <img class="home-hero__banner-image" src="/images/home-hero-banner.jpg" alt="" aria-hidden="true" />
+                    <div class="home-hero__inner">
+                      <div class="home-hero__content">
+                        <h2 class="home-hero__title">Стройматериалы и интерьерные решения для дома</h2>
+                        <p class="home-hero__date">Пример второго слайда для будущего слайдера</p>
+                        <div class="home-hero__actions">
+                          <a class="button button--primary" href="/src/pages/catalog.html">В каталог</a>
+                          <a class="button button--ghost" href="/src/pages/about.html">О компании</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section home-categories">
+        <div class="container container--narrow">
+
+          <div class="home-categories__viewport">
+            <div class="home-categories__grid" data-drag-scroll>
+            <a class="home-category-card home-category-card--large home-category-card--with-image" href="/src/pages/catalog-category.html">
+              <h3 class="home-category-card__title">Керамогранит</h3>
+              <img class="home-category-card__image" src="/images/home-category-keramogranit.png" alt="Керамогранит" />
+            </a>
+            <a class="home-category-card home-category-card--large home-category-card--with-image" href="/src/pages/catalog-category.html">
+              <h3 class="home-category-card__title">Плитка</h3>
+              <img class="home-category-card__image" src="/images/tile-card.png" alt="Плитка" />
+            </a>
+            <a class="home-category-card home-category-card--large home-category-card--with-image" href="/src/pages/catalog-category.html">
+              <h3 class="home-category-card__title">Линолеум</h3>
+              <img class="home-category-card__image" src="/images/linoleum-card.png" alt="Линолеум" />
+            </a>
+            <a class="home-category-card home-category-card--small home-category-card--with-image" href="/src/pages/catalog-category.html">
+              <h3 class="home-category-card__title">Крепеж</h3>
+              <img class="home-category-card__image" src="/images/category-bottom.png" alt="Крепеж" />
+            </a>
+            <a class="home-category-card home-category-card--small home-category-card--with-image" href="/src/pages/catalog-category.html">
+              <h3 class="home-category-card__title">Сантехника</h3>
+              <img class="home-category-card__image" src="/images/category-bottom.png" alt="Сантехника" />
+            </a>
+            <a class="home-category-card home-category-card--small home-category-card--with-image" href="/src/pages/catalog-category.html">
+              <h3 class="home-category-card__title">Сухие смеси</h3>
+              <img class="home-category-card__image" src="/images/category-bottom.png" alt="Сухие смеси" />
+            </a>
+            <a class="home-category-card home-category-card--small home-category-card--with-image" href="/src/pages/catalog-category.html">
+              <h3 class="home-category-card__title">Краска</h3>
+              <img class="home-category-card__image" src="/images/category-bottom.png" alt="Краска" />
+            </a>
+            <a class="home-category-card home-category-card--small home-category-card--with-image" href="/src/pages/catalog-category.html">
+              <h3 class="home-category-card__title">Панели</h3>
+              <img class="home-category-card__image" src="/images/category-bottom.png" alt="Панели" />
+            </a>
+            <a class="home-category-card home-category-card--small home-category-card--with-image" href="/src/pages/catalog-category.html">
+              <h3 class="home-category-card__title">Бетон</h3>
+              <img class="home-category-card__image" src="/images/category-bottom.png" alt="Бетон" />
+            </a>
+            </div>
+          </div>
+          <div class="home-categories__action">
+            <a class="home-categories__button" href="/src/pages/catalog.html">В каталог</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section home-products home-products--sales">
+        <div class="container container--narrow">
+          <div class="home-section-head">
+            <h2 class="section__title">Скидки и акции</h2>
+            <a class="home-section-head__link" href="/src/pages/catalog.html">
+              <span>Показать все</span>
+              <span class="home-section-head__link-icon" aria-hidden="true">
+                <img class="home-section-head__link-arrow" src="/images/slider-arrow.svg" alt="" aria-hidden="true" />
+              </span>
+            </a>
+          </div>
+
+          <div class="grid grid--products">
+            <div data-include="/partials/product-card.html"></div>
+            <div data-include="/partials/product-card.html"></div>
+            <div data-include="/partials/product-card.html"></div>
+            <div data-include="/partials/product-card.html"></div>
+            <div data-include="/partials/product-card.html"></div>
+            <div data-include="/partials/product-card.html"></div>
+            <div data-include="/partials/product-card.html"></div>
+            <div data-include="/partials/product-card.html"></div>
+            <div data-include="/partials/product-card.html"></div>
+            <div data-include="/partials/product-card.html"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section home-products home-products--popular">
+        <div class="container container--narrow">
+          <div class="home-section-head">
+            <h2 class="section__title">Популярное</h2>
+            <a class="home-section-head__link" href="/src/pages/catalog.html">
+              <span>Показать все</span>
+              <span class="home-section-head__link-icon" aria-hidden="true">
+                <img class="home-section-head__link-arrow" src="/images/slider-arrow.svg" alt="" aria-hidden="true" />
+              </span>
+            </a>
+          </div>
+
+          <div class="grid grid--products">
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+            <div data-include="/partials/catalog-category-product-card.html"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section home-benefits-section">
+        <div class="container">
+          <div class="home-benefits">
+            <div class="home-section-head home-section-head--center home-benefits__head">
+              <div>
+                <h2 class="section__title">Почему стоит выбрать нашу компанию</h2>
+                <p class="section__subtitle">В наличии более 30 000 наименований строительных материалов</p>
+              </div>
+            </div>
+
+            <div class="home-benefits__grid">
+              <article class="home-benefit-card">
+                <div class="home-benefit-card__icon">
+                  <img class="home-benefit-card__icon-image" src="/images/benefit-assortment-icon.svg" alt="" aria-hidden="true" />
+                </div>
+                <h3 class="home-benefit-card__title">Ассортимент в наличии</h3>
+                <p class="home-benefit-card__text">В наличии более 300 наименований строительных материалов</p>
+              </article>
+              <article class="home-benefit-card">
+                <div class="home-benefit-card__icon">
+                  <img class="home-benefit-card__icon-image" src="/images/benefit-quality-icon.svg" alt="" aria-hidden="true" />
+                </div>
+                <h3 class="home-benefit-card__title">Качество</h3>
+                <p class="home-benefit-card__text">Наши товары соответствуют всем стандартам</p>
+              </article>
+              <article class="home-benefit-card">
+                <div class="home-benefit-card__icon">
+                  <img class="home-benefit-card__icon-image" src="/images/benefit-warranty-icon.svg" alt="" aria-hidden="true" />
+                </div>
+                <h3 class="home-benefit-card__title">Гарантия</h3>
+                <p class="home-benefit-card__text">Продаем только проверенные товары</p>
+              </article>
+              <article class="home-benefit-card">
+                <div class="home-benefit-card__icon">
+                  <img class="home-benefit-card__icon-image" src="/images/benefit-delivery-icon.svg" alt="" aria-hidden="true" />
+                </div>
+                <h3 class="home-benefit-card__title">Доставка</h3>
+                <p class="home-benefit-card__text">Доставляем стройматериалы в удобные для вас часы</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section home-services">
+        <div class="container container--narrow">
+          <h2 class="section__title">Услуги предоставляемые нашей компанией</h2>
+          <div class="home-services__grid">
+            <article class="home-service-card">
+              <div class="home-service-card__content">
+                <h3 class="home-service-card__title">Доставка в удобные часы</h3>
+              </div>
+              <img class="home-service-card__image" src="/images/service-delivery-hours.png" alt="" aria-hidden="true" />
+            </article>
+            <article class="home-service-card">
+              <div class="home-service-card__content">
+                <h3 class="home-service-card__title">Возврат и обмен товаров</h3>
+              </div>
+              <img class="home-service-card__image" src="/images/service-returns.png" alt="" aria-hidden="true" />
+            </article>
+            <article class="home-service-card">
+              <div class="home-service-card__content">
+                <h3 class="home-service-card__title">Бесплатный дизайн-проект при покупке</h3>
+              </div>
+              <img class="home-service-card__image" src="/images/service-design-project.png" alt="" aria-hidden="true" />
+            </article>
+            <article class="home-service-card home-service-card--media-only">
+              <img class="home-service-card__image home-service-card__image--full" src="/images/home-service-promo.jpg" alt="" aria-hidden="true" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section home-gallery">
+        <div class="container container--narrow">
+          <div class="home-section-head">
+            <div>
+              <h2 class="section__title">Галерея готовых решений</h2>
+              <p class="section__subtitle">�деи для вашего интерьера от наших дизайнеров</p>
+            </div>
+            <a class="home-section-head__link button button--primary home-section-head__link--plain" href="/src/pages/catalog.html">
+              <span>Посмотреть проекты</span>
+            </a>
+          </div>
+
+          <div class="home-gallery__grid">
+            <article class="home-gallery-card home-gallery-card--tall home-gallery-card--col-1 home-gallery-card--media" data-modal-open="#site-modal">
+              <img class="home-gallery-card__image" src="/images/gallery-hero.jpg" alt="" aria-hidden="true" />
+            </article>
+            <article class="home-gallery-card home-gallery-card--stack-top home-gallery-card--col-2 home-gallery-card--media" data-modal-open="#site-modal">
+              <img class="home-gallery-card__image" src="/images/gallery-2.jpg" alt="" aria-hidden="true" />
+            </article>
+            <article class="home-gallery-card home-gallery-card--stack-bottom home-gallery-card--col-2 home-gallery-card--media" data-modal-open="#site-modal">
+              <img class="home-gallery-card__image" src="/images/gallery-3.jpg" alt="" aria-hidden="true" />
+            </article>
+            <article class="home-gallery-card home-gallery-card--tall home-gallery-card--col-3 home-gallery-card--media" data-modal-open="#site-modal">
+              <img class="home-gallery-card__image" src="/images/gallery-5.jpg" alt="" aria-hidden="true" />
+            </article>
+            <article class="home-gallery-card home-gallery-card--stack-top home-gallery-card--col-4 home-gallery-card--media" data-modal-open="#site-modal">
+              <img class="home-gallery-card__image" src="/images/gallery-4.jpg" alt="" aria-hidden="true" />
+            </article>
+            <article class="home-gallery-card home-gallery-card--stack-bottom home-gallery-card--col-4 home-gallery-card--media" data-modal-open="#site-modal">
+              <img class="home-gallery-card__image" src="/images/gallery-6.jpg" alt="" aria-hidden="true" />
+            </article>
+            <article class="home-gallery-card home-gallery-card--tall home-gallery-card--col-5 home-gallery-card--media" data-modal-open="#site-modal">
+              <img class="home-gallery-card__image" src="/images/gallery-7.jpg" alt="" aria-hidden="true" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section home-reviews">
+        <div class="container container">
+          <div class="home-section-head home-reviews__head">
+            <div>
+              <h2 class="section__title">Отзывы наших клиентов</h2>
+              <p class="section__subtitle">В наличии более 30 000 наименований строительных материалов</p>
+            </div>
+            <a class="home-section-head__link button button--primary home-section-head__link--plain" href="/src/pages/reviews.html">
+              <span>Смотреть все отзывы</span>
+            </a>
+          </div>
+
+          <div class="home-reviews__grid">
+            <article class="home-review-card">
+              <button
+                class="home-review-card__media"
+                type="button"
+                aria-label="Смотреть видео-отзыв"
+                data-modal-open="#site-modal"
+                data-modal-video-src="/videos/review-video.mp4"
+                data-modal-video-poster="/images/review-video-preview.jpg"
+              >
+                <img class="home-review-card__image" src="/images/review-video-preview.jpg" alt="" aria-hidden="true" />
+                <span class="home-review-card__play" aria-hidden="true"></span>
+              </button>
+            </article>
+            <article class="home-review-card">
+              <button
+                class="home-review-card__media"
+                type="button"
+                aria-label="Смотреть видео-отзыв"
+                data-modal-open="#site-modal"
+                data-modal-video-src="/videos/review-video.mp4"
+                data-modal-video-poster="/images/review-video-preview.jpg"
+              >
+                <img class="home-review-card__image" src="/images/review-video-preview.jpg" alt="" aria-hidden="true" />
+                <span class="home-review-card__play" aria-hidden="true"></span>
+              </button>
+            </article>
+            <article class="home-review-card">
+              <button
+                class="home-review-card__media"
+                type="button"
+                aria-label="Смотреть видео-отзыв"
+                data-modal-open="#site-modal"
+                data-modal-video-src="/videos/review-video.mp4"
+                data-modal-video-poster="/images/review-video-preview.jpg"
+              >
+                <img class="home-review-card__image" src="/images/review-video-preview.jpg" alt="" aria-hidden="true" />
+                <span class="home-review-card__play" aria-hidden="true"></span>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section home-tour">
+        <div class="container container--narrow">
+          <div class="home-tour__grid">
+            <div class="home-tour__content">
+              <h2 class="section__title">Посмотрите наш магазин в интерактивном 3D-туре</h2>
+              <p class="section__subtitle">�деи для вашего интерьера от наших дизайнеров</p>
+              <div class="home-tour__actions">
+                <a class="button button--primary" href="/src/pages/catalog.html">Смотреть тур</a>
+              </div>
+            </div>
+            <div class="home-tour__media">
+              <img class="home-tour__image" src="/images/home-tour.jpg" alt="" aria-hidden="true" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-include="/partials/footer.html"></div>
+    <div data-include="/partials/modal.html"></div>
+  </body>
+</html>
+

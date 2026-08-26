@@ -1,0 +1,120 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.page--certificates {
+  background: $color-white;
+}
+
+.certificates-page {
+  padding-bottom: 22px;
+}
+
+.certificates-page .breadcrumbs {
+  margin-top: 12px;
+  margin-bottom: 28px;
+  font-size: 12px;
+  line-height: 1.3;
+  color: $color-muted;
+}
+
+.certificates-page .breadcrumbs__link {
+  color: $color-muted;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.certificates-page .breadcrumbs__link:hover {
+  color: $color-primary;
+}
+
+.certificates-page__title {
+  margin: 0 0 32px;
+  color: $color-text;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.certificates-page__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 400px);
+  gap: 32px 28px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.certificate-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background: $color-card-bg;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.certificate-card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto 0;
+  pointer-events: none;
+}
+
+.certificate-card--vertical {
+  width: 400px;
+  height: 450px;
+}
+
+.certificate-card--horizontal {
+  width: 400px;
+  height: 450px;
+}
+
+@media (max-width: 1279px) {
+  .certificates-page__grid {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .certificates-page__title {
+    font-size: 36px;
+  }
+
+  .certificates-page__grid {
+    grid-template-columns: repeat(3, 400px);
+  }
+}
+
+@include mq-down($breakpoint-tablet) {
+  .certificates-page {
+    padding-bottom: 48px;
+  }
+
+  .certificates-page__title {
+    margin-bottom: 24px;
+    font-size: 28px;
+  }
+
+  .certificates-page__grid {
+    grid-template-columns: repeat(2, 400px);
+    gap: 18px 14px;
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 479px) {
+  .certificates-page__grid {
+    grid-template-columns: 400px;
+  }
+}

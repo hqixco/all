@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ОВАЛТУН - Вопрос-ответ</title>
+    <script type="module" src="/src/js/main.js"></script>
+  </head>
+  <body class="page page--faq">
+    <div data-include="/partials/header.html"></div>
+
+    <main class="faq-page">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a class="breadcrumbs__link" href="/">Главная</a>
+          <span class="breadcrumbs__separator" aria-hidden="true">-</span>
+          <span class="breadcrumbs__current">Вопрос-ответ</span>
+        </nav>
+
+        <div class="faq-page__grid">
+          <div class="faq-page__content">
+            <h1 class="faq-page__title">Вопрос-ответ</h1>
+
+            <div class="faq-page__text">
+              <strong>Уважаемые покупатели!</strong>
+              <p>
+                На данной странице Вы можете оставить свой отзыв о качестве обслуживания, высказать любые предложения и пожелания по улучшению
+                качества сервиса, а также задать интересующий Вас вопрос. Ваше мнение очень важно для нас.
+              </p>
+            </div>
+          </div>
+
+          <form class="faq-form" action="#">
+            <div class="faq-form__row faq-form__row--two">
+              <input class="faq-form__input" type="text" placeholder="ФИО" />
+              <input class="faq-form__input" type="email" placeholder="Почта" />
+            </div>
+
+            <input class="faq-form__input" type="text" placeholder="Тема вопроса" />
+
+            <textarea class="faq-form__textarea" placeholder="Комментарий"></textarea>
+
+            <button class="faq-form__button" type="submit">Отправить</button>
+
+            <label class="faq-form__agreement">
+              <input type="checkbox" />
+              <span>Я даю согласие на обработку персональных данных</span>
+            </label>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <div data-include="/partials/footer.html"></div>
+    <div data-include="/partials/modal.html"></div>
+  </body>
+</html>

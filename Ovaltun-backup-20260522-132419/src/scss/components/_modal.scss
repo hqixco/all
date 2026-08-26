@@ -1,0 +1,89 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.22s ease, visibility 0.22s ease;
+}
+
+.modal.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  opacity: 0;
+  transition: opacity 0.22s ease;
+}
+
+.modal.is-open .modal__overlay {
+  opacity: 1;
+}
+
+.modal__close {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 2;
+  @include flex-center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: rgba($color-white, 0.12);
+  color: $color-white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  transform: translateY(-6px) scale(0.96);
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease,
+    background 0.2s ease;
+}
+
+.modal.is-open .modal__close {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.modal__image,
+.modal__video {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  display: block;
+  width: min(1040px, calc(100vw - 64px));
+  max-height: calc(100vh - 80px);
+  object-fit: contain;
+  transform: translate(-50%, -50%) scale(0.96);
+  opacity: 0;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+  pointer-events: none;
+  user-select: none;
+}
+
+.modal--image .modal__video,
+.modal--video .modal__image {
+  display: none;
+}
+
+.modal.is-open .modal__image,
+.modal.is-open .modal__video {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal__video {
+  background: #000;
+  border-radius: 16px;
+  pointer-events: auto;
+}

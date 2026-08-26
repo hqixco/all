@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as *;
+
+.account__layout {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 20px;
+}
+
+.account__nav {
+  padding: 20px;
+  border: 1px solid $color-border;
+  border-radius: 16px;
+  background: $color-white;
+}
+

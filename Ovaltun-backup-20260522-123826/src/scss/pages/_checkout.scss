@@ -1,0 +1,8 @@
+@use '../abstracts/variables' as *;
+
+.checkout__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 420px;
+  gap: 20px;
+}
+

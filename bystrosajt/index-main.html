@@ -1,0 +1,1511 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Сайт для бизнеса с нуля за 1 день — одностраничный сайт под задачу, от 10 000 ₽, без конструкторов и долгих согласований."
+    />
+    <title>Сайт для бизнеса с нуля за 1 день — Rostislav / Web Design</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav class="fixed-socials" aria-label="Быстрые контакты">
+        <a class="fixed-socials__link fixed-socials__link--max" href="https://max.ru/u/f9LHodD0cOIQ1fWroMJhdEW04p_KRspHBvwgeg5NJTVcBa8IhdI6JrJkIu8" target="_blank" rel="noreferrer" aria-label="Написать в MAX">
+          <img src="/assets/media/max.svg" alt="" aria-hidden="true" />
+        </a>
+        <a class="fixed-socials__link fixed-socials__link--telegram" href="https://t.me/rostislavchef" target="_blank" rel="noreferrer" aria-label="Написать в Telegram">
+          <img src="/assets/media/telegram.svg" alt="" aria-hidden="true" />
+        </a>
+      </nav>
+      <header class="topbar">
+        <div class="container topbar__inner">
+          <a class="brand" href="#hero" aria-label="Перейти к началу страницы">
+            <img class="brand__mark" src="/assets/media/logo.png" alt="Быстросайт" />
+            <span class="brand__meta">Сайт для бизнеса за 1 день на Wordpress, либо с нуля</span>
+          </a>
+          <div class="topbar__menu-wrap">
+            <button
+              class="topbar__burger"
+              type="button"
+              data-topbar-burger
+              aria-expanded="false"
+              aria-controls="topbar-menu"
+              aria-label="Открыть меню"
+            >
+              <span class="topbar__burger-line" aria-hidden="true"></span>
+              <span class="topbar__burger-line" aria-hidden="true"></span>
+              <span class="topbar__burger-line" aria-hidden="true"></span>
+            </button>
+            <div class="topbar__menu" id="topbar-menu" data-topbar-menu hidden>
+              <a href="#examples">Примеры</a>
+              <a href="#includes">Что входит</a>
+              <a href="#process">Процесс</a>
+              <a href="#faq">FAQ</a>
+              <details class="topbar__menu-group">
+                <summary>Статьи</summary>
+                <div class="topbar__menu-sublist">
+                  <a href="/articles/sajty-dlya-zayavok/">Сайты для заявок</a>
+                  <a href="/articles/yandex-direct/">Яндекс Директ</a>
+                  <a href="/articles/razbory-nish-i-keysy/">Разборы ниш и кейсы</a>
+                </div>
+              </details>
+            </div>
+          </div>
+          <nav class="nav" aria-label="Основная навигация">
+            <a href="#examples">Примеры</a>
+            <a href="#includes">Что входит</a>
+            <a href="#process">Процесс</a>
+            <a href="#faq">FAQ</a>
+            <div class="nav__dropdown">
+              <a class="nav__dropdown-trigger" href="/articles/">Статьи</a>
+              <div class="nav__dropdown-menu">
+                <a href="/articles/sajty-dlya-zayavok/">Сайты для заявок</a>
+                <a href="/articles/yandex-direct/">Яндекс Директ</a>
+                <a href="/articles/razbory-nish-i-keysy/">Разборы ниш и кейсы</a>
+              </div>
+            </div>
+          </nav>
+          <div class="topbar__actions">
+            <div class="topbar__contact topbar__contact--split">
+              <div class="topbar__contact-links">
+                <a class="topbar__max-link" href="#contact" aria-label="Написать в Telegram">
+                  <img class="button__icon" src="/assets/media/telegram.svg" alt="" aria-hidden="true" />
+                  <span>Написать в Telegram</span>
+                </a>
+                <a class="topbar__max-link" href="#contact">
+                  <img class="button__icon" src="/assets/media/max.svg" alt="" aria-hidden="true" />
+                  <span>Написать в MAX</span>
+                </a>
+              </div>
+              <a class="topbar__phone" href="tel:+79103803322">
+                <span class="topbar__phone-icon" aria-hidden="true">
+                  <img src="/assets/media/phone.svg" alt="" />
+                </span>
+                <span>+7 (910) 380-33-22</span>
+              </a>
+            </div>
+            <div class="topbar__office">
+              <span class="topbar__office-value">Ярославль, ул. Свободы, 12, офис 34</span>
+            </div>
+            <button class="button button--ghost button--max" type="button" data-project-contact-generic data-project-contact-generic-title="Давайте обсудим Ваш проект">
+              Обсудить проект
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero section hero-section" id="hero">
+          <div class="container hero__grid">
+            <div class="hero__content">
+              <div class="hero__headline">
+                <h1>
+                  Продающий сайт 
+                  <span>с нуля за 1 день —</span>
+                  <strong>от 10 000 ₽</strong>
+                </h1>
+
+                <div class="hero-badge" aria-label="От частного специалиста. Не агентство">
+                  <svg class="hero-badge__shape" viewBox="0 0 200 200" aria-hidden="true">
+                    <polygon
+                      fill="url(#heroBadgeGradient)"
+                      points="100,8 114,34 136,14 141,43 168,32 161,60 190,60 171,82 192,100 171,118 190,140 161,140 168,168 141,157 136,186 114,166 100,192 86,166 64,186 59,157 32,168 39,140 10,140 29,118 8,100 29,82 10,60 39,60 32,32 59,43 64,14 86,34"
+                    />
+                    <defs>
+                      <linearGradient id="heroBadgeGradient" x1="24" y1="18" x2="176" y2="182" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#ffffff" />
+                        <stop offset="1" stop-color="#eaf2ff" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                  <span class="hero-badge__text">От частного специалиста. Не агентство</span>
+                </div>
+              </div>
+
+              <p class="lead">
+                С оффером, текстами, квизом, аналитикой и передачей заявок в CRM. Без конструкторов, долгих согласований и переплат.
+              </p>
+
+              <div class="cta-row">
+                <a class="button" href="#contact">
+                  Обсудить проект
+                  <span class="button__caret" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </a>
+                <a class="button button--secondary" href="#examples">
+                  Посмотреть примеры
+                  <span class="button__caret" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+
+              <p class="cta-row__note">Ответ в течение 10 минут · без навязчивых звонков · цена фиксируется заранее</p>
+
+              <div class="hero__notes">
+                <span>
+                  <strong>70+</strong>
+                  <em>сайтов запущено</em>
+                </span>
+                <span>
+                  <strong>20+</strong>
+                  <em>ниш бизнеса</em>
+                </span>
+                <span>
+                  <strong>1</strong>
+                  <em>день до запуска</em>
+                </span>
+                <span>
+                  <strong>1</strong>
+                  <em>итерация правок входит</em>
+                </span>
+              </div>
+            </div>
+
+            <div class="hero__aside">
+              <div class="hero-stack" aria-label="Мини-преимущества">
+                <article class="hero-card hero-card--task">
+                  <h3>С нуля под задачу</h3>
+                  <p>Соберу структуру и дизайн под ваш бизнес, а не по готовому решению.</p>
+                </article>
+
+                <article class="hero-card hero-card--phone">
+                  <h3>Адаптация под телефон</h3>
+                  <p>Сайт будет удобно смотреть и оставлять заявки с мобильных устройств.</p>
+                </article>
+
+                <article class="hero-card hero-card--form">
+                  <h3>Форма заявки</h3>
+                  <p>Подключу форму, мессенджер или кнопку быстрой связи.</p>
+                </article>
+
+                <article class="hero-card hero-card--launch">
+                  <h3>Быстрый запуск</h3>
+                  <p>Подходит для рекламы, проверки ниши или срочного старта.</p>
+                </article>
+
+                <article class="hero-card hero-card--wide">
+                  <div>
+                    <h3>Работа напрямую</h3>
+                    <p>Без менеджеров, лишних созвонов и долгих согласований.</p>
+                    <div class="hero-card__signature">
+                      <img src="/assets/media/Без имени-3.png" alt="Подпись Ростислава Краснокутского" />
+                      <span>Ростислав Краснокутский. Лично отвечаю за структуру, дизайн и запуск</span>
+                    </div>
+                  </div>
+                  <a class="hero-card__about-link" href="#about">
+                    <span>Обо мне и юр. инфо</span>
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M12 5V19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                      <path d="M6 13L12 19L18 13" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="quiz section quiz-section" id="quiz">
+          <div class="container">
+            <h2 class="quiz__heading">
+              Ответьте на 5 вопросов и получите:
+              <span class="quiz__heading-accent">диапазон стоимости</span>,
+              <span class="quiz__heading-accent">рекомендуемую структуру</span> и
+              <span class="quiz__heading-accent">срок запуска</span>
+            </h2>
+
+            <div class="quiz-card">
+              <div class="quiz-card__top">
+                <div class="quiz-steps" data-quiz-steps aria-label="Шаги">
+                  <button class="quiz-step quiz-step--active" type="button" data-step-index="0" aria-current="step">
+                    <span class="quiz-step__top">
+                      <span class="quiz-step__label">1</span>
+                      <span class="quiz-step__icon" aria-hidden="true">
+                        <img class="quiz-step__icon-default" src="/assets/media/web-design.svg" alt="" aria-hidden="true" />
+                        <img class="quiz-step__icon-active" src="/assets/media/web-design-active.svg" alt="" aria-hidden="true" />
+                      </span>
+                    </span>
+                    <span class="quiz-step__text">Тип сайта</span>
+                  </button>
+                  <button class="quiz-step" type="button" data-step-index="1" aria-current="false">
+                    <span class="quiz-step__top">
+                      <span class="quiz-step__label">2</span>
+                      <span class="quiz-step__icon" aria-hidden="true">
+                        <img class="quiz-step__icon-default" src="/assets/media/script.svg" alt="" aria-hidden="true" />
+                        <img class="quiz-step__icon-active" src="/assets/media/script-active.svg" alt="" aria-hidden="true" />
+                      </span>
+                    </span>
+                    <span class="quiz-step__text">Контент</span>
+                  </button>
+                  <button class="quiz-step" type="button" data-step-index="2" aria-current="false">
+                    <span class="quiz-step__top">
+                      <span class="quiz-step__label">3</span>
+                      <span class="quiz-step__icon" aria-hidden="true">
+                        <img class="quiz-step__icon-default" src="/assets/media/calendar-clock.svg" alt="" aria-hidden="true" />
+                        <img class="quiz-step__icon-active" src="/assets/media/calendar-clock-active.svg" alt="" aria-hidden="true" />
+                      </span>
+                    </span>
+                    <span class="quiz-step__text">Сроки</span>
+                  </button>
+                  <button class="quiz-step" type="button" data-step-index="3" aria-current="false">
+                    <span class="quiz-step__top">
+                      <span class="quiz-step__label">4</span>
+                      <span class="quiz-step__icon" aria-hidden="true">
+                        <img class="quiz-step__icon-default" src="/assets/media/user.svg" alt="" aria-hidden="true" />
+                        <img class="quiz-step__icon-active" src="/assets/media/user-active.svg" alt="" aria-hidden="true" />
+                      </span>
+                    </span>
+                    <span class="quiz-step__text">Контакты</span>
+                  </button>
+                </div>
+                <div class="quiz-card__top-meta">
+                  <div class="quiz-card__info" data-quiz-info></div>
+                  <p class="quiz-card__top-note">
+                    Это займет 2-3 минуты. В конце вы получите предварительную оценку.
+                  </p>
+                </div>
+              </div>
+
+              <div class="quiz-card__main">
+                <h3 data-quiz-title></h3>
+                <p data-quiz-description></p>
+
+                <div class="quiz-options" data-quiz-options></div>
+
+                <section class="quiz-final-summary" aria-label="Что вы получите после квиза">
+                  <h4 class="quiz-final-summary__heading">Сейчас Вы получите:</h4>
+                  <div class="quiz-final-summary__grid">
+                    <article class="quiz-final-summary__card quiz-final-summary__card--cost">
+                      <h5>Диапазон стоимости</h5>
+                      <p>Реалистичный бюджет под Ваши задачи.</p>
+                    </article>
+                    <article class="quiz-final-summary__card quiz-final-summary__card--structure">
+                      <h5>Рекомендуемую структуру</h5>
+                      <p>Оптимальная структура страниц и ключевые блоки.</p>
+                    </article>
+                    <article class="quiz-final-summary__card quiz-final-summary__card--time">
+                      <h5>Срок запуска</h5>
+                      <p>Ориентировочные сроки от старта до запуска.</p>
+                    </article>
+                  </div>
+                </section>
+
+                <form class="quiz-final-form quiz-final-form--hidden" data-quiz-final-form>
+                  <label>
+                    <span>Имя</span>
+                    <input type="text" name="name" placeholder="Ваше имя" autocomplete="name" required />
+                  </label>
+                  <label>
+                    <span>Телефон</span>
+                    <input type="tel" name="contact" placeholder="+7 (___) ___-__-__" autocomplete="tel" required />
+                  </label>
+                  <fieldset class="quiz-final-form__method">
+                    <legend>Способ связи</legend>
+                    <div class="quiz-final-form__method-options" role="radiogroup" aria-label="Способ связи">
+                      <label class="quiz-final-form__method-option">
+                        <input type="radio" name="contactMethod" value="telegram" />
+                        <span class="quiz-final-form__method-icon" aria-hidden="true">
+                          <img src="/assets/media/telegram.svg" alt="" />
+                        </span>
+                        <span class="quiz-final-form__method-text">Telegram</span>
+                        <span class="quiz-final-form__method-check" aria-hidden="true">
+                          <img src="/assets/media/check-svgrepo.svg" alt="" />
+                        </span>
+                      </label>
+                      <label class="quiz-final-form__method-option">
+                        <input type="radio" name="contactMethod" value="max" />
+                        <span class="quiz-final-form__method-icon" aria-hidden="true">
+                          <img src="/assets/media/max.svg" alt="" />
+                        </span>
+                        <span class="quiz-final-form__method-text">MAX</span>
+                        <span class="quiz-final-form__method-check" aria-hidden="true">
+                          <img src="/assets/media/check-svgrepo.svg" alt="" />
+                        </span>
+                      </label>
+                      <label class="quiz-final-form__method-option">
+                        <input type="radio" name="contactMethod" value="phone" checked />
+                        <span class="quiz-final-form__method-icon" aria-hidden="true">
+                          <img src="/assets/media/phone.svg" alt="" />
+                        </span>
+                        <span class="quiz-final-form__method-text">По телефону</span>
+                        <span class="quiz-final-form__method-check" aria-hidden="true">
+                          <img src="/assets/media/check-svgrepo.svg" alt="" />
+                        </span>
+                      </label>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+
+              <div class="quiz-card__footer">
+                <button class="button button--ghost quiz__back-button" type="button" data-quiz-back>Назад</button>
+                <button class="button quiz__next-button" type="button" data-quiz-next>Следующий вопрос <span aria-hidden="true">→</span></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      
+
+        <section class="section section--alt projects-section examples-section" id="examples">
+          <div class="container">
+            <div class="section-heading projects-heading">
+              <h2>Кейсы, которые продают услуги и приводят заявки</h2>
+            </div>
+
+            <div class="projects-shell">
+              <div class="projects-shell__slider">
+                <button class="projects-shell__arrow projects-shell__arrow--prev" type="button" aria-label="Предыдущий проект" data-project-prev>‹</button>
+                <div class="projects-shell__viewport" data-project-viewport>
+                  <div class="project-grid" data-project-grid>
+                    <article class="project-card">
+                    <div class="project-card__media project-card__media--scrollable">
+                      <div class="project-card__slider project-card__slider--scrollable" aria-hidden="true">
+                        <div class="project-card__slide project-card__slide--scrollable">
+                          <img
+                            class="project-card__preview"
+                            src="/assets/media/project-repair-landing-preview.jpg"
+                            alt=""
+                            decoding="async"
+                            data-project-preview-src="/assets/media/project-repair-landing.jpg"
+                            aria-hidden="true"
+                            data-project-preview-open
+                          />
+                        </div>
+                      </div>
+                      <button class="project-card__preview-expand" type="button" data-project-preview-open aria-label="Увеличить картинку кейса">
+                        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M15 4h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M14 10l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M9 20H4v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M10 14l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <span class="project-card__scroll-hint" aria-hidden="true">
+                        <img src="/assets/media/scroll-down-svgrepo-com.svg" alt="" />
+                        <span>Можно скроллить</span>
+                      </span>
+                    </div>
+                    <div class="project-card__body">
+                      <h3>Лендинг для компании по ремонту квартир в Москве</h3>
+                      <span class="project-card__body-badge">Ремонт</span>
+                      <p><strong>Задача:</strong> Привлекать заявки на ремонт квартир</p>
+                      <p><strong>Реализация:</strong> Лендинг, квиз, формы и аналитика</p>
+                      <p><strong>Срок:</strong> 1 день</p>
+                      <div class="project-card__actions">
+                        <a class="button button--ghost button--glass project-card__action" href="https://vash-remont-pro.ru" target="_blank">Ссылка на сайт →</a>
+                        <button class="button button--ghost button--glass project-card__action" type="button" data-project-contact-open>Хочу такой же сайт</button>
+                      </div>
+                      <button class="project-card__result-shot" type="button" data-project-result-shot data-project-result-image-open aria-label="Увеличить скрин статистики">
+                        <span class="project-card__result-shot-image-wrap" aria-hidden="true">
+                          <img class="project-card__result-shot-image" src="/assets/media/stats-repair-178-conversions.jpg" alt="" loading="lazy" decoding="async" />
+                        </span>
+                        <span class="project-card__result-shot-copy">
+                          <span class="project-card__result-shot-caption">Результаты: <span class="project-card__result-shot-number">178</span> конверсий по ~750 р за 3 месяца</span>
+                        </span>
+                      </button>
+                    </div>
+                    </article>
+
+                    <article class="project-card">
+                    <div class="project-card__media project-card__media--scrollable">
+                      <div class="project-card__slider project-card__slider--scrollable" aria-hidden="true">
+                        <div class="project-card__slide project-card__slide--scrollable">
+                          <img
+                            class="project-card__preview"
+                            src="/assets/media/project-signage-landing-preview.jpg"
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                            data-project-preview-src="/assets/media/project-signage-landing.jpg"
+                            aria-hidden="true"
+                            data-project-preview-open
+                          />
+                        </div>
+                      </div>
+                      <button class="project-card__preview-expand" type="button" data-project-preview-open aria-label="Увеличить картинку кейса">
+                        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M15 4h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M14 10l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M9 20H4v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M10 14l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <span class="project-card__scroll-hint" aria-hidden="true">
+                        <img src="/assets/media/scroll-down-svgrepo-com.svg" alt="" />
+                        <span>Можно скроллить</span>
+                      </span>
+                    </div>
+                    <div class="project-card__body">
+                      <h3>Сайт для рекламно-производственной компании</h3>
+                      <span class="project-card__body-badge">Вывески и реклама</span>
+                      <p><strong>Задача:</strong> Показать услуги и получать заявки на изготовление вывесок</p>
+                      <p><strong>Реализация:</strong> Лендинг, квиз, портфолио и контакты</p>
+                      <p><strong>Срок:</strong> 1 день</p>
+                      <div class="project-card__actions">
+                        <a class="button button--ghost button--glass project-card__action" href="https://rpk-resurs.ru" target="_blank" rel="noreferrer">Смотреть кейс →</a>
+                        <button class="button button--ghost button--glass project-card__action" type="button" data-project-contact-open>Хочу такой же сайт</button>
+                      </div>
+                      <button class="project-card__result-shot" type="button" data-project-result-shot data-project-result-image-open aria-label="Увеличить скрин статистики">
+                        <span class="project-card__result-shot-image-wrap" aria-hidden="true">
+                          <img class="project-card__result-shot-image" src="/assets/media/stats-repair-378-conversions.png" alt="" loading="lazy" decoding="async" />
+                        </span>
+                        <span class="project-card__result-shot-copy">
+                          <span class="project-card__result-shot-caption">Результаты: <span class="project-card__result-shot-number">378</span> конверсий по ~821 р за 6 месяцев</span>
+                        </span>
+                      </button>
+                    </div>
+                    </article>
+
+                    <article class="project-card">
+                    <div class="project-card__media project-card__media--scrollable">
+                      <div class="project-card__slider project-card__slider--scrollable" aria-hidden="true">
+                        <div class="project-card__slide project-card__slide--scrollable">
+                          <img
+                            class="project-card__preview"
+                            src="/assets/media/project-construction-landing-preview.jpg"
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                            data-project-preview-src="/assets/media/project-construction-landing.jpg"
+                            aria-hidden="true"
+                            data-project-preview-open
+                          />
+                        </div>
+                      </div>
+                      <button class="project-card__preview-expand" type="button" data-project-preview-open aria-label="Увеличить картинку кейса">
+                        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M15 4h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M14 10l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M9 20H4v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M10 14l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <span class="project-card__scroll-hint" aria-hidden="true">
+                        <img src="/assets/media/scroll-down-svgrepo-com.svg" alt="" />
+                        <span>Можно скроллить</span>
+                      </span>
+                    </div>
+                    <div class="project-card__body">
+                      <h3>Сайт для строительной компании</h3>
+                      <span class="project-card__body-badge">Строительство</span>
+                      <p><strong>Задача:</strong> Показать услуги и получать заявки на строительство и металлоконструкции</p>
+                      <p><strong>Реализация:</strong> Лендинг, квиз, портфолио и доверительные блоки</p>
+                      <p><strong>Срок:</strong> 2–4 дня</p>
+                      <div class="project-card__actions">
+                        <button class="button button--ghost button--glass project-card__action" type="button" data-project-contact-open>Хочу такой же сайт</button>
+                      </div>
+                      <button class="project-card__result-shot" type="button" data-project-result-shot data-project-result-image-open aria-label="Увеличить скрин статистики">
+                        <span class="project-card__result-shot-image-wrap" aria-hidden="true">
+                          <img class="project-card__result-shot-image" src="/assets/media/stats-construction-178-conversions.png" alt="" loading="lazy" decoding="async" />
+                        </span>
+                        <span class="project-card__result-shot-copy">
+                          <span class="project-card__result-shot-caption">Результаты: <span class="project-card__result-shot-number">93</span> заявки по ~689 р после обновления сайта</span>
+                        </span>
+                      </button>
+                    </div>
+                    </article>
+
+                    <article class="project-card">
+                    <div class="project-card__media project-card__media--scrollable">
+                      <div class="project-card__slider project-card__slider--scrollable" aria-hidden="true">
+                        <div class="project-card__slide project-card__slide--scrollable">
+                          <img
+                            class="project-card__preview"
+                            src="/assets/media/project-plastering-landing-preview.jpg"
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                            data-project-preview-src="/assets/media/project-plastering-landing.jpg"
+                            aria-hidden="true"
+                            data-project-preview-open
+                          />
+                        </div>
+                      </div>
+                      <button class="project-card__preview-expand" type="button" data-project-preview-open aria-label="Увеличить картинку кейса">
+                        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M15 4h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M14 10l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M9 20H4v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M10 14l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <span class="project-card__scroll-hint" aria-hidden="true">
+                        <img src="/assets/media/scroll-down-svgrepo-com.svg" alt="" />
+                        <span>Можно скроллить</span>
+                      </span>
+                    </div>
+                    <div class="project-card__body">
+                      <h3>Интернет магазин инструментов и материалов для штукатурки и отделки</h3>
+                      <span class="project-card__body-badge">Отделка и ремонт</span>
+                      <p><strong>Задача:</strong> Наладить поток продаж товаров для штукатурки и ремонта</p>
+                      <p><strong>Реализация:</strong> Большой первый экран, товары, преимущества и корзина</p>
+                      <p><strong>Срок:</strong> 2–3 дня</p>
+                      <div class="project-card__actions">
+                        <a class="button button--ghost button--glass project-card__action" href="https://shtukaturmarket.ru" target="_blank" rel="noreferrer">Смотреть кейс →</a>
+                        <button class="button button--ghost button--glass project-card__action" type="button" data-project-contact-open>Хочу такой же сайт</button>
+                      </div>
+                      <button class="project-card__result-shot" type="button" data-project-result-shot data-project-result-image-open aria-label="Увеличить скрин статистики">
+                        <span class="project-card__result-shot-image-wrap" aria-hidden="true">
+                          <img class="project-card__result-shot-image" src="/assets/media/stats-plastering-93-deals.png" alt="" loading="lazy" decoding="async" />
+                        </span>
+                        <span class="project-card__result-shot-copy">
+                          <span class="project-card__result-shot-caption">Результаты: <span class="project-card__result-shot-number">93</span> сделки на штукатурные работы</span>
+                        </span>
+                      </button>
+                    </div>
+                    </article>
+
+                    <article class="project-card">
+                    <div class="project-card__media project-card__media--scrollable">
+                      <div class="project-card__slider project-card__slider--scrollable" aria-hidden="true">
+                        <div class="project-card__slide project-card__slide--scrollable">
+                          <img
+                            class="project-card__preview"
+                            src="/assets/media/project-red-muse-club-preview.jpg"
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                            data-project-preview-src="/assets/media/project-red-muse-club.jpg"
+                            aria-hidden="true"
+                            data-project-preview-open
+                          />
+                        </div>
+                      </div>
+                      <button class="project-card__preview-expand" type="button" data-project-preview-open aria-label="Увеличить картинку кейса">
+                        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                          <path d="M15 4h5v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M14 10l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M9 20H4v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M10 14l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <span class="project-card__scroll-hint" aria-hidden="true">
+                        <img src="/assets/media/scroll-down-svgrepo-com.svg" alt="" />
+                        <span>Можно скроллить</span>
+                      </span>
+                    </div>
+                    <div class="project-card__body">
+                      <h3>Сайт для ночного клуба Red Muse</h3>
+                      <span class="project-card__body-badge">Бары, клубы</span>
+                      <p><strong>Задача:</strong> Передать атмосферу клуба и собирать брони столов и гостей на вечеринки</p>
+                      <p><strong>Реализация:</strong> Яркий первый экран, афиша событий, артист-лента и блок бронирования</p>
+                      <p><strong>Срок:</strong> 2–3 дня</p>
+                      <div class="project-card__actions">
+                        <button class="button button--ghost button--glass project-card__action" type="button" data-project-contact-open>Хочу такой же сайт</button>
+                      </div>
+                      <button class="project-card__result-shot" type="button" data-project-result-shot data-project-result-image-open aria-label="Увеличить скрин статистики">
+                        <span class="project-card__result-shot-image-wrap" aria-hidden="true">
+                          <img class="project-card__result-shot-image" src="/assets/media/stats-red-muse-42-deals.jpg" alt="" loading="lazy" decoding="async" />
+                        </span>
+                        <span class="project-card__result-shot-copy">
+                          <span class="project-card__result-shot-caption">Результаты: <span class="project-card__result-shot-number">42</span> сделки на бронирование столов</span>
+                        </span>
+                      </button>
+                    </div>
+                    </article>
+                  </div>
+                </div>
+                <button class="projects-shell__arrow projects-shell__arrow--next" type="button" aria-label="Следующий проект" data-project-next>›</button>
+              </div>
+              <div class="projects-shell__pager">
+                <button class="project-card__pager-dot project-card__pager-dot--active" type="button" aria-label="Проект 1" data-project-pager-dot></button>
+                <button class="project-card__pager-dot" type="button" aria-label="Проект 2" data-project-pager-dot></button>
+                <button class="project-card__pager-dot" type="button" aria-label="Проект 3" data-project-pager-dot></button>
+                <button class="project-card__pager-dot" type="button" aria-label="Проект 4" data-project-pager-dot></button>
+                <button class="project-card__pager-dot" type="button" aria-label="Проект 5" data-project-pager-dot></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <dialog class="project-result-modal" data-project-result-modal aria-label="Скрин статистики">
+          <button class="project-result-modal__close" type="button" data-project-result-close aria-label="Закрыть">×</button>
+          <div class="project-result-modal__content">
+            <div class="project-result-modal__image" aria-hidden="true">
+              <img src="/assets/media/project-result-shot.svg" alt="" aria-hidden="true" />
+            </div>
+            <p class="project-result-modal__caption">Результаты: 108 заявок за неделю</p>
+          </div>
+        </dialog>
+
+        <section class="section process-day-section" aria-labelledby="process-day-title">
+          <div class="container">
+            <div class="process-day">
+              <div class="process-day__head">
+                <h2 id="process-day-title" class="process-day__title">Как я делаю сайт за 1 день</h2>
+                <div class="process-day__video">
+                  <a class="process-day__video-card" href="#examples">
+                    <span class="process-day__video-preview" aria-hidden="true">
+                      <img src="/assets/media/project-repair-landing-preview.jpg" alt="" />
+                      <span class="process-day__video-play">
+                        <svg viewBox="0 0 24 24" fill="none">
+                          <path d="M9 7.5L17 12L9 16.5V7.5Z" fill="currentColor"/>
+                        </svg>
+                      </span>
+                    </span>
+                    <span class="process-day__video-copy">Посмотрите видео пример создания сайта для реального клиента</span>
+                    <span class="process-day__video-duration">~17 минут</span>
+                  </a>
+                  <div class="process-day__video-toast" data-process-day-video-toast role="status" aria-live="polite" hidden>
+                    Простите, произошла ошибка загрузки видео. Возможно получится позднее.
+                  </div>
+                </div>
+              </div>
+
+              <div class="process-day__steps">
+                <article class="process-day__step">
+                  <span class="process-day__num">01</span>
+                  <span class="process-day__icon" aria-hidden="true">
+                    <img src="/assets/media/3d168481-d6a9-4b7e-9af2-20b60550a258.png" alt="" />
+                  </span>
+                  <p class="process-day__copy">Формируем задачу</p>
+                  <span class="process-day__time"><img src="/assets/media/time-icon.svg" alt="" aria-hidden="true" />1 час</span>
+                  <div class="process-day__progress" aria-hidden="true">
+                    <span class="process-day__progress-fill" style="width: 11%"></span>
+                    <span class="process-day__percent">11%</span>
+                  </div>
+                </article>
+
+                <article class="process-day__step">
+                  <span class="process-day__num">02</span>
+                  <span class="process-day__icon" aria-hidden="true">
+                    <img src="/assets/media/d033e292-a34d-48bc-a17a-0affcb8fa757.png" alt="" />
+                  </span>
+                  <p class="process-day__copy">Делаю 3 дизайн-макета на выбор</p>
+                  <span class="process-day__time"><img src="/assets/media/time-icon.svg" alt="" aria-hidden="true" />1 час</span>
+                  <div class="process-day__progress" aria-hidden="true">
+                    <span class="process-day__progress-fill" style="width: 22%"></span>
+                    <span class="process-day__percent">22%</span>
+                  </div>
+                </article>
+
+                <article class="process-day__step">
+                  <span class="process-day__num">03</span>
+                  <span class="process-day__icon" aria-hidden="true">
+                    <img src="/assets/media/281b666b-fb3f-463f-b491-b0528a9c3770.png" alt="" />
+                  </span>
+                  <p class="process-day__copy">Собираю сайт</p>
+                  <span class="process-day__time"><img src="/assets/media/time-icon.svg" alt="" aria-hidden="true" />4 часа</span>
+                  <div class="process-day__progress" aria-hidden="true">
+                    <span class="process-day__progress-fill" style="width: 67%"></span>
+                    <span class="process-day__percent">67%</span>
+                  </div>
+                </article>
+
+                <article class="process-day__step">
+                  <span class="process-day__num">04</span>
+                  <span class="process-day__icon" aria-hidden="true">
+                    <img src="/assets/media/Без имени-4.png" alt="" />
+                  </span>
+                  <p class="process-day__copy">Делаю удобную админ-панель для сайта</p>
+                  <span class="process-day__time"><img src="/assets/media/time-icon.svg" alt="" aria-hidden="true" />1 час</span>
+                  <div class="process-day__progress" aria-hidden="true">
+                    <span class="process-day__progress-fill" style="width: 78%"></span>
+                    <span class="process-day__percent">78%</span>
+                  </div>
+                </article>
+
+                <article class="process-day__step">
+                  <span class="process-day__num">05</span>
+                  <span class="process-day__icon" aria-hidden="true">
+                    <img src="/assets/media/Без имени-5.png" alt="" />
+                  </span>
+                  <p class="process-day__copy">Показываю результат и вношу мелкие правки</p>
+                  <span class="process-day__time"><img src="/assets/media/check-icon.svg" alt="" aria-hidden="true" />2 часа</span>
+                  <div class="process-day__progress" aria-hidden="true">
+                    <span class="process-day__progress-fill" style="width: 100%"></span>
+                    <span class="process-day__percent">100%</span>
+                  </div>
+                </article>
+              </div>
+
+              
+            </div>
+          </div>
+        </section>
+
+        <section class="section includes-section" id="includes">
+          <div class="container">
+            <div class="section-heading comparison-heading">
+              <h2>Что входит в сайт за 1 день и чем это отличается от агентства</h2>
+              <p>
+                Вы получаете не большой дорогой проект на месяцы, а собранную посадочную страницу,
+                которую можно быстро запустить в рекламу и получать заявки.
+              </p>
+            </div>
+
+            <div class="comparison-table-wrap">
+              <div class="comparison-table" role="table" aria-label="Сравнение формата сайта за 1 день и агентства">
+                <div class="comparison-table__highlight" aria-hidden="true"></div>
+
+                <div class="comparison-table__cell comparison-table__cell--head">Критерий</div>
+                <div class="comparison-table__cell comparison-table__cell--head comparison-table__cell--center comparison-table__cell--head-center">У меня</div>
+                <div class="comparison-table__cell comparison-table__cell--head">В агентстве</div>
+
+                <div class="comparison-table__cell comparison-table__label">
+                  <span class="comparison-table__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <circle cx="16" cy="16" r="10.5" stroke="currentColor" stroke-width="2" />
+                      <path d="M16 10.5V16.5L20 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span>Срок</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__cell--center">
+                  <span class="comparison-table__check" aria-hidden="true"></span>
+                  <span>1 рабочий день</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__value--muted">
+                  <span class="comparison-table__icon comparison-table__icon--muted" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <circle cx="16" cy="16" r="10.5" stroke="currentColor" stroke-width="2" />
+                      <path d="M16 10.5V16.5L20 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span>От 1–4 недель</span>
+                </div>
+
+                <div class="comparison-table__cell comparison-table__label">
+                  <span class="comparison-table__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M9 21.5V19.5M16 21.5V13.5M23 21.5V16.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                      <path d="M7.5 24H24.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Стоимость</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__cell--center">
+                  <span class="comparison-table__check" aria-hidden="true"></span>
+                  <span>От 10 000 ₽</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__value--muted">
+                  <span class="comparison-table__icon comparison-table__icon--muted" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M9 21.5V19.5M16 21.5V13.5M23 21.5V16.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                      <path d="M7.5 24H24.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Обычно выше из-за команды</span>
+                </div>
+
+                <div class="comparison-table__cell comparison-table__label">
+                  <span class="comparison-table__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <rect x="8" y="7.5" width="16" height="17" rx="3.5" stroke="currentColor" stroke-width="2" />
+                      <path d="M11 12.5H21M11 16.5H21M11 20.5H17" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Формат</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__cell--center">
+                  <span class="comparison-table__check" aria-hidden="true"></span>
+                  <span>Посадочная страница под задачу</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__value--muted">
+                  <span class="comparison-table__icon comparison-table__icon--muted" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <rect x="8" y="7.5" width="16" height="17" rx="3.5" stroke="currentColor" stroke-width="2" />
+                      <path d="M11 12.5H21M11 16.5H21M11 20.5H17" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Часто полноценный проект с этапами</span>
+                </div>
+
+                <div class="comparison-table__cell comparison-table__label">
+                  <span class="comparison-table__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <circle cx="16" cy="12.5" r="4.5" stroke="currentColor" stroke-width="2" />
+                      <path d="M9.5 24.5C10.6 20.8 13.2 19 16 19C18.8 19 21.4 20.8 22.5 24.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Коммуникация</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__cell--center">
+                  <span class="comparison-table__check" aria-hidden="true"></span>
+                  <span>Напрямую с исполнителем</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__value--muted">
+                  <span class="comparison-table__icon comparison-table__icon--muted" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="2" />
+                      <circle cx="20" cy="13" r="3.5" stroke="currentColor" stroke-width="2" />
+                      <path d="M6.5 24C7.8 20.4 10.3 18.5 12 18.5C13.7 18.5 16.2 20.4 17.5 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                      <path d="M14.5 24C15.6 21.1 17.8 19.5 20 19.5C22.2 19.5 24.4 21.1 25.5 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Через менеджера</span>
+                </div>
+
+                <div class="comparison-table__cell comparison-table__label">
+                  <span class="comparison-table__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M10 10L22 22" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                      <path d="M10 22L22 10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Согласования</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__cell--center">
+                  <span class="comparison-table__check" aria-hidden="true"></span>
+                  <span>Минимум, быстро по делу</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__value--muted">
+                  <span class="comparison-table__icon comparison-table__icon--muted" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M10 10L22 22" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                      <path d="M10 22L22 10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Больше встреч и правок</span>
+                </div>
+
+                <div class="comparison-table__cell comparison-table__label">
+                  <span class="comparison-table__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M11 8.5H21L25 12.5V24H11V8.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                      <path d="M15 8.5V13H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M14 17H20M14 20H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Что входит</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__cell--center">
+                  <span class="comparison-table__check" aria-hidden="true"></span>
+                  <span>Структура, дизайн, адаптация, форма, базовое SEO, публикация</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__value--muted">
+                  <span class="comparison-table__icon comparison-table__icon--muted" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M11 8.5H21L25 12.5V24H11V8.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                      <path d="M15 8.5V13H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M14 17H20M14 20H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Зависит от тарифа и договора</span>
+                </div>
+
+                <div class="comparison-table__cell comparison-table__label">
+                  <span class="comparison-table__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <circle cx="16" cy="16" r="10.5" stroke="currentColor" stroke-width="2" />
+                      <path d="M16 9.5V16.5L20.5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <span>Подходит для</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__cell--center">
+                  <span class="comparison-table__check" aria-hidden="true"></span>
+                  <span>Быстрого запуска, рекламы, проверки ниши</span>
+                </div>
+                <div class="comparison-table__cell comparison-table__value comparison-table__value--muted">
+                  <span class="comparison-table__icon comparison-table__icon--muted" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M9.5 11.5L16 8.5L22.5 11.5V20.5L16 23.5L9.5 20.5V11.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                      <path d="M9.5 11.5L16 14.5L22.5 11.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M16 14.5V23.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <span>Больших проектов и сложных систем</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="comparison-note">
+              <span class="comparison-note__icon" aria-hidden="true">i</span>
+              <p>Агентство - хороший вариант для сложных задач. Этот формат - для быстрого, понятного и выгодного запуска.</p>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="section section--alt insights-section" id="articles">
+          <div class="container">
+            <div class="insights-section__header">
+              <h2>Быстро - не значит поверхностно</h2>
+              <p>
+                Такой формат подходит, когда нужен понятный сайт под одну задачу: заявка, реклама,
+                презентация услуги или тест направления.
+              </p>
+            </div>
+
+            <div class="insights-section__grid">
+              <div class="insights-panel insights-panel--why">
+              
+                <div class="insights-panel__head">
+                  <span class="insights-panel__icon" aria-hidden="true">
+                    <img src="/assets/media/check-icon.svg" alt="" aria-hidden="true" />
+                  </span>
+                  <h3>Почему сайт можно сделать быстро и нормально</h3>
+                </div>
+
+                <div class="insights-panel__text">
+                  <p>
+                    Я не делаю большой корпоративный сайт за один день. Я быстро собираю сфокусированную
+                    посадочную страницу под конкретную задачу: показать предложение, объяснить пользу и
+                    привести человека к заявке.
+                  </p>
+                </div>
+
+                <div class="insights-cards insights-cards--steps">
+                  <article class="insight-card" id="articles-leads">
+                    <div class="insight-card__num">01</div>
+                    <h4>Понимаю задачу</h4>
+                    <p>Собираю структуру и оффер без лишних созвонов.</p>
+                    <span class="insight-card__arrow" aria-hidden="true">›</span>
+                  </article>
+                  <article class="insight-card insight-card--link" id="articles-direct">
+                    <div class="insight-card__num">02</div>
+                    <h4>Делаю страницу</h4>
+                    <p>Текст, дизайн, адаптация и форма заявки.</p>
+                    <span class="insight-card__arrow" aria-hidden="true">›</span>
+                  </article>
+                  <article class="insight-card" id="articles-cases">
+                    <div class="insight-card__num">03</div>
+                    <h4>Готовлю к запуску</h4>
+                    <p>Страница готова для рекламы, клиентов или теста ниши.</p>
+                  </article>
+                </div>
+              </div>
+
+              <div class="insights-panel insights-panel--limits">
+                
+                <div class="insights-panel__head">
+                  <span class="insights-panel__icon insights-panel__icon--muted" aria-hidden="true">
+                    <img src="/assets/media/ban-svgrepo.svg" alt="" aria-hidden="true" />
+                  </span>
+                  <h3>Когда сайт за 1 день не подойдёт</h3>
+                </div>
+                <p class="insights-panel__subtitle">
+                  Я заранее скажу, если задача требует другого формата разработки.
+                </p>
+
+                <div class="insights-cards insights-cards--limits">
+                  <article class="insight-chip">
+                    <span class="insight-chip__icon" aria-hidden="true">
+                      <img src="/assets/media/shopping-cart.svg" alt="" aria-hidden="true" />
+                    </span>
+                    <span>Интернет-магазин с корзиной и оплатой</span>
+                  </article>
+                  <article class="insight-chip">
+                    <span class="insight-chip__icon" aria-hidden="true">
+                      <img src="/assets/media/user.svg" alt="" aria-hidden="true" />
+                    </span>
+                    <span>Личный кабинет или сложная логика</span>
+                  </article>
+                  <article class="insight-chip">
+                    <span class="insight-chip__icon" aria-hidden="true">
+                      <img src="/assets/media/web-design.svg" alt="" aria-hidden="true" />
+                    </span>
+                    <span>Корпоративный сайт на 10-20 страниц</span>
+                  </article>
+                  <article class="insight-chip">
+                    <span class="insight-chip__icon" aria-hidden="true">
+                      <img src="/assets/media/quiz-alt.svg" alt="" aria-hidden="true" />
+                    </span>
+                    <span>Квиз, калькулятор или каталог</span>
+                  </article>
+                  <article class="insight-chip">
+                    <span class="insight-chip__icon" aria-hidden="true">
+                      <img src="/assets/media/discover.svg" alt="" aria-hidden="true" />
+                    </span>
+                    <span>SEO-стратегия и продвижение</span>
+                  </article>
+                  <article class="insight-chip">
+                    <span class="insight-chip__icon" aria-hidden="true">
+                      <img src="/assets/media/motion-graphic.svg" alt="" aria-hidden="true" />
+                    </span>
+                    <span>Сложная анимация или нестандартная графика</span>
+                  </article>
+                </div>
+
+                <div class="insights-note">
+                  <span class="insights-note__icon" aria-hidden="true">i</span>
+                  <p>
+                    Если задача сложнее - предложу другой формат:
+                    <strong>расширенный лендинг, многостраничный сайт или индивидуальную разработку.</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--alt executor-section" id="about">
+          <div class="container">
+            <div class="section-heading">
+              <h2>Я делаю сайты быстро за счёт опыта в дизайне и веб-разработке</h2>
+            </div>
+
+            <div class="bio-panel">
+              <div class="bio-panel__content">
+                <p>
+                  <strong class="bio-panel__accent bio-panel__accent--block">
+                    <span class="bio-panel__greeting-sticker" aria-hidden="true">👋</span>
+                    <span>Меня зовут Ростислав.</span>
+                  </strong>
+                  <span class="bio-panel__text-line">Делаю посадочные страницы для малого бизнеса, услуг, локальных компаний и теста новых направлений.</span>
+                </p>
+                <p>
+                  <strong class="bio-panel__accent bio-panel__accent--block">Работаю напрямую.</strong>
+                  <span class="bio-panel__text-line">Сам разбираюсь в задаче, собираю структуру, делаю дизайн, адаптирую сайт под телефон и готовлю страницу к запуску.</span>
+                </p>
+                <p>
+                  <strong class="bio-panel__accent bio-panel__accent--block">Скорость, ясность и заявки.</strong>
+                  <span class="bio-panel__text-line">Не большой сайт на месяцы, а понятная страница, которая быстро показывает услугу и работает как онлайн-визитка.</span>
+                </p>
+              </div>
+              <div class="bio-panel__aside">
+                <div class="badge-grid">
+                  <span>Дизайн и структура</span>
+                  <span>Верстка и адаптация</span>
+                  <span>Форма заявки</span>
+                  <span>Базовое SEO</span>
+                  <span>Подготовка к рекламе</span>
+                  <span>Прямая работа с исполнителем</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bio-panel__callout-stack">
+              <button class="bio-panel__certificate-link" type="button" data-bio-certificate-open>
+                <img class="bio-panel__certificate-link-thumb" src="/assets/media/orig.png" alt="" aria-hidden="true" />
+                <span>Сертификат квалификации Яндекс Директ</span>
+              </button>
+              <a class="bio-panel__certificate-link" href="/requisites.html" target="_blank" rel="noreferrer">
+                <img class="bio-panel__certificate-link-thumb bio-panel__certificate-link-thumb--icon" src="/assets/media/document-1.svg" alt="" aria-hidden="true" />
+                <span>Реквизиты и юр. информация</span>
+              </a>
+
+              <div class="bio-panel__callout">
+                <span class="bio-panel__callout-icon" aria-hidden="true">
+                  <img src="/assets/media/rectangle-pro.svg" alt="" />
+                </span>
+                <div class="bio-panel__callout-copy">
+                  <strong>Ростислав Краснокутский</strong>
+                  <span>25 лет. С 2017 года работаю в сфере digital-разработки, имею обширный опыт в маркетинге, дизайне, разработке и рекламе. Знаю как сделать отдачу от рекламы в бизнесе максимальной.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--alt faq-section" id="faq">
+          <div class="container">
+            <div class="section-heading">
+              <h2>Частые вопросы</h2>
+            </div>
+
+            <div class="faq-list">
+              <details class="faq-item">
+                <summary>
+                  <span>Сайт действительно будет готов за 1 день?</span>
+                  <span class="faq-item__caret" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </summary>
+                <div class="faq-item__body">
+                  <p>Да, если задача подходит под формат одностраничного сайта и есть минимальные вводные: ниша, услуга, контакты, пожелания или примеры. Если проект сложнее, я заранее скажу срок и предложу другой формат.</p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary>
+                  <span>Почему так недорого?</span>
+                  <span class="faq-item__caret" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </summary>
+                <div class="faq-item__body">
+                  <p>Потому что это не большой сайт на несколько месяцев, а одна сфокусированная посадочная страница. Вы не платите за менеджеров, долгие согласования и лишние этапы - только за конкретный результат.</p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary>
+                  <span>Это будет сайт на шаблоне или конструкторе?</span>
+                  <span class="faq-item__caret" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </summary>
+                <div class="faq-item__body">
+                  <p>Нет. Сайт собирается с нуля под вашу задачу. Я не использую готовые шаблоны и конструкторы, а подбираю структуру, текстовые блоки и визуальный стиль под ваш бизнес.</p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary>
+                  <span>Можно ли потом доработать сайт?</span>
+                  <span class="faq-item__caret" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </summary>
+                <div class="faq-item__body">
+                  <p>Да. После запуска можно добавить новые блоки, подключить дополнительные формы, аналитику, рекламу, страницы или расширить сайт до более крупного проекта.</p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary>
+                  <span>Сайт будет работать на телефоне?</span>
+                  <span class="faq-item__caret" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </summary>
+                <div class="faq-item__body">
+                  <p>Да. Сайт адаптируется под мобильные устройства, потому что большая часть пользователей переходит на такие страницы именно с телефона.</p>
+                </div>
+              </details>
+              <details class="faq-item">
+                <summary>
+                  <span>Что входит в 10 000 ₽?</span>
+                  <span class="faq-item__caret" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                      <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </summary>
+                <div class="faq-item__body">
+                  <p>В стоимость входит одностраничный сайт под вашу нишу: структура, дизайн, адаптация под телефон, форма заявки, базовая подготовка к рекламе и публикация. Дополнительные сложные функции, домен, хостинг и платные сервисы оплачиваются отдельно.</p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+
+        <section class="section cta-section contacts-section">
+          <div class="container cta-section__inner">
+            <div class="contacts-hero">
+              <h2>Хотите понять, подойдёт ли вам сайт за 1 день?</h2>
+              <p>
+                Напишите пару слов о задаче - я посмотрю нишу, объём и честно скажу, можно ли сделать хороший сайт в этом формате или лучше выбрать другой вариант.
+              </p>
+              
+
+              <div class="contacts-grid">
+                <article class="contacts-card">
+                  <span class="contacts-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M16 8C12.7 8 10 10.7 10 14C10 18.8 16 24 16 24C16 24 22 18.8 22 14C22 10.7 19.3 8 16 8Z" stroke="currentColor" stroke-width="2.2" />
+                      <circle cx="16" cy="14" r="2.4" fill="currentColor" />
+                    </svg>
+                  </span>
+                  <div class="contacts-card__body">
+                    <h3>Считаю задачу без созвона</h3>
+                    <p>Коротко опишите задачу - скажу, подойдёт ли формат сайта за 1 день.</p>
+                  </div>
+                </article>
+
+                <article class="contacts-card">
+                  <span class="contacts-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="2.2" />
+                      <path d="M16 10V16L20 18.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <div class="contacts-card__body">
+                    <h3>Подскажу формат и стоимость</h3>
+                    <p>Ориентирую по срокам, структуре и объёму ещё до начала работы.</p>
+                  </div>
+                </article>
+
+                <article class="contacts-card">
+                  <span class="contacts-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <circle cx="16" cy="12.5" r="4" stroke="currentColor" stroke-width="2.2" />
+                      <path d="M9.5 24.5C10.7 20.6 13.2 19 16 19C18.8 19 21.3 20.6 22.5 24.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                  <div class="contacts-card__body">
+                    <h3>Работаю лично и без посредников</h3>
+                    <p>Вы общаетесь со мной напрямую - без менеджеров и лишних звеньев.</p>
+                  </div>
+                </article>
+                <article class="contacts-card contacts-card--note">
+                  <span class="contacts-card__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M16 5L24 9V18C24 22.4 20.4 26 16 27C11.6 26 8 22.4 8 18V9L16 5Z" stroke="currentColor" stroke-width="2.2" />
+                      <path d="M12 16.5L15 19.5L20.5 13.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                  <div class="contacts-card__body">
+                    <strong>Ценю ваше время и отвечаю быстро</strong>
+                    <p>Если формат сайта за 1 день не подойдёт - честно скажу и предложу лучшее решение.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <aside class="form-card form-card--compact contacts-form" id="contact" aria-label="Форма в финальном блоке">
+              <div class="contacts-form__header">
+                <span class="contacts-form__icon" aria-hidden="true">
+                  <img src="/assets/media/calculator-money.svg" alt="" aria-hidden="true" />
+                </span>
+                <div class="contacts-form__header-copy">
+                  <h2>Получить оценку</h2>
+                  <p>Бесплатно и без обязательств</p>
+                </div>
+              </div>
+              <form class="lead-form">
+                <label>
+                  <span>Имя</span>
+                  <input type="text" name="name_2" placeholder="Ваше имя" />
+                </label>
+                <div class="lead-form__contact-row">
+                  <label class="lead-form__phone-field">
+                    <span>Телефон</span>
+                    <input type="tel" name="contact_2" placeholder="+7 (___) ___-__-__" autocomplete="tel" inputmode="tel" />
+                  </label>
+                  <div class="lead-form__messengers" aria-label="Связаться в мессенджерах">
+                    <a class="topbar__max-link lead-form__messenger-link" href="#contact">
+                      <img class="button__icon" src="/assets/media/max.svg" alt="" aria-hidden="true" />
+                      <span>Написать в MAX</span>
+                    </a>
+                    <a class="topbar__max-link lead-form__messenger-link" href="#contact" aria-label="Написать в Telegram">
+                      <img class="button__icon" src="/assets/media/telegram.svg" alt="" aria-hidden="true" />
+                      <span>Написать в Telegram</span>
+                    </a>
+                  </div>
+                </div>
+                <label>
+                  <span>Ниша</span>
+                  <input type="text" name="niche_2" placeholder="Например, кухни на заказ" />
+                </label>
+                <label>
+                  <span>Что нужно сделать?</span>
+                  <textarea name="task_2" rows="4" placeholder="Кратко опишите задачу"></textarea>
+                </label>
+                <button class="button button--full lead-form__submit" type="submit">
+                  <span class="lead-form__submit-icon" aria-hidden="true">
+                    <img src="/assets/media/calculator.svg" alt="" />
+                  </span>
+                  <span>Получить оценку</span>
+                </button>
+                <p class="form-note">
+                  Отвечу лично и скажу, подходит ли формат сайта за 1 день, и сориентирую по срокам и стоимости.
+                </p>
+              </form>
+            </aside>
+
+            <aside class="contacts-office">
+              <div class="contacts-office__map">
+                <iframe
+                  title="Яндекс Карта офиса"
+                  src="https://yandex.ru/map-widget/v1/?ll=39.8937%2C57.6266&z=16&pt=39.8937,57.6266,pm2rdm&mode=search&text=%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C%2C%20%D1%83%D0%BB.%20%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%8B%2C%2012%2C%20%D0%BE%D1%84%D0%B8%D1%81%2034"
+                  frameborder="0"
+                  allowfullscreen="true"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="contacts-office__overlay">
+                <div class="contacts-office__head">
+                  <span class="contacts-office__icon" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                      <path d="M16 6C11.6 6 8 9.6 8 14C8 19.2 16 26 16 26C16 26 24 19.2 24 14C24 9.6 20.4 6 16 6Z" stroke="currentColor" stroke-width="2.2" />
+                      <circle cx="16" cy="14" r="2.4" fill="currentColor" />
+                    </svg>
+                  </span>
+                  <strong>Наш офис</strong>
+                </div>
+                <div class="contacts-office__content">
+                  <div class="contacts-office__text">
+                    <p>Ярославль<br />ул. Свободы, 12<br />офис 34</p>
+                    <a class="contacts-office__route" href="#contact">
+                      <img src="/assets/media/route-icon.svg" alt="" aria-hidden="true" />
+                      <span>Построить маршрут</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container site-footer__inner">
+          <a class="brand site-footer__brand" href="#hero" aria-label="Перейти к началу страницы">
+            <img class="brand__mark" src="/assets/media/logo.png" alt="Быстросайт" />
+            <span class="brand__meta">Сайт для бизнеса за 1 день на Wordpress, либо с нуля</span>
+          </a>
+
+          <nav class="site-footer__links" aria-label="Юридическая информация">
+            <a class="site-footer__link" href="/policy.html">Политика конфиденциальности</a>
+            <a class="site-footer__link" href="/cookie.html">Соглашение обработки cookie-данных</a>
+            <a class="site-footer__link" href="/requisites.html">Реквизиты и юр. информация</a>
+          </nav>
+
+          <div class="site-footer__meta">
+            <div class="topbar__contact site-footer__contact">
+              <a class="topbar__phone" href="tel:+79103803322">+7 (910) 380-33-22</a>
+              <a class="topbar__max-link" href="#contact">
+                <img class="button__icon" src="/assets/media/max.svg" alt="" aria-hidden="true" />
+                <span>Написать в MAX</span>
+              </a>
+              <a class="topbar__max-link" href="#contact" aria-label="Написать в Telegram">
+                <img class="button__icon" src="/assets/media/telegram.svg" alt="" aria-hidden="true" />
+                <span>Написать в Telegram</span>
+              </a>
+            </div>
+            <div class="topbar__office site-footer__office">
+              <span class="topbar__office-value">Ярославль, ул. Свободы, 12, офис 34</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="project-result-image-modal" data-project-result-image-modal aria-label="Скрин кейса" hidden>
+      <button class="project-result-image-modal__close" type="button" data-project-result-image-close aria-label="Закрыть">×</button>
+      <div class="project-result-image-modal__content">
+        <img src="/assets/media/stats-repair-178-conversions.jpg" alt="" aria-hidden="true" />
+      </div>
+    </div>
+
+    <div class="project-preview-modal" data-project-preview-modal aria-label="Картинка кейса" hidden>
+      <button class="project-preview-modal__close" type="button" data-project-preview-close aria-label="Закрыть">×</button>
+      <div class="project-preview-modal__content">
+        <div class="project-preview-modal__scroller">
+          <div class="project-preview-modal__image">
+            <img src="/assets/media/project-repair-landing.jpg" alt="" aria-hidden="true" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-contact-modal" data-project-contact-modal aria-label="Обсудить сайт" hidden>
+      <button class="project-contact-modal__close" type="button" data-project-contact-close aria-label="Закрыть">×</button>
+      <div class="project-contact-modal__content">
+        <div class="project-contact-modal__preview" data-project-contact-preview-wrap>
+          <img data-project-contact-preview src="/assets/media/document-preview.png" alt="" />
+        </div>
+        <h2 data-project-contact-title>Давайте обсудим Ваш проект</h2>
+        <form class="project-contact-modal__form" data-project-contact-form>
+          <label>
+            <span>Имя</span>
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            <span>Телефон</span>
+            <input type="tel" name="phone" autocomplete="tel" required />
+          </label>
+          <button class="button button--full project-contact-modal__submit" type="submit">Обсудить сайт</button>
+          <label class="project-contact-modal__privacy">
+            <input class="project-contact-modal__privacy-input" type="checkbox" name="privacy" required />
+            <span class="project-contact-modal__privacy-check" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5.5 12.5l3.5 3.5L18.5 6.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+            <span class="project-contact-modal__privacy-text">
+              Ознакомлен с
+              <a class="privacy-link" href="/policy.html" target="_blank" rel="noreferrer">политикой конфиденциальности</a>
+            </span>
+          </label>
+        </form>
+      </div>
+    </div>
+    <div class="bio-certificate-modal" data-bio-certificate-modal aria-label="Сертификат квалификации Яндекс Директ" hidden>
+      <button class="bio-certificate-modal__close" type="button" data-bio-certificate-close aria-label="Закрыть">×</button>
+      <div class="bio-certificate-modal__content">
+        <img src="/assets/media/orig.png" alt="Сертификат квалификации Яндекс Директ" />
+      </div>
+    </div>
+    <div class="consult-widget" data-consult-widget>
+      <button class="consult-widget__close" type="button" data-consult-widget-close aria-label="Закрыть консультацию">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 6l12 12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+          <path d="M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+        </svg>
+      </button>
+      <button class="consult-widget__photo-button" type="button" data-consult-widget-open aria-expanded="false" aria-label="Проконсультирую прямо сейчас">
+        <span class="consult-widget__photo" aria-hidden="true">
+          <img src="/assets/media/photo_2026-02-25_16-26-38.jpg" alt="" />
+        </span>
+        <span class="consult-widget__photo-status" aria-hidden="true"></span>
+      </button>
+      <button class="consult-widget__body consult-widget__body--closed" type="button" data-consult-widget-open aria-expanded="false">
+        <span class="consult-widget__text">Проконсультирую прямо сейчас</span>
+      </button>
+      <form class="consult-widget__form" data-consult-widget-form>
+        <label class="consult-widget__input-wrap">
+          <span class="sr-only">Телефон</span>
+          <input class="consult-widget__input" type="tel" name="phone" inputmode="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel" />
+        </label>
+        <div class="consult-widget__contact-method" data-consult-widget-method>
+          <input type="hidden" name="contactMethod" value="phone" data-consult-widget-method-value />
+          <button class="consult-widget__method-trigger" type="button" data-consult-widget-method-trigger aria-haspopup="listbox" aria-expanded="false" aria-label="Способ связи: Phone">
+            <span class="consult-widget__method-trigger-icon consult-widget__method-trigger-icon--phone" data-consult-widget-method-icon aria-hidden="true">
+              <img src="/assets/media/phone.svg" alt="" />
+            </span>
+            <span class="consult-widget__method-trigger-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M7 10l5 5 5-5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </button>
+          <div class="consult-widget__method-menu" data-consult-widget-method-menu role="listbox" hidden>
+            <button class="consult-widget__method-choice consult-widget__method-choice--max" type="button" data-consult-widget-method-choice data-method="max" aria-selected="false">
+              <span class="consult-widget__method-choice-icon consult-widget__method-choice-icon--max" aria-hidden="true">
+                <img src="/assets/media/max.svg" alt="" />
+              </span>
+              <span class="consult-widget__method-choice-text">MAX</span>
+            </button>
+            <button class="consult-widget__method-choice consult-widget__method-choice--telegram" type="button" data-consult-widget-method-choice data-method="telegram" aria-selected="false">
+              <span class="consult-widget__method-choice-icon consult-widget__method-choice-icon--telegram" aria-hidden="true">
+                <img src="/assets/media/telegram.svg" alt="" />
+              </span>
+              <span class="consult-widget__method-choice-text">Telegram</span>
+            </button>
+            <button class="consult-widget__method-choice consult-widget__method-choice--phone" type="button" data-consult-widget-method-choice data-method="phone" aria-selected="true">
+              <span class="consult-widget__method-choice-icon consult-widget__method-choice-icon--phone" aria-hidden="true">
+                <img src="/assets/media/phone.svg" alt="" />
+              </span>
+              <span class="consult-widget__method-choice-text">По телефону</span>
+            </button>
+          </div>
+        </div>
+        <button class="consult-widget__submit" type="button" aria-label="Показать финальное состояние">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            <path d="M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <label class="consult-widget__privacy">
+          <input class="consult-widget__privacy-input" type="checkbox" name="privacy" />
+          <span class="consult-widget__check" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5.5 12.5l3.5 3.5L18.5 6.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+          <span class="consult-widget__privacy-text">
+            Ознакомлен с
+            <a class="privacy-link" href="/policy.html" target="_blank" rel="noreferrer">политикой конфиденциальности</a>
+          </span>
+        </label>
+      </form>
+      <div class="consult-widget__success" data-consult-widget-success hidden>
+        <span class="consult-widget__success-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M5.5 12.5l4 4 9-10" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </span>
+        <span class="consult-widget__success-text">Спасибо, я свяжусь с Вами в ближайшие минуты</span>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+

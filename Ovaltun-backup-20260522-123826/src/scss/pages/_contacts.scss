@@ -1,0 +1,136 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.page--contacts {
+  padding-bottom: 24px;
+}
+
+.contacts-page__breadcrumbs {
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+.contacts-page__title {
+  margin-bottom: 42px;
+  margin-top: 8px;
+}
+
+.contacts-page__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 45%) 820px;
+  gap: 64px;
+  align-items: start;
+  margin-bottom: 70px;
+}
+
+.contacts-page__intro-content {
+  color: $color-text;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.contacts-page__label {
+  margin: 0 0 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contacts-page__text {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.contacts-page__text + .contacts-page__label {
+  margin-top: 30px;
+}
+
+.contacts-page__map {
+  height: 407px;
+  overflow: hidden;
+  border-radius: 16px;
+  min-height: 407px;
+  background: $color-light-bg;
+}
+
+.contacts-page__map-frame {
+  display: block;
+  width: 100%;
+  min-height: 360px;
+  border: 0;
+}
+
+.contacts-page__details {
+  margin-bottom: 72px;
+}
+
+.contacts-page__details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+}
+
+.contacts-info {
+  color: $color-text;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.contacts-info__title {
+  margin: 0 0 18px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.contacts-info__body {
+  display: grid;
+  gap: 18px;
+}
+
+.contacts-info__body p {
+  margin: 0;
+  font-size: 18px;
+}
+
+@media (max-width: 1439px) {
+  .contacts-page__intro {
+    gap: 48px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .contacts-page__intro {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .contacts-page__details-grid {
+    gap: 32px;
+  }
+}
+
+@include mq-down($breakpoint-tablet) {
+  .contacts-page__intro {
+    margin-bottom: 48px;
+  }
+
+  .contacts-page__title {
+    margin-bottom: 18px;
+  }
+
+  .contacts-page__map {
+    min-height: 260px;
+  }
+
+  .contacts-page__map-frame {
+    min-height: 260px;
+  }
+
+  .contacts-page__details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contacts-info__title {
+    font-size: 22px;
+  }
+}

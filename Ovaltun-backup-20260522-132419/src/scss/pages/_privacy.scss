@@ -1,0 +1,48 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.page--privacy {
+  background: $color-white;
+}
+
+.privacy-page {
+  padding-bottom: 2px;
+}
+
+.privacy-page .breadcrumbs {
+  margin-top: 12px;
+  margin-bottom: 38px;
+  font-size: 12px;
+  line-height: 1.3;
+  color: $color-muted;
+}
+
+.privacy-page .breadcrumbs__link {
+  color: $color-muted;
+  text-decoration: none;
+}
+
+.privacy-page .breadcrumbs__link:hover {
+  color: $color-primary;
+}
+
+.privacy-page__content {
+  max-width: 1320px;
+  margin-bottom: 72px;
+}
+
+@media (max-width: 1023px) {
+  .privacy-page__content {
+    max-width: 100%;
+  }
+}
+
+@include mq-down($breakpoint-tablet) {
+  .privacy-page {
+    padding-bottom: 48px;
+  }
+
+  .privacy-page .breadcrumbs {
+    margin-bottom: 22px;
+  }
+}

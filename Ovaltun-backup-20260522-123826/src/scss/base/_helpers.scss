@@ -1,0 +1,19 @@
+@use '../abstracts/mixins' as *;
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.is-scroll-locked {
+  overflow: hidden;
+}
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

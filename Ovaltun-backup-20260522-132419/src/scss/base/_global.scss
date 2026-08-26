@@ -1,0 +1,33 @@
+@use '../abstracts/variables' as *;
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: $font-main;
+  color: $color-text;
+  background: $color-page-bg;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  display: block;
+}
+
+.page {
+  min-height: 100vh;
+  background: $color-page-bg;
+}
+
+.page__main {
+  padding-bottom: 80px;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.section--compact {
+  padding: 24px 0;
+}
+

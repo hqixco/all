@@ -1,0 +1,59 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+body {
+  font-size: 16px;
+  line-height: 1.32;
+}
+
+h1,
+.h1 {
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h2,
+.h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h3,
+.h3 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.text-muted {
+  color: $color-muted;
+}
+
+.text-brand {
+  color: $color-brand;
+}
+
+.section__title {
+  margin-bottom: 0;
+}
+
+.section__subtitle {
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+@include mq-down($breakpoint-tablet) {
+  h1,
+  .h1 {
+    font-size: 42px;
+  }
+}
+
+@include mq-down($breakpoint-mobile) {
+  h1,
+  .h1 {
+    font-size: 25px;
+  }
+}

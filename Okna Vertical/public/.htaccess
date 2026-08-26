@@ -1,0 +1,6 @@
+Options -MultiViews
+DirectoryIndex index.html
+
+RewriteEngine On
+RewriteRule ^politika-konfidentsialnosti/?$ politika-konfidentsialnosti/index.html [L]
+RewriteRule ^cookie/?$ cookie/index.html [L]

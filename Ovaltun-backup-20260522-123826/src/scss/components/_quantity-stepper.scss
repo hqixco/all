@@ -1,0 +1,43 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.quantity-stepper {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid $color-border-dark;
+  border-radius: 8px;
+  overflow: hidden;
+  background: $color-white;
+}
+
+.quantity-stepper__button {
+  @include flex-center;
+  width: 41px;
+  height: 44px;
+  color: $color-brand;
+}
+
+.quantity-stepper__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.quantity-stepper__input {
+  width: 36px;
+  height: 44px;
+  border: 0;
+  text-align: center;
+  color: $color-text;
+  background: $color-white;
+  font: inherit;
+  line-height: 44px;
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.quantity-stepper__input::-webkit-outer-spin-button,
+.quantity-stepper__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,163 @@
+﻿@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.slider {
+  position: relative;
+}
+
+.slider__viewport {
+  overflow: hidden;
+}
+
+.slider__track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  cursor: grab;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .slider__track {
+    touch-action: auto;
+  }
+}
+
+.slider__track,
+.slider__track * {
+  -webkit-user-drag: none;
+}
+
+.slider__track::-webkit-scrollbar {
+  display: none;
+}
+
+.slider__track.is-dragging {
+  cursor: grabbing;
+  scroll-behavior: auto;
+  scroll-snap-type: none;
+}
+
+.slider__track.is-dragging .slider__slide {
+  pointer-events: none;
+}
+
+.slider__slide {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  flex: 0 0 auto;
+}
+
+.slider__controls {
+  position: absolute;
+  inset: 50% 0 auto;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 2;
+  padding: 0 10px;
+}
+
+.slider__button {
+  @include flex-center;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  flex-shrink: 0;
+  inline-size: 24px;
+  block-size: 24px;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: 50%;
+  border: 0;
+  background: $color-card-bg;
+  color: $color-brand;
+  box-shadow: 0 8px 20px rgba($color-brand-dark, 0.12);
+  line-height: 0;
+  overflow: hidden;
+  pointer-events: auto;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.slider__button::before {
+  content: none;
+}
+
+.slider__button-icon {
+  display: block;
+  width: 7px;
+  height: 12px;
+  flex-shrink: 0;
+  pointer-events: none;
+  transform-origin: center;
+}
+
+.slider__button[data-slider-prev] .slider__button-icon {
+  transform: scaleX(-1);
+}
+.slider__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.slider__dot {
+  appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  flex: 0 0 8px;
+  border: 0;
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  min-width: 8px;
+  min-height: 8px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  background: $color-border-dark;
+  cursor: pointer;
+  transition: background 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+.slider__dot--active {
+  width: 8px;
+  height: 8px;
+  min-width: 8px;
+  min-height: 8px;
+  background: $color-brand;
+  transform: scale(1.25);
+}
+
+.slider__button:hover {
+  transform: scale(1.05);
+  background: $color-white;
+}
+
+.slider__button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.slider__button:focus-visible,
+.slider__dot:focus-visible {
+  outline: 2px solid $color-primary;
+  outline-offset: 2px;
+}
+

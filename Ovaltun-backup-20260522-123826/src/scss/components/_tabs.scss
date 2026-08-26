@@ -1,0 +1,32 @@
+@use '../abstracts/variables' as *;
+
+.tabs__nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tabs__button {
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid $color-border-dark;
+  border-radius: 10px;
+  background: $color-white;
+  color: $color-brand;
+}
+
+.tabs__button.is-active {
+  background: $color-brand;
+  color: $color-white;
+  border-color: $color-brand;
+}
+
+.tabs__panel {
+  display: none;
+  padding-top: 20px;
+}
+
+.tabs__panel.is-active {
+  display: block;
+}
+

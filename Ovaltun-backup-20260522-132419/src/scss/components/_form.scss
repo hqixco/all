@@ -1,0 +1,26 @@
+@use '../abstracts/variables' as *;
+
+.form__field {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid $color-border-dark;
+  border-radius: 10px;
+  background: $color-white;
+  color: $color-text;
+}
+
+.form__field::placeholder {
+  color: $color-muted;
+}
+
+.form__group {
+  display: grid;
+  gap: 10px;
+}
+
+.form__label {
+  font-size: 14px;
+  color: $color-muted;
+}
+

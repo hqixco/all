@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ОВАЛТУН - Покупателям</title>
+    <script type="module" src="/src/js/main.js"></script>
+  </head>
+  <body class="page page--customers">
+    <div data-include="/partials/header.html"></div>
+
+    <main class="page__main page--customers">
+      <div class="container container--narrow">
+        <nav class="breadcrumbs page__breadcrumbs" aria-label="Хлебные крошки">
+          <a class="breadcrumbs__link" href="/">Главная</a>
+          <span class="breadcrumbs__separator" aria-hidden="true">-</span>
+          <a class="breadcrumbs__link" href="#">Покупателям</a>
+          <span class="breadcrumbs__separator" aria-hidden="true">-</span>
+          <span class="breadcrumbs__current" data-customers-breadcrumb>Доставка и возврат</span>
+        </nav>
+
+        <h1 class="page__title" data-customers-title>Доставка и возврат</h1>
+
+        <div class="customers-page" data-customers-page>
+          <aside class="customers-page__sidebar">
+            <nav class="side-nav" aria-label="Раздел покупателям">
+              <a
+                class="side-nav__link side-nav__link--active"
+                href="#delivery-return"
+                data-customers-target="delivery-return"
+                data-customers-title="Доставка и возврат"
+              >
+                Доставка и возврат
+              </a>
+              <a
+                class="side-nav__link"
+                href="#delivery-calculation"
+                data-customers-target="delivery-calculation"
+                data-customers-title="Расчет доставки"
+              >
+                Расчет доставки
+              </a>
+              <a class="side-nav__link" href="#payment" data-customers-target="payment" data-customers-title="Оплата">
+                Оплата
+              </a>
+              <a class="side-nav__link" href="#warranty" data-customers-target="warranty" data-customers-title="Гарантия">
+                Гарантия
+              </a>
+              <a
+                class="side-nav__link"
+                href="#loyalty"
+                data-customers-target="loyalty"
+                data-customers-title="Программа лояльности"
+              >
+                Программа лояльности
+              </a>
+            </nav>
+          </aside>
+
+          <div class="customers-page__content">
+            <article class="content-page customers-page__panel customers-page__panel--active" data-customers-panel="delivery-return">
+              <h2>Доставка товара</h2>
+              <h3>1. Правила доставки в г. Абакане и пригороде:</h3>
+              <p>При заказе доставки просим Вас предоставить следующую информацию:</p>
+              <ul>
+                <li>номер дома (корпус, особенности или приметы);</li>
+                <li>подъезд к дому (с какой улицы, двор, арка, пропуск, место для разгрузки);</li>
+                <li>номер телефона (на адрес, контактный);</li>
+                <li>лицо, ответственное за прием материала, его координаты</li>
+              </ul>
+
+              <h3>2. Стоимость доставки в г. Абакане и пригороде:</h3>
+              <p>
+                Стоимость доставки товара машинами от 0,3 тонн до 5 тонн от 900 руб. в пределах города и пригорода.
+              </p>
+              <p>
+                Точную стоимость доставки уточняйте у менеджеров и продавцов-консультантов по телефону 202-204.
+              </p>
+
+              <h3>3. Общие правила:</h3>
+              <ul>
+                <li>доставка осуществляется только после того, как Вы подтвердите свою готовность принять машину;</li>
+                <li>в день доставки Вам следует быть постоянно на связи по указанным в заказе контактным телефонам;</li>
+                <li>
+                  на то, чтобы разгрузить машину, Вам будет выделено 30 минут с момента подачи, если речь идет об
+                  автомобиле до 3 тонн включительно, и 60 минут для автомобилей до 5 тонн включительно;
+                </li>
+                <li>
+                  далее оплачивается простой в размере 300 руб. за каждый час для машин до 3 тонн и 500 руб. за каждый
+                  час простоя для машин до 5 тонн включительно.
+                </li>
+              </ul>
+              <p>
+                В случае обнаружения в день разгрузки недостачи замена товара производится на следующий день, либо по
+                согласованию сторон.
+              </p>
+              <p>Телефон для справок и заявок: 202-204</p>
+
+              <h2>Возврат товара</h2>
+              <h3>Правила возврата</h3>
+
+              <h3>1. Сроки возврата товара</h3>
+              <p>Товар подлежит возврату в течение 14 (четырнадцати) календарных дней со дня покупки.</p>
+
+              <h3>2. Условия возврата товара</h3>
+              <p>Возврат товара надлежащего качества проводится:</p>
+              <ul>
+                <li>
+                  на основании заявления покупателя на возврат товара или денежных средств. Покупатель также должен
+                  предъявить кассовый или товарный чек для подтверждения покупки возвратного товара. Отсутствие
+                  документа подтверждающего оплату не лишает клиента возможности ссылаться на свидетельские показания.
+                  Сроки возврата товара описаны в п.1;
+                </li>
+                <li>
+                  на основании того, что возвратный товар не был в употреблении, сохранены его товарный вид,
+                  потребительские свойства, пломбы, фабричные ярлыки.
+                </li>
+              </ul>
+
+              <h3>3. Ограничения по возврату товара</h3>
+              <p>
+                Не принимаются на возврат товары не надлежащего качества, имеющие индивидуально-определенные свойства,
+                если указанный товар может быть использован исключительно приобретающим его потребителем. К таким
+                товарам можно отнести: товары под заказ, колерованная краска, строительные и отделочные материала
+                отпускаемые на метраж, уцененный товар, товар проданный как некондиционный.
+              </p>
+
+              <h3>4. Перечень товаров надлежащего качества принимаемых на возврат с ограничениями</h3>
+              <ul>
+                <li>
+                  Кафельная плитка, керамогранит принимается как кратно упаковке, так и штучно при условии сохранности
+                  надлежащего товарного вида упаковки — отсутствия видимых повреждений;
+                </li>
+                <li>
+                  ЛКМ, строительные и отделочные материалы: линолеум, пленка, ковровые покрытия, ламинат и другие
+                  товары, отпускаемые на метраж, в том числе и вагонка, подлежат возврату кратно упаковке: бухта, рулон,
+                  пачка, банка;
+                </li>
+                <li>
+                  Сухие сыпучие смеси подлежат возврату только при условии сохранения потребительских качеств, например,
+                  отсутствие окаменелости и т.д.;
+                </li>
+                <li>
+                  Товар, имеющий срок годности, принимается на возврат, если до конца срока реализации осталось не менее
+                  одного месяца.
+                </li>
+              </ul>
+
+              <h3>5. Возврат товара ненадлежащего качества</h3>
+              <p>Возврат товара ненадлежащего качества осуществляется через Отдел урегулирования претензий.</p>
+
+              <h3>6. Замена товара ненадлежащего качества</h3>
+              <ul>
+                <li>
+                  При замене товара ненадлежащего качества на товар аналогичной марки, модели, артикула, прием товара от
+                  покупателя и передача ему товара надлежащего качества оформляются накладными на основании заявления
+                  при наличии товарного или кассового чека или иных доказательств совершения факта покупки. При этом
+                  перерасчет продажной цены не производится;
+                </li>
+                <li>
+                  Если производится замена товара ненадлежащего качества на товар другой марки и при этом возникает
+                  межценовая разница, то либо покупатель доплачивает эту разницу, либо продавец возвращает ее покупателю.
+                  Межценовая разница определяется как разница между розничной ценой на товар другой марки и розничной
+                  ценой на аналогичный товар, установленными на дату замены товара.
+                </li>
+              </ul>
+
+              <p>Если у Вас возникли вопросы, Вы всегда можете задать по номеру +7 (3902) 28 56 88 или 28 58 61.</p>
+            </article>
+
+            <section class="delivery-calc customers-page__panel" data-customers-panel="delivery-calculation">
+              <div class="delivery-calc" data-delivery-calc>
+                <div class="delivery-calc__field">
+                  <label class="delivery-calc__label" for="delivery-place">Место доставки</label>
+
+                  <div class="delivery-calc__select-wrap" data-delivery-select>
+                    <button
+                      class="delivery-calc__select"
+                      id="delivery-place"
+                      type="button"
+                      data-delivery-select-trigger
+                      aria-expanded="false"
+                      aria-controls="delivery-place-panel"
+                    >
+                      <span class="delivery-calc__select-value" data-delivery-select-value>Населённый пункт</span>
+                    </button>
+
+                    <input type="hidden" name="delivery-place" value="" data-delivery-select-input />
+
+                    <div class="delivery-calc__select-panel" id="delivery-place-panel" hidden data-delivery-select-panel>
+                      <div class="delivery-calc__search-field">
+                        <input
+                          class="delivery-calc__select-search"
+                          type="search"
+                          placeholder="Поиск города"
+                          autocomplete="off"
+                          data-delivery-select-search
+                        />
+                        <button class="delivery-calc__search-button" type="button" aria-label="Поиск">
+                          <img class="delivery-calc__search-icon" src="/images/search-icon.svg" alt="" aria-hidden="true" />
+                        </button>
+                      </div>
+
+                      <div class="delivery-calc__select-options" role="listbox" aria-label="Города Республики Хакасия">
+                        <button type="button" class="delivery-calc__select-option" data-delivery-select-option data-value="abakan">
+                          Абакан
+                        </button>
+                        <button type="button" class="delivery-calc__select-option" data-delivery-select-option data-value="abaza">
+                          Абаза
+                        </button>
+                        <button type="button" class="delivery-calc__select-option" data-delivery-select-option data-value="chernogorsk">
+                          Черногорск
+                        </button>
+                        <button type="button" class="delivery-calc__select-option" data-delivery-select-option data-value="sayanogorsk">
+                          Саяногорск
+                        </button>
+                        <button type="button" class="delivery-calc__select-option" data-delivery-select-option data-value="sorsk">
+                          Сорск
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="delivery-calc__vehicle-tabs" role="tablist" aria-label="Тип автомобиля">
+                  <button class="delivery-calc__vehicle delivery-calc__vehicle--active" type="button" data-price="2100">
+                    Hyundai — 5 т
+                  </button>
+                  <button class="delivery-calc__vehicle" type="button" data-price="1600">
+                    Toyota Hino — 3 т
+                  </button>
+                  <button class="delivery-calc__vehicle" type="button" data-price="900">
+                    Renauet Kangoo — 0,3 т
+                  </button>
+                </div>
+
+                <div class="delivery-calc__result">
+                  <div class="delivery-calc__result-title">Расчет доставки</div>
+                  <div class="delivery-calc__price" data-delivery-price>2100 ₽</div>
+                </div>
+
+                <div class="delivery-calc__note"><span class="delivery-calc__note-emphasis">+100 ₽/км </span> доставка после 18:00</div>
+              </div>
+            </section>
+
+            <div class="customers-page__panel" data-customers-panel="payment">
+              <article class="content-page">
+                <h2>Способы оплаты:</h2>
+
+                <h3>1. Наличный расчёт</h3>
+                <p>
+                  Если товар доставляется курьером, то оплата осуществляется наличными курьеру в руки. При получении
+                  товара обязательно проверьте комплектацию товара, наличие гарантийного талона и чека
+                </p>
+
+                <h3>2. Банковской картой</h3>
+                <p>
+                  Для выбора оплаты товара с помощью банковской карты на соответствующей странице необходимо нажать
+                  кнопку Оплата заказа банковской картой. Оплата происходит через ПАО СБЕРБАНК с использованием
+                  банковских карт следующих платёжных систем:
+                </p>
+
+                <ul>
+                  <li>МИР (разместить логотип МИР);</li>
+                  <li>VISA International (разместить логотип VISA International);</li>
+                  <li>Mastercard Worldwide (разместить логотип Mastercard Worldwide);</li>
+                  <li>JCB (разместить логотип JCB).</li>
+                </ul>
+
+                <p>
+                  Для оплаты (ввода реквизитов Вашей карты) Вы будете перенаправлены на платёжный шлюз ПАО СБЕРБАНК.
+                  Соединение с платёжным шлюзом и передача информации осуществляется в защищённом режиме с использованием
+                  протокола шифрования SSL. В случае если Ваш банк поддерживает технологию безопасного проведения
+                  интернет-платежей Verified By Visa, MasterCard SecureCode, MIR Accept, J-Secure, для проведения
+                  платежа также может потребоваться ввод специального пароля.
+                </p>
+
+                <p>
+                  Настоящий сайт поддерживает 256-битное шифрование. Конфиденциальность сообщаемой персональной
+                  информации обеспечивается ПАО СБЕРБАНК. Введённая информация не будет предоставлена третьим лицам за
+                  исключением случаев, предусмотренных законодательством РФ. Проведение платежей по банковским картам
+                  осуществляется в строгом соответствии с требованиями платёжных систем МИР, Visa Int., MasterCard
+                  Europe Sprl, JCB.
+                </p>
+
+                <h3>3. Возврат товара</h3>
+                <p>Срок возврата товара надлежащего качества составляет 30 дней с момента получения товара.</p>
+                <p>
+                  Возврат переведённых средств, производится на ваш банковский счёт в течение 5-30 рабочих дней (срок
+                  зависит от банка, который выдал вашу банковскую карту).
+                </p>
+              </article>
+            </div>
+
+            <div class="customers-page__panel" data-customers-panel="warranty">
+              <article class="content-page">
+                <h2>Гарантия</h2>
+                <p>Раздел находится в разработке.</p>
+              </article>
+            </div>
+
+            <div class="customers-page__panel" data-customers-panel="loyalty">
+              <article class="content-page">
+                <h2>Способы оплаты:</h2>
+
+                <h3>1. Наличный расчёт</h3>
+                <p>
+                  Если товар доставляется курьером, то оплата осуществляется наличными курьеру в руки. При получении
+                  товара обязательно проверьте комплектацию товара, наличие гарантийного талона и чека
+                </p>
+
+                <h3>2. Банковской картой</h3>
+                <p>
+                  Для выбора оплаты товара с помощью банковской карты на соответствующей странице необходимо нажать
+                  кнопку Оплата заказа банковской картой. Оплата происходит через ПАО СБЕРБАНК с использованием
+                  банковских карт следующих платёжных систем:
+                </p>
+
+                <ul>
+                  <li>МИР (разместить логотип МИР);</li>
+                  <li>VISA International (разместить логотип VISA International);</li>
+                  <li>Mastercard Worldwide (разместить логотип Mastercard Worldwide);</li>
+                  <li>JCB (разместить логотип JCB).</li>
+                </ul>
+
+                <p>
+                  Для оплаты (ввода реквизитов Вашей карты) Вы будете перенаправлены на платёжный шлюз ПАО СБЕРБАНК.
+                  Соединение с платёжным шлюзом и передача информации осуществляется в защищённом режиме с использованием
+                  протокола шифрования SSL. В случае если Ваш банк поддерживает технологию безопасного проведения
+                  интернет-платежей Verified By Visa, MasterCard SecureCode, MIR Accept, J-Secure, для проведения
+                  платежа также может потребоваться ввод специального пароля.
+                </p>
+
+                <p>
+                  Настоящий сайт поддерживает 256-битное шифрование. Конфиденциальность сообщаемой персональной
+                  информации обеспечивается ПАО СБЕРБАНК. Введённая информация не будет предоставлена третьим лицам за
+                  исключением случаев, предусмотренных законодательством РФ. Проведение платежей по банковским картам
+                  осуществляется в строгом соответствии с требованиями платёжных систем МИР, Visa Int., MasterCard
+                  Europe Sprl, JCB.
+                </p>
+
+                <h3>3. Возврат товара</h3>
+                <p>Срок возврата товара надлежащего качества составляет 30 дней с момента получения товара.</p>
+                <p>
+                  Возврат переведённых средств производится на ваш банковский счёт в течение 5-30 рабочих дней, срок
+                  зависит от банка, который выдал вашу банковскую карту.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div data-include="/partials/footer.html"></div>
+    <div data-include="/partials/modal.html"></div>
+  </body>
+</html>

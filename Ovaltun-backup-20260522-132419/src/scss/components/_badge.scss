@@ -1,0 +1,26 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.badge {
+  @include flex-center;
+  min-height: 34px;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 400;
+  color: $color-white;
+  background: $color-success;
+}
+
+.badge--primary {
+  background: $color-primary;
+}
+
+.badge--dark {
+  background: $color-brand;
+}
+
+.badge--popular {
+  background: #F2F6FF;
+  color: #000;
+}

@@ -1,0 +1,64 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.subscribe {
+  padding: 40px 0;
+}
+
+.subscribe__box {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: 20px;
+  align-items: center;
+  padding: 32px;
+  border: 1px solid $color-border;
+  border-radius: 20px;
+  background: linear-gradient(135deg, $color-card-bg 0%, $color-white 100%);
+}
+
+.subscribe__title {
+  margin-bottom: 12px;
+  font-size: 28px;
+  font-weight: 500;
+  color: $color-text;
+}
+
+.subscribe__text {
+  color: $color-muted;
+}
+
+.subscribe__form {
+  display: grid;
+  gap: 12px;
+}
+
+.subscribe__fields {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+}
+
+.subscribe__input {
+  min-height: 48px;
+  padding: 0 16px;
+  border: 1px solid $color-border-dark;
+  border-radius: 12px;
+  background: $color-white;
+  color: $color-text;
+}
+
+@include mq-down($breakpoint-tablet) {
+  .subscribe__box {
+    grid-template-columns: 1fr;
+  }
+}
+
+@include mq-down($breakpoint-tablet) {
+  .subscribe__box {
+    padding: 24px 16px;
+  }
+
+  .subscribe__fields {
+    grid-template-columns: 1fr;
+  }
+}

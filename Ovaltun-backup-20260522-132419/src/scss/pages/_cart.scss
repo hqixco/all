@@ -1,0 +1,18 @@
+@use '../abstracts/variables' as *;
+
+.cart__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 20px;
+}
+
+.cart__sidebar {
+  position: sticky;
+  top: 120px;
+  align-self: start;
+  padding: 20px;
+  border: 1px solid $color-border;
+  border-radius: 16px;
+  background: $color-white;
+}
+

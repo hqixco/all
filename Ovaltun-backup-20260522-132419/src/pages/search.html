@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ОВАЛТУН - Результаты поиска</title>
+    <script type="module" src="/src/js/main.js"></script>
+  </head>
+  <body class="page page--search">
+    <div data-include="/partials/header.html"></div>
+
+    <main class="search-page">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a class="breadcrumbs__link" href="/">Главная</a>
+          <span class="breadcrumbs__separator" aria-hidden="true">-</span>
+          <span class="breadcrumbs__current">Поиск</span>
+        </nav>
+
+        <h1 class="search-page__title">Результаты поиска</h1>
+
+        <div class="search-page__summary">
+          <span class="search-page__summary-label">По вашему запросу</span>
+          <span class="search-page__summary-query" data-search-query>ничего не введено</span>
+          <span class="search-page__summary-label">найдено</span>
+          <span class="search-page__summary-count" data-search-count>12 позиций</span>
+        </div>
+
+        <div class="search-page__toolbar">
+          <div class="search-page__sort" data-sort-dropdown>
+            <button class="search-page__sort-button" type="button" aria-expanded="false" aria-haspopup="listbox" data-sort-button>
+              <span>Сортировать:</span>
+              <span class="search-page__sort-value" data-sort-value>Названию от А-Я</span>
+            </button>
+            <div class="search-page__sort-menu" role="listbox" hidden data-sort-menu>
+              <button class="search-page__sort-option" type="button" role="option" aria-selected="true" data-sort-option>Названию от А-Я</button>
+              <button class="search-page__sort-option" type="button" role="option" aria-selected="false" data-sort-option>Названию от Я-А</button>
+              <button class="search-page__sort-option" type="button" role="option" aria-selected="false" data-sort-option>Сначала дешевле</button>
+              <button class="search-page__sort-option" type="button" role="option" aria-selected="false" data-sort-option>Сначала дороже</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-page__grid">
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+          <div data-include="/partials/product-card.html"></div>
+        </div>
+
+        <div data-include="/partials/pagination.html"></div>
+      </div>
+    </main>
+
+    <div data-include="/partials/footer.html"></div>
+    <div data-include="/partials/modal.html"></div>
+  </body>
+</html>
