@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="https://xn----jtbntedbhbs.xn--p1ai/privacy-policy/index.html" />
+    <title>Политика конфиденциальности | РПК Ресурс</title>
+    <meta
+      name="description"
+      content="Политика конфиденциальности и обработки персональных данных сайта РПК Ресурс."
+    />
+    <link rel="icon" type="image/png" href="../favicon.png" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        k = e.createElement(t);
+        a = e.getElementsByTagName(t)[0];
+        k.async = 1;
+        k.src = r;
+        a.parentNode.insertBefore(k, a);
+      })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=110471419', 'ym');
+
+      ym(110471419, 'init', {
+        ssr: true,
+        webvisor: true,
+        clickmap: true,
+        ecommerce: 'dataLayer',
+        referrer: document.referrer,
+        url: location.href,
+        accurateTrackBounce: true,
+        trackLinks: true,
+      });
+    </script>
+    <!-- /Yandex.Metrika counter -->
+    <style>
+      :root {
+        --bg: #f5f4f2;
+        --text: #19181d;
+        --muted: #6d6675;
+        --accent: #6d2ff1;
+        --accent-2: #d64cf0;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Inter, Arial, Helvetica, sans-serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .container {
+        width: min(1360px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .header {
+        position: absolute;
+        inset: 0 0 auto;
+        z-index: 10;
+        padding: 14px 0 13px;
+        background: linear-gradient(180deg, rgba(10, 12, 24, 0.68), rgba(10, 12, 24, 0.24) 58%, rgba(10, 12, 24, 0));
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+        transition: padding 0.22s ease, background 0.22s ease, box-shadow 0.22s ease;
+      }
+
+      .header.is-sticky {
+        position: fixed;
+        inset: 0 0 auto;
+        padding: 10px 0;
+        background: rgba(10, 12, 24, 0.88);
+        box-shadow: 0 12px 34px rgba(7, 9, 20, 0.24);
+      }
+
+      .header__inner {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 24px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+      }
+
+      .brand__logo {
+        width: 144px;
+        height: auto;
+      }
+
+      .header__descriptor {
+        margin: 0;
+        max-width: 320px;
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 13px;
+        line-height: 1.35;
+      }
+
+      .header__actions {
+        display: grid;
+        grid-template-columns: repeat(3, max-content);
+        align-items: center;
+        gap: 18px 24px;
+        justify-self: end;
+      }
+
+      .header__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+      }
+
+      .phone {
+        color: #fff;
+        font-weight: 600;
+        font-size: 16px;
+        white-space: nowrap;
+      }
+
+      .max-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        white-space: nowrap;
+        opacity: 0.9;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+      }
+
+      .max-link:hover,
+      .max-link:focus-visible {
+        opacity: 1;
+        transform: translateY(-1px);
+      }
+
+      .button__icon {
+        width: 30px;
+        height: auto;
+        margin-right: 8px;
+        flex: 0 0 18px;
+      }
+
+      .header__address {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 0;
+        color: rgba(255, 255, 255, 0.88);
+        font-style: normal;
+        font-size: 13px;
+        line-height: 1.25;
+        min-width: 0;
+      }
+
+      .header__address-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .header__address-icon {
+        width: 22px;
+        height: 22px;
+        flex: 0 0 22px;
+        display: grid;
+        place-items: center;
+      }
+
+      .header__address-icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .header__address-copy {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+
+      .header__address-label {
+        color: rgba(255, 255, 255, 0.64);
+        font-size: 11px;
+        line-height: 1.15;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 52px;
+        padding: 0 28px;
+        border: 0;
+        border-radius: 12px;
+        font-size: 15px;
+        font-weight: 600;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease,
+          color 0.2s ease, border-color 0.2s ease;
+      }
+
+      .button:hover,
+      .button:focus-visible {
+        transform: translateY(-1px);
+      }
+
+      .button--small {
+        min-height: 42px;
+        padding: 0 20px;
+        border-radius: 10px;
+        font-size: 14px;
+      }
+
+      .button--primary {
+        color: #fff;
+        background: linear-gradient(180deg, #b75cf7 0%, #8a3df4 100%);
+        box-shadow: 0 10px 30px rgba(116, 47, 241, 0.28);
+      }
+
+      .stat-card__link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 34px;
+        margin-top: 10px;
+        padding: 0 14px;
+        border-radius: 999px;
+        background: rgba(123, 50, 239, 0.06);
+        border: 1px solid rgba(123, 50, 239, 0.18);
+        color: #7b32ef;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1;
+        text-align: center;
+        transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+      }
+
+      .stat-card__link:hover,
+      .stat-card__link:focus-visible {
+        background: rgba(123, 50, 239, 0.12);
+        border-color: rgba(123, 50, 239, 0.28);
+        transform: translateY(-1px);
+      }
+
+      .header__photo-link {
+        margin-top: 0;
+        align-self: flex-start;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #fff;
+      }
+
+      .tech-page {
+        padding: 136px 0 72px;
+      }
+
+      .tech-page__content {
+        max-width: 980px;
+        text-align: left;
+      }
+
+      .tech-page h1 {
+        margin: 0 0 18px;
+        font-size: clamp(34px, 4vw, 54px);
+        line-height: 1.05;
+      }
+
+      .tech-page h2 {
+        margin: 30px 0 14px;
+        font-size: clamp(22px, 2.3vw, 30px);
+        line-height: 1.12;
+      }
+
+      .tech-page p,
+      .tech-page ul {
+        margin: 0 0 14px;
+        font-size: 16px;
+        line-height: 1.65;
+        overflow-wrap: anywhere;
+      }
+
+      .tech-page ul {
+        padding-left: 22px;
+      }
+
+      .tech-page__note {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .site-footer-bottom {
+        position: relative;
+        padding: 22px 0 38px;
+        background:
+          radial-gradient(circle at 12% 12%, rgba(143, 92, 247, 0.18), transparent 18%),
+          radial-gradient(circle at 88% 18%, rgba(219, 92, 247, 0.12), transparent 16%),
+          linear-gradient(180deg, #141220 0%, #0c0b14 100%);
+      }
+
+      .site-footer-bottom__inner {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+        gap: 24px;
+        align-items: center;
+        padding-top: 18px;
+      }
+
+      .site-footer-bottom__brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        color: #fff;
+      }
+
+      .site-footer-bottom__logo {
+        width: 120px;
+        height: auto;
+        filter: brightness(0) invert(1);
+      }
+
+      .site-footer-bottom__brand-text {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 13px;
+        line-height: 1.35;
+      }
+
+      .site-footer-bottom__legal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        justify-self: center;
+      }
+
+      .site-footer-bottom__privacy {
+        justify-self: center;
+        color: rgba(255, 255, 255, 0.94);
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+
+      .site-footer-bottom__actions {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+        justify-self: end;
+      }
+
+      .site-footer-bottom__phone {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.1;
+        white-space: nowrap;
+      }
+
+      .site-footer-bottom__actions .max-link {
+        color: #fff;
+        opacity: 1;
+      }
+
+      .site-footer-bottom__credit {
+        position: absolute;
+        right: 18px;
+        bottom: 12px;
+        color: rgba(255, 255, 255, 0.62);
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.2;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+
+      @media (max-width: 1000px) {
+        .tech-page {
+          padding: 124px 0 56px;
+        }
+      }
+
+      @media (max-width: 770px) {
+        .container {
+          width: min(100% - 20px, 1360px);
+        }
+
+        .header {
+          padding-top: 14px;
+        }
+
+        .header__inner {
+          grid-template-columns: auto 1fr;
+          align-items: center;
+          gap: 10px 14px;
+        }
+
+        .brand__logo {
+          width: 108px;
+        }
+
+        .header__descriptor {
+          display: none;
+        }
+
+        .header__actions {
+          grid-column: auto;
+          width: auto;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          justify-self: end;
+        }
+
+        .header__contacts {
+          width: auto;
+          align-items: flex-end;
+          gap: 6px;
+        }
+
+        .header__address {
+          display: flex;
+          align-items: center;
+          font-size: 11px;
+          line-height: 1.2;
+        }
+
+        .header__address-group {
+          gap: 8px;
+        }
+
+        .header__contacts .phone {
+          flex: 0 0 auto;
+          font-size: 14px;
+        }
+
+        .header__contacts .max-link {
+          flex: 0 0 auto;
+          font-size: 12px;
+        }
+
+        .header__actions .button--small {
+          display: none;
+        }
+
+        .tech-page {
+          padding: 112px 0 48px;
+        }
+
+        .tech-page h1 {
+          margin-bottom: 14px;
+          font-size: clamp(30px, 8vw, 40px);
+        }
+
+        .tech-page h2 {
+          margin: 24px 0 12px;
+          font-size: clamp(20px, 5vw, 26px);
+        }
+
+        .tech-page p,
+        .tech-page ul {
+          font-size: 15px;
+          line-height: 1.58;
+        }
+        .site-footer-bottom__inner {
+          grid-template-columns: 1fr;
+          justify-items: start;
+        }
+
+        .site-footer-bottom__privacy {
+          justify-self: start;
+        }
+
+        .site-footer-bottom__actions {
+          align-items: flex-start;
+        }
+
+        .site-footer-bottom__brand {
+          align-items: flex-start;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .header__photo-link {
+          display: none;
+        }
+
+        .header__actions {
+          gap: 20px;
+        }
+
+        .header__address {
+          width: 115px;
+        }
+
+        .header__address-group {
+          width: 115px;
+        }
+
+        .button__icon {
+          width: 27px;
+        }
+
+        .phone {
+          font-size: 15px;
+        }
+
+        .max-link {
+          white-space: normal;
+        }
+
+        .tech-page {
+          padding: 102px 0 42px;
+        }
+
+        .tech-page h1 {
+          font-size: 28px;
+          line-height: 1.08;
+        }
+
+        .tech-page h2 {
+          font-size: 22px;
+          line-height: 1.14;
+        }
+
+        .tech-page ul {
+          padding-left: 18px;
+        }
+
+        .site-footer-bottom {
+          padding: 18px 0 34px;
+        }
+
+        .site-footer-bottom__inner {
+          gap: 14px;
+          padding-top: 12px;
+          justify-items: center;
+          text-align: center;
+        }
+
+        .site-footer-bottom__brand {
+          flex-direction: column;
+          gap: 8px;
+          align-items: center;
+        }
+
+        .site-footer-bottom__logo {
+          width: 96px;
+        }
+
+        .site-footer-bottom__brand-text,
+        .site-footer-bottom__privacy {
+          font-size: 12px;
+        }
+
+        .site-footer-bottom__brand-text {
+          line-height: 1.3;
+        }
+
+        .site-footer-bottom__legal {
+          gap: 4px;
+        }
+
+        .site-footer-bottom__actions {
+          gap: 4px;
+          align-items: center;
+          justify-self: center;
+        }
+
+        .site-footer-bottom__phone {
+          font-size: 15px;
+        }
+
+        .site-footer-bottom__actions .max-link {
+          justify-content: center;
+        }
+
+        .site-footer-bottom__credit {
+          right: 10px;
+          bottom: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div><img src="https://mc.yandex.ru/watch/110471419" style="position: absolute; left: -9999px" alt="" width="1" height="1" /></div>
+    </noscript>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="../index.html#hero" aria-label="РПК Ресурс">
+          <img class="brand__logo" src="../assets/company-logo-CMgCAoUA.svg" alt="РПК Ресурс" width="250" height="100" />
+        </a>
+
+        <p class="header__descriptor">
+          Световые вывески, объемные буквы и оформление фасадов в Нижнем Новгороде
+        </p>
+
+        <div class="header__actions">
+          <div class="header__contacts">
+            <a class="phone" href="tel:+79306697306">+7 (930) 669-73-06</a>
+            <a class="max-link" href="https://max.ru/u/f9LHodD0cOIXX09ZlHb5zbseHpSsLHltkaZJEThVOexO08wnmNgPpFBEkpc" target="_blank" rel="noreferrer">
+              <img class="button__icon" src="../assets/max-icon.svg" alt="" aria-hidden="true" width="1000" height="1000" />
+              <span>Написать в MAX</span>
+            </a>
+          </div>
+          <div class="header__address-group">
+            <address class="header__address">
+              <span class="header__address-icon" aria-hidden="true">
+                <img src="../assets/industry-alt.svg" alt="" width="24" height="24" />
+              </span>
+              <span class="header__address-copy">
+                <span class="header__address-label">Адрес производства:</span>
+                <span>г. Нижний Новгород, ул. Красная Слобода, 9А</span>
+              </span>
+            </address>
+            <a class="stat-card__link header__photo-link" href="../index.html#advantages">Фото производства</a>
+          </div>
+          <a class="button button--primary button--small" href="../index.html#quiz">Получить расчет</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="tech-page">
+      <div class="container">
+        <div class="tech-page__content">
+          <h1>Политика конфиденциальности</h1>
+          <p class="tech-page__note">Редакция от 30 июня 2026 года</p>
+          <p>
+            Настоящая Политика определяет порядок обработки и защиты персональных данных,
+            которые сайт <strong>https://рпк-ресурс.рф/</strong> может получить от
+            пользователя при посещении сайта, заполнении форм, отправке заявки, запросе
+            расчета, а также при обращении по телефону, электронной почте или через
+            мессенджеры.
+          </p>
+
+          <h2>1. Общие положения</h2>
+          <p>
+            1.1. Оператором персональных данных является сайт РПК «Ресурс» и лица,
+            уполномоченные им на обработку обращений пользователей.
+          </p>
+          <p>
+            <strong>Оператор:</strong> РПК «Ресурс» <strong>Адрес:</strong> г. Нижний Новгород, ул. Красная Слобода, 9А <strong>Электронная почта:</strong> resurs_mi@mail.ru <strong>Телефон:</strong> +7 (930) 669-73-06 <strong>Сайт:</strong> https://рпк-ресурс.рф/
+          </p>
+          <p>1.2. Далее по тексту Оператор и пользователь совместно именуются Сторонами.</p>
+          <p>
+            1.3. Политика разработана в соответствии с Федеральным законом от 27.07.2006
+            № 152-ФЗ «О персональных данных» и иными нормативными правовыми актами
+            Российской Федерации.
+          </p>
+          <p>
+            1.4. Использование сайта без заполнения форм возможно без указания имени,
+            телефона и адреса электронной почты, однако сайт может автоматически получать
+            технические данные, необходимые для его работы и анализа посещаемости.
+          </p>
+          <p>
+            1.5. Оператор не осуществляет обработку специальных категорий персональных
+            данных, касающихся расовой и национальной принадлежности, политических
+            взглядов, религиозных или философских убеждений, состояния здоровья и
+            интимной жизни.
+          </p>
+
+          <h2>2. Какие данные могут обрабатываться</h2>
+          <p>2.1. Пользователь может добровольно предоставить следующие данные:</p>
+          <ul>
+            <li>имя;</li>
+            <li>номер телефона;</li>
+            <li>адрес электронной почты;</li>
+            <li>предпочтительный способ связи;</li>
+            <li>сведения о компании, объекте, адресе монтажа или размещения вывески;</li>
+            <li>параметры заказа, тиража, конструкции, сроков и бюджета;</li>
+            <li>фотографии, макеты, комментарии и иные файлы, которые пользователь прикладывает к заявке.</li>
+          </ul>
+          <p>2.2. При посещении сайта автоматически могут обрабатываться технические данные:</p>
+          <ul>
+            <li>IP-адрес;</li>
+            <li>тип устройства, браузера и операционной системы;</li>
+            <li>дата и время посещения;</li>
+            <li>адреса посещенных страниц;</li>
+            <li>источник перехода на сайт;</li>
+            <li>действия пользователя на страницах;</li>
+            <li>файлы cookie и технические идентификаторы;</li>
+            <li>данные, собираемые сервисами интернет-статистики.</li>
+          </ul>
+
+          <h2>3. Цели обработки персональных данных</h2>
+          <p>Оператор обрабатывает персональные данные в следующих целях:</p>
+          <ul>
+            <li>обработка заявок, звонков и обращений пользователей;</li>
+            <li>подготовка консультации, расчета стоимости или коммерческого предложения;</li>
+            <li>уточнение параметров вывески, монтажа и сроков исполнения заказа;</li>
+            <li>согласование выезда специалиста, замера или монтажа;</li>
+            <li>подготовка, заключение и исполнение договора;</li>
+            <li>обратная связь с пользователем по телефону, email и через мессенджеры;</li>
+            <li>улучшение качества сайта, сервиса и рекламных кампаний;</li>
+            <li>обеспечение безопасности и стабильной работы сайта.</li>
+          </ul>
+
+          <h2>4. Правовые основания обработки</h2>
+          <p>Правовыми основаниями обработки персональных данных являются:</p>
+          <ul>
+            <li>Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных»;</li>
+            <li>согласие пользователя на обработку персональных данных;</li>
+            <li>действия, необходимые для заключения договора по инициативе пользователя;</li>
+            <li>исполнение договора, если он заключен между пользователем и Оператором;</li>
+            <li>законные интересы Оператора при условии соблюдения прав и свобод пользователя.</li>
+          </ul>
+
+          <h2>5. Порядок обработки и хранения</h2>
+          <p>
+            5.1. Обработка персональных данных может осуществляться автоматизированным,
+            неавтоматизированным или смешанным способом.
+          </p>
+          <p>5.2. Оператор вправе осуществлять сбор, запись, систематизацию, хранение, уточнение, использование, передачу в необходимом объеме, обезличивание, блокирование и удаление данных.</p>
+          <p>
+            5.3. Оператор обрабатывает только те данные, которые необходимы для достижения
+            указанных в настоящей Политике целей.
+          </p>
+          <p>
+            5.4. Персональные данные обрабатываются до достижения целей обработки, отзыва
+            согласия пользователем либо возникновения иных законных оснований для
+            прекращения обработки.
+          </p>
+          <p>
+            5.5. После достижения целей обработки либо отзыва согласия персональные данные
+            удаляются или уничтожаются, если их дальнейшее хранение не требуется по закону
+            или договору.
+          </p>
+
+          <h2>6. Передача данных третьим лицам</h2>
+          <p>
+            6.1. Оператор не продает персональные данные и не передает их третьим лицам
+            для самостоятельного использования в рекламных целях.
+          </p>
+          <p>6.2. Передача данных допускается:</p>
+          <ul>
+            <li>с согласия пользователя;</li>
+            <li>для обработки заявки и связи с пользователем;</li>
+            <li>для исполнения договора и организации работ;</li>
+            <li>поставщикам хостинга, технической поддержки и аналитических сервисов;</li>
+            <li>сервисам телефонии, email-рассылок и мессенджерам, если пользователь выбрал такой способ связи;</li>
+            <li>государственным органам в случаях, предусмотренных законодательством Российской Федерации.</li>
+          </ul>
+
+          <h2>7. Cookie и аналитика</h2>
+          <p>
+            7.1. На сайте могут использоваться файлы cookie, необходимые для корректной
+            работы сайта, сохранения настроек и анализа посещаемости.
+          </p>
+          <p>
+            7.2. На сайте может использоваться сервис веб-аналитики, включая Яндекс
+            Метрику, который получает обезличенные технические сведения о посещении сайта.
+          </p>
+          <p>
+            7.3. Пользователь может ограничить или запретить использование cookie в
+            настройках своего браузера. В этом случае отдельные функции сайта могут
+            работать некорректно.
+          </p>
+
+          <h2>8. Права пользователя</h2>
+          <p>Пользователь вправе:</p>
+          <ul>
+            <li>получать информацию об обработке его персональных данных;</li>
+            <li>требовать уточнения, обновления или исправления данных;</li>
+            <li>требовать блокирования или уничтожения данных, если они обрабатываются незаконно или более не нужны для заявленных целей;</li>
+            <li>отозвать согласие на обработку персональных данных;</li>
+            <li>обжаловать действия или бездействие Оператора в Роскомнадзор или в судебном порядке;</li>
+            <li>осуществлять иные права, предусмотренные законодательством Российской Федерации.</li>
+          </ul>
+
+          <h2>9. Отзыв согласия и обращения</h2>
+          <p>
+            9.1. Пользователь может отозвать согласие на обработку персональных данных
+            либо направить запрос относительно своих данных по следующим контактам:
+          </p>
+          <ul>
+            <li>по электронной почте: <strong>resurs_mi@mail.ru</strong>;</li>
+            <li>по адресу: <strong>г. Нижний Новгород, ул. Красная Слобода, 9А</strong>.</li>
+          </ul>
+          <p>
+            9.2. В обращении рекомендуется указать имя, контактные данные, содержание
+            требования и сведения, позволяющие идентифицировать обращение через сайт.
+          </p>
+
+          <h2>10. Защита персональных данных</h2>
+          <p>
+            10.1. Оператор принимает необходимые правовые, организационные и технические
+            меры для защиты персональных данных от неправомерного или случайного доступа,
+            изменения, распространения, блокирования, копирования, уничтожения и иных
+            неправомерных действий.
+          </p>
+          <p>
+            10.2. Оператор не может гарантировать абсолютную защищенность информации при
+            ее передаче через сеть Интернет, однако принимает разумные и достаточные меры
+            для снижения соответствующих рисков.
+          </p>
+
+          <h2>11. Актуализация политики</h2>
+          <p>
+            11.1. Оператор вправе вносить изменения в настоящую Политику при изменении
+            законодательства, порядка обработки данных, используемых сервисов или
+            функциональности сайта.
+          </p>
+          <p>11.2. Новая редакция вступает в силу с момента ее публикации на сайте.</p>
+          <p>
+            11.3. Актуальная версия Политики постоянно доступна по адресу:
+            <strong>https://рпк-ресурс.рф/privacy-policy/index.html</strong>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer-bottom">
+      <div class="container site-footer-bottom__inner">
+        <a class="site-footer-bottom__brand" href="../index.html#hero" aria-label="РПК Ресурс">
+          <img class="site-footer-bottom__logo" src="../assets/company-logo-CMgCAoUA.svg" alt="РПК Ресурс" width="250" height="100" />
+            <span class="site-footer-bottom__brand-text">
+              Производство и монтаж наружной рекламы
+            </span>
+        </a>
+
+        <div class="site-footer-bottom__legal">
+          <a class="site-footer-bottom__privacy" href="../privacy-policy/index.html">Политика конфиденциальности</a>
+          <a class="site-footer-bottom__privacy" href="../cookies/index.html">Политика cookie</a>
+        </div>
+
+          <div class="site-footer-bottom__actions">
+            <a class="site-footer-bottom__phone" href="tel:+79306697306">+7 (930) 669-73-06</a>
+            <a class="max-link max-link--footer" href="https://max.ru/u/f9LHodD0cOIXX09ZlHb5zbseHpSsLHltkaZJEThVOexO08wnmNgPpFBEkpc" target="_blank" rel="noreferrer">
+              <img class="button__icon" src="../assets/max-icon.svg" alt="" aria-hidden="true" width="1000" height="1000" />
+              <span>Написать в MAX</span>
+            </a>
+          </div>
+      </div>
+      <a class="site-footer-bottom__credit" href="https://max.ru/u/f9LHodD0cOKO5otbFEi77cpANa3VvsBp-sG0rK6kZxy91xCTM6WCx1YjthU" target="_blank" rel="noreferrer">Сайты и реклама</a>
+    </footer>
+  </body>
+</html>
+

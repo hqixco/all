@@ -1,0 +1,7 @@
+﻿import fs from 'node:fs';
+const f='public/assets/header.css';let s=fs.readFileSync(f,'utf8');
+s=s.replace('color: #fff; font-family:', 'color: #111; font-family:').replace('background: rgba(5,17,29,.45);','background: #fff;').replace('line-height: 1.45; color: #fff;','line-height: 1.45; color: #111;').replace('.global-header__note span { color: #6ac7f7; }','.global-header__note span { color: #111; }').replace('color: #c7cbd2;','color: #555;').replace('color: #ff646b;','color: #ed0b13;').replaceAll('border-top: 1px solid #ffffff26; border-bottom: 1px solid #ffffff26; background: rgba(5,17,29,.38);','border-top: 1px solid #e7e9ed; border-bottom: 1px solid #e7e9ed; background: #fff;').replace('color: #ff9195;','color: #ed0b13;').replaceAll('background: #081827;','background: #fff;').replace('border: 1px solid #ffffff80;','border: 1px solid #d4d7dc;').replace('color: #fff; background: transparent;','color: #111; background: transparent;').replaceAll('border-bottom: 1px solid #ffffff26;','border-bottom: 1px solid #e7e9ed;').replace('outline: 2px solid #fff;','outline: 2px solid #111;');
+s=s.replace('.global-header__photo { transition:', '.global-header__photo { color: #fff; transition:');
+// Keep button text white without competing with the general link selector.
+s=s.replace('.global-header a { color: inherit;', '.global-header a {').replace('.global-header__dropdown { position:', '.global-header__dropdown { position:');
+fs.writeFileSync(f,s);

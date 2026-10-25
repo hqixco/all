@@ -1,0 +1,1431 @@
+{
+  "/vyveski/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Короб из поликарбоната без металлокаркаса",
+        "amount": 7500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 несветовых букв высотой 30 см: от 16 500 ₽ за изготовление (10 × 30 × 55 ₽).",
+    "source": "pages/vyveski/index.html",
+    "selector": ".signs-hub-price"
+  },
+  "/fasadnye-vyveski/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Короб из поликарбоната без металлокаркаса",
+        "amount": 7500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 несветовых букв высотой 30 см: от 16 500 ₽ за изготовление (10 × 30 × 55 ₽).",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "selector": ".facade-signs-price"
+  },
+  "/interernye-vyveski/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Короб из поликарбоната без металлокаркаса",
+        "amount": 7500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 несветовых букв высотой 30 см: от 16 500 ₽ за изготовление (10 × 30 × 55 ₽).",
+    "source": "pages/interernye-vyveski/index.html",
+    "selector": ".interernye-vyveski-ot-chego-zavisit-stoimost"
+  },
+  "/vyveski-dlya-magazina/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Короб из поликарбоната без металлокаркаса",
+        "amount": 7500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 несветовых букв высотой 30 см: от 16 500 ₽ за изготовление (10 × 30 × 55 ₽).",
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "selector": ".shop-signs-price"
+  },
+  "/obemnye-bukvy/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Профильные световые буквы ALS с тримом",
+        "amount": 130,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 световых букв высотой 30 см: от 24 000 ₽ за изготовление (10 × 30 × 80 ₽).",
+    "source": "pages/obemnye-bukvy/index.html",
+    "selector": ".letters-cost"
+  },
+  "/obemnye-nesvetovye-bukvy/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Несветовые буквы, глубина 50–100 мм",
+        "amount": 65,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Буква высотой 30 см, глубиной до 50 мм: от 1 650 ₽ (30 × 55 ₽).",
+    "source": "pages/obemnye-nesvetovye-bukvy/index.html",
+    "selector": ".nonlight-cost"
+  },
+  "/obemnye-plastikovye-bukvy/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Несветовые буквы, глубина 50–100 мм",
+        "amount": 65,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Буква высотой 30 см, глубиной до 50 мм: от 1 650 ₽ (30 × 55 ₽).",
+    "source": "pages/obemnye-plastikovye-bukvy/index.html",
+    "selector": ".obemnye-plastikovye-bukvy-content"
+  },
+  "/obemnye-svetovye-bukvy/": {
+    "rows": [
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Профильные световые буквы ALS с тримом",
+        "amount": 130,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Буква высотой 30 см с внутренней подсветкой: от 2 400 ₽ (30 × 80 ₽).",
+    "source": "pages/obemnye-svetovye-bukvy/index.html",
+    "selector": ".illuminated-cost"
+  },
+  "/obemnye-bukvy-s-vnutrennej-podsvetkoj/": {
+    "rows": [
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Профильные световые буквы ALS с тримом",
+        "amount": 130,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Буква высотой 30 см с внутренней подсветкой: от 2 400 ₽ (30 × 80 ₽).",
+    "source": "pages/obemnye-bukvy-s-vnutrennej-podsvetkoj/index.html",
+    "selector": ".obemnye-bukvy-s-vnutrennej-podsvetkoj-iz-chego-skladyvaetsya-raschet-vnutrennego-ispolneniya"
+  },
+  "/obemnye-bukvy-s-licevoj-podsvetkoj/": {
+    "rows": [
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Профильные световые буквы ALS с тримом",
+        "amount": 130,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Буква высотой 30 см с внутренней подсветкой: от 2 400 ₽ (30 × 80 ₽).",
+    "source": "pages/obemnye-bukvy-s-licevoj-podsvetkoj/index.html",
+    "selector": ".obemnye-bukvy-s-licevoj-podsvetkoj-chto-vhodit-v-raschet-svetovogo-litsa"
+  },
+  "/bukvy-iz-orgstekla/": {
+    "rows": [
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Профильные световые буквы ALS с тримом",
+        "amount": 130,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Буква высотой 30 см с внутренней подсветкой: от 2 400 ₽ (30 × 80 ₽).",
+    "source": "pages/bukvy-iz-orgstekla/index.html",
+    "selector": ".bukvy-iz-orgstekla-content"
+  },
+  "/obemnye-bukvy-iz-profilej-als-i-elkamet/": {
+    "rows": [
+      {
+        "label": "Световые буквы из ALS-профиля с тримом",
+        "amount": 130,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Буква из ALS-профиля высотой 40 см: от 5 200 ₽ (40 × 130 ₽). Другие профили рассчитываются по выбранному исполнению.",
+    "source": "pages/obemnye-bukvy-iz-profilej-als-i-elkamet/index.html",
+    "selector": ".obemnye-bukvy-iz-profilej-als-i-elkamet-content"
+  },
+  "/obemnye-bukvy-iz-akrila/": {
+    "rows": [
+      {
+        "label": "Световые буквы из жидкого акрила",
+        "amount": 120,
+        "unit": "см высоты",
+        "source": "https://viveska52.ru/",
+        "kind": "market",
+        "detail": "Рыночный ориентир по Нижнему Новгороду."
+      }
+    ],
+    "example": "Буква высотой 30 см: ориентировочно от 3 600 ₽ за изготовление (30 × 120 ₽).",
+    "source": "pages/obemnye-bukvy-iz-akrila/index.html",
+    "selector": ".obemnye-bukvy-iz-akrila-content"
+  },
+  "/obemnye-bukvy-iz-kompozita/": {
+    "rows": [
+      {
+        "label": "Объёмные буквы из композита",
+        "amount": 400,
+        "unit": "шт.",
+        "source": "https://signsystem.ru/obemnyie-bukvyi/bukvyi-iz-kompozita/",
+        "kind": "market",
+        "detail": "Пример высотой 10 см; рыночный ориентир другого региона."
+      },
+      {
+        "label": "Объёмные буквы из композита",
+        "amount": 700,
+        "unit": "шт.",
+        "source": "https://signsystem.ru/obemnyie-bukvyi/bukvyi-iz-kompozita/",
+        "kind": "market",
+        "detail": "Пример высотой 20 см; рыночный ориентир другого региона."
+      }
+    ],
+    "example": "",
+    "source": "pages/obemnye-bukvy-iz-kompozita/index.html",
+    "selector": ".obemnye-bukvy-iz-kompozita-content"
+  },
+  "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/": {
+    "rows": [
+      {
+        "label": "Буквы с контражурной подсветкой",
+        "amount": 90,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 букв высотой 30 см: от 27 000 ₽ за изготовление (10 × 30 × 90 ₽).",
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/index.html",
+    "selector": ".halo-price"
+  },
+  "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/": {
+    "rows": [
+      {
+        "label": "Комбинированное свечение: лицо и контражур",
+        "amount": 140,
+        "unit": "см высоты",
+        "source": "https://nr-sputnik.ru/catalog/obemnye-bukvy/kontrazhurnoe-svechenie/vyveska-s-kombinirovannym-svecheniem-body-ray/",
+        "kind": "market",
+        "detail": "Рыночный ориентир другого производителя."
+      }
+    ],
+    "example": "Буква высотой 30 см: ориентировочно от 4 200 ₽ (30 × 140 ₽).",
+    "source": "pages/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/index.html",
+    "selector": ".obemnye-bukvy-s-kombinirovannoj-podsvetkoj-stoimost-vybrannogo-sochetaniya-sveta"
+  },
+  "/obemnye-bukvy-s-torcevoj-podsvetkoj/": {
+    "rows": [
+      {
+        "label": "Буквы с торцевой подсветкой",
+        "amount": 100,
+        "unit": "см высоты",
+        "source": "https://1format.su/price/",
+        "kind": "market",
+        "detail": "Рыночный ориентир по Нижнему Новгороду."
+      }
+    ],
+    "example": "Буква высотой 30 см: ориентировочно от 3 000 ₽ (30 × 100 ₽).",
+    "source": "pages/obemnye-bukvy-s-torcevoj-podsvetkoj/index.html",
+    "selector": ".obemnye-bukvy-s-torcevoj-podsvetkoj-raschet-konstruktsii-so-svetovymi-tortsami"
+  },
+  "/obemnye-bukvy-s-lampochkami/": {
+    "rows": [
+      {
+        "label": "Корпус буквы высотой до 30 см",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://signsystem.ru/svetovyie-bukvyi/bukvyi-s-lampochkami/",
+        "kind": "market",
+        "detail": "Рыночный ориентир другого региона; лампы оплачиваются отдельно."
+      },
+      {
+        "label": "Светодиодная лампа",
+        "amount": 150,
+        "unit": "шт.",
+        "source": "https://signsystem.ru/svetovyie-bukvyi/bukvyi-s-lampochkami/",
+        "kind": "market",
+        "detail": "Рыночный ориентир; количество зависит от макета."
+      }
+    ],
+    "example": "Корпус буквы 30 см и 8 светодиодных ламп: ориентировочно от 3 600 ₽ (30 × 80 + 8 × 150 ₽).",
+    "source": "pages/obemnye-bukvy-s-lampochkami/index.html",
+    "selector": ".obemnye-bukvy-s-lampochkami-raschet-nadpisi-s-otdelnymi-svetovymi-elementami"
+  },
+  "/obemnye-bukvy-s-vneshnej-podsvetkoj/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Выносной прожектор для рекламного оформления",
+        "amount": 2000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 букв по 30 см и 2 прожектора: от 20 500 ₽ за составляющие (10 × 30 × 55 + 2 × 2 000 ₽). Крепления и электромонтаж уточняются.",
+    "source": "pages/obemnye-bukvy-s-vneshnej-podsvetkoj/index.html",
+    "selector": ".obemnye-bukvy-s-vneshnej-podsvetkoj-raschet-bukv-i-naruzhnogo-istochnika-sveta"
+  },
+  "/svetovye-koroba/": {
+    "rows": [
+      {
+        "label": "Короб из поликарбоната без металлокаркаса",
+        "amount": 7500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Короб из поликарбоната с металлокаркасом",
+        "amount": 8500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Короб с акриловой лицевой панелью без каркаса",
+        "amount": 8500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Короб из поликарбоната 2 × 1 м без каркаса: от 15 000 ₽ (2 м² × 7 500 ₽).",
+    "source": "pages/svetovye-koroba/index.html",
+    "selector": ".lightbox-price"
+  },
+  "/frizy/": {
+    "rows": [
+      {
+        "label": "Фриз из сотового поликарбоната",
+        "amount": 2100,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Фриз из оцинкованного металла",
+        "amount": 2350,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Фриз из композитной панели",
+        "amount": 3500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Композитный фриз 4 × 0,5 м: от 7 000 ₽ (2 м² × 3 500 ₽).",
+    "source": "pages/frizy/index.html",
+    "selector": ".frizy-raschet-po-dline-vysote-i-sostavu"
+  },
+  "/kryshnye-ustanovki/": {
+    "rows": [
+      {
+        "label": "Изготовление крышной установки",
+        "amount": 15000,
+        "unit": "пог. м",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Установка длиной 4 м: ориентир изготовления от 60 000 ₽ (4 × 15 000 ₽). Основание, расчёт конструкции и монтаж уточняются по зданию.",
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "selector": ".kryshnye-ustanovki-ot-chego-zavisit-stoimost"
+  },
+  "/stely-i-pilony/": {
+    "rows": [
+      {
+        "label": "Изготовление рекламной стелы или пилона",
+        "amount": 50000,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Расчётная площадь 2 м²: ориентир изготовления от 100 000 ₽. Число сторон, фундамент и монтаж уточняются отдельно.",
+    "source": "pages/stely-i-pilony/index.html",
+    "selector": ".stely-i-pilony-ot-chego-zavisit-stoimost"
+  },
+  "/panel-kronshtejny/": {
+    "rows": [
+      {
+        "label": "Изготовление панель-кронштейна",
+        "amount": 7000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/panel-kronshtejny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/panel-kronshtejny/index.html",
+    "selector": ".panel-kronshtejny-chto-uchityvat-dlya-rascheta-konsoli"
+  },
+  "/svetovye-portaly/": {
+    "rows": [
+      {
+        "label": "Световой портал: опубликованный базовый ориентир",
+        "amount": 3000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/svetovye-portaly/",
+        "kind": "published",
+        "detail": "Размеры и состав изделия уточняются; цена не описывает оформление всей входной группы."
+      }
+    ],
+    "example": "",
+    "source": "pages/svetovye-portaly/index.html",
+    "selector": ".svetovye-portaly-ot-chego-zavisit-stoimost"
+  },
+  "/stojki-resepshen/": {
+    "rows": [
+      {
+        "label": "Изготовление стойки ресепшен",
+        "amount": 5000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/stojki-resepshen/",
+        "kind": "published",
+        "detail": "Базовый ориентир; размеры, материал и комплектация уточняются."
+      }
+    ],
+    "example": "",
+    "source": "pages/stojki-resepshen/index.html",
+    "selector": ".stojki-resepshen-ot-chego-zavisit-stoimost"
+  },
+  "/tablichki/": {
+    "rows": [
+      {
+        "label": "Изготовление таблички",
+        "amount": 450,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/tablichki/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 табличек: ориентир изготовления от 4 500 ₽ (10 × 450 ₽).",
+    "source": "pages/tablichki/index.html",
+    "selector": ".tablichki-stoimost-tablichki-po-vybrannomu-sostavu"
+  },
+  "/ofisnye-tablichki/": {
+    "rows": [
+      {
+        "label": "Изготовление таблички",
+        "amount": 450,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/tablichki/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 табличек: ориентир изготовления от 4 500 ₽ (10 × 450 ₽).",
+    "source": "pages/ofisnye-tablichki/index.html",
+    "selector": ".ofisnye-tablichki-stoimost-serii-ofisnyh-tablichek"
+  },
+  "/adresnye-tablichki/": {
+    "rows": [
+      {
+        "label": "Изготовление адресной таблички",
+        "amount": 700,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/adresnye-tablichki/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/adresnye-tablichki/index.html",
+    "selector": ".adresnye-tablichki-raschet-adresnoy-tablichki"
+  },
+  "/informacionnye-stendy/": {
+    "rows": [
+      {
+        "label": "Стенд из ПВХ 3 мм с печатью",
+        "amount": 1800,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Стенд из ПВХ 4 мм с печатью",
+        "amount": 2500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Панель 1 × 0,8 м из ПВХ 3 мм: от 1 440 ₽. Карманы, рамка и крепления не включены в этот пример.",
+    "source": "pages/informacionnye-stendy/index.html",
+    "selector": ".informacionnye-stendy-raschet-sostava-informatsionnogo-stenda"
+  },
+  "/ulichnye-stendy/": {
+    "rows": [
+      {
+        "label": "Изготовление уличного стенда",
+        "amount": 10000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ulichnye-stendy/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/ulichnye-stendy/index.html",
+    "selector": ".ulichnye-stendy-stoimost-naruzhnogo-ispolneniya"
+  },
+  "/vystavochnye-stendy/": {
+    "rows": [
+      {
+        "label": "Изготовление выставочного стенда",
+        "amount": 10000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/vystavochnye-stendy/",
+        "kind": "published",
+        "detail": "Опубликованный базовый ориентир. Размер, состав элементов, сборка и оформление согласовываются по проекту."
+      }
+    ],
+    "example": "",
+    "source": "pages/vystavochnye-stendy/index.html",
+    "selector": ".vystavochnye-stendy-chto-vhodit-v-raschet-vystavochnogo-stenda"
+  },
+  "/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/": {
+    "rows": [
+      {
+        "label": "Изготовление выставочного стенда",
+        "amount": 10000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/vystavochnye-stendy/",
+        "kind": "published",
+        "detail": "Опубликованный базовый ориентир. Размер, состав элементов, сборка и оформление согласовываются по проекту."
+      }
+    ],
+    "example": "",
+    "source": "pages/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/index.html",
+    "selector": ".nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-raschet-individualnoy-konstruktsii"
+  },
+  "/brandmauery-reklamnye-panno/": {
+    "rows": [
+      {
+        "label": "Баннер 440 г/м², печать 360 dpi",
+        "amount": 450,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Полотно 6 × 3 м: от 8 100 ₽ за печать на баннере (18 м² × 450 ₽). Каркас, крепления, аренда поверхности и монтаж в эту сумму не входят.",
+    "source": "pages/brandmauery-reklamnye-panno/index.html",
+    "selector": ".brandmauery-reklamnye-panno-stoimost-gotovogo-panno"
+  },
+  "/pechat/": {
+    "rows": [
+      {
+        "label": "Баннер 330 г/м², печать 360 dpi",
+        "amount": 350,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Баннер 440 г/м², печать 360 dpi",
+        "amount": 450,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Самоклеящаяся плёнка 100 мкм с печатью",
+        "amount": 400,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Баннер 3 × 2 м на материале 330 г/м²: от 2 100 ₽ за печать (6 м² × 350 ₽), без дополнительной обработки.",
+    "source": "pages/pechat/index.html",
+    "selector": ".pechat-individualnyy-raschet"
+  },
+  "/shirokoformatnaya-pechat/": {
+    "rows": [
+      {
+        "label": "Баннер 330 г/м², печать 360 dpi",
+        "amount": 350,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Баннер 440 г/м², печать 360 dpi",
+        "amount": 450,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Самоклеящаяся плёнка 100 мкм с печатью",
+        "amount": 400,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Баннер 3 × 2 м на материале 330 г/м²: от 2 100 ₽ за печать (6 м² × 350 ₽), без дополнительной обработки.",
+    "source": "pages/shirokoformatnaya-pechat/index.html",
+    "selector": ".shirokoformatnaya-pechat-individualnyy-raschet"
+  },
+  "/pechat-na-bannere/": {
+    "rows": [
+      {
+        "label": "Баннер 330 г/м², печать 360 dpi",
+        "amount": 350,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Баннер 440 г/м², печать 360 dpi",
+        "amount": 450,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Самоклеящаяся плёнка 100 мкм с печатью",
+        "amount": 400,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Баннер 3 × 2 м на материале 330 г/м²: от 2 100 ₽ за печать (6 м² × 350 ₽), без дополнительной обработки.",
+    "source": "pages/pechat-na-bannere/index.html",
+    "selector": ".pechat-na-bannere-individualnyy-raschet"
+  },
+  "/interernaya-pechat/": {
+    "rows": [
+      {
+        "label": "Баннер 330 г/м², интерьерная печать 720 dpi",
+        "amount": 550,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Баннер 440 г/м², интерьерная печать 720 dpi",
+        "amount": 650,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Бумага City Lite 150 г/м² с печатью",
+        "amount": 400,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/interernaya-pechat/index.html",
+    "selector": ".interernaya-pechat-individualnyy-raschet"
+  },
+  "/pechat-na-bumage/": {
+    "rows": [
+      {
+        "label": "Печать на бумаге City Lite 150 г/м²",
+        "amount": 400,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Печатное изображение площадью 2 м²: от 800 ₽, без дополнительной обработки.",
+    "source": "pages/pechat-na-bumage/index.html",
+    "selector": ".pechat-na-bumage-individualnyy-raschet"
+  },
+  "/pechat-na-plenke/": {
+    "rows": [
+      {
+        "label": "Печать на плёнке 100 мкм",
+        "amount": 400,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Печать на плёнке Avery",
+        "amount": 500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Изображение 2 × 1 м на плёнке 100 мкм: от 800 ₽. Ламинация и наклейка уточняются отдельно.",
+    "source": "pages/pechat-na-plenke/index.html",
+    "selector": ".pechat-na-plenke-individualnyy-raschet"
+  },
+  "/pechat-na-samokleyashhejsya-plenke/": {
+    "rows": [
+      {
+        "label": "Печать на плёнке 100 мкм",
+        "amount": 400,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Печать на плёнке Avery",
+        "amount": 500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Изображение 2 × 1 м на плёнке 100 мкм: от 800 ₽. Ламинация и наклейка уточняются отдельно.",
+    "source": "pages/pechat-na-samokleyashhejsya-plenke/index.html",
+    "selector": ".pechat-na-samokleyashhejsya-plenke-individualnyy-raschet"
+  },
+  "/pechat-na-perforirovannoj-plenke/": {
+    "rows": [
+      {
+        "label": "Печать на перфорированной плёнке",
+        "amount": 1000,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/pechat-na-perforirovannoj-plenke/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/pechat-na-perforirovannoj-plenke/index.html",
+    "selector": ".pechat-na-perforirovannoj-plenke-individualnyy-raschet"
+  },
+  "/pechat-na-translyucentnoj-plenke/": {
+    "rows": [
+      {
+        "label": "Печать на транслюцентной плёнке",
+        "amount": 1500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/pechat-na-translyucentnoj-plenke/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/pechat-na-translyucentnoj-plenke/index.html",
+    "selector": ".pechat-na-translyucentnoj-plenke-individualnyy-raschet"
+  },
+  "/pechat-na-fotooboyax/": {
+    "rows": [
+      {
+        "label": "Печать на фотообоях",
+        "amount": 1500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/pechat-na-fotooboyax/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Панно 3 × 2,5 м: от 11 250 ₽ за печать (7,5 м² × 1 500 ₽). Подготовка стены и поклейка не включены.",
+    "source": "pages/pechat-na-fotooboyax/index.html",
+    "selector": ".pechat-na-fotooboyax-individualnyy-raschet"
+  },
+  "/frezerovka/": {
+    "rows": [
+      {
+        "label": "Фрезерная резка по контуру",
+        "amount": 25,
+        "unit": "пог. м реза",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/frezerovka/",
+        "kind": "published",
+        "detail": "Базовый ориентир; толщина, тип материала и дополнительные операции влияют на ставку."
+      }
+    ],
+    "example": "Контур общей длиной 20 м: от 500 ₽ за резку (20 × 25 ₽). Материал, гравировка и выборка не включены в пример.",
+    "source": "pages/frezerovka/index.html",
+    "selector": ".frezerovka-raschet-stoimosti-obrabotki"
+  },
+  "/frezerovka-na-plastike/": {
+    "rows": [
+      {
+        "label": "Фрезерная резка по контуру",
+        "amount": 25,
+        "unit": "пог. м реза",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/frezerovka/",
+        "kind": "published",
+        "detail": "Базовый ориентир; толщина, тип материала и дополнительные операции влияют на ставку."
+      }
+    ],
+    "example": "Контур общей длиной 20 м: от 500 ₽ за резку (20 × 25 ₽). Материал, гравировка и выборка не включены в пример.",
+    "source": "pages/frezerovka-na-plastike/index.html",
+    "selector": ".frezerovka-na-plastike-raschet-stoimosti-obrabotki"
+  },
+  "/frezerovka-orgstekla/": {
+    "rows": [
+      {
+        "label": "Фрезерная резка по контуру",
+        "amount": 25,
+        "unit": "пог. м реза",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/frezerovka/",
+        "kind": "published",
+        "detail": "Базовый ориентир; толщина, тип материала и дополнительные операции влияют на ставку."
+      }
+    ],
+    "example": "Контур общей длиной 20 м: от 500 ₽ за резку (20 × 25 ₽). Материал, гравировка и выборка не включены в пример.",
+    "source": "pages/frezerovka-orgstekla/index.html",
+    "selector": ".frezerovka-orgstekla-raschet-stoimosti-obrabotki"
+  },
+  "/frezerovka-kompozita/": {
+    "rows": [
+      {
+        "label": "Фрезерная резка по контуру",
+        "amount": 25,
+        "unit": "пог. м реза",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/frezerovka/",
+        "kind": "published",
+        "detail": "Базовый ориентир; толщина, тип материала и дополнительные операции влияют на ставку."
+      }
+    ],
+    "example": "Контур общей длиной 20 м: от 500 ₽ за резку (20 × 25 ₽). Материал, гравировка и выборка не включены в пример.",
+    "source": "pages/frezerovka-kompozita/index.html",
+    "selector": ".frezerovka-kompozita-raschet-stoimosti-obrabotki"
+  },
+  "/frezerovka-monolitnogo-polikarbonata/": {
+    "rows": [
+      {
+        "label": "Фрезерная резка по контуру",
+        "amount": 25,
+        "unit": "пог. м реза",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/frezerovka/",
+        "kind": "published",
+        "detail": "Базовый ориентир; толщина, тип материала и дополнительные операции влияют на ставку."
+      }
+    ],
+    "example": "Контур общей длиной 20 м: от 500 ₽ за резку (20 × 25 ₽). Материал, гравировка и выборка не включены в пример.",
+    "source": "pages/frezerovka-monolitnogo-polikarbonata/index.html",
+    "selector": ".frezerovka-monolitnogo-polikarbonata-raschet-stoimosti-obrabotki"
+  },
+  "/plotternaya-rezka/": {
+    "rows": [
+      {
+        "label": "Одноцветная резка плёнки Oracal 641",
+        "amount": 350,
+        "unit": "м²",
+        "source": "https://parus52rus.ru/plotternaya-rezka/",
+        "kind": "market",
+        "detail": "Плёнка включена; рыночный ориентир по Нижнему Новгороду."
+      },
+      {
+        "label": "Резка, выборка и монтажная плёнка",
+        "amount": 630,
+        "unit": "м²",
+        "source": "https://parus52rus.ru/plotternaya-rezka/",
+        "kind": "market",
+        "detail": "Рыночный ориентир по Нижнему Новгороду; установка отдельно."
+      }
+    ],
+    "example": "",
+    "source": "pages/plotternaya-rezka/index.html",
+    "selector": ".plotternaya-rezka-ot-chego-zavisit-stoimost"
+  },
+  "/dizajn/": {
+    "rows": [
+      {
+        "label": "Разработка рекламного макета",
+        "amount": 300,
+        "unit": "макет",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "3 отдельных базовых макета: ориентир от 900 ₽ (3 × 300 ₽). Сложные проекты и адаптации рассчитываются по заданию.",
+    "source": "pages/dizajn/index.html",
+    "selector": ".dizajn-ot-chego-zavisit-stoimost"
+  },
+  "/montazh-naruzhnoj-reklamy/": {
+    "rows": [
+      {
+        "label": "Монтаж одной рекламной конструкции",
+        "amount": 3000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/montazh-naruzhnoj-reklamy/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "2 конструкции: базовый ориентир монтажа от 6 000 ₽. Спецтехника, демонтаж и подключение уточняются по объекту.",
+    "source": "pages/montazh-naruzhnoj-reklamy/index.html",
+    "selector": ".montazh-naruzhnoj-reklamy-ot-chego-zavisit-stoimost-montazha"
+  },
+  "/soglasovanie-naruzhnoj-reklamy/": {
+    "rows": [
+      {
+        "label": "Сопровождение согласования рекламного оформления",
+        "amount": 5000,
+        "unit": "задача",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/soglasovanie-naruzhnoj-reklamy/",
+        "kind": "published",
+        "detail": "Базовый ориентир работы; перечень действий и возможные отдельные платежи уточняются."
+      }
+    ],
+    "example": "",
+    "source": "pages/soglasovanie-naruzhnoj-reklamy/index.html",
+    "selector": ".soglasovanie-naruzhnoj-reklamy-stoimost-soprovozhdeniya"
+  },
+  "/brendirovanie-transporta/": {
+    "rows": [
+      {
+        "label": "Брендирование поверхности автомобиля",
+        "amount": 1200,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Оформление площади 5 м²: ориентир от 6 000 ₽ (5 × 1 200 ₽). Состав подготовки и работ уточняется для автомобиля.",
+    "source": "pages/brendirovanie-transporta/index.html",
+    "selector": ".brendirovanie-transporta-ot-chego-zavisit-stoimost"
+  },
+  "/remont-vyvesok/": {
+    "rows": [
+      {
+        "label": "Ремонт рекламной вывески",
+        "amount": 500,
+        "unit": "м²",
+        "source": "https://komplex-nn.ru/naruzhnaya-reklama/montazhnyie-rabotyi-remont-vyivesok.html",
+        "kind": "market",
+        "detail": "Рыночный ориентир по Нижнему Новгороду; объём неисправности определяется после диагностики."
+      }
+    ],
+    "example": "",
+    "source": "pages/remont-vyvesok/index.html",
+    "selector": ".repair-price"
+  },
+  "/neonovye-vyveski/": {
+    "rows": [
+      {
+        "label": "Готовая неоновая вывеска «Пицца»",
+        "amount": 7500,
+        "unit": "шт.",
+        "source": "https://neon52.ru/shop/",
+        "kind": "market",
+        "detail": "Пример из каталога другого производителя в Нижнем Новгороде; индивидуальный макет может стоить иначе."
+      }
+    ],
+    "example": "",
+    "source": "pages/neonovye-vyveski/index.html",
+    "selector": ".neonovye-vyveski-ot-chego-zavisit-stoimost"
+  },
+  "/vyveski-s-pajetkami/": {
+    "rows": [
+      {
+        "label": "Готовая вывеска из пайеток",
+        "amount": 8000,
+        "unit": "м²",
+        "source": "https://solaair.ru/vyveski-iz-pajetok/",
+        "kind": "market",
+        "detail": "Рыночный ориентир производителя; состав основания и изображения уточняется."
+      }
+    ],
+    "example": "Панель площадью 2 м²: ориентировочно от 16 000 ₽ (2 × 8 000 ₽).",
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "selector": ".vyveski-s-pajetkami-ot-chego-zavisit-stoimost"
+  },
+  "/oformlenie-fasadov/": {
+    "rows": [
+      {
+        "label": "Фриз из композитной панели",
+        "amount": 3500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Монтаж одной рекламной конструкции",
+        "amount": 3000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/montazh-naruzhnoj-reklamy/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Фриз 2 м² и 6 световых букв высотой 30 см: от 21 400 ₽ за изготовление (2 × 3 500 + 6 × 30 × 80 ₽), без монтажа.",
+    "source": "pages/oformlenie-fasadov/index.html",
+    "selector": ".facade-price"
+  },
+  "/vxodnye-gruppy/": {
+    "rows": [
+      {
+        "label": "Фриз из композитной панели",
+        "amount": 3500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Монтаж одной рекламной конструкции",
+        "amount": 3000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/montazh-naruzhnoj-reklamy/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Фриз 2 м² и 6 световых букв высотой 30 см: от 21 400 ₽ за изготовление (2 × 3 500 + 6 × 30 × 80 ₽), без монтажа.",
+    "source": "pages/vxodnye-gruppy/index.html",
+    "selector": ".vxodnye-gruppy-ot-chego-zavisit-stoimost"
+  },
+  "/oformlenie-seti-magazinov/": {
+    "rows": [
+      {
+        "label": "Фриз из композитной панели",
+        "amount": 3500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Монтаж одной рекламной конструкции",
+        "amount": 3000,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/montazh-naruzhnoj-reklamy/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "Для 3 магазинов по одному композитному фризу площадью 2 м²: от 21 000 ₽ за изготовление фризов (3 × 2 × 3 500 ₽), без букв и монтажа.",
+    "source": "pages/oformlenie-seti-magazinov/index.html",
+    "selector": ".store-network-price"
+  },
+  "/navigaciya-i-ukazateli/": {
+    "rows": [
+      {
+        "label": "Изготовление таблички",
+        "amount": 450,
+        "unit": "шт.",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/tablichki/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Информационный стенд из ПВХ 3 мм",
+        "amount": 1800,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 табличек и панель стенда 1 м²: от 6 300 ₽ за изготовление (10 × 450 + 1 800 ₽), без карманов и монтажа.",
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "selector": ".wayfinding-price"
+  },
+  "/naruzhnaya-reklama/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Короб из поликарбоната без металлокаркаса",
+        "amount": 7500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Фриз из сотового поликарбоната",
+        "amount": 2100,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "selector": ".outdoor-hub-price"
+  },
+  "/reklamnye-konstrukcii/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Короб из поликарбоната без металлокаркаса",
+        "amount": 7500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Фриз из сотового поликарбоната",
+        "amount": 2100,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "selector": ".reklamnye-konstrukcii-raschet-dlya-vybrannogo-izdeliya"
+  },
+  "/services/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Баннер 330 г/м², печать 360 dpi",
+        "amount": 350,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Фрезерная резка по контуру",
+        "amount": 25,
+        "unit": "пог. м реза",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/frezerovka/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/services/index.html",
+    "selector": ".services-prices"
+  },
+  "/o-kompanii/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Баннер 330 г/м², печать 360 dpi",
+        "amount": 350,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Фрезерная резка по контуру",
+        "amount": 25,
+        "unit": "пог. м реза",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/frezerovka/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/o-kompanii/index.html",
+    "selector": ".company-cost"
+  },
+  "/vzaimovygodnoe-sotrudnichestvo/": {
+    "rows": [
+      {
+        "label": "Несветовые буквы из ПВХ, глубина до 50 мм",
+        "amount": 55,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Баннер 330 г/м², печать 360 dpi",
+        "amount": 350,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Фрезерная резка по контуру",
+        "amount": 25,
+        "unit": "пог. м реза",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/frezerovka/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "",
+    "source": "pages/vzaimovygodnoe-sotrudnichestvo/index.html",
+    "selector": ".agency-cost"
+  },
+  "/svetovye-vyveski/": {
+    "rows": [
+      {
+        "label": "Буквы с внутренней светодиодной подсветкой",
+        "amount": 80,
+        "unit": "см высоты",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      },
+      {
+        "label": "Короб из поликарбоната без металлокаркаса",
+        "amount": 7500,
+        "unit": "м²",
+        "source": "https://xn----7sbbagavscye2ftg.xn--p1ai/ceny/",
+        "kind": "published",
+        "detail": ""
+      }
+    ],
+    "example": "10 световых букв высотой 30 см: от 24 000 ₽ за изготовление (10 × 30 × 80 ₽).",
+    "source": "pages/svetovye-vyveski/index.html",
+    "selector": ".svetovye-vyveski-ot-chego-zavisit-stoimost-svetovoy-vyveski"
+  }
+}

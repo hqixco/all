@@ -1,0 +1,1019 @@
+[
+  {
+    "url": "/",
+    "source": "index.html",
+    "label": "РПК «Ресурс»",
+    "parent": null,
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/adresnye-tablichki/",
+    "source": "pages/adresnye-tablichki/index.html",
+    "label": "Адресные таблички",
+    "parent": "/tablichki/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/akrilajt/",
+    "source": "pages/akrilajt/index.html",
+    "label": "Акрилайт — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/aktsii/",
+    "source": "pages/aktsii/index.html",
+    "label": "Акции",
+    "parent": "/",
+    "status": "existing",
+    "indexable": false
+  },
+  {
+    "url": "/apteki/",
+    "source": "pages/apteki/index.html",
+    "label": "АПТЕКИ — ПРИМЕРЫ РАБОТ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/banner/",
+    "source": "pages/banner/index.html",
+    "label": "Баннер — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/blog/",
+    "source": "pages/blog/index.html",
+    "label": "Блог",
+    "parent": "/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/blog/page/2/",
+    "source": "pages/blog/page/2/index.html",
+    "label": "Блог",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/brandmauery-reklamnye-panno-portfolio/",
+    "source": "pages/brandmauery-reklamnye-panno-portfolio/index.html",
+    "label": "Брандмауэры (рекламные панно) — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/brandmauery-reklamnye-panno/",
+    "source": "pages/brandmauery-reklamnye-panno/index.html",
+    "label": "Брандмауэры (рекламные панно)",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/brendirovanie-avtomobilya/",
+    "source": "pages/brendirovanie-avtomobilya/index.html",
+    "label": "Брендирование автомобиля — пример работы",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/brendirovanie-transporta/",
+    "source": "pages/brendirovanie-transporta/index.html",
+    "label": "Брендирование транспорта",
+    "parent": "/services/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/bukvy-iz-orgstekla/",
+    "source": "pages/bukvy-iz-orgstekla/index.html",
+    "label": "Буквы из оргстекла",
+    "parent": "/obemnye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/ceny/",
+    "source": "pages/ceny/index.html",
+    "label": "Цены",
+    "parent": "/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/dizajn/",
+    "source": "pages/dizajn/index.html",
+    "label": "Дизайн",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/fasadnye-vyveski/",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "label": "Фасадные вывески",
+    "parent": "/vyveski/",
+    "status": "existing",
+    "indexable": true,
+    "related": [
+      "/oformlenie-fasadov/"
+    ]
+  },
+  {
+    "url": "/frezerovanie-kompozitnogo-materiala-dlya-reklamnyx-konstrukcij/",
+    "source": "pages/frezerovanie-kompozitnogo-materiala-dlya-reklamnyx-konstrukcij/index.html",
+    "label": "Фрезерование композитного материала для рекламных конструкций",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/frezerovka-kompozita/",
+    "source": "pages/frezerovka-kompozita/index.html",
+    "label": "Фрезеровка композита",
+    "parent": "/frezerovka/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/frezerovka-monolitnogo-polikarbonata/",
+    "source": "pages/frezerovka-monolitnogo-polikarbonata/index.html",
+    "label": "Фрезеровка монолитного поликарбоната",
+    "parent": "/frezerovka/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/frezerovka-na-plastike/",
+    "source": "pages/frezerovka-na-plastike/index.html",
+    "label": "Фрезеровка на пластике",
+    "parent": "/frezerovka/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/frezerovka-orgstekla/",
+    "source": "pages/frezerovka-orgstekla/index.html",
+    "label": "Фрезеровка оргстекла",
+    "parent": "/frezerovka/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/frezerovka/",
+    "source": "pages/frezerovka/index.html",
+    "label": "Фрезеровка",
+    "parent": "/services/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/frizy/",
+    "source": "pages/frizy/index.html",
+    "label": "Фризы",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/gde-umestno-ispolzovat-neonovye-vyveski-uchimsya-pravilnoj-reklame/",
+    "source": "pages/gde-umestno-ispolzovat-neonovye-vyveski-uchimsya-pravilnoj-reklame/index.html",
+    "label": "Где уместно использовать неоновые вывески: учимся правильной рекламе",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/informacionnye-stendy-portfolio/",
+    "source": "pages/informacionnye-stendy-portfolio/index.html",
+    "label": "Информационные стенды — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/informacionnye-stendy/",
+    "source": "pages/informacionnye-stendy/index.html",
+    "label": "Информационные стенды в Нижнем Новгороде",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/interernaya-pechat-na-plenke-orajiet-3640-kachestvo-720-dpi-ot-350-rub/",
+    "source": "pages/interernaya-pechat-na-plenke-orajiet-3640-kachestvo-720-dpi-ot-350-rub/index.html",
+    "label": "Архивное предложение интерьерной печати",
+    "parent": "/aktsii/",
+    "status": "existing",
+    "indexable": false
+  },
+  {
+    "url": "/interernaya-pechat/",
+    "source": "pages/interernaya-pechat/index.html",
+    "label": "Интерьерная печать",
+    "parent": "/pechat/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/interernye-vyveski/",
+    "source": "pages/interernye-vyveski/index.html",
+    "label": "Изготовление интерьерных вывесок для любых компаний",
+    "parent": "/vyveski/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/kak-bystro-i-kachestvenno-napechatat-shirokij-format-nebolshoj-lajfxak/",
+    "source": "pages/kak-bystro-i-kachestvenno-napechatat-shirokij-format-nebolshoj-lajfxak/index.html",
+    "label": "Как быстро и качественно напечатать широкий формат: небольшой лайфхак",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/karta-sajta/",
+    "source": "pages/karta-sajta/index.html",
+    "label": "Карта сайта",
+    "parent": "/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/karty/",
+    "source": "pages/karty/index.html",
+    "label": "Карты — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/kontakty/",
+    "source": "pages/kontakty/index.html",
+    "label": "Контакты",
+    "parent": "/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/kryshnye-ustanovki-portfolio/",
+    "source": "pages/kryshnye-ustanovki-portfolio/index.html",
+    "label": "Крышные установки- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/kryshnye-ustanovki/",
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "label": "Крышные установки",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/loft-mebel/",
+    "source": "pages/loft-mebel/index.html",
+    "label": "Лофт мебель",
+    "parent": "/services/",
+    "status": "existing",
+    "indexable": false
+  },
+  {
+    "url": "/malinka/",
+    "source": "pages/malinka/index.html",
+    "label": "Малинка — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/montazh-naruzhnoj-reklamy/",
+    "source": "pages/montazh-naruzhnoj-reklamy/index.html",
+    "label": "Монтаж наружной рекламы",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/naruzhnaya-reklama/",
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "label": "Наружная реклама",
+    "parent": "/services/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/neonovye-vyveski-nazad-v-budushhee/",
+    "source": "pages/neonovye-vyveski-nazad-v-budushhee/index.html",
+    "label": "Неоновые вывески: назад в будущее",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/neonovye-vyveski-portfolio/",
+    "source": "pages/neonovye-vyveski-portfolio/index.html",
+    "label": "Неоновые вывески- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/neonovye-vyveski/",
+    "source": "pages/neonovye-vyveski/index.html",
+    "label": "Неоновые вывески",
+    "parent": "/vyveski/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/",
+    "source": "pages/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/index.html",
+    "label": "Нестандартный стенд для выставки или презентации вашего предприятия",
+    "parent": "/vystavochnye-stendy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/o-kompanii/",
+    "source": "pages/o-kompanii/index.html",
+    "label": "О компании",
+    "parent": "/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-i-svetovye-koroba-sravnivaem-vozmozhnosti/",
+    "source": "pages/obemnye-bukvy-i-svetovye-koroba-sravnivaem-vozmozhnosti/index.html",
+    "label": "Объемные буквы и световые короба: сравниваем возможности",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-iz-akrila/",
+    "source": "pages/obemnye-bukvy-iz-akrila/index.html",
+    "label": "Объемные буквы из акрила",
+    "parent": "/obemnye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-iz-kompozita/",
+    "source": "pages/obemnye-bukvy-iz-kompozita/index.html",
+    "label": "Объемные буквы из композита",
+    "parent": "/obemnye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-iz-profilej-als-i-elkamet/",
+    "source": "pages/obemnye-bukvy-iz-profilej-als-i-elkamet/index.html",
+    "label": "Объемные буквы из профилей ALS и ELKAMET",
+    "parent": "/obemnye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-portfolio/",
+    "source": "pages/obemnye-bukvy-portfolio/index.html",
+    "label": "Объемные буквы- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/index.html",
+    "label": "Объемные буквы с комбинированной подсветкой",
+    "parent": "/obemnye-svetovye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-portfolio/",
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-portfolio/index.html",
+    "label": "Объемные буквы с контражурной подсветкой- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/index.html",
+    "label": "Объемные буквы с контражурной подсветкой",
+    "parent": "/obemnye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-s-lampochkami/",
+    "source": "pages/obemnye-bukvy-s-lampochkami/index.html",
+    "label": "Объемные буквы с лампочками",
+    "parent": "/obemnye-svetovye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-s-licevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-licevoj-podsvetkoj/index.html",
+    "label": "Объемные буквы с лицевой подсветкой",
+    "parent": "/obemnye-svetovye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-s-torcevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-torcevoj-podsvetkoj/index.html",
+    "label": "Объемные буквы с торцевой подсветкой",
+    "parent": "/obemnye-svetovye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-s-vneshnej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vneshnej-podsvetkoj/index.html",
+    "label": "Объемные буквы с внешней подсветкой",
+    "parent": "/obemnye-svetovye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy-s-vnutrennej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vnutrennej-podsvetkoj/index.html",
+    "label": "Объемные буквы с внутренней подсветкой",
+    "parent": "/obemnye-svetovye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-bukvy/",
+    "source": "pages/obemnye-bukvy/index.html",
+    "label": "Объемные буквы",
+    "parent": "/vyveski/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-nesvetovye-bukvy/",
+    "source": "pages/obemnye-nesvetovye-bukvy/index.html",
+    "label": "Объемные несветовые буквы",
+    "parent": "/obemnye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-plastikovye-bukvy/",
+    "source": "pages/obemnye-plastikovye-bukvy/index.html",
+    "label": "Объемные пластиковые буквы",
+    "parent": "/obemnye-bukvy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/obemnye-svetovye-bukvy/",
+    "source": "pages/obemnye-svetovye-bukvy/index.html",
+    "label": "Объемные световые буквы",
+    "parent": "/obemnye-bukvy/",
+    "status": "existing",
+    "indexable": true,
+    "related": [
+      "/svetovye-vyveski/"
+    ]
+  },
+  {
+    "url": "/ofisnye-tablichki/",
+    "source": "pages/ofisnye-tablichki/index.html",
+    "label": "Офисные таблички",
+    "parent": "/tablichki/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/oformlenie-detskix-sadov/",
+    "source": "pages/oformlenie-detskix-sadov/index.html",
+    "label": "Оформление детских садов — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/osnovnye-oshibki-pri-oformlenii-vxodnoj-gruppy/",
+    "source": "pages/osnovnye-oshibki-pri-oformlenii-vxodnoj-gruppy/index.html",
+    "label": "Основные ошибки при оформлении входной группы",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/osnovnye-tendencii-oformleniya-vxodnyx-grupp-uchimsya-gramotnomu-marketingu/",
+    "source": "pages/osnovnye-tendencii-oformleniya-vxodnyx-grupp-uchimsya-gramotnomu-marketingu/index.html",
+    "label": "Основные тенденции оформления входных групп: учимся грамотному маркетингу",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/osobennosti-razrabotok-kryshnyx-ustanovok-kak-sproektirovat-ulichnuyu-reklamu/",
+    "source": "pages/osobennosti-razrabotok-kryshnyx-ustanovok-kak-sproektirovat-ulichnuyu-reklamu/index.html",
+    "label": "Особенности разработок крышных установок: как спроектировать уличную рекламу",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/otzyvy/",
+    "source": "pages/otzyvy/index.html",
+    "label": "Отзывы",
+    "parent": "/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/page/2/",
+    "source": "pages/page/2/index.html",
+    "label": "Изготовление вывесок в Нижнем Новгороде",
+    "parent": "/",
+    "status": "existing",
+    "indexable": false,
+    "indexabilityReason": "technical-pagination"
+  },
+  {
+    "url": "/panel-kronshtejny/",
+    "source": "pages/panel-kronshtejny/index.html",
+    "label": "Панель-кронштейны",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/pechat-na-bannere/",
+    "source": "pages/pechat-na-bannere/index.html",
+    "label": "Печать на баннере",
+    "parent": "/pechat/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/pechat-na-bumage/",
+    "source": "pages/pechat-na-bumage/index.html",
+    "label": "Интерьерная и наружная печать на бумаге в Нижнем Новгороде",
+    "parent": "/pechat/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/pechat-na-fotooboyax/",
+    "source": "pages/pechat-na-fotooboyax/index.html",
+    "label": "Печать на фотообоях",
+    "parent": "/pechat/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/pechat-na-perforirovannoj-plenke/",
+    "source": "pages/pechat-na-perforirovannoj-plenke/index.html",
+    "label": "Печать на перфорированной пленке",
+    "parent": "/pechat-na-plenke/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/pechat-na-plenke/",
+    "source": "pages/pechat-na-plenke/index.html",
+    "label": "Печать на пленке",
+    "parent": "/pechat/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/pechat-na-samokleyashhejsya-plenke/",
+    "source": "pages/pechat-na-samokleyashhejsya-plenke/index.html",
+    "label": "Печать на самоклеящейся пленке",
+    "parent": "/pechat-na-plenke/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/pechat-na-translyucentnoj-plenke/",
+    "source": "pages/pechat-na-translyucentnoj-plenke/index.html",
+    "label": "Печать на транслюцентной пленке для рекламы на ситилайтах",
+    "parent": "/pechat-na-plenke/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/pechat/",
+    "source": "pages/pechat/index.html",
+    "label": "Печать",
+    "parent": "/services/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/pechat/page/2/",
+    "source": "pages/pechat/page/2/index.html",
+    "label": "Печать",
+    "parent": "/pechat/",
+    "status": "existing",
+    "indexable": false,
+    "indexabilityReason": "technical-pagination"
+  },
+  {
+    "url": "/plotternaya-rezka-portfolio/",
+    "source": "pages/plotternaya-rezka-portfolio/index.html",
+    "label": "Плоттерная резка- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/plotternaya-rezka/",
+    "source": "pages/plotternaya-rezka/index.html",
+    "label": "Плоттерная резка",
+    "parent": "/services/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/portfolio/",
+    "source": "pages/portfolio/index.html",
+    "label": "Портфолио",
+    "parent": "/",
+    "status": "existing",
+    "indexable": true,
+    "related": [
+      "/oformlenie-seti-magazinov/"
+    ]
+  },
+  {
+    "url": "/privacy-policy/",
+    "source": "pages/privacy-policy/index.html",
+    "label": "Политика конфиденциальности",
+    "parent": "/",
+    "status": "existing",
+    "indexable": false,
+    "indexabilityReason": "privacy-policy"
+  },
+  {
+    "url": "/rassmatrivaem-plotternuyu-rezku-v-chem-preimushhestva/",
+    "source": "pages/rassmatrivaem-plotternuyu-rezku-v-chem-preimushhestva/index.html",
+    "label": "Рассматриваем плоттерную резку: в чем преимущества",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/reklama-v-nizhnem-novgorode-nemnogo-ob-aktualnom/",
+    "source": "pages/reklama-v-nizhnem-novgorode-nemnogo-ob-aktualnom/index.html",
+    "label": "Реклама в Нижнем Новгороде: немного об актуальном",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/reklamnye-konstrukcii/",
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "label": "Рекламные конструкции",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/services/",
+    "source": "pages/services/index.html",
+    "label": "Услуги",
+    "parent": "/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/shirokoformatnaya-pechat-chem-otlichaetsya-ot-interernoj/",
+    "source": "pages/shirokoformatnaya-pechat-chem-otlichaetsya-ot-interernoj/index.html",
+    "label": "Широкоформатная печать: чем отличается от интерьерной",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/shirokoformatnaya-pechat/",
+    "source": "pages/shirokoformatnaya-pechat/index.html",
+    "label": "Изготовим широкоформатную печать любого типа",
+    "parent": "/pechat/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/soglasovanie-naruzhnoj-reklamy/",
+    "source": "pages/soglasovanie-naruzhnoj-reklamy/index.html",
+    "label": "Согласование наружной рекламы",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/spar/",
+    "source": "pages/spar/index.html",
+    "label": "SPAR — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true,
+    "related": [
+      "/oformlenie-seti-magazinov/"
+    ]
+  },
+  {
+    "url": "/stely-i-pilony-portfolio/",
+    "source": "pages/stely-i-pilony-portfolio/index.html",
+    "label": "Стелы и пилоны — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/stely-i-pilony/",
+    "source": "pages/stely-i-pilony/index.html",
+    "label": "Стелы",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/stojki-resepshen/",
+    "source": "pages/stojki-resepshen/index.html",
+    "label": "Стойки ресепшен",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/svetovoj-korob-s-inkrustaciej-v-chem-osobennosti-reklamnoj-novinki/",
+    "source": "pages/svetovoj-korob-s-inkrustaciej-v-chem-osobennosti-reklamnoj-novinki/index.html",
+    "label": "Световой короб с инкрустацией: в чем особенности рекламной новинки",
+    "parent": "/blog/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/svetovye-koroba-inkrustaciya/",
+    "source": "pages/svetovye-koroba-inkrustaciya/index.html",
+    "label": "Световые короба (инкрустация) — примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/svetovye-koroba-portfolio/",
+    "source": "pages/svetovye-koroba-portfolio/index.html",
+    "label": "Световые короба- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/svetovye-koroba/",
+    "source": "pages/svetovye-koroba/index.html",
+    "label": "Световые короба",
+    "parent": "/vyveski/",
+    "status": "existing",
+    "indexable": true,
+    "related": [
+      "/svetovye-vyveski/"
+    ]
+  },
+  {
+    "url": "/svetovye-portaly-portfolio/",
+    "source": "pages/svetovye-portaly-portfolio/index.html",
+    "label": "Световые порталы- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/svetovye-portaly/",
+    "source": "pages/svetovye-portaly/index.html",
+    "label": "Световые порталы",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/tablichki/",
+    "source": "pages/tablichki/index.html",
+    "label": "Таблички",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true,
+    "related": [
+      "/navigaciya-i-ukazateli/"
+    ]
+  },
+  {
+    "url": "/ulichnye-stendy-portfolio/",
+    "source": "pages/ulichnye-stendy-portfolio/index.html",
+    "label": "Уличные стенды — пример работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/ulichnye-stendy/",
+    "source": "pages/ulichnye-stendy/index.html",
+    "label": "Уличные стенды",
+    "parent": "/informacionnye-stendy/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/vakansii/",
+    "source": "pages/vakansii/index.html",
+    "label": "Вакансии",
+    "parent": "/o-kompanii/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/vxodnye-gruppy-portfolio/",
+    "source": "pages/vxodnye-gruppy-portfolio/index.html",
+    "label": "Входные группы- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/vxodnye-gruppy/",
+    "source": "pages/vxodnye-gruppy/index.html",
+    "label": "Входные группы",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/vystavochnye-stendy/",
+    "source": "pages/vystavochnye-stendy/index.html",
+    "label": "Выставочные стенды",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/vyveski-portfolio/",
+    "source": "pages/vyveski-portfolio/index.html",
+    "label": "Вывески- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/vyveski-s-pajetkami-portfolio/",
+    "source": "pages/vyveski-s-pajetkami-portfolio/index.html",
+    "label": "Вывески с пайетками- примеры работ",
+    "parent": "/portfolio/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/vyveski-s-pajetkami/",
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "label": "Вывески с пайетками",
+    "parent": "/vyveski/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/vyveski/",
+    "source": "pages/vyveski/index.html",
+    "label": "Вывески",
+    "parent": "/naruzhnaya-reklama/",
+    "status": "existing",
+    "indexable": true,
+    "related": [
+      "/svetovye-vyveski/",
+      "/remont-vyvesok/",
+      "/oformlenie-fasadov/"
+    ]
+  },
+  {
+    "url": "/vzaimovygodnoe-sotrudnichestvo/",
+    "source": "pages/vzaimovygodnoe-sotrudnichestvo/index.html",
+    "label": "Взаимовыгодное сотрудничество",
+    "parent": "/o-kompanii/",
+    "status": "existing",
+    "indexable": true
+  },
+  {
+    "url": "/svetovye-vyveski/",
+    "source": "pages/svetovye-vyveski/index.html",
+    "label": "Световые вывески",
+    "parent": "/vyveski/",
+    "status": "draft",
+    "phase": 1,
+    "indexable": false,
+    "related": [
+      "/obemnye-svetovye-bukvy/",
+      "/svetovye-koroba/"
+    ]
+  },
+  {
+    "url": "/remont-vyvesok/",
+    "source": "pages/remont-vyvesok/index.html",
+    "label": "Ремонт вывесок",
+    "parent": "/services/",
+    "status": "draft",
+    "phase": 1,
+    "indexable": false,
+    "related": [
+      "/vyveski/",
+      "/kontakty/"
+    ]
+  },
+  {
+    "url": "/oformlenie-fasadov/",
+    "source": "pages/oformlenie-fasadov/index.html",
+    "label": "Оформление фасадов",
+    "parent": "/services/",
+    "status": "draft",
+    "phase": 1,
+    "indexable": false,
+    "related": [
+      "/fasadnye-vyveski/",
+      "/vxodnye-gruppy/"
+    ]
+  },
+  {
+    "url": "/navigaciya-i-ukazateli/",
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "label": "Навигация и указатели",
+    "parent": "/services/",
+    "status": "draft",
+    "phase": 2,
+    "indexable": false,
+    "related": [
+      "/tablichki/",
+      "/informacionnye-stendy/"
+    ]
+  },
+  {
+    "url": "/vyveski-dlya-magazina/",
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "label": "Вывески для магазина",
+    "parent": "/vyveski/",
+    "status": "draft",
+    "phase": 2,
+    "indexable": false,
+    "related": [
+      "/fasadnye-vyveski/",
+      "/svetovye-vyveski/"
+    ]
+  },
+  {
+    "url": "/oformlenie-seti-magazinov/",
+    "source": "pages/oformlenie-seti-magazinov/index.html",
+    "label": "Оформление сети магазинов",
+    "parent": "/services/",
+    "status": "draft",
+    "phase": 1,
+    "indexable": false,
+    "related": [
+      "/spar/",
+      "/portfolio/",
+      "/oformlenie-fasadov/"
+    ]
+  },
+  {
+    "url": "/search/",
+    "source": "search/index.html",
+    "label": "Поиск",
+    "parent": "/",
+    "status": "utility",
+    "indexable": false
+  },
+  {
+    "url": "/cookies/",
+    "source": "pages/cookies/index.html",
+    "label": "Использование cookies",
+    "parent": "/",
+    "status": "utility",
+    "indexable": false
+  },
+  {
+    "url": "/personal-data-consent/",
+    "source": "pages/personal-data-consent/index.html",
+    "label": "Согласие на обработку персональных данных",
+    "parent": "/",
+    "status": "utility",
+    "indexable": false
+  }
+]

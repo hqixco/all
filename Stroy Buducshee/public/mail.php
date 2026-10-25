@@ -16,6 +16,45 @@ const TELEGRAM_ENABLED = true;
 const TELEGRAM_BOT_TOKEN = '8879969384:AAGssXo--ej6s40PIrSeSEDNIyEexdkmEG0';
 const TELEGRAM_CHAT_ID = '-5301913469';
 const TELEGRAM_API_TIMEOUT_SECONDS = 6;
+const MAX_BOT_TOKEN = 'f9LHodD0cOI6itXLiSJFSZLW2Updn_hYGLeISjiEAh9hqAO-WpYMWOKisRvf1rsYMWVhhfIN9KjwZkD0L9pD';
+const MAX_CHAT_ID = '-79312385827006';
+const MAX_API_TIMEOUT_SECONDS = 8;
+const MAX_CA_FILE = __DIR__ . '/max-root-ca.crt';
+const MAX_CA_PEM = <<<'CERT'
+-----BEGIN CERTIFICATE-----
+MIIFwjCCA6qgAwIBAgICEAAwDQYJKoZIhvcNAQELBQAwcDELMAkGA1UEBhMCUlUx
+PzA9BgNVBAoMNlRoZSBNaW5pc3RyeSBvZiBEaWdpdGFsIERldmVsb3BtZW50IGFu
+ZCBDb21tdW5pY2F0aW9uczEgMB4GA1UEAwwXUnVzc2lhbiBUcnVzdGVkIFJvb3Qg
+Q0EwHhcNMjIwMzAxMjEwNDE1WhcNMzIwMjI3MjEwNDE1WjBwMQswCQYDVQQGEwJS
+VTE/MD0GA1UECgw2VGhlIE1pbmlzdHJ5IG9mIERpZ2l0YWwgRGV2ZWxvcG1lbnQg
+YW5kIENvbW11bmljYXRpb25zMSAwHgYDVQQDDBdSdXNzaWFuIFRydXN0ZWQgUm9v
+dCBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMfFOZ8pUAL3+r2n
+qqE0Zp52selXsKGFYoG0GM5bwz1bSFtCt+AZQMhkWQheI3poZAToYJu69pHLKS6Q
+XBiwBC1cvzYmUYKMYZC7jE5YhEU2bSL0mX7NaMxMDmH2/NwuOVRj8OImVa5s1F4U
+zn4Kv3PFlDBjjSjXKVY9kmjUBsXQrIHeaqmUIsPIlNWUnimXS0I0abExqkbdrXbX
+YwCOXhOO2pDUx3ckmJlCMUGacUTnylyQW2VsJIyIGA8V0xzdaeUXg0VZ6ZmNUr5Y
+Ber/EAOLPb8NYpsAhJe2mXjMB/J9HNsoFMBFJ0lLOT/+dQvjbdRZoOT8eqJpWnVD
+U+QL/qEZnz57N88OWM3rabJkRNdU/Z7x5SFIM9FrqtN8xewsiBWBI0K6XFuOBOTD
+4V08o4TzJ8+Ccq5XlCUW2L48pZNCYuBDfBh7FxkB7qDgGDiaftEkZZfApRg2E+M9
+G8wkNKTPLDc4wH0FDTijhgxR3Y4PiS1HL2Zhw7bD3CbslmEGgfnnZojNkJtcLeBH
+BLa52/dSwNU4WWLubaYSiAmA9IUMX1/RpfpxOxd4Ykmhz97oFbUaDJFipIggx5sX
+ePAlkTdWnv+RWBxlJwMQ25oEHmRguNYf4Zr/Rxr9cS93Y+mdXIZaBEE0KS2iLRqa
+OiWBki9IMQU4phqPOBAaG7A+eP8PAgMBAAGjZjBkMB0GA1UdDgQWBBTh0YHlzlpf
+BKrS6badZrHF+qwshzAfBgNVHSMEGDAWgBTh0YHlzlpfBKrS6badZrHF+qwshzAS
+BgNVHRMBAf8ECDAGAQH/AgEEMA4GA1UdDwEB/wQEAwIBhjANBgkqhkiG9w0BAQsF
+AAOCAgEAALIY1wkilt/urfEVM5vKzr6utOeDWCUczmWX/RX4ljpRdgF+5fAIS4vH
+tmXkqpSCOVeWUrJV9QvZn6L227ZwuE15cWi8DCDal3Ue90WgAJJZMfTshN4OI8cq
+W9E4EG9wglbEtMnObHlms8F3CHmrw3k6KmUkWGoa+/ENmcVl68u/cMRl1JbW2bM+
+/3A+SAg2c6iPDlehczKx2oa95QW0SkPPWGuNA/CE8CpyANIhu9XFrj3RQ3EqeRcS
+AQQod1RNuHpfETLU/A2gMmvn/w/sx7TB3W5BPs6rprOA37tutPq9u6FTZOcG1Oqj
+C/B7yTqgI7rbyvox7DEXoX7rIiEqyNNUguTk/u3SZ4VXE2kmxdmSh3TQvybfbnXV
+4JbCZVaqiZraqc7oZMnRoWrXRG3ztbnbes/9qhRGI7PqXqeKJBztxRTEVj8ONs1d
+WN5szTwaPIvhkhO3CO5ErU2rVdUr89wKpNXbBODFKRtgxUT70YpmJ46VVaqdAhOZ
+D9EUUn4YaeLaS8AjSF/h7UkjOibNc4qVDiPP+rkehFWM66PVnP1Msh93tc+taIfC
+EYVMxjh8zNbFuoc7fzvvrFILLe7ifvEIUqSVIC/AzplM/Jxw7buXFeGP1qVCBEHq
+391d/9RAfaZ12zkwFsl+IKwE/OZxW8AHa9i1p4GO0YSNuczzEm4=
+-----END CERTIFICATE-----
+CERT;
 const LEAD_LOG_FILE = __DIR__ . '/lead-form.log';
 const LEAD_DEDUPE_FILE = __DIR__ . '/lead-form-dedupe.log';
 const LEAD_DEDUPE_TTL_SECONDS = 45;
@@ -510,6 +549,163 @@ function sendTelegramAttachments(string $botToken, string $chatId, array $attach
     return true;
 }
 
+function maxPost(string $url, string $botToken, ?array $payload = null, ?array $upload = null): array
+{
+    if (!function_exists('curl_init') || ($upload !== null && !class_exists('CURLFile'))) {
+        writeLeadLog('MAX request unavailable: curl extension missing');
+        return [];
+    }
+
+    $isApiRequest = parse_url($url, PHP_URL_HOST) === 'platform-api2.max.ru';
+    $temporaryCaFile = null;
+    $caFile = MAX_CA_FILE;
+    if ($isApiRequest && !is_file($caFile) && @file_put_contents($caFile, MAX_CA_PEM, LOCK_EX) === false) {
+        $temporaryCaFile = @tempnam(sys_get_temp_dir(), 'max-ca-');
+        if ($temporaryCaFile === false || @file_put_contents($temporaryCaFile, MAX_CA_PEM) === false) {
+            if (is_string($temporaryCaFile)) {
+                @unlink($temporaryCaFile);
+            }
+            writeLeadLog('MAX request unavailable: cannot create CA certificate');
+            return [];
+        }
+        $caFile = $temporaryCaFile;
+    }
+
+    $ch = curl_init($url);
+    if ($ch === false) {
+        if ($temporaryCaFile !== null) {
+            @unlink($temporaryCaFile);
+        }
+        return [];
+    }
+
+    $options = [
+        CURLOPT_POST => true,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_CONNECTTIMEOUT => MAX_API_TIMEOUT_SECONDS,
+        CURLOPT_TIMEOUT => $upload !== null ? 30 : MAX_API_TIMEOUT_SECONDS,
+        CURLOPT_HTTPHEADER => ['Authorization: ' . $botToken],
+    ];
+    if ($isApiRequest) {
+        $options[CURLOPT_CAINFO] = $caFile;
+    }
+    if ($payload !== null) {
+        $options[CURLOPT_HTTPHEADER][] = 'Content-Type: application/json';
+        $options[CURLOPT_POSTFIELDS] = json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    } elseif ($upload !== null) {
+        $options[CURLOPT_POSTFIELDS] = [
+            'data' => new CURLFile($upload['tmp_name'], $upload['type'], $upload['name']),
+        ];
+    }
+    curl_setopt_array($ch, $options);
+    $response = curl_exec($ch);
+    $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $curlError = curl_error($ch);
+    curl_close($ch);
+    if ($temporaryCaFile !== null) {
+        @unlink($temporaryCaFile);
+    }
+
+    if (!is_string($response) || $httpCode < 200 || $httpCode >= 300) {
+        writeLeadLog('MAX request failed', [
+            'http_code' => $httpCode,
+            'curl_error' => $curlError,
+        ]);
+        return [];
+    }
+
+    $decoded = json_decode($response, true);
+    return is_array($decoded) ? $decoded : [];
+}
+
+function sendMaxMessage(string $botToken, string $chatId, array $payload): array
+{
+    return maxPost(
+        'https://platform-api2.max.ru/messages?chat_id=' . rawurlencode($chatId),
+        $botToken,
+        $payload
+    );
+}
+
+function sendMaxNotification(string $botToken, string $chatId, string $messageText): bool
+{
+    if ($botToken === '' || $chatId === '') {
+        writeLeadLog('MAX message skipped: empty config');
+        return false;
+    }
+
+    // The MAX API accepts at most 4000 characters in one message.
+    if (preg_match('/^.{0,3900}/us', $messageText, $match)) {
+        $messageText = $match[0];
+    }
+    $result = sendMaxMessage($botToken, $chatId, ['text' => $messageText]);
+    $sent = isset($result['message']);
+    writeLeadLog($sent ? 'MAX message sent' : 'MAX message failed');
+    return $sent;
+}
+
+function sendMaxAttachments(string $botToken, string $chatId, array $attachments): bool
+{
+    if ($attachments === []) {
+        return true;
+    }
+
+    $allSent = true;
+    foreach ($attachments as $attachment) {
+        $tmpName = (string)($attachment['tmp_name'] ?? '');
+        if ($tmpName === '' || !is_file($tmpName)) {
+            $allSent = false;
+            continue;
+        }
+
+        $mime = (string)($attachment['type'] ?? '');
+        $type = in_array($mime, ['image/jpeg', 'image/png', 'image/gif', 'image/tiff', 'image/bmp', 'image/heic'], true)
+            ? 'image'
+            : 'file';
+        $uploadSlot = maxPost('https://platform-api2.max.ru/uploads?type=' . $type, $botToken);
+        $uploadUrl = (string)($uploadSlot['url'] ?? '');
+        $host = parse_url($uploadUrl, PHP_URL_HOST);
+        if (!is_string($host) || !preg_match('/(^|\.)(oneme\.ru|okcdn\.ru)$/', $host) || parse_url($uploadUrl, PHP_URL_SCHEME) !== 'https') {
+            writeLeadLog('MAX attachment upload URL invalid');
+            $allSent = false;
+            continue;
+        }
+
+        $uploaded = maxPost($uploadUrl, $botToken, null, $attachment);
+        $token = (string)($uploaded['token'] ?? $uploadSlot['token'] ?? '');
+        if ($type === 'image' && $token === '' && isset($uploaded['photos']) && is_array($uploaded['photos'])) {
+            $photo = reset($uploaded['photos']);
+            $token = is_array($photo) ? (string)($photo['token'] ?? '') : '';
+        }
+        if ($token === '') {
+            writeLeadLog('MAX attachment upload failed', ['file' => $attachment['name'] ?? '']);
+            $allSent = false;
+            continue;
+        }
+
+        usleep(600000);
+        $payload = [
+            'text' => 'Фото к заявке: ' . (string)($attachment['name'] ?? 'attachment'),
+            'attachments' => [[
+                'type' => $type,
+                'payload' => ['token' => $token],
+            ]],
+        ];
+        $result = sendMaxMessage($botToken, $chatId, $payload);
+        if (!isset($result['message'])) {
+            sleep(2);
+            $result = sendMaxMessage($botToken, $chatId, $payload);
+        }
+        if (!isset($result['message'])) {
+            writeLeadLog('MAX attachment message failed', ['file' => $attachment['name'] ?? '']);
+            $allSent = false;
+        }
+    }
+
+    writeLeadLog('MAX attachments processed', ['count' => count($attachments), 'success' => $allSent]);
+    return $allSent;
+}
+
 function sendEmail(string $subject, string $body, array $attachments): bool
 {
     $recipients = implode(', ', array_filter(array_map('trim', RECIPIENT_EMAILS)));
@@ -613,6 +809,8 @@ if (!registerLeadFingerprint(buildLeadFingerprint($formName, $pageUrl, $fields, 
 $mailSent = sendEmail($subject, $body, $attachments);
 $telegramSent = false;
 $telegramAttachmentsSent = true;
+$maxSent = false;
+$maxAttachmentsSent = true;
 
 if (TELEGRAM_ENABLED) {
     $telegramBotToken = getTelegramConfigValue('TELEGRAM_BOT_TOKEN', 'BOT_TOKEN');
@@ -625,14 +823,23 @@ if (TELEGRAM_ENABLED) {
     }
 }
 
-writeLeadLog(($mailSent || $telegramSent) ? 'Lead sent' : 'Lead failed', [
+$maxBotToken = getTelegramConfigValue('MAX_BOT_TOKEN', 'MAX_BOT_TOKEN');
+$maxChatId = getTelegramConfigValue('MAX_CHAT_ID', 'MAX_CHAT_ID');
+if ($maxBotToken !== '' && $maxChatId !== '') {
+    $maxSent = sendMaxNotification($maxBotToken, $maxChatId, $body);
+    $maxAttachmentsSent = $maxSent ? sendMaxAttachments($maxBotToken, $maxChatId, $attachments) : false;
+}
+
+writeLeadLog(($mailSent || $telegramSent || $maxSent) ? 'Lead sent' : 'Lead failed', [
     'form' => $formName,
     'mail_sent' => $mailSent,
     'telegram_sent' => $telegramSent,
     'telegram_attachments_sent' => $telegramAttachmentsSent,
+    'max_sent' => $maxSent,
+    'max_attachments_sent' => $maxAttachmentsSent,
 ]);
 
-if (!$mailSent && !$telegramSent) {
+if (!$mailSent && !$telegramSent && !$maxSent) {
     http_response_code(502);
     echo json_encode(['success' => false, 'message' => 'Заявка не отправлена. Попробуйте ещё раз'], JSON_UNESCAPED_UNICODE);
     exit;

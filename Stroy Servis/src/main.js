@@ -1,10 +1,31 @@
 import './styles.css';
-import './recovery-page.js';
 import './roofing-sections.js';
 
 const isExtensionsPage = document.body.dataset.service === 'extensions';
 const isRecoveryPage = document.body.dataset.service === 'recovery';
+const isRoofReplacementPage = window.location.pathname.startsWith('/zamena-krovli');
 
+const groupPlanCardContent = () => {
+  document.querySelectorAll('.plans .plan-card').forEach((card) => {
+    card.querySelectorAll('h3 br').forEach((br) => br.replaceWith(' '));
+    if (card.querySelector('.plan-card__content')) return;
+    const content = document.createElement('div');
+    content.className = 'plan-card__content';
+    const meta = document.createElement('div');
+    meta.className = 'plan-card__meta';
+    const contentNodes = [...card.children].filter((node) =>
+      node.matches('h3, p, .pill')
+    );
+    const metaNodes = [...card.children].filter((node) =>
+      node.matches('strong, ul, .text-link')
+    );
+    contentNodes.forEach((node) => content.append(node));
+    metaNodes.forEach((node) => meta.append(node));
+    card.append(content, meta);
+  });
+};
+
+groupPlanCardContent();
 const addFormFieldTitles = (root = document) => {
   root.querySelectorAll('input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]), select, textarea').forEach((field) => {
     if (field.closest('.form-field')) return;
@@ -63,13 +84,13 @@ document.querySelectorAll('.stars, .review-card > strong').forEach((element) => 
 const heroGrid = document.querySelector('.hero-grid');
 let heroVisual = heroGrid?.querySelector('.hero-visual');
 
-if (!isRecoveryPage && heroGrid && !heroVisual) {
+if (!isRecoveryPage && !isRoofReplacementPage && heroGrid && !heroVisual) {
   heroVisual = document.createElement('div');
   heroVisual.className = 'hero-visual';
   heroGrid.append(heroVisual);
 }
 
-if (!isRecoveryPage && heroVisual) {
+if (!isRecoveryPage && !isRoofReplacementPage && heroVisual) {
   heroVisual.insertAdjacentHTML(
     'beforeend',
     isExtensionsPage ? `<div class="hero-materials">
@@ -91,7 +112,7 @@ const guaranteeGrid = document.querySelector('.guarantee .split-section');
 if (guaranteeGrid && !isRecoveryPage) {
   guaranteeGrid.insertAdjacentHTML(
     'afterbegin',
-    '<figure class="guarantee-document"><img src="/assets/roofing-contract-document.webp" alt="Пример договора подряда"></figure>',
+    '<figure class="guarantee-document"><img src="/assets/roofing-contract-document.png" alt="Пример договора подряда"></figure>',
   );
 }
 
@@ -110,13 +131,13 @@ if (headerContact) {
   headerContact.className = 'header-contact header-contact-group';
   headerContact.innerHTML = `
     <div class="header-messengers" aria-label="Мессенджеры">
-      <a class="header-messenger header-messenger--max" href="#estimate" aria-label="Написать в MAX"><img src="/assets/max-icon.svg" alt=""><span>MAX</span></a>
-      <a class="header-messenger header-messenger--telegram" href="#estimate" aria-label="Написать в Telegram">
+      <a class="header-messenger header-messenger--max" href="https://max.ru/u/f9LHodD0cOIgo5hRs_K6PfxTi5iyWyzUa6FsXiFg5tNqBltg75GTxbyuZ0U" target="_blank" rel="noopener noreferrer" aria-label="Написать в MAX"><img src="/assets/max-icon.svg" alt=""><span>MAX</span></a>
+        <a class="header-messenger header-messenger--telegram" href="https://t.me/ADP_075" target="_blank" rel="noopener noreferrer" aria-label="Написать в Telegram">
         <img src="/assets/telegram-icon.svg" alt=""><span>Telegram</span>
       </a>
     </div>
     <div class="phone-stack">
-      <div class="phone-line"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.25 3.25 4.8 4.4c-.78.36-1.18 1.24-.95 2.06 1.62 5.9 6.22 10.5 12.12 12.12.82.23 1.7-.17 2.06-.95l1.15-2.45-3.22-2.02-1.7 1.38c-3.03-1.5-5.42-3.89-6.92-6.92l1.38-1.7-2.02-3.22Z"/></svg><a href="tel:+79095654401">+7 (909) 565-44-01</a></div>
+      <div class="phone-line"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.25 3.25 4.8 4.4c-.78.36-1.18 1.24-.95 2.06 1.62 5.9 6.22 10.5 12.12 12.12.82.23 1.7-.17 2.06-.95l1.15-2.45-3.22-2.02-1.7 1.38c-3.03-1.5-5.42-3.89-6.92-6.92l1.38-1.7-2.02-3.22Z"/></svg><a href="tel:+79688200909">+7 (968) 820-09-09</a></div>
       <span>Звоните в любое время</span>
     </div>`;
 }
@@ -168,7 +189,7 @@ document.querySelectorAll('.nav-dropdown').forEach((dropdown) => {
 
 const weatherCopy = document.querySelector('.weather .split-section > div:first-child');
 
-if (weatherCopy && !weatherCopy.querySelector('.weather-media')) {
+if (weatherCopy && !isRoofReplacementPage && !weatherCopy.querySelector('.weather-media')) {
   const weatherNote = weatherCopy.querySelector('.large-note');
   if (weatherNote) {
     const weatherMedia = document.createElement('div');
@@ -199,7 +220,7 @@ const weatherSection = document.querySelector('.weather');
 const weatherList = weatherSection?.querySelector('.numbered-list');
 const weatherMedia = weatherSection?.querySelector('.weather-media');
 
-if (weatherList && !weatherList.querySelector('.weather-list-title')) {
+if (weatherList && !isRoofReplacementPage && !weatherList.querySelector('.weather-list-title')) {
   weatherList.insertAdjacentHTML(
     'afterbegin',
     '<h3 class="weather-list-title">Как мы работаем с вашей крышей</h3>',
@@ -214,16 +235,7 @@ if (weatherList && !weatherList.querySelector('.weather-list-title')) {
 }
 
 if (weatherCopy && weatherList && weatherMedia) {
-  const moveWeatherMedia = () => {
-    if (window.matchMedia('(max-width: 1200px)').matches) {
-      weatherList.prepend(weatherMedia);
-    } else {
-      weatherCopy.append(weatherMedia);
-    }
-  };
-
-  moveWeatherMedia();
-  window.matchMedia('(max-width: 1200px)').addEventListener('change', moveWeatherMedia);
+  weatherCopy.append(weatherMedia);
 }
 
 const materialCards = document.querySelectorAll('.hero-materials article');
@@ -311,7 +323,7 @@ if (materialCards.length) {
     if (isExtensionsPage && (text.includes('фото') || text.includes('фотограф'))) return ['Получить расчёт пристройки по фото', 'Добавьте фотографии дома и места будущей пристройки. Оценим конструкцию и диапазон стоимости.'];
     if (isExtensionsPage) return ['Рассчитать пристройку', 'Оставьте телефон, населённый пункт и фотографии дома. Подготовим предварительную оценку строительства.'];
     if (text.includes('реконструк')) return ['Оценить реконструкцию крыши', 'Приложите фотографии повреждений. Оценим состояние конструкции и предварительный объём восстановления.'];
-    if (text.includes('перекрыш')) return ['Рассчитать перекрышу дома', 'Пришлите фотографии существующей кровли. Рассчитаем демонтаж, новое покрытие и доборные элементы.'];
+    if (text.includes('перекрыт')) return ['Рассчитать перекрытие дома', 'Пришлите фотографии существующей кровли. Рассчитаем демонтаж, новое покрытие и доборные элементы.'];
     if (text.includes('выезд') || text.includes('объект')) return ['Уточнить выезд на объект', 'Укажите населённый пункт. Сразу обозначим условия выезда, логистики и доставки материалов.'];
     if (text.includes('смет')) return ['Получить предварительную смету', 'Опишите задачу и приложите фотографии. Разделим работы и материалы и обозначим предварительный бюджет.'];
     if (text.includes('фото') || text.includes('фотограф')) return ['Получить расчёт кровли по фото', 'Добавьте 3–5 фотографий дома и крыши. Денис оценит объём работ и диапазон стоимости.'];
@@ -354,11 +366,11 @@ const formSubmitGoalId = isExtensionsPage
   ? 'pristroyki_form_submit'
   : isRecoveryPage
     ? 'vosstanovlenie_form_submit'
-  : 'form_submit';
+  : 'zamena_krovli_form_submit';
 
 const reachFormSubmitGoal = () => {
   if (typeof window.ym === 'function') {
-    window.ym(111540408, 'reachGoal', formSubmitGoalId);
+    window.ym(isRoofReplacementPage ? 112181787 : 111540408, 'reachGoal', formSubmitGoalId);
   }
 };
 
@@ -404,7 +416,7 @@ const sendLeadForm = async (form, button, statusElement) => {
 
   try {
     const formData = new FormData(form);
-    formData.set('form_name', form.dataset.formName || form.querySelector('h3')?.textContent?.trim() || 'Заявка с сайта «Гарант Строй»');
+    formData.set('form_name', form.dataset.formName || form.querySelector('h3')?.textContent?.trim() || 'Заявка с сайта «Строй Сервис»');
     formData.set('page_url', window.location.href);
     const response = await fetch('/mail.php', { method: 'POST', body: formData });
     const result = await response.json().catch(() => null);
@@ -425,7 +437,7 @@ const sendLeadForm = async (form, button, statusElement) => {
   }
 };
 
-window.sendGarantLeadForm = sendLeadForm;
+window.sendStroyServisLeadForm = sendLeadForm;
 
 const photoEstimateButtons = document.querySelectorAll(
   '.hero-actions .button-accent, .final-cta button, .site-footer > .container > .button',
@@ -457,6 +469,14 @@ forms.forEach((form) => {
   });
 });
 
+document.addEventListener('click', (event) => {
+  const policyLink = event.target.closest?.('.consent a');
+  if (!policyLink) return;
+  event.stopPropagation();
+  policyLink.setAttribute('target', '_blank');
+  policyLink.setAttribute('rel', 'noopener noreferrer');
+});
+
 document.querySelectorAll('input[type="file"]').forEach((input) => {
   input.addEventListener('change', () => {
     const label = input.closest('.upload');
@@ -468,7 +488,7 @@ const finalCtaCopy = document.querySelector(
   '.final-cta .final-layout > div:first-child',
 );
 
-if (finalCtaCopy) {
+if (finalCtaCopy && !isRoofReplacementPage) {
   finalCtaCopy.insertAdjacentHTML(
     'beforeend',
     `<div class="final-cta-note" aria-hidden="true">
@@ -483,7 +503,7 @@ if (finalCtaCopy) {
 
 const geoCopy = document.querySelector('.geo .geo-inner > div:first-child');
 
-if (geoCopy) {
+if (geoCopy && !isRoofReplacementPage) {
   const geoText = geoCopy.querySelector('p');
   if (geoText) {
     geoText.hidden = true;
@@ -491,7 +511,7 @@ if (geoCopy) {
     (geoNote || geoText).insertAdjacentHTML(
       'afterend',
       `<div class="geo-tags">
-        ${['Санкт-Петербург', 'Всеволожск', 'Гатчина', 'Выборг', 'Тосно', 'Кировск', 'Ломоносовский район', 'Кингисепп', 'Кириши', 'Тихвин', 'Сосновый Бор', 'Приозерск', 'Сертолово', 'Сланцы', 'Волхов', 'Луга', 'Лодейное Поле', 'Подпорожье', 'Бокситогорск', 'Волосово', 'Ивангород', 'Коммунар', 'Никольское', 'Отрадное', 'Шлиссельбург', 'Светогорск', 'Приморск', 'Пикалёво', 'Любань', 'Новая Ладога', 'Сясьстрой', 'Каменногорск', 'Высоцк'].map((city) => `<span>${city}</span>`).join('')}
+        ${['Липецк', 'Елец', 'Грязи', 'Лебедянь', 'Данков', 'Усмань', 'Задонск', 'Чаплыгин', 'Добринский район', 'Добровский район', 'Хлевенский район', 'Тербунский район', 'Липецкий район', 'Елецкий район', 'Грязинский район', 'Лебедянский район', 'Данковский район', 'Усманский район', 'Задонский район', 'Чаплыгинский район', 'Воловский район', 'Долгоруковский район', 'Измалковский район', 'Краснинский район', 'Лев-Толстовский район', 'Становлянский район'].map((city) => `<span>${city}</span>`).join('')}
       </div>`,
     );
   }
@@ -561,3 +581,26 @@ document.addEventListener('submit', (event) => {
     input.setCustomValidity(getPhoneDigits(input.value).length === 10 ? '' : 'Введите номер полностью');
   });
 }, true);
+
+const inspectionImages = isExtensionsPage
+  ? [
+      'scope-foundation.webp',
+      'scope-structure.webp',
+      'scope-warm-contour.webp',
+      'scope-finish.webp',
+    ]
+  : [
+      'old-roof-covering.webp',
+      'roof-battens.webp',
+      'roof-rafters.webp',
+      'roof-insulation.webp',
+    ];
+document.querySelectorAll('.inspection-list article').forEach((article, index) => {
+  if (article.querySelector('.inspection-card-image')) return;
+  const image = document.createElement('img');
+  image.className = 'inspection-card-image';
+  image.src = `/assets/${inspectionImages[index % inspectionImages.length]}`;
+  image.alt = article.querySelector('h3')?.textContent?.trim() || 'Элемент конструкции';
+  image.loading = 'lazy';
+  article.prepend(image);
+});

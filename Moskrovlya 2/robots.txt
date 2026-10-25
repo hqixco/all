@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: *date
+Disallow: *aktery
+Disallow: *?
+Disallow: /public_html
+Disallow: /app_dev.php

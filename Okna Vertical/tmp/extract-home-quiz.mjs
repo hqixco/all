@@ -1,0 +1,12 @@
+﻿import fs from 'node:fs';
+import { createRequire } from 'node:module';
+import { homeComponents } from '../seo-pages/components/home.js';
+import { apartmentPage } from '../seo-pages/components/apartment.js';
+import { firstQuizQuestion, generalQuizQuestions } from '../src/components/quiz-data.js';
+const require=createRequire(import.meta.url);const {chromium}=require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const browser=await chromium.launch({headless:true});const page=await browser.newPage();await page.setContent(fs.readFileSync('index.html','utf8'));
+const copy=await page.locator('.legacy-page .quiz-section').evaluate(root=>({titleHtml:root.querySelector('.quiz-heading h2').innerHTML,leadHtml:root.querySelector('.quiz-heading p').innerHTML,resultTitleHtml:root.querySelector('.quiz-result h3').innerHTML,resultLeadHtml:root.querySelector('.quiz-result__lead').innerHTML,commentPlaceholder:root.querySelector('textarea').placeholder}));
+homeComponents.sections.choice={component:'quiz',data:{...apartmentPage.sections.choice.data,...copy,id:'quiz',sourceName:'Квиз: главная',successHtml:'Специалист свяжется с вами и уточнит детали заказа.',questions:[firstQuizQuestion,...generalQuizQuestions]}};
+homeComponents.sections.reviews.data.extraClass='home-reviews';
+const order=[6,1,8,3,9,0,5,2,7,4];homeComponents.sections.reviews.data.items=order.map(i=>homeComponents.sections.reviews.data.items[i]).filter(Boolean);
+fs.writeFileSync('seo-pages/components/home.js','// Shared components on the homepage.\nexport const homeComponents = '+JSON.stringify(homeComponents,null,2)+';\n');await browser.close();

@@ -1,0 +1,5210 @@
+[
+  {
+    "source": "index.html",
+    "url": "/",
+    "sections": [
+      {
+        "selector": "home-carousel",
+        "id": "",
+        "title": "РПК «Ресурс» — партнёр в рекламе"
+      },
+      {
+        "selector": "home-directions",
+        "id": "home-directions",
+        "title": "Основные направления"
+      },
+      {
+        "selector": "home-tasks",
+        "id": "home-tasks",
+        "title": "Какие задачи выполняем?"
+      },
+      {
+        "selector": "home-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "home-section-company",
+        "id": "home-company",
+        "title": "О компании"
+      },
+      {
+        "selector": "home-production",
+        "id": "home-production",
+        "title": "Производственные возможности"
+      },
+      {
+        "selector": "home-spar",
+        "id": "home-spar",
+        "title": "За время работы специалисты РПК «Ресурс» оформили более 50 магазинов «Спар»"
+      },
+      {
+        "selector": "home-section-reviews",
+        "id": "home-reviews",
+        "title": "Что говорят клиенты после запуска вывески"
+      },
+      {
+        "selector": "home-clients",
+        "id": "partners",
+        "title": "Наши клиенты"
+      },
+      {
+        "selector": "home-agencies",
+        "id": "home-agencies",
+        "title": "Для рекламных агентств"
+      },
+      {
+        "selector": "home-cost",
+        "id": "home-cost",
+        "title": "Цены на рекламу и производство"
+      },
+      {
+        "selector": "home-intro",
+        "id": "",
+        "title": "Рекламно-производственная компания «Ресурс»"
+      },
+      {
+        "selector": "home-section-faq",
+        "id": "home-faq",
+        "title": "Частые вопросы о вывесках и заказе"
+      },
+      {
+        "selector": "home-section-contact",
+        "id": "home-contact",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/adresnye-tablichki/index.html",
+    "url": "/adresnye-tablichki/",
+    "sections": [
+      {
+        "selector": "adresnye-tablichki-soderzhanie-adresnogo-znaka",
+        "id": "plate-choice",
+        "title": "Содержание адресного знака"
+      },
+      {
+        "selector": "adresnye-tablichki-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "adresnye-tablichki-forma-material-i-poverhnost-doma",
+        "id": "",
+        "title": "Форма, материал и поверхность дома"
+      },
+      {
+        "selector": "adresnye-tablichki-adres-doma-ili-nazvanie-organizatsii",
+        "id": "",
+        "title": "Адрес дома или название организации"
+      },
+      {
+        "selector": "adresnye-tablichki-raschet-adresnoy-tablichki",
+        "id": "",
+        "title": "Расчёт адресной таблички"
+      },
+      {
+        "selector": "adresnye-tablichki-proizvodstvo-dlya-vybrannogo-adresa",
+        "id": "",
+        "title": "Производство для выбранного адреса"
+      },
+      {
+        "selector": "adresnye-tablichki-ot-adresa-k-soglasovannomu-maketu",
+        "id": "",
+        "title": "От адреса к согласованному макету"
+      },
+      {
+        "selector": "adresnye-tablichki-faq",
+        "id": "page-faq",
+        "title": "Вопросы об адресном знаке"
+      },
+      {
+        "selector": "adresnye-tablichki-contact",
+        "id": "plate-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/akrilajt/index.html",
+    "url": "/akrilajt/",
+    "sections": [
+      {
+        "selector": "akrilajt-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "akrilajt-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "akrilajt-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/aktsii/index.html",
+    "url": "/aktsii/",
+    "sections": [
+      {
+        "selector": "aktsii-faq",
+        "id": "page-faq",
+        "title": "Вопросы по предложению"
+      }
+    ]
+  },
+  {
+    "source": "pages/apteki/index.html",
+    "url": "/apteki/",
+    "sections": [
+      {
+        "selector": "apteki-fotografii-rabot",
+        "id": "",
+        "title": "Фотографии работ"
+      },
+      {
+        "selector": "apteki-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "apteki-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/banner/index.html",
+    "url": "/banner/",
+    "sections": [
+      {
+        "selector": "banner-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "banner-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "banner-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/blog/index.html",
+    "url": "/blog/",
+    "sections": [
+      {
+        "selector": "blog-content",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "blog-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "blog-faq",
+        "id": "page-faq",
+        "title": "Вопросы по разделу"
+      }
+    ]
+  },
+  {
+    "source": "pages/blog/page/2/index.html",
+    "url": "/blog/page/2/",
+    "sections": [
+      {
+        "selector": "blog-page-2-content",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "blog-page-2-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "blog-page-2-faq",
+        "id": "page-faq",
+        "title": "Вопросы по разделу"
+      }
+    ]
+  },
+  {
+    "source": "pages/brandmauery-reklamnye-panno-portfolio/index.html",
+    "url": "/brandmauery-reklamnye-panno-portfolio/",
+    "sections": [
+      {
+        "selector": "brandmauery-reklamnye-panno-portfolio-brandmauery-i-reklamnye-panno-primery-rabot",
+        "id": "",
+        "title": "Брандмауэры и рекламные панно - примеры работ"
+      },
+      {
+        "selector": "brandmauer-portfolio-gallery",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-portfolio-video-iz-ishodnoy-podborki",
+        "id": "",
+        "title": "Видео из исходной подборки"
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/brandmauery-reklamnye-panno/index.html",
+    "url": "/brandmauery-reklamnye-panno/",
+    "sections": [
+      {
+        "selector": "brandmauery-reklamnye-panno-reklamnoe-pole-vyveska-ili-kompleks-fasada",
+        "id": "",
+        "title": "Рекламное поле, вывеска или комплекс фасада"
+      },
+      {
+        "selector": "brandmauer-panels-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-panno-kak-obekt-i-pechat-kak-usluga",
+        "id": "",
+        "title": "Панно как объект и печать как услуга"
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-material-i-kreplenie-vybirayut-vmeste",
+        "id": "",
+        "title": "Материал и крепление выбирают вместе"
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-cases",
+        "id": "panel-order-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-stoimost-gotovogo-panno",
+        "id": "",
+        "title": "Стоимость готового панно"
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-izgotovlenie-i-razmeschenie-na-obekte",
+        "id": "",
+        "title": "Изготовление и размещение на объекте"
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-ot-mesta-razmescheniya-k-gotovomu-panno",
+        "id": "",
+        "title": "От места размещения к готовому панно"
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-faq",
+        "id": "page-faq",
+        "title": "Вопросы о рекламном панно"
+      },
+      {
+        "selector": "brandmauery-reklamnye-panno-contact",
+        "id": "panel-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/brendirovanie-avtomobilya/index.html",
+    "url": "/brendirovanie-avtomobilya/",
+    "sections": [
+      {
+        "selector": "brendirovanie-avtomobilya-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "brendirovanie-avtomobilya-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "brendirovanie-avtomobilya-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/brendirovanie-transporta/index.html",
+    "url": "/brendirovanie-transporta/",
+    "sections": [
+      {
+        "selector": "brendirovanie-transporta-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "brendirovanie-transporta-chto-razmestit-na-avtomobile",
+        "id": "",
+        "title": "Что разместить на автомобиле"
+      },
+      {
+        "selector": "brendirovanie-transporta-grafika-i-ispolnenie",
+        "id": "",
+        "title": "Графика и исполнение"
+      },
+      {
+        "selector": "brendirovanie-transporta-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "brendirovanie-transporta-kak-soglasuem-oformlenie",
+        "id": "",
+        "title": "Как согласуем оформление"
+      },
+      {
+        "selector": "brendirovanie-transporta-proizvodstvo-rpk-resurs",
+        "id": "",
+        "title": "Производство РПК «Ресурс»"
+      },
+      {
+        "selector": "brendirovanie-transporta-faq",
+        "id": "page-faq",
+        "title": "Вопросы о брендировании транспорта"
+      },
+      {
+        "selector": "brendirovanie-transporta-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/bukvy-iz-orgstekla/index.html",
+    "url": "/bukvy-iz-orgstekla/",
+    "sections": [
+      {
+        "selector": "bukvy-iz-orgstekla-content",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "bukvy-iz-orgstekla-benefits",
+        "id": "",
+        "title": "Наши преимущества"
+      },
+      {
+        "selector": "bukvy-iz-orgstekla-faq",
+        "id": "page-faq",
+        "title": "Частые вопросы"
+      },
+      {
+        "selector": "bukvy-iz-orgstekla-contact",
+        "id": "home-contact",
+        "title": "Обсудим вашу задачу"
+      },
+      {
+        "selector": "bukvy-iz-orgstekla-mesto-razmescheniya-i-maket",
+        "id": "",
+        "title": "Место размещения и макет"
+      },
+      {
+        "selector": "bukvy-iz-orgstekla-clients",
+        "id": "partners",
+        "title": "Наши клиенты"
+      },
+      {
+        "selector": "bukvy-iz-orgstekla-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      }
+    ]
+  },
+  {
+    "source": "pages/ceny/index.html",
+    "url": "/ceny/",
+    "sections": [
+      {
+        "selector": "prices-hero",
+        "id": "",
+        "title": "Цены на вывески и рекламные конструкции"
+      },
+      {
+        "selector": "prices-signs",
+        "id": "prices-signs",
+        "title": "Вывески и наружная реклама"
+      },
+      {
+        "selector": "prices-letters",
+        "id": "prices-letters",
+        "title": "Объёмные буквы"
+      },
+      {
+        "selector": "prices-boxes",
+        "id": "prices-boxes",
+        "title": "Световые короба"
+      },
+      {
+        "selector": "prices-roofs",
+        "id": "prices-roofs",
+        "title": "Крышные установки"
+      },
+      {
+        "selector": "prices-pylons",
+        "id": "prices-pylons",
+        "title": "Стелы и пилоны"
+      },
+      {
+        "selector": "prices-boards",
+        "id": "prices-boards",
+        "title": "Стенды и таблички"
+      },
+      {
+        "selector": "prices-friezes",
+        "id": "prices-friezes",
+        "title": "Фризы и другие конструкции"
+      },
+      {
+        "selector": "prices-printing",
+        "id": "prices-printing",
+        "title": "Печать"
+      },
+      {
+        "selector": "prices-cutting",
+        "id": "prices-cutting",
+        "title": "Фрезеровка и плоттерная резка"
+      },
+      {
+        "selector": "prices-design",
+        "id": "prices-design",
+        "title": "Дизайн"
+      },
+      {
+        "selector": "prices-vehicles",
+        "id": "prices-vehicles",
+        "title": "Брендирование транспорта"
+      },
+      {
+        "selector": "prices-factors",
+        "id": "prices-factors",
+        "title": "Почему цена рассчитывается индивидуально"
+      },
+      {
+        "selector": "prices-data",
+        "id": "prices-data",
+        "title": "Что нужно для точного расчёта"
+      },
+      {
+        "selector": "prices-complex",
+        "id": "prices-complex",
+        "title": "Если нужен комплексный проект"
+      },
+      {
+        "selector": "ceny-faq",
+        "id": "prices-faq",
+        "title": "Вопросы о цене и составе расчёта"
+      },
+      {
+        "selector": "ceny-contact",
+        "id": "prices-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/dizajn/index.html",
+    "url": "/dizajn/",
+    "sections": [
+      {
+        "selector": "dizajn-kakie-zadachi-reshaet-dizayn-maket",
+        "id": "",
+        "title": "Какие задачи решает дизайн-макет"
+      },
+      {
+        "selector": "dizajn-chto-nuzhno-ot-zakazchika",
+        "id": "inputs",
+        "title": "Что нужно от заказчика"
+      },
+      {
+        "selector": "dizajn-chto-vhodit-v-rabotu",
+        "id": "",
+        "title": "Что входит в работу"
+      },
+      {
+        "selector": "dizajn-dizayn-i-dalneyshee-proizvodstvo",
+        "id": "",
+        "title": "Дизайн и дальнейшее производство"
+      },
+      {
+        "selector": "dizajn-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "dizajn-kak-razrabatyvaem-maket",
+        "id": "",
+        "title": "Как разрабатываем макет"
+      },
+      {
+        "selector": "dizajn-faq",
+        "id": "page-faq",
+        "title": "Вопросы о разработке макета"
+      },
+      {
+        "selector": "dizajn-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/fasadnye-vyveski/index.html",
+    "url": "/fasadnye-vyveski/",
+    "sections": [
+      {
+        "selector": "facade-signs-types",
+        "id": "",
+        "title": "Какой может быть фасадная вывеска"
+      },
+      {
+        "selector": "facade-signs-intro",
+        "id": "facade-signs-intro",
+        "title": "Подберём вывеску под ваш фасад"
+      },
+      {
+        "selector": "facade-signs-facade-design",
+        "id": "",
+        "title": "Одна вывеска или оформление всего фасада"
+      },
+      {
+        "selector": "facade-signs-selection-factors",
+        "id": "",
+        "title": "Что учитывают при выборе"
+      },
+      {
+        "selector": "facade-signs-lighting",
+        "id": "",
+        "title": "Световая или без подсветки"
+      },
+      {
+        "selector": "facade-signs-letters-or-lightbox",
+        "id": "",
+        "title": "Объёмные буквы или световой короб"
+      },
+      {
+        "selector": "facade-signs-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "facade-signs-storefront",
+        "id": "",
+        "title": "Вывеска на фасаде магазина"
+      },
+      {
+        "selector": "facade-signs-approval-and-installation",
+        "id": "",
+        "title": "Согласование и монтаж"
+      },
+      {
+        "selector": "facade-signs-price",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "facade-signs-production",
+        "id": "",
+        "title": "Производство РПК «Ресурс»"
+      },
+      {
+        "selector": "facade-signs-order-steps",
+        "id": "",
+        "title": "Как заказать фасадную вывеску"
+      },
+      {
+        "selector": "facade-signs-repair",
+        "id": "",
+        "title": "Новая вывеска или ремонт существующей"
+      },
+      {
+        "selector": "facade-signs-faq",
+        "id": "page-faq",
+        "title": "Вопросы о фасадных вывесках"
+      },
+      {
+        "selector": "facade-signs-contact",
+        "id": "facade-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovanie-kompozitnogo-materiala-dlya-reklamnyx-konstrukcij/index.html",
+    "url": "/frezerovanie-kompozitnogo-materiala-dlya-reklamnyx-konstrukcij/",
+    "sections": [
+      {
+        "selector": "frezerovanie-kompozitnogo-materiala-dlya-reklamnyx-konstrukcij-kak-proishodit-protsess-frezerovaniya",
+        "id": "",
+        "title": "Как происходит процесс фрезерования"
+      },
+      {
+        "selector": "frezerovanie-kompozitnogo-materiala-dlya-reklamnyx-konstrukcij-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "frezerovanie-kompozitnogo-materiala-dlya-reklamnyx-konstrukcij-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka-kompozita/index.html",
+    "url": "/frezerovka-kompozita/",
+    "sections": [
+      {
+        "selector": "frezerovka-kompozita-raskroy-i-podgotovka-kompozitnoy-paneli",
+        "id": "",
+        "title": "Раскрой и подготовка композитной панели"
+      },
+      {
+        "selector": "frezerovka-kompozita-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "frezerovka-kompozita-parametry-detali-iz-kompozita",
+        "id": "",
+        "title": "Параметры детали из композита"
+      },
+      {
+        "selector": "frezerovka-kompozita-raschet-stoimosti-obrabotki",
+        "id": "",
+        "title": "Расчёт стоимости обработки"
+      },
+      {
+        "selector": "frezerovka-kompozita-informatsiya-o-kompozite",
+        "id": "",
+        "title": "Информация о композите"
+      },
+      {
+        "selector": "frezerovka-kompozita-kak-soglasovat-zakaz",
+        "id": "",
+        "title": "Как согласовать заказ"
+      },
+      {
+        "selector": "frezerovka-kompozita-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "frezerovka-kompozita-faq",
+        "id": "page-faq",
+        "title": "Вопросы по услуге"
+      },
+      {
+        "selector": "frezerovka-kompozita-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka-monolitnogo-polikarbonata/index.html",
+    "url": "/frezerovka-monolitnogo-polikarbonata/",
+    "sections": [
+      {
+        "selector": "frezerovka-monolitnogo-polikarbonata-raskroy-monolitnogo-lista",
+        "id": "",
+        "title": "Раскрой монолитного листа"
+      },
+      {
+        "selector": "frezerovka-monolitnogo-polikarbonata-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "frezerovka-monolitnogo-polikarbonata-chto-soobschit-o-polikarbonate",
+        "id": "",
+        "title": "Что сообщить о поликарбонате"
+      },
+      {
+        "selector": "frezerovka-monolitnogo-polikarbonata-raschet-stoimosti-obrabotki",
+        "id": "",
+        "title": "Расчёт стоимости обработки"
+      },
+      {
+        "selector": "frezerovka-monolitnogo-polikarbonata-material-i-gotovaya-konstruktsiya",
+        "id": "",
+        "title": "Материал и готовая конструкция"
+      },
+      {
+        "selector": "frezerovka-monolitnogo-polikarbonata-kak-soglasovat-zakaz",
+        "id": "",
+        "title": "Как согласовать заказ"
+      },
+      {
+        "selector": "frezerovka-monolitnogo-polikarbonata-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "frezerovka-monolitnogo-polikarbonata-faq",
+        "id": "page-faq",
+        "title": "Вопросы по услуге"
+      },
+      {
+        "selector": "frezerovka-monolitnogo-polikarbonata-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka-na-plastike/index.html",
+    "url": "/frezerovka-na-plastike/",
+    "sections": [
+      {
+        "selector": "frezerovka-na-plastike-raskroy-pvh-po-maketu",
+        "id": "",
+        "title": "Раскрой ПВХ по макету"
+      },
+      {
+        "selector": "frezerovka-na-plastike-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "frezerovka-na-plastike-chto-ukazat-o-plastike",
+        "id": "",
+        "title": "Что указать о пластике"
+      },
+      {
+        "selector": "frezerovka-na-plastike-raschet-stoimosti-obrabotki",
+        "id": "",
+        "title": "Расчёт стоимости обработки"
+      },
+      {
+        "selector": "frezerovka-na-plastike-plastik-i-drugie-zadachi",
+        "id": "",
+        "title": "Пластик и другие задачи"
+      },
+      {
+        "selector": "frezerovka-na-plastike-kak-soglasovat-zakaz",
+        "id": "",
+        "title": "Как согласовать заказ"
+      },
+      {
+        "selector": "frezerovka-na-plastike-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "frezerovka-na-plastike-faq",
+        "id": "page-faq",
+        "title": "Вопросы по услуге"
+      },
+      {
+        "selector": "frezerovka-na-plastike-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka-orgstekla/index.html",
+    "url": "/frezerovka-orgstekla/",
+    "sections": [
+      {
+        "selector": "frezerovka-orgstekla-operatsii-nad-akrilovym-listom",
+        "id": "",
+        "title": "Операции над акриловым листом"
+      },
+      {
+        "selector": "frezerovka-orgstekla-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "frezerovka-orgstekla-ishodnye-dannye-dlya-orgstekla",
+        "id": "",
+        "title": "Исходные данные для оргстекла"
+      },
+      {
+        "selector": "frezerovka-orgstekla-raschet-stoimosti-obrabotki",
+        "id": "",
+        "title": "Расчёт стоимости обработки"
+      },
+      {
+        "selector": "frezerovka-orgstekla-obrabotka-lista-i-reklamnye-bukvy",
+        "id": "",
+        "title": "Обработка листа и рекламные буквы"
+      },
+      {
+        "selector": "frezerovka-orgstekla-kak-soglasovat-zakaz",
+        "id": "",
+        "title": "Как согласовать заказ"
+      },
+      {
+        "selector": "frezerovka-orgstekla-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "frezerovka-orgstekla-faq",
+        "id": "page-faq",
+        "title": "Вопросы по услуге"
+      },
+      {
+        "selector": "frezerovka-orgstekla-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka/index.html",
+    "url": "/frezerovka/",
+    "sections": [
+      {
+        "selector": "frezerovka-vyberite-listovoy-material",
+        "id": "",
+        "title": "Выберите листовой материал"
+      },
+      {
+        "selector": "frezerovka-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "frezerovka-chto-predstavlyaet-soboy-obrabotka",
+        "id": "",
+        "title": "Что представляет собой обработка"
+      },
+      {
+        "selector": "frezerovka-dannye-dlya-vybora-operatsii",
+        "id": "",
+        "title": "Данные для выбора операции"
+      },
+      {
+        "selector": "frezerovka-raschet-stoimosti-obrabotki",
+        "id": "",
+        "title": "Расчёт стоимости обработки"
+      },
+      {
+        "selector": "frezerovka-obrabotka-i-gotovoe-izdelie",
+        "id": "",
+        "title": "Обработка и готовое изделие"
+      },
+      {
+        "selector": "frezerovka-kak-soglasovat-zakaz",
+        "id": "",
+        "title": "Как согласовать заказ"
+      },
+      {
+        "selector": "frezerovka-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "frezerovka-faq",
+        "id": "page-faq",
+        "title": "Вопросы по услуге"
+      },
+      {
+        "selector": "frezerovka-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/frizy/index.html",
+    "url": "/frizy/",
+    "sections": [
+      {
+        "selector": "frizy-cases",
+        "id": "frieze-order-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "frizy-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "frizy-varianty-oformleniya-friza",
+        "id": "",
+        "title": "Варианты оформления фриза"
+      },
+      {
+        "selector": "frizy-fasad-verhnyaya-liniya-i-vhod",
+        "id": "",
+        "title": "Фасад, верхняя линия и вход"
+      },
+      {
+        "selector": "frizy-bez-sobstvennoy-podsvetki-ili-so-svetom",
+        "id": "",
+        "title": "Без собственной подсветки или со светом"
+      },
+      {
+        "selector": "frizy-raschet-po-dline-vysote-i-sostavu",
+        "id": "",
+        "title": "Расчёт по длине, высоте и составу"
+      },
+      {
+        "selector": "frizy-izgotovlenie-i-ustanovka-friza",
+        "id": "",
+        "title": "Изготовление и установка фриза"
+      },
+      {
+        "selector": "frizy-ot-fasada-k-gotovomu-elementu",
+        "id": "",
+        "title": "От фасада к готовому элементу"
+      },
+      {
+        "selector": "frizy-faq",
+        "id": "page-faq",
+        "title": "Вопросы о рекламных фризах"
+      },
+      {
+        "selector": "frizy-contact",
+        "id": "frieze-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/gde-umestno-ispolzovat-neonovye-vyveski-uchimsya-pravilnoj-reklame/index.html",
+    "url": "/gde-umestno-ispolzovat-neonovye-vyveski-uchimsya-pravilnoj-reklame/",
+    "sections": [
+      {
+        "selector": "gde-umestno-ispolzovat-neonovye-vyveski-uchimsya-pravilnoj-reklame-chto-predstavlyaet-soboy-neon-v-reklame-segodnya",
+        "id": "",
+        "title": "Что представляет собой неон в рекламе сегодня"
+      },
+      {
+        "selector": "gde-umestno-ispolzovat-neonovye-vyveski-uchimsya-pravilnoj-reklame-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "gde-umestno-ispolzovat-neonovye-vyveski-uchimsya-pravilnoj-reklame-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/informacionnye-stendy-portfolio/index.html",
+    "url": "/informacionnye-stendy-portfolio/",
+    "sections": [
+      {
+        "selector": "informacionnye-stendy-portfolio-informatsionnye-stendy-primery-rabot",
+        "id": "",
+        "title": "Информационные стенды - примеры работ"
+      },
+      {
+        "selector": "informacionnye-stendy-portfolio-gallery",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "informacionnye-stendy-portfolio-obsudit-zadachu",
+        "id": "",
+        "title": "Обсудить задачу"
+      },
+      {
+        "selector": "informacionnye-stendy-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/informacionnye-stendy/index.html",
+    "url": "/informacionnye-stendy/",
+    "sections": [
+      {
+        "selector": "informacionnye-stendy-cases",
+        "id": "stand-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "informacionnye-stendy-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "informacionnye-stendy-kak-budet-razmeschatsya-informatsiya",
+        "id": "",
+        "title": "Как будет размещаться информация"
+      },
+      {
+        "selector": "informacionnye-stendy-stend-ukazateli-ili-otdelnaya-tablichka",
+        "id": "",
+        "title": "Стенд, указатели или отдельная табличка"
+      },
+      {
+        "selector": "informacionnye-stendy-osnovanie-i-oformlenie",
+        "id": "",
+        "title": "Основание и оформление"
+      },
+      {
+        "selector": "informacionnye-stendy-raschet-sostava-informatsionnogo-stenda",
+        "id": "",
+        "title": "Расчёт состава информационного стенда"
+      },
+      {
+        "selector": "informacionnye-stendy-proizvodstvo-i-ustanovka-informatsionnoy-paneli",
+        "id": "",
+        "title": "Производство и установка информационной панели"
+      },
+      {
+        "selector": "informacionnye-stendy-podgotovte-soderzhanie-i-shemu-sektsiy",
+        "id": "",
+        "title": "Подготовьте содержание и схему секций"
+      },
+      {
+        "selector": "informacionnye-stendy-faq",
+        "id": "page-faq",
+        "title": "Вопросы об информационном стенде"
+      },
+      {
+        "selector": "informacionnye-stendy-contact",
+        "id": "stand-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/interernaya-pechat-na-plenke-orajiet-3640-kachestvo-720-dpi-ot-350-rub/index.html",
+    "url": "/interernaya-pechat-na-plenke-orajiet-3640-kachestvo-720-dpi-ot-350-rub/",
+    "sections": [
+      {
+        "selector": "interernaya-pechat-na-plenke-orajiet-3640-kachestvo-720-dpi-ot-350-rub-faq",
+        "id": "page-faq",
+        "title": "Вопросы по предложению"
+      }
+    ]
+  },
+  {
+    "source": "pages/interernaya-pechat/index.html",
+    "url": "/interernaya-pechat/",
+    "sections": [
+      {
+        "selector": "interernaya-pechat-izobrazhenie-dlya-prosmotra-vblizi",
+        "id": "",
+        "title": "Изображение для просмотра вблизи"
+      },
+      {
+        "selector": "interernaya-pechat-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "interernaya-pechat-vybor-nositelya-dlya-oformleniya",
+        "id": "",
+        "title": "Выбор носителя для оформления"
+      },
+      {
+        "selector": "interernaya-pechat-interernaya-zadacha-i-krupnyy-format",
+        "id": "",
+        "title": "Интерьерная задача и крупный формат"
+      },
+      {
+        "selector": "interernaya-pechat-dizayn-izobrazheniya-dlya-pomescheniya",
+        "id": "",
+        "title": "Дизайн изображения для помещения"
+      },
+      {
+        "selector": "interernaya-pechat-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "interernaya-pechat-primery-pechatnogo-oformleniya",
+        "id": "",
+        "title": "Примеры печатного оформления"
+      },
+      {
+        "selector": "interernaya-pechat-proizvodstvo-interernogo-oformleniya",
+        "id": "",
+        "title": "Производство интерьерного оформления"
+      },
+      {
+        "selector": "interernaya-pechat-kak-zakazat-interernuyu-pechat",
+        "id": "",
+        "title": "Как заказать интерьерную печать"
+      },
+      {
+        "selector": "interernaya-pechat-faq",
+        "id": "page-faq",
+        "title": "Вопросы о печати"
+      },
+      {
+        "selector": "interernaya-pechat-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/interernye-vyveski/index.html",
+    "url": "/interernye-vyveski/",
+    "sections": [
+      {
+        "selector": "interernye-vyveski-varianty-ispolneniya",
+        "id": "",
+        "title": "Варианты исполнения"
+      },
+      {
+        "selector": "interior-signs-hero",
+        "id": "interior-signs-intro",
+        "title": "Подберём вывеску под ваш интерьер"
+      },
+      {
+        "selector": "interernye-vyveski-gde-razmeschayut-interernye-vyveski",
+        "id": "",
+        "title": "Где размещают интерьерные вывески"
+      },
+      {
+        "selector": "interernye-vyveski-interernaya-ili-fasadnaya",
+        "id": "",
+        "title": "Интерьерная или фасадная"
+      },
+      {
+        "selector": "interernye-vyveski-s-podsvetkoy-ili-bez",
+        "id": "",
+        "title": "С подсветкой или без"
+      },
+      {
+        "selector": "interernye-vyveski-logotip-i-nadpis-na-stene",
+        "id": "",
+        "title": "Логотип и надпись на стене"
+      },
+      {
+        "selector": "interernye-vyveski-resepshen-i-vhod-vnutri-pomescheniya",
+        "id": "",
+        "title": "Ресепшен и вход внутри помещения"
+      },
+      {
+        "selector": "interernye-vyveski-primery-akrilaytov",
+        "id": "",
+        "title": "Примеры акрилайтов"
+      },
+      {
+        "selector": "interernye-vyveski-cases",
+        "id": "interior-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "interernye-vyveski-kak-vybrat-interernuyu-vyvesku",
+        "id": "",
+        "title": "Как выбрать интерьерную вывеску"
+      },
+      {
+        "selector": "interernye-vyveski-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "interernye-vyveski-maket-i-ustanovka",
+        "id": "",
+        "title": "Макет и установка"
+      },
+      {
+        "selector": "interernye-vyveski-proizvodstvo-rpk-resurs",
+        "id": "",
+        "title": "Производство РПК «Ресурс»"
+      },
+      {
+        "selector": "interernye-vyveski-kak-prohodit-zakaz",
+        "id": "",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "interernye-vyveski-faq",
+        "id": "page-faq",
+        "title": "Вопросы об интерьерных вывесках"
+      },
+      {
+        "selector": "interernye-vyveski-contact",
+        "id": "interior-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/kak-bystro-i-kachestvenno-napechatat-shirokij-format-nebolshoj-lajfxak/index.html",
+    "url": "/kak-bystro-i-kachestvenno-napechatat-shirokij-format-nebolshoj-lajfxak/",
+    "sections": [
+      {
+        "selector": "kak-bystro-i-kachestvenno-napechatat-shirokij-format-nebolshoj-lajfxak-preimuschestva-shirokogo-formata",
+        "id": "",
+        "title": "Преимущества широкого формата"
+      },
+      {
+        "selector": "kak-bystro-i-kachestvenno-napechatat-shirokij-format-nebolshoj-lajfxak-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "kak-bystro-i-kachestvenno-napechatat-shirokij-format-nebolshoj-lajfxak-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/karta-sajta/index.html",
+    "url": "/karta-sajta/",
+    "sections": [
+      {
+        "selector": "karta-sajta-kompaniya",
+        "id": "",
+        "title": "Компания"
+      },
+      {
+        "selector": "karta-sajta-uslugi",
+        "id": "",
+        "title": "Услуги"
+      },
+      {
+        "selector": "karta-sajta-vyveski",
+        "id": "",
+        "title": "Вывески"
+      },
+      {
+        "selector": "karta-sajta-naruzhnaya-reklama",
+        "id": "",
+        "title": "Наружная реклама"
+      },
+      {
+        "selector": "karta-sajta-pechat",
+        "id": "",
+        "title": "Печать"
+      },
+      {
+        "selector": "karta-sajta-proizvodstvennye-uslugi",
+        "id": "",
+        "title": "Производственные услуги"
+      },
+      {
+        "selector": "karta-sajta-portfolio",
+        "id": "",
+        "title": "Портфолио"
+      },
+      {
+        "selector": "karta-sajta-poleznye-materialy",
+        "id": "",
+        "title": "Полезные материалы"
+      },
+      {
+        "selector": "karta-sajta-kontakty",
+        "id": "",
+        "title": "Контакты"
+      },
+      {
+        "selector": "karta-sajta-sluzhebnaya-informatsiya",
+        "id": "",
+        "title": "Служебная информация"
+      },
+      {
+        "selector": "karta-sajta-faq",
+        "id": "page-faq",
+        "title": "Вопросы по разделу"
+      }
+    ]
+  },
+  {
+    "source": "pages/karty/index.html",
+    "url": "/karty/",
+    "sections": [
+      {
+        "selector": "karty-fotografii-kart",
+        "id": "",
+        "title": "Фотографии карт"
+      },
+      {
+        "selector": "karty-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "karty-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/kontakty/index.html",
+    "url": "/kontakty/",
+    "sections": [
+      {
+        "selector": "kontakty-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/kryshnye-ustanovki-portfolio/index.html",
+    "url": "/kryshnye-ustanovki-portfolio/",
+    "sections": [
+      {
+        "selector": "roof-portfolio-intro",
+        "id": "",
+        "title": "Крышные установки - примеры работ"
+      },
+      {
+        "selector": "roof-portfolio-gallery",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "roof-portfolio-outro",
+        "id": "",
+        "title": "Обсудить свою конструкцию"
+      },
+      {
+        "selector": "kryshnye-ustanovki-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "url": "/kryshnye-ustanovki/",
+    "sections": [
+      {
+        "selector": "kryshnye-ustanovki-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "roof-installations-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "kryshnye-ustanovki-iz-chego-sostoit-vybrannoe-ispolnenie",
+        "id": "",
+        "title": "Из чего состоит выбранное исполнение"
+      },
+      {
+        "selector": "kryshnye-ustanovki-bukvy-logotip-i-svetovye-resheniya",
+        "id": "",
+        "title": "Буквы, логотип и световые решения"
+      },
+      {
+        "selector": "kryshnye-ustanovki-krysha-i-fasad-raznye-zadachi",
+        "id": "",
+        "title": "Крыша и фасад: разные задачи"
+      },
+      {
+        "selector": "kryshnye-ustanovki-mesto-razmery-i-konstruktivnoe-reshenie",
+        "id": "",
+        "title": "Место, размеры и конструктивное решение"
+      },
+      {
+        "selector": "kryshnye-ustanovki-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "kryshnye-ustanovki-proizvodstvo-montazh-i-razmeschenie",
+        "id": "",
+        "title": "Производство, монтаж и размещение"
+      },
+      {
+        "selector": "kryshnye-ustanovki-kak-prohodit-zakaz",
+        "id": "",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "kryshnye-ustanovki-podrobnee-o-proektirovanii-kryshnyh-ustanovok",
+        "id": "",
+        "title": "Подробнее о проектировании крышных установок"
+      },
+      {
+        "selector": "kryshnye-ustanovki-faq",
+        "id": "page-faq",
+        "title": "Вопросы о крышных установках"
+      },
+      {
+        "selector": "kryshnye-ustanovki-contact",
+        "id": "roof-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/loft-mebel/index.html",
+    "url": "/loft-mebel/",
+    "sections": [
+      {
+        "selector": "loft-mebel-faq",
+        "id": "page-faq",
+        "title": "Вопросы по предложению"
+      }
+    ]
+  },
+  {
+    "source": "pages/malinka/index.html",
+    "url": "/malinka/",
+    "sections": [
+      {
+        "selector": "malinka-fotografii-oformleniya-malinki",
+        "id": "",
+        "title": "Фотографии оформления «Малинки»"
+      },
+      {
+        "selector": "malinka-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "malinka-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/montazh-naruzhnoj-reklamy/index.html",
+    "url": "/montazh-naruzhnoj-reklamy/",
+    "sections": [
+      {
+        "selector": "montazh-naruzhnoj-reklamy-cases",
+        "id": "works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "montazh-naruzhnoj-reklamy-ustanovka-i-demontazh",
+        "id": "",
+        "title": "Установка и демонтаж"
+      },
+      {
+        "selector": "montazh-naruzhnoj-reklamy-chto-nuzhno-dlya-otsenki-obekta",
+        "id": "",
+        "title": "Что нужно для оценки объекта"
+      },
+      {
+        "selector": "montazh-naruzhnoj-reklamy-ot-chego-zavisit-stoimost-montazha",
+        "id": "",
+        "title": "От чего зависит стоимость монтажа"
+      },
+      {
+        "selector": "montazh-naruzhnoj-reklamy-kak-opredelyaem-sostav-ustanovki",
+        "id": "",
+        "title": "Как определяем состав установки"
+      },
+      {
+        "selector": "montazh-naruzhnoj-reklamy-svyazannye-zadachi",
+        "id": "",
+        "title": "Связанные задачи"
+      },
+      {
+        "selector": "montazh-naruzhnoj-reklamy-faq",
+        "id": "page-faq",
+        "title": "Вопросы об установке рекламы"
+      },
+      {
+        "selector": "montazh-naruzhnoj-reklamy-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "url": "/naruzhnaya-reklama/",
+    "sections": [
+      {
+        "selector": "outdoor-hub-elements",
+        "id": "outdoor-hub-elements",
+        "title": "Виды наружной рекламы"
+      },
+      {
+        "selector": "outdoor-hub-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "outdoor-hub-choice",
+        "id": "outdoor-hub-choice",
+        "title": "Как выбрать рекламную конструкцию"
+      },
+      {
+        "selector": "outdoor-hub-decisions",
+        "id": "outdoor-hub-decisions",
+        "title": "Вывеска или другая наружная конструкция"
+      },
+      {
+        "selector": "outdoor-hub-complex",
+        "id": "outdoor-hub-complex",
+        "title": "Комплексное оформление объекта"
+      },
+      {
+        "selector": "naruzhnaya-reklama-cases",
+        "id": "outdoor-hub-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "outdoor-hub-related",
+        "id": "outdoor-hub-related",
+        "title": "Связанные услуги"
+      },
+      {
+        "selector": "outdoor-hub-price",
+        "id": "outdoor-hub-price",
+        "title": "От чего зависит стоимость наружной рекламы"
+      },
+      {
+        "selector": "outdoor-hub-process",
+        "id": "outdoor-hub-process",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "outdoor-hub-tasks",
+        "id": "outdoor-hub-tasks",
+        "title": "Для каких задач подходит наружная реклама"
+      },
+      {
+        "selector": "naruzhnaya-reklama-faq",
+        "id": "outdoor-hub-faq",
+        "title": "Вопросы о наружных рекламных конструкциях"
+      },
+      {
+        "selector": "naruzhnaya-reklama-contact",
+        "id": "outdoor-hub-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/neonovye-vyveski-nazad-v-budushhee/index.html",
+    "url": "/neonovye-vyveski-nazad-v-budushhee/",
+    "sections": [
+      {
+        "selector": "neonovye-vyveski-nazad-v-budushhee-osobennosti-neona-chto-izmenilos-segodnya",
+        "id": "",
+        "title": "Особенности неона: что изменилось сегодня"
+      },
+      {
+        "selector": "neonovye-vyveski-nazad-v-budushhee-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "neonovye-vyveski-nazad-v-budushhee-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/neonovye-vyveski-portfolio/index.html",
+    "url": "/neonovye-vyveski-portfolio/",
+    "sections": [
+      {
+        "selector": "neon-portfolio-intro",
+        "id": "",
+        "title": "Неоновые вывески - примеры работ"
+      },
+      {
+        "selector": "neonovye-vyveski-portfolio-fotografii-rabot",
+        "id": "",
+        "title": "Фотографии работ"
+      },
+      {
+        "selector": "neonovye-vyveski-portfolio-obsudit-svoyu-vyvesku",
+        "id": "",
+        "title": "Обсудить свою вывеску"
+      },
+      {
+        "selector": "neonovye-vyveski-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/neonovye-vyveski/index.html",
+    "url": "/neonovye-vyveski/",
+    "sections": [
+      {
+        "selector": "neonovye-vyveski-gde-ispolzuyut-neonovye-vyveski",
+        "id": "",
+        "title": "Где используют неоновые вывески"
+      },
+      {
+        "selector": "neon-signs-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "neonovye-vyveski-chto-mozhno-sdelat",
+        "id": "",
+        "title": "Что можно сделать"
+      },
+      {
+        "selector": "neonovye-vyveski-neon-i-drugie-svetovye-vyveski",
+        "id": "",
+        "title": "Неон и другие световые вывески"
+      },
+      {
+        "selector": "neonovye-vyveski-osnovanie-i-podlozhka",
+        "id": "",
+        "title": "Основание и подложка"
+      },
+      {
+        "selector": "neonovye-vyveski-chto-uchityvat-pri-vybore",
+        "id": "",
+        "title": "Что учитывать при выборе"
+      },
+      {
+        "selector": "neonovye-vyveski-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "neonovye-vyveski-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "neonovye-vyveski-izgotovlenie-i-ustanovka",
+        "id": "",
+        "title": "Изготовление и установка"
+      },
+      {
+        "selector": "neonovye-vyveski-proizvodstvo-rpk-resurs",
+        "id": "",
+        "title": "Производство РПК «Ресурс»"
+      },
+      {
+        "selector": "neonovye-vyveski-kak-prohodit-zakaz",
+        "id": "",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "neonovye-vyveski-podrobnee-o-neonovyh-vyveskah",
+        "id": "",
+        "title": "Подробнее о неоновых вывесках"
+      },
+      {
+        "selector": "neonovye-vyveski-faq",
+        "id": "page-faq",
+        "title": "Вопросы о неоновых вывесках"
+      },
+      {
+        "selector": "neonovye-vyveski-contact",
+        "id": "neon-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/index.html",
+    "url": "/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/",
+    "sections": [
+      {
+        "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-chto-delaet-reshenie-individualnym",
+        "id": "",
+        "title": "Что делает решение индивидуальным"
+      },
+      {
+        "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-ploschad-soderzhanie-i-firmennoe-oformlenie",
+        "id": "",
+        "title": "Площадь, содержание и фирменное оформление"
+      },
+      {
+        "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-kogda-dostatochno-obschego-vybora",
+        "id": "",
+        "title": "Когда достаточно общего выбора"
+      },
+      {
+        "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-raschet-individualnoy-konstruktsii",
+        "id": "",
+        "title": "Расчёт индивидуальной конструкции"
+      },
+      {
+        "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-proizvodstvo-po-soglasovannomu-proektu",
+        "id": "",
+        "title": "Производство по согласованному проекту"
+      },
+      {
+        "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-soglasovanie-individualnogo-proekta",
+        "id": "",
+        "title": "Согласование индивидуального проекта"
+      },
+      {
+        "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-faq",
+        "id": "page-faq",
+        "title": "Вопросы об индивидуальном решении"
+      },
+      {
+        "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-contact",
+        "id": "stand-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/o-kompanii/index.html",
+    "url": "/o-kompanii/",
+    "sections": [
+      {
+        "selector": "company-hero",
+        "id": "",
+        "title": "О РПК «Ресурс»"
+      },
+      {
+        "selector": "company-directions",
+        "id": "company-directions",
+        "title": "Чем занимается компания"
+      },
+      {
+        "selector": "company-process",
+        "id": "company-process",
+        "title": "Как организована работа"
+      },
+      {
+        "selector": "company-advantages",
+        "id": "company-advantages",
+        "title": "Преимущества РПК «Ресурс»"
+      },
+      {
+        "selector": "company-production",
+        "id": "company-production",
+        "title": "Собственное производство"
+      },
+      {
+        "selector": "o-kompanii-cases",
+        "id": "company-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "company-shops",
+        "id": "company-shops",
+        "title": "Примеры оформления торговых объектов"
+      },
+      {
+        "selector": "o-kompanii-reviews",
+        "id": "company-reviews",
+        "title": "Что говорят клиенты после запуска вывески"
+      },
+      {
+        "selector": "company-partners",
+        "id": "company-partners",
+        "title": "Партнёры"
+      },
+      {
+        "selector": "company-agencies",
+        "id": "company-agencies",
+        "title": "Для рекламных агентств"
+      },
+      {
+        "selector": "company-sections",
+        "id": "company-sections",
+        "title": "Корпоративные разделы"
+      },
+      {
+        "selector": "company-cost",
+        "id": "company-cost",
+        "title": "Стоимость зависит от задачи"
+      },
+      {
+        "selector": "o-kompanii-faq",
+        "id": "company-faq",
+        "title": "Вопросы о компании и работе над заказом"
+      },
+      {
+        "selector": "o-kompanii-contact",
+        "id": "company-contact",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-i-svetovye-koroba-sravnivaem-vozmozhnosti/index.html",
+    "url": "/obemnye-bukvy-i-svetovye-koroba-sravnivaem-vozmozhnosti/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-i-svetovye-koroba-sravnivaem-vozmozhnosti-chto-takoe-svetovoy-korob-laytboks-i-v-chem-ego-osobennosti",
+        "id": "",
+        "title": "Что такое световой короб (лайтбокс) и в чем его особенности"
+      },
+      {
+        "selector": "obemnye-bukvy-i-svetovye-koroba-sravnivaem-vozmozhnosti-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "obemnye-bukvy-i-svetovye-koroba-sravnivaem-vozmozhnosti-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-iz-akrila/index.html",
+    "url": "/obemnye-bukvy-iz-akrila/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-iz-akrila-content",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-bukvy-iz-akrila-benefits",
+        "id": "",
+        "title": "Наши преимущества"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-akrila-faq",
+        "id": "page-faq",
+        "title": "Частые вопросы"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-akrila-contact",
+        "id": "home-contact",
+        "title": "Обсудим вашу задачу"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-akrila-ispolnenie-akrilovyh-elementov",
+        "id": "",
+        "title": "Исполнение акриловых элементов"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-akrila-clients",
+        "id": "partners",
+        "title": "Наши клиенты"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-akrila-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-iz-kompozita/index.html",
+    "url": "/obemnye-bukvy-iz-kompozita/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-iz-kompozita-content",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-bukvy-iz-kompozita-benefits",
+        "id": "",
+        "title": "Наши преимущества"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-kompozita-faq",
+        "id": "page-faq",
+        "title": "Частые вопросы"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-kompozita-contact",
+        "id": "home-contact",
+        "title": "Обсудим вашу задачу"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-kompozita-bukvy-i-podlozhka",
+        "id": "",
+        "title": "Буквы и подложка"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-kompozita-clients",
+        "id": "partners",
+        "title": "Наши клиенты"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-kompozita-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-iz-profilej-als-i-elkamet/index.html",
+    "url": "/obemnye-bukvy-iz-profilej-als-i-elkamet/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-iz-profilej-als-i-elkamet-content",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-bukvy-iz-profilej-als-i-elkamet-benefits",
+        "id": "",
+        "title": "Наши преимущества"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-profilej-als-i-elkamet-faq",
+        "id": "page-faq",
+        "title": "Частые вопросы"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-profilej-als-i-elkamet-contact",
+        "id": "home-contact",
+        "title": "Обсудим вашу задачу"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-profilej-als-i-elkamet-profilnoe-ispolnenie",
+        "id": "",
+        "title": "Профильное исполнение"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-profilej-als-i-elkamet-clients",
+        "id": "partners",
+        "title": "Наши клиенты"
+      },
+      {
+        "selector": "obemnye-bukvy-iz-profilej-als-i-elkamet-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-portfolio/index.html",
+    "url": "/obemnye-bukvy-portfolio/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-portfolio-fotografii-rabot",
+        "id": "",
+        "title": "Фотографии работ"
+      },
+      {
+        "selector": "obemnye-bukvy-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "obemnye-bukvy-portfolio-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-sochetanie-effektov-ili-odin-aktsent",
+        "id": "child-compare",
+        "title": "Сочетание эффектов или один акцент"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-kakie-effekty-mozhno-sochetat",
+        "id": "child-effect",
+        "title": "Какие эффекты можно сочетать"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-neskolko-effektov-v-odnom-meste-razmescheniya",
+        "id": "child-placement",
+        "title": "Несколько эффектов в одном месте размещения"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-snachala-sochetanie-zatem-detali-bukv",
+        "id": "child-design",
+        "title": "Сначала сочетание, затем детали букв"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-cases",
+        "id": "child-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-stoimost-vybrannogo-sochetaniya-sveta",
+        "id": "child-price",
+        "title": "Стоимость выбранного сочетания света"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-proizvodstvo-soglasovannoy-kombinatsii",
+        "id": "child-production",
+        "title": "Производство согласованной комбинации"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-kak-soglasovat-neskolko-svetovyh-effektov",
+        "id": "child-process",
+        "title": "Как согласовать несколько световых эффектов"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-faq",
+        "id": "child-faq",
+        "title": "Вопросы о сочетании световых эффектов"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-contact",
+        "id": "child-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-portfolio/index.html",
+    "url": "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-portfolio/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-portfolio-fotografii-rabot",
+        "id": "",
+        "title": "Фотографии работ"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-portfolio-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/",
+    "sections": [
+      {
+        "selector": "halo-comparison",
+        "id": "halo-comparison",
+        "title": "Чем контражур отличается от других букв"
+      },
+      {
+        "selector": "halo-production",
+        "id": "halo-production",
+        "title": "Изготовление и монтаж"
+      },
+      {
+        "selector": "halo-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "halo-effect",
+        "id": "halo-effect",
+        "title": "Как выглядит контражур"
+      },
+      {
+        "selector": "halo-placement",
+        "id": "halo-placement",
+        "title": "Поверхность и размещение"
+      },
+      {
+        "selector": "halo-materials",
+        "id": "halo-materials",
+        "title": "Материал и конструкция"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-cases",
+        "id": "halo-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "halo-visual",
+        "id": "halo-visual",
+        "title": "Сравнение визуального эффекта"
+      },
+      {
+        "selector": "halo-price",
+        "id": "halo-price",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "halo-process",
+        "id": "halo-process",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-faq",
+        "id": "halo-faq",
+        "title": "Вопросы о контражурных буквах"
+      },
+      {
+        "selector": "obemnye-bukvy-s-kontrazhurnoj-podsvetkoj-contact",
+        "id": "halo-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-lampochkami/index.html",
+    "url": "/obemnye-bukvy-s-lampochkami/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-otdelnye-tochki-ili-svetyaschayasya-poverhnost",
+        "id": "child-compare",
+        "title": "Отдельные точки или светящаяся поверхность"
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-svetyaschiesya-tochki-kak-chast-risunka",
+        "id": "child-effect",
+        "title": "Светящиеся точки как часть рисунка"
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-zavedeniya-fotozony-i-interernye-nadpisi",
+        "id": "child-placement",
+        "title": "Заведения, фотозоны и интерьерные надписи"
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-kakoy-risunok-dolzhny-sozdavat-lampochki",
+        "id": "child-design",
+        "title": "Какой рисунок должны создавать лампочки"
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-cases",
+        "id": "child-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-raschet-nadpisi-s-otdelnymi-svetovymi-elementami",
+        "id": "child-price",
+        "title": "Расчёт надписи с отдельными световыми элементами"
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-izgotovlenie-bukv-dlya-vashey-kompozitsii",
+        "id": "child-production",
+        "title": "Изготовление букв для вашей композиции"
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-ot-idei-nadpisi-k-gotovym-bukvam",
+        "id": "child-process",
+        "title": "От идеи надписи к готовым буквам"
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-faq",
+        "id": "child-faq",
+        "title": "Вопросы о буквах с лампочками"
+      },
+      {
+        "selector": "obemnye-bukvy-s-lampochkami-contact",
+        "id": "child-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-licevoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-licevoj-podsvetkoj/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-litsevoe-svechenie-ili-svetovye-tortsy",
+        "id": "child-compare",
+        "title": "Лицевое свечение или световые торцы"
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-svetyaschayasya-perednyaya-poverhnost",
+        "id": "child-effect",
+        "title": "Светящаяся передняя поверхность"
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-svetovoe-litso-na-fasade-i-v-pomeschenii",
+        "id": "child-placement",
+        "title": "Световое лицо на фасаде и в помещении"
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-forma-nadpisi-i-fon",
+        "id": "child-design",
+        "title": "Форма надписи и фон"
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-cases",
+        "id": "child-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-chto-vhodit-v-raschet-svetovogo-litsa",
+        "id": "child-price",
+        "title": "Что входит в расчёт светового лица"
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-ot-maketa-svetovogo-litsa-do-ustanovki",
+        "id": "child-production",
+        "title": "От макета светового лица до установки"
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-put-k-nadpisi-so-svetovym-litsom",
+        "id": "child-process",
+        "title": "Путь к надписи со световым лицом"
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-faq",
+        "id": "child-faq",
+        "title": "Вопросы о светящейся лицевой части"
+      },
+      {
+        "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-contact",
+        "id": "child-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-torcevoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-torcevoj-podsvetkoj/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-tortsy-litso-ili-vnutrenniy-istochnik",
+        "id": "child-compare",
+        "title": "Торцы, лицо или внутренний источник"
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-svetovye-borta-vmesto-svetovogo-litsa",
+        "id": "child-effect",
+        "title": "Световые борта вместо светового лица"
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-perimetr-bukv-v-arhitekture-i-interere",
+        "id": "child-placement",
+        "title": "Периметр букв в архитектуре и интерьере"
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-chto-soglasovat-dlya-svetovyh-bortov",
+        "id": "child-design",
+        "title": "Что согласовать для световых бортов"
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-cases",
+        "id": "child-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-raschet-konstruktsii-so-svetovymi-tortsami",
+        "id": "child-price",
+        "title": "Расчёт конструкции со световыми торцами"
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-izgotovlenie-bukv-so-svetovymi-bortami",
+        "id": "child-production",
+        "title": "Изготовление букв со световыми бортами"
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-kak-zakazat-tortsevoy-svetovoy-aktsent",
+        "id": "child-process",
+        "title": "Как заказать торцевой световой акцент"
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-faq",
+        "id": "child-faq",
+        "title": "Что спрашивают о торцевом свечении"
+      },
+      {
+        "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-contact",
+        "id": "child-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-vneshnej-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-vneshnej-podsvetkoj/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-vneshniy-svet-vnutrenniy-istochnik-i-svetovoe-litso",
+        "id": "child-compare",
+        "title": "Внешний свет, внутренний источник и световое лицо"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-osveschaetsya-poverhnost-a-ne-vnutrenniy-obem",
+        "id": "child-effect",
+        "title": "Освещается поверхность, а не внутренний объём"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-nadpis-i-osveschenie-na-fasade",
+        "id": "child-placement",
+        "title": "Надпись и освещение на фасаде"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-dve-chasti-proekta-bukvy-i-vneshniy-svet",
+        "id": "child-design",
+        "title": "Две части проекта: буквы и внешний свет"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-cases",
+        "id": "child-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-raschet-bukv-i-naruzhnogo-istochnika-sveta",
+        "id": "child-price",
+        "title": "Расчёт букв и наружного источника света"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-izgotovlenie-nadpisi-i-podgotovka-k-razmescheniyu",
+        "id": "child-production",
+        "title": "Изготовление надписи и подготовка к размещению"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-soglasovanie-vneshnego-osvescheniya-po-shagam",
+        "id": "child-process",
+        "title": "Согласование внешнего освещения по шагам"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-faq",
+        "id": "child-faq",
+        "title": "Вопросы об освещении букв снаружи"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-contact",
+        "id": "child-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-vnutrennej-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-vnutrennej-podsvetkoj/",
+    "sections": [
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-vnutrennee-ustroystvo-i-sosednie-ispolneniya",
+        "id": "child-compare",
+        "title": "Внутреннее устройство и соседние исполнения"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-istochnik-vnutri-svetovoy-risunok-snaruzhi",
+        "id": "child-effect",
+        "title": "Источник внутри, световой рисунок снаружи"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-korpus-dlya-fasada-vhoda-ili-pomescheniya",
+        "id": "child-placement",
+        "title": "Корпус для фасада, входа или помещения"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-kakie-poverhnosti-dolzhny-propuskat-svet",
+        "id": "child-design",
+        "title": "Какие поверхности должны пропускать свет"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-cases",
+        "id": "child-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-iz-chego-skladyvaetsya-raschet-vnutrennego-ispolneniya",
+        "id": "child-price",
+        "title": "Из чего складывается расчёт внутреннего исполнения"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-soglasovannoe-ustroystvo-i-sobstvennoe-proizvodstvo",
+        "id": "child-production",
+        "title": "Согласованное устройство и собственное производство"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-ot-svetovogo-risunka-k-ustroystvu-korpusa",
+        "id": "child-process",
+        "title": "От светового рисунка к устройству корпуса"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-faq",
+        "id": "child-faq",
+        "title": "Вопросы об источнике внутри буквы"
+      },
+      {
+        "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-contact",
+        "id": "child-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy/index.html",
+    "url": "/obemnye-bukvy/",
+    "sections": [
+      {
+        "selector": "letters-types",
+        "id": "letters-types",
+        "title": "Три основных типа объёмных букв"
+      },
+      {
+        "selector": "letters-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "letters-compare",
+        "id": "letters-compare",
+        "title": "Световые, несветовые или контражурные"
+      },
+      {
+        "selector": "letters-materials",
+        "id": "letters-materials",
+        "title": "Материалы и конструктивные варианты"
+      },
+      {
+        "selector": "letters-choose",
+        "id": "letters-choose",
+        "title": "Как выбрать исполнение"
+      },
+      {
+        "selector": "letters-light",
+        "id": "letters-light",
+        "title": "Варианты световых букв"
+      },
+      {
+        "selector": "obemnye-bukvy-cases",
+        "id": "letters-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "letters-lightbox",
+        "id": "letters-lightbox",
+        "title": "Объёмные буквы или световой короб"
+      },
+      {
+        "selector": "letters-cost",
+        "id": "letters-cost",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "letters-production",
+        "id": "letters-production",
+        "title": "Изготовление и монтаж"
+      },
+      {
+        "selector": "letters-places",
+        "id": "letters-places",
+        "title": "Где используют объёмные буквы"
+      },
+      {
+        "selector": "letters-process",
+        "id": "letters-process",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "obemnye-bukvy-faq",
+        "id": "letters-faq",
+        "title": "Вопросы об объёмных буквах"
+      },
+      {
+        "selector": "obemnye-bukvy-contact",
+        "id": "letters-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-nesvetovye-bukvy/index.html",
+    "url": "/obemnye-nesvetovye-bukvy/",
+    "sections": [
+      {
+        "selector": "obemnye-nesvetovye-bukvy-cases",
+        "id": "nonlight-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "nonlight-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "nonlight-difference",
+        "id": "nonlight-difference",
+        "title": "Что отличает буквы без подсветки"
+      },
+      {
+        "selector": "nonlight-materials",
+        "id": "nonlight-materials",
+        "title": "Материал и конструкция"
+      },
+      {
+        "selector": "nonlight-choose",
+        "id": "nonlight-choose",
+        "title": "Как выбрать исполнение"
+      },
+      {
+        "selector": "nonlight-places",
+        "id": "nonlight-places",
+        "title": "Где используют несветовые буквы"
+      },
+      {
+        "selector": "nonlight-compare",
+        "id": "nonlight-compare",
+        "title": "Несветовые и световые: что учитывать"
+      },
+      {
+        "selector": "nonlight-cost",
+        "id": "nonlight-cost",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "nonlight-production",
+        "id": "nonlight-production",
+        "title": "Изготовление и монтаж"
+      },
+      {
+        "selector": "nonlight-process",
+        "id": "nonlight-process",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "nonlight-light",
+        "id": "nonlight-light",
+        "title": "Когда нужна подсветка"
+      },
+      {
+        "selector": "obemnye-nesvetovye-bukvy-faq",
+        "id": "nonlight-faq",
+        "title": "Вопросы о несветовых буквах"
+      },
+      {
+        "selector": "obemnye-nesvetovye-bukvy-contact",
+        "id": "nonlight-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-plastikovye-bukvy/index.html",
+    "url": "/obemnye-plastikovye-bukvy/",
+    "sections": [
+      {
+        "selector": "obemnye-plastikovye-bukvy-content",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "obemnye-plastikovye-bukvy-benefits",
+        "id": "",
+        "title": "Наши преимущества"
+      },
+      {
+        "selector": "obemnye-plastikovye-bukvy-faq",
+        "id": "page-faq",
+        "title": "Частые вопросы"
+      },
+      {
+        "selector": "obemnye-plastikovye-bukvy-contact",
+        "id": "home-contact",
+        "title": "Обсудим вашу задачу"
+      },
+      {
+        "selector": "obemnye-plastikovye-bukvy-material-pod-konkretnuyu-nadpis",
+        "id": "",
+        "title": "Материал под конкретную надпись"
+      },
+      {
+        "selector": "obemnye-plastikovye-bukvy-clients",
+        "id": "partners",
+        "title": "Наши клиенты"
+      },
+      {
+        "selector": "obemnye-plastikovye-bukvy-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-svetovye-bukvy/index.html",
+    "url": "/obemnye-svetovye-bukvy/",
+    "sections": [
+      {
+        "selector": "illuminated-variants",
+        "id": "illuminated-variants",
+        "title": "Шесть вариантов светового исполнения"
+      },
+      {
+        "selector": "illuminated-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "illuminated-compare",
+        "id": "illuminated-compare",
+        "title": "Сравнение вариантов подсветки"
+      },
+      {
+        "selector": "illuminated-halo",
+        "id": "illuminated-halo",
+        "title": "Нужен ореол за буквами?"
+      },
+      {
+        "selector": "illuminated-choose",
+        "id": "illuminated-choose",
+        "title": "Как выбрать подсветку"
+      },
+      {
+        "selector": "illuminated-choice",
+        "id": "illuminated-choice",
+        "title": "С подсветкой или без неё"
+      },
+      {
+        "selector": "illuminated-solutions",
+        "id": "illuminated-solutions",
+        "title": "Буквы и другие световые конструкции"
+      },
+      {
+        "selector": "obemnye-svetovye-bukvy-cases",
+        "id": "illuminated-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "illuminated-cost",
+        "id": "illuminated-cost",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "illuminated-production",
+        "id": "illuminated-production",
+        "title": "Изготовление и монтаж"
+      },
+      {
+        "selector": "illuminated-process",
+        "id": "illuminated-process",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "obemnye-svetovye-bukvy-faq",
+        "id": "illuminated-faq",
+        "title": "Вопросы о световых буквах"
+      },
+      {
+        "selector": "obemnye-svetovye-bukvy-contact",
+        "id": "illuminated-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/ofisnye-tablichki/index.html",
+    "url": "/ofisnye-tablichki/",
+    "sections": [
+      {
+        "selector": "ofisnye-tablichki-nadpisi-dlya-raznyh-pomescheniy",
+        "id": "plate-choice",
+        "title": "Надписи для разных помещений"
+      },
+      {
+        "selector": "ofisnye-tablichki-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "ofisnye-tablichki-edinyy-stil-serii",
+        "id": "",
+        "title": "Единый стиль серии"
+      },
+      {
+        "selector": "ofisnye-tablichki-oboznachit-kabinet-ili-organizovat-marshrut",
+        "id": "",
+        "title": "Обозначить кабинет или организовать маршрут"
+      },
+      {
+        "selector": "ofisnye-tablichki-stoimost-serii-ofisnyh-tablichek",
+        "id": "",
+        "title": "Стоимость серии офисных табличек"
+      },
+      {
+        "selector": "ofisnye-tablichki-izgotovlenie-i-razmeschenie-v-ofise",
+        "id": "",
+        "title": "Изготовление и размещение в офисе"
+      },
+      {
+        "selector": "ofisnye-tablichki-ot-spiska-kabinetov-k-gotovoy-serii",
+        "id": "",
+        "title": "От списка кабинетов к готовой серии"
+      },
+      {
+        "selector": "ofisnye-tablichki-faq",
+        "id": "page-faq",
+        "title": "Вопросы об офисных табличках"
+      },
+      {
+        "selector": "ofisnye-tablichki-contact",
+        "id": "plate-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/oformlenie-detskix-sadov/index.html",
+    "url": "/oformlenie-detskix-sadov/",
+    "sections": [
+      {
+        "selector": "oformlenie-detskix-sadov-fotografii-rabot",
+        "id": "",
+        "title": "Фотографии работ"
+      },
+      {
+        "selector": "oformlenie-detskix-sadov-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "oformlenie-detskix-sadov-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/osnovnye-oshibki-pri-oformlenii-vxodnoj-gruppy/index.html",
+    "url": "/osnovnye-oshibki-pri-oformlenii-vxodnoj-gruppy/",
+    "sections": [
+      {
+        "selector": "osnovnye-oshibki-pri-oformlenii-vxodnoj-gruppy-naibolee-rasprostranennye-oshibki",
+        "id": "",
+        "title": "Наиболее распространенные ошибки"
+      },
+      {
+        "selector": "osnovnye-oshibki-pri-oformlenii-vxodnoj-gruppy-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "osnovnye-oshibki-pri-oformlenii-vxodnoj-gruppy-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/osnovnye-tendencii-oformleniya-vxodnyx-grupp-uchimsya-gramotnomu-marketingu/index.html",
+    "url": "/osnovnye-tendencii-oformleniya-vxodnyx-grupp-uchimsya-gramotnomu-marketingu/",
+    "sections": [
+      {
+        "selector": "osnovnye-tendencii-oformleniya-vxodnyx-grupp-uchimsya-gramotnomu-marketingu-pravila-oformleniya",
+        "id": "",
+        "title": "Правила оформления"
+      },
+      {
+        "selector": "osnovnye-tendencii-oformleniya-vxodnyx-grupp-uchimsya-gramotnomu-marketingu-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "osnovnye-tendencii-oformleniya-vxodnyx-grupp-uchimsya-gramotnomu-marketingu-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/osobennosti-razrabotok-kryshnyx-ustanovok-kak-sproektirovat-ulichnuyu-reklamu/index.html",
+    "url": "/osobennosti-razrabotok-kryshnyx-ustanovok-kak-sproektirovat-ulichnuyu-reklamu/",
+    "sections": [
+      {
+        "selector": "osobennosti-razrabotok-kryshnyx-ustanovok-kak-sproektirovat-ulichnuyu-reklamu-klyuchevye-momenty",
+        "id": "",
+        "title": "Ключевые моменты"
+      },
+      {
+        "selector": "osobennosti-razrabotok-kryshnyx-ustanovok-kak-sproektirovat-ulichnuyu-reklamu-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "osobennosti-razrabotok-kryshnyx-ustanovok-kak-sproektirovat-ulichnuyu-reklamu-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/otzyvy/index.html",
+    "url": "/otzyvy/",
+    "sections": [
+      {
+        "selector": "otzyvy-reviews",
+        "id": "reviews",
+        "title": "Что говорят клиенты после запуска вывески"
+      },
+      {
+        "selector": "otzyvy-faq",
+        "id": "page-faq",
+        "title": "Вопросы об отзывах и опыте заказчиков"
+      }
+    ]
+  },
+  {
+    "source": "pages/page/2/index.html",
+    "url": "/page/2/",
+    "sections": [
+      {
+        "selector": "page-2-faq",
+        "id": "page-faq",
+        "title": "Вопросы по разделу"
+      }
+    ]
+  },
+  {
+    "source": "pages/panel-kronshtejny/index.html",
+    "url": "/panel-kronshtejny/",
+    "sections": [
+      {
+        "selector": "panel-kronshtejny-panel-fasadnaya-vyveska-ili-otdelno-stoyaschiy-orientir",
+        "id": "",
+        "title": "Панель, фасадная вывеска или отдельно стоящий ориентир"
+      },
+      {
+        "selector": "panel-kronshtejny-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "panel-kronshtejny-raspolozhenie-i-ispolnenie-raznye-priznaki",
+        "id": "",
+        "title": "Расположение и исполнение — разные признаки"
+      },
+      {
+        "selector": "panel-kronshtejny-poverhnosti-i-napravleniya-prosmotra",
+        "id": "",
+        "title": "Поверхности и направления просмотра"
+      },
+      {
+        "selector": "panel-kronshtejny-cases",
+        "id": "bracket-order-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "panel-kronshtejny-chto-uchityvat-dlya-rascheta-konsoli",
+        "id": "",
+        "title": "Что учитывать для расчёта консоли"
+      },
+      {
+        "selector": "panel-kronshtejny-proizvodstvo-i-montazh-panel-kronshteyna",
+        "id": "",
+        "title": "Производство и монтаж панель-кронштейна"
+      },
+      {
+        "selector": "panel-kronshtejny-kak-obsudit-zakaz",
+        "id": "",
+        "title": "Как обсудить заказ"
+      },
+      {
+        "selector": "panel-kronshtejny-faq",
+        "id": "page-faq",
+        "title": "Вопросы о панель-кронштейнах"
+      },
+      {
+        "selector": "panel-kronshtejny-contact",
+        "id": "bracket-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-bannere/index.html",
+    "url": "/pechat-na-bannere/",
+    "sections": [
+      {
+        "selector": "pechat-na-bannere-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "pechat-na-bannere-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "pechat-na-bannere-pechatnoe-polotno-dlya-reklamnogo-polya",
+        "id": "",
+        "title": "Печатное полотно для рекламного поля"
+      },
+      {
+        "selector": "pechat-na-bannere-banner-i-tehnologiya-pechati",
+        "id": "",
+        "title": "Баннер и технология печати"
+      },
+      {
+        "selector": "pechat-na-bannere-dannye-dlya-bannernogo-maketa",
+        "id": "",
+        "title": "Данные для баннерного макета"
+      },
+      {
+        "selector": "pechat-na-bannere-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "pechat-na-bannere-ot-maketa-k-gotovomu-banneru",
+        "id": "",
+        "title": "От макета к готовому баннеру"
+      },
+      {
+        "selector": "pechat-na-bannere-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "pechat-na-bannere-faq",
+        "id": "page-faq",
+        "title": "Вопросы по заказу"
+      },
+      {
+        "selector": "pechat-na-bannere-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-bumage/index.html",
+    "url": "/pechat-na-bumage/",
+    "sections": [
+      {
+        "selector": "pechat-na-bumage-bumaga-dlya-pechatnoy-informatsii",
+        "id": "",
+        "title": "Бумага для печатной информации"
+      },
+      {
+        "selector": "pechat-na-bumage-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "pechat-na-bumage-material-i-napravlenie-pechati",
+        "id": "",
+        "title": "Материал и направление печати"
+      },
+      {
+        "selector": "pechat-na-bumage-chto-peredat-dlya-bumazhnogo-zakaza",
+        "id": "",
+        "title": "Что передать для бумажного заказа"
+      },
+      {
+        "selector": "pechat-na-bumage-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "pechat-na-bumage-kak-zakazat-bumazhnuyu-produktsiyu",
+        "id": "",
+        "title": "Как заказать бумажную продукцию"
+      },
+      {
+        "selector": "pechat-na-bumage-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "pechat-na-bumage-faq",
+        "id": "page-faq",
+        "title": "Вопросы по заказу"
+      },
+      {
+        "selector": "pechat-na-bumage-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-fotooboyax/index.html",
+    "url": "/pechat-na-fotooboyax/",
+    "sections": [
+      {
+        "selector": "pechat-na-fotooboyax-izobrazhenie-dlya-steny",
+        "id": "",
+        "title": "Изображение для стены"
+      },
+      {
+        "selector": "pechat-na-fotooboyax-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "pechat-na-fotooboyax-fotooboi-i-interernaya-pechat",
+        "id": "",
+        "title": "Фотообои и интерьерная печать"
+      },
+      {
+        "selector": "pechat-na-fotooboyax-razmery-steny-i-syuzhet",
+        "id": "",
+        "title": "Размеры стены и сюжет"
+      },
+      {
+        "selector": "pechat-na-fotooboyax-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "pechat-na-fotooboyax-podgotovka-fotooboev-k-pechati",
+        "id": "",
+        "title": "Подготовка фотообоев к печати"
+      },
+      {
+        "selector": "pechat-na-fotooboyax-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "pechat-na-fotooboyax-faq",
+        "id": "page-faq",
+        "title": "Вопросы по заказу"
+      },
+      {
+        "selector": "pechat-na-fotooboyax-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-perforirovannoj-plenke/index.html",
+    "url": "/pechat-na-perforirovannoj-plenke/",
+    "sections": [
+      {
+        "selector": "pechat-na-perforirovannoj-plenke-oformlenie-okon-i-vitrin",
+        "id": "",
+        "title": "Оформление окон и витрин"
+      },
+      {
+        "selector": "pechat-na-perforirovannoj-plenke-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "pechat-na-perforirovannoj-plenke-perforatsiya-i-drugie-vidy-plenki",
+        "id": "",
+        "title": "Перфорация и другие виды плёнки"
+      },
+      {
+        "selector": "pechat-na-perforirovannoj-plenke-zona-ostekleniya-i-izobrazhenie",
+        "id": "",
+        "title": "Зона остекления и изображение"
+      },
+      {
+        "selector": "pechat-na-perforirovannoj-plenke-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "pechat-na-perforirovannoj-plenke-zakaz-oformleniya-na-perforirovannom-nositele",
+        "id": "",
+        "title": "Заказ оформления на перфорированном носителе"
+      },
+      {
+        "selector": "pechat-na-perforirovannoj-plenke-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "pechat-na-perforirovannoj-plenke-faq",
+        "id": "page-faq",
+        "title": "Вопросы по заказу"
+      },
+      {
+        "selector": "pechat-na-perforirovannoj-plenke-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-plenke/index.html",
+    "url": "/pechat-na-plenke/",
+    "sections": [
+      {
+        "selector": "pechat-na-plenke-tri-vida-plenki",
+        "id": "",
+        "title": "Три вида плёнки"
+      },
+      {
+        "selector": "pechat-na-plenke-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "pechat-na-plenke-kakuyu-plenku-vybrat",
+        "id": "",
+        "title": "Какую плёнку выбрать"
+      },
+      {
+        "selector": "pechat-na-plenke-pechat-i-drugie-operatsii",
+        "id": "",
+        "title": "Печать и другие операции"
+      },
+      {
+        "selector": "pechat-na-plenke-ishodnye-dannye-dlya-vybora-plenki",
+        "id": "",
+        "title": "Исходные данные для выбора плёнки"
+      },
+      {
+        "selector": "pechat-na-plenke-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "pechat-na-plenke-ot-vybora-plenki-k-pechatnomu-zakazu",
+        "id": "",
+        "title": "От выбора плёнки к печатному заказу"
+      },
+      {
+        "selector": "pechat-na-plenke-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "pechat-na-plenke-faq",
+        "id": "page-faq",
+        "title": "Вопросы по заказу"
+      },
+      {
+        "selector": "pechat-na-plenke-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-samokleyashhejsya-plenke/index.html",
+    "url": "/pechat-na-samokleyashhejsya-plenke/",
+    "sections": [
+      {
+        "selector": "pechat-na-samokleyashhejsya-plenke-samokleyaschiysya-nositel-izobrazheniya",
+        "id": "",
+        "title": "Самоклеящийся носитель изображения"
+      },
+      {
+        "selector": "pechat-na-samokleyashhejsya-plenke-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "pechat-na-samokleyashhejsya-plenke-pechat-i-konturnaya-rezka",
+        "id": "",
+        "title": "Печать и контурная резка"
+      },
+      {
+        "selector": "pechat-na-samokleyashhejsya-plenke-poverhnost-i-maket-samokleyki",
+        "id": "",
+        "title": "Поверхность и макет самоклейки"
+      },
+      {
+        "selector": "pechat-na-samokleyashhejsya-plenke-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "pechat-na-samokleyashhejsya-plenke-poryadok-zakaza-samokleyki",
+        "id": "",
+        "title": "Порядок заказа самоклейки"
+      },
+      {
+        "selector": "pechat-na-samokleyashhejsya-plenke-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "pechat-na-samokleyashhejsya-plenke-faq",
+        "id": "page-faq",
+        "title": "Вопросы по заказу"
+      },
+      {
+        "selector": "pechat-na-samokleyashhejsya-plenke-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-translyucentnoj-plenke/index.html",
+    "url": "/pechat-na-translyucentnoj-plenke/",
+    "sections": [
+      {
+        "selector": "pechat-na-translyucentnoj-plenke-plenka-dlya-svetovogo-reklamnogo-polya",
+        "id": "",
+        "title": "Плёнка для светового рекламного поля"
+      },
+      {
+        "selector": "pechat-na-translyucentnoj-plenke-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "pechat-na-translyucentnoj-plenke-material-i-svetovaya-konstruktsiya",
+        "id": "",
+        "title": "Материал и световая конструкция"
+      },
+      {
+        "selector": "pechat-na-translyucentnoj-plenke-razmery-svetovogo-polya",
+        "id": "",
+        "title": "Размеры светового поля"
+      },
+      {
+        "selector": "pechat-na-translyucentnoj-plenke-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "pechat-na-translyucentnoj-plenke-etapy-translyutsentnoy-pechati",
+        "id": "",
+        "title": "Этапы транслюцентной печати"
+      },
+      {
+        "selector": "pechat-na-translyucentnoj-plenke-proizvodstvennaya-baza",
+        "id": "",
+        "title": "Производственная база"
+      },
+      {
+        "selector": "pechat-na-translyucentnoj-plenke-faq",
+        "id": "page-faq",
+        "title": "Вопросы по заказу"
+      },
+      {
+        "selector": "pechat-na-translyucentnoj-plenke-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat/index.html",
+    "url": "/pechat/",
+    "sections": [
+      {
+        "selector": "pechat-dva-osnovnyh-napravleniya",
+        "id": "",
+        "title": "Два основных направления"
+      },
+      {
+        "selector": "pechat-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "pechat-vybor-po-materialu",
+        "id": "",
+        "title": "Выбор по материалу"
+      },
+      {
+        "selector": "pechat-kak-vybrat-mezhdu-napravleniyami",
+        "id": "",
+        "title": "Как выбрать между направлениями"
+      },
+      {
+        "selector": "pechat-ishodnye-dannye-i-podgotovka-maketa",
+        "id": "",
+        "title": "Исходные данные и подготовка макета"
+      },
+      {
+        "selector": "pechat-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "pechat-pechatnye-materialy-v-portfolio",
+        "id": "",
+        "title": "Печатные материалы в портфолио"
+      },
+      {
+        "selector": "pechat-proizvodstvennye-moschnosti",
+        "id": "",
+        "title": "Производственные мощности"
+      },
+      {
+        "selector": "pechat-ot-zadachi-k-rezultatu",
+        "id": "",
+        "title": "От задачи к результату"
+      },
+      {
+        "selector": "pechat-faq",
+        "id": "page-faq",
+        "title": "Вопросы о печати"
+      },
+      {
+        "selector": "pechat-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat/page/2/index.html",
+    "url": "/pechat/page/2/",
+    "sections": [
+      {
+        "selector": "pechat-page-2-content",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "pechat-page-2-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "pechat-page-2-faq",
+        "id": "page-faq",
+        "title": "Вопросы по разделу"
+      }
+    ]
+  },
+  {
+    "source": "pages/plotternaya-rezka-portfolio/index.html",
+    "url": "/plotternaya-rezka-portfolio/",
+    "sections": [
+      {
+        "selector": "plotternaya-rezka-portfolio-plotternaya-rezka-primery-rabot",
+        "id": "",
+        "title": "Плоттерная резка - примеры работ"
+      },
+      {
+        "selector": "plotternaya-rezka-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "plotternaya-rezka-portfolio-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/plotternaya-rezka/index.html",
+    "url": "/plotternaya-rezka/",
+    "sections": [
+      {
+        "selector": "plotternaya-rezka-rezka-pechat-i-frezerovka",
+        "id": "",
+        "title": "Резка, печать и фрезеровка"
+      },
+      {
+        "selector": "plotternaya-rezka-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "plotternaya-rezka-kontur-zadaet-formu",
+        "id": "",
+        "title": "Контур задаёт форму"
+      },
+      {
+        "selector": "plotternaya-rezka-maket-i-ishodnye-dannye",
+        "id": "",
+        "title": "Макет и исходные данные"
+      },
+      {
+        "selector": "plotternaya-rezka-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "plotternaya-rezka-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "plotternaya-rezka-kak-soglasovat-rezku",
+        "id": "",
+        "title": "Как согласовать резку"
+      },
+      {
+        "selector": "plotternaya-rezka-proizvodstvo-i-svyazannye-materialy",
+        "id": "",
+        "title": "Производство и связанные материалы"
+      },
+      {
+        "selector": "plotternaya-rezka-faq",
+        "id": "page-faq",
+        "title": "Вопросы о плоттерной резке"
+      },
+      {
+        "selector": "plotternaya-rezka-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/portfolio/index.html",
+    "url": "/portfolio/",
+    "sections": [
+      {
+        "selector": "signs",
+        "id": "signs",
+        "title": "Вывески и световые конструкции"
+      },
+      {
+        "selector": "portfolio-oformlenie-obektov",
+        "id": "objects",
+        "title": "Оформление объектов"
+      },
+      {
+        "selector": "information",
+        "id": "information",
+        "title": "Информационные стенды"
+      },
+      {
+        "selector": "graphics",
+        "id": "graphics",
+        "title": "Графика, карты и печать"
+      },
+      {
+        "selector": "interior",
+        "id": "interior",
+        "title": "Интерьерные панели"
+      },
+      {
+        "selector": "vehicles",
+        "id": "vehicles",
+        "title": "Оформление транспорта"
+      },
+      {
+        "selector": "portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "portfolio-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/rassmatrivaem-plotternuyu-rezku-v-chem-preimushhestva/index.html",
+    "url": "/rassmatrivaem-plotternuyu-rezku-v-chem-preimushhestva/",
+    "sections": [
+      {
+        "selector": "rassmatrivaem-plotternuyu-rezku-v-chem-preimushhestva-protsess",
+        "id": "",
+        "title": "Процесс"
+      },
+      {
+        "selector": "rassmatrivaem-plotternuyu-rezku-v-chem-preimushhestva-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "rassmatrivaem-plotternuyu-rezku-v-chem-preimushhestva-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/reklama-v-nizhnem-novgorode-nemnogo-ob-aktualnom/index.html",
+    "url": "/reklama-v-nizhnem-novgorode-nemnogo-ob-aktualnom/",
+    "sections": [
+      {
+        "selector": "reklama-v-nizhnem-novgorode-nemnogo-ob-aktualnom-osobennosti-novoy-zakonodatelnoy-bazy",
+        "id": "",
+        "title": "Особенности новой законодательной базы"
+      },
+      {
+        "selector": "reklama-v-nizhnem-novgorode-nemnogo-ob-aktualnom-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "reklama-v-nizhnem-novgorode-nemnogo-ob-aktualnom-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "url": "/reklamnye-konstrukcii/",
+    "sections": [
+      {
+        "selector": "reklamnye-konstrukcii-kakuyu-konstruktsiyu-izgotovit",
+        "id": "",
+        "title": "Какую конструкцию изготовить"
+      },
+      {
+        "selector": "advertising-structures-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "reklamnye-konstrukcii-mesto-opredelyaet-krug-variantov",
+        "id": "",
+        "title": "Место определяет круг вариантов"
+      },
+      {
+        "selector": "reklamnye-konstrukcii-ot-soderzhaniya-k-izdeliyu",
+        "id": "",
+        "title": "От содержания к изделию"
+      },
+      {
+        "selector": "reklamnye-konstrukcii-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "reklamnye-konstrukcii-raschet-dlya-vybrannogo-izdeliya",
+        "id": "",
+        "title": "Расчёт для выбранного изделия"
+      },
+      {
+        "selector": "reklamnye-konstrukcii-proizvodstvo-vybrannogo-ispolneniya",
+        "id": "",
+        "title": "Производство выбранного исполнения"
+      },
+      {
+        "selector": "reklamnye-konstrukcii-ustanovka-i-voprosy-razmescheniya",
+        "id": "",
+        "title": "Установка и вопросы размещения"
+      },
+      {
+        "selector": "reklamnye-konstrukcii-izdelie-i-napravlenie-rabot",
+        "id": "",
+        "title": "Изделие и направление работ"
+      },
+      {
+        "selector": "reklamnye-konstrukcii-zakaz-ot-ishodnyh-dannyh-do-ustanovki",
+        "id": "",
+        "title": "Заказ от исходных данных до установки"
+      },
+      {
+        "selector": "reklamnye-konstrukcii-faq",
+        "id": "page-faq",
+        "title": "Вопросы о выборе изделия"
+      },
+      {
+        "selector": "reklamnye-konstrukcii-contact",
+        "id": "structure-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/services/index.html",
+    "url": "/services/",
+    "sections": [
+      {
+        "selector": "services-signs",
+        "id": "services-signs",
+        "title": "Вывески и наружная реклама"
+      },
+      {
+        "selector": "services-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "services-complex",
+        "id": "services-complex",
+        "title": "Комплексное оформление"
+      },
+      {
+        "selector": "services-support",
+        "id": "services-support",
+        "title": "Сопровождение и работы"
+      },
+      {
+        "selector": "production",
+        "id": "production",
+        "title": "Производственные услуги"
+      },
+      {
+        "selector": "services-choice",
+        "id": "services-choice",
+        "title": "Как выбрать нужное направление"
+      },
+      {
+        "selector": "services-cases",
+        "id": "services-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "services-prices",
+        "id": "services-prices",
+        "title": "Цены"
+      },
+      {
+        "selector": "services-agencies",
+        "id": "services-agencies",
+        "title": "Для рекламных агентств"
+      },
+      {
+        "selector": "services-process",
+        "id": "services-process",
+        "title": "Как начинается заказ"
+      },
+      {
+        "selector": "services-faq",
+        "id": "services-faq",
+        "title": "Вопросы об услугах"
+      },
+      {
+        "selector": "services-contact",
+        "id": "services-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/shirokoformatnaya-pechat-chem-otlichaetsya-ot-interernoj/index.html",
+    "url": "/shirokoformatnaya-pechat-chem-otlichaetsya-ot-interernoj/",
+    "sections": [
+      {
+        "selector": "shirokoformatnaya-pechat-chem-otlichaetsya-ot-interernoj-vidy",
+        "id": "",
+        "title": "Виды"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-chem-otlichaetsya-ot-interernoj-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-chem-otlichaetsya-ot-interernoj-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/shirokoformatnaya-pechat/index.html",
+    "url": "/shirokoformatnaya-pechat/",
+    "sections": [
+      {
+        "selector": "shirokoformatnaya-pechat-pechatnaya-chast-krupnogo-reklamnogo-polya",
+        "id": "",
+        "title": "Печатная часть крупного рекламного поля"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-material-dlya-shirokoformatnoy-zadachi",
+        "id": "",
+        "title": "Материал для широкоформатной задачи"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-kogda-rassmotret-interernuyu-pechat",
+        "id": "",
+        "title": "Когда рассмотреть интерьерную печать"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-maket-reklamnogo-polya",
+        "id": "",
+        "title": "Макет рекламного поля"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-individualnyy-raschet",
+        "id": "",
+        "title": "Индивидуальный расчёт"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-primery-bannernogo-oformleniya",
+        "id": "",
+        "title": "Примеры баннерного оформления"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-proizvodstvo-reklamnogo-polotna",
+        "id": "",
+        "title": "Производство рекламного полотна"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-etapy-shirokoformatnogo-zakaza",
+        "id": "",
+        "title": "Этапы широкоформатного заказа"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-faq",
+        "id": "page-faq",
+        "title": "Вопросы о печати"
+      },
+      {
+        "selector": "shirokoformatnaya-pechat-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/soglasovanie-naruzhnoj-reklamy/index.html",
+    "url": "/soglasovanie-naruzhnoj-reklamy/",
+    "sections": [
+      {
+        "selector": "soglasovanie-naruzhnoj-reklamy-soprovozhdenie-konkretnogo-voprosa",
+        "id": "",
+        "title": "Сопровождение конкретного вопроса"
+      },
+      {
+        "selector": "soglasovanie-naruzhnoj-reklamy-ishodnye-dannye-dlya-obsuzhdeniya",
+        "id": "inputs",
+        "title": "Исходные данные для обсуждения"
+      },
+      {
+        "selector": "soglasovanie-naruzhnoj-reklamy-maket-razmeschenie-i-fizicheskaya-ustanovka",
+        "id": "",
+        "title": "Макет, размещение и физическая установка"
+      },
+      {
+        "selector": "soglasovanie-naruzhnoj-reklamy-stoimost-soprovozhdeniya",
+        "id": "",
+        "title": "Стоимость сопровождения"
+      },
+      {
+        "selector": "soglasovanie-naruzhnoj-reklamy-kak-obsuzhdaem-zadachu",
+        "id": "",
+        "title": "Как обсуждаем задачу"
+      },
+      {
+        "selector": "soglasovanie-naruzhnoj-reklamy-faq",
+        "id": "page-faq",
+        "title": "Вопросы о сопровождении согласования"
+      },
+      {
+        "selector": "soglasovanie-naruzhnoj-reklamy-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/spar/index.html",
+    "url": "/spar/",
+    "sections": [
+      {
+        "selector": "spar-fotografii-oformleniya-spar",
+        "id": "",
+        "title": "Фотографии оформления SPAR"
+      },
+      {
+        "selector": "spar-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "spar-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/stely-i-pilony-portfolio/index.html",
+    "url": "/stely-i-pilony-portfolio/",
+    "sections": [
+      {
+        "selector": "steles-portfolio-intro",
+        "id": "",
+        "title": "Стелы и пилоны - примеры работ"
+      },
+      {
+        "selector": "steles-portfolio-gallery",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "steles-portfolio-videos",
+        "id": "",
+        "title": "Видео из исходной подборки"
+      },
+      {
+        "selector": "steles-portfolio-outro",
+        "id": "",
+        "title": "Обсудить свою конструкцию"
+      },
+      {
+        "selector": "stely-i-pilony-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/stely-i-pilony/index.html",
+    "url": "/stely-i-pilony/",
+    "sections": [
+      {
+        "selector": "stely-i-pilony-kogda-nuzhna-drugaya-konstruktsiya",
+        "id": "",
+        "title": "Когда нужна другая конструкция"
+      },
+      {
+        "selector": "steles-pylons-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "stely-i-pilony-stela-ili-pilon-vybor-ispolneniya",
+        "id": "",
+        "title": "Стела или пилон: выбор исполнения"
+      },
+      {
+        "selector": "stely-i-pilony-chto-mozhno-razmestit",
+        "id": "",
+        "title": "Что можно разместить"
+      },
+      {
+        "selector": "stely-i-pilony-rabochie-storony-i-napravleniya-prosmotra",
+        "id": "",
+        "title": "Рабочие стороны и направления просмотра"
+      },
+      {
+        "selector": "stely-i-pilony-s-podsvetkoy-ili-bez",
+        "id": "",
+        "title": "С подсветкой или без"
+      },
+      {
+        "selector": "stely-i-pilony-mesto-ustanovki-i-materialy",
+        "id": "",
+        "title": "Место установки и материалы"
+      },
+      {
+        "selector": "stely-i-pilony-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "stely-i-pilony-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "stely-i-pilony-izgotovlenie-i-ustanovka",
+        "id": "",
+        "title": "Изготовление и установка"
+      },
+      {
+        "selector": "stely-i-pilony-kak-prohodit-zakaz",
+        "id": "",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "stely-i-pilony-faq",
+        "id": "page-faq",
+        "title": "Вопросы о стелах и пилонах"
+      },
+      {
+        "selector": "stely-i-pilony-contact",
+        "id": "steles-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/stojki-resepshen/index.html",
+    "url": "/stojki-resepshen/",
+    "sections": [
+      {
+        "selector": "stojki-resepshen-stoyka-dlya-zony-priema",
+        "id": "",
+        "title": "Стойка для зоны приёма"
+      },
+      {
+        "selector": "reception-desk-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "stojki-resepshen-razmery-konfiguratsiya-i-oformlenie",
+        "id": "",
+        "title": "Размеры, конфигурация и оформление"
+      },
+      {
+        "selector": "stojki-resepshen-stoyka-i-drugie-elementy-zony-priema",
+        "id": "",
+        "title": "Стойка и другие элементы зоны приёма"
+      },
+      {
+        "selector": "stojki-resepshen-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "stojki-resepshen-proizvodstvo-i-soglasovanie-zadachi",
+        "id": "",
+        "title": "Производство и согласование задачи"
+      },
+      {
+        "selector": "stojki-resepshen-kak-obsudit-izgotovlenie",
+        "id": "",
+        "title": "Как обсудить изготовление"
+      },
+      {
+        "selector": "stojki-resepshen-faq",
+        "id": "page-faq",
+        "title": "Вопросы о стойках ресепшен"
+      },
+      {
+        "selector": "stojki-resepshen-contact",
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovoj-korob-s-inkrustaciej-v-chem-osobennosti-reklamnoj-novinki/index.html",
+    "url": "/svetovoj-korob-s-inkrustaciej-v-chem-osobennosti-reklamnoj-novinki/",
+    "sections": [
+      {
+        "selector": "svetovoj-korob-s-inkrustaciej-v-chem-osobennosti-reklamnoj-novinki-osobennosti",
+        "id": "",
+        "title": "Особенности"
+      },
+      {
+        "selector": "svetovoj-korob-s-inkrustaciej-v-chem-osobennosti-reklamnoj-novinki-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "svetovoj-korob-s-inkrustaciej-v-chem-osobennosti-reklamnoj-novinki-faq",
+        "id": "page-faq",
+        "title": "Вопросы по теме статьи"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-koroba-inkrustaciya/index.html",
+    "url": "/svetovye-koroba-inkrustaciya/",
+    "sections": [
+      {
+        "selector": "svetovye-koroba-inkrustaciya-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "svetovye-koroba-inkrustaciya-korotko-ob-inkrustatsii",
+        "id": "",
+        "title": "Коротко об инкрустации"
+      },
+      {
+        "selector": "svetovye-koroba-inkrustaciya-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-koroba-portfolio/index.html",
+    "url": "/svetovye-koroba-portfolio/",
+    "sections": [
+      {
+        "selector": "box-gallery-works",
+        "id": "",
+        "title": "Примеры световых коробов"
+      },
+      {
+        "selector": "svetovye-koroba-portfolio-ot-primerov-k-vashey-konstruktsii",
+        "id": "",
+        "title": "От примеров — к вашей конструкции"
+      },
+      {
+        "selector": "svetovye-koroba-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-koroba/index.html",
+    "url": "/svetovye-koroba/",
+    "sections": [
+      {
+        "selector": "svetovye-koroba-cases",
+        "id": "lightbox-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "lightbox-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "lightbox-construction",
+        "id": "lightbox-construction",
+        "title": "Как устроен световой короб"
+      },
+      {
+        "selector": "lightbox-comparison",
+        "id": "lightbox-comparison",
+        "title": "Короб или отдельные объёмные буквы"
+      },
+      {
+        "selector": "lightbox-placement",
+        "id": "lightbox-placement",
+        "title": "Лайтбоксы на фасаде и в интерьере"
+      },
+      {
+        "selector": "lightbox-variants",
+        "id": "lightbox-variants",
+        "title": "Лицевая поверхность и конструктивные направления"
+      },
+      {
+        "selector": "lightbox-inlay",
+        "id": "lightbox-inlay",
+        "title": "Световые короба с инкрустацией"
+      },
+      {
+        "selector": "lightbox-selection",
+        "id": "lightbox-selection",
+        "title": "Как выбрать короб под вашу задачу"
+      },
+      {
+        "selector": "lightbox-price",
+        "id": "lightbox-price",
+        "title": "От чего зависит стоимость светового короба"
+      },
+      {
+        "selector": "lightbox-repair",
+        "id": "lightbox-repair",
+        "title": "Если короб уже существует"
+      },
+      {
+        "selector": "lightbox-production",
+        "id": "lightbox-production",
+        "title": "Изготовление и отдельное согласование монтажа"
+      },
+      {
+        "selector": "lightbox-process",
+        "id": "lightbox-process",
+        "title": "Как проходит заказ лайтбокса"
+      },
+      {
+        "selector": "lightbox-related",
+        "id": "lightbox-related",
+        "title": "Связанные задачи рекламного оформления"
+      },
+      {
+        "selector": "svetovye-koroba-faq",
+        "id": "lightbox-faq",
+        "title": "Вопросы о световых коробах"
+      },
+      {
+        "selector": "svetovye-koroba-contact",
+        "id": "lightbox-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-portaly-portfolio/index.html",
+    "url": "/svetovye-portaly-portfolio/",
+    "sections": [
+      {
+        "selector": "light-portal-portfolio-intro",
+        "id": "",
+        "title": "Световые порталы - примеры работ"
+      },
+      {
+        "selector": "light-portal-portfolio-gallery",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "light-portal-portfolio-outro",
+        "id": "",
+        "title": "Обсудить свою конструкцию"
+      },
+      {
+        "selector": "svetovye-portaly-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-portaly/index.html",
+    "url": "/svetovye-portaly/",
+    "sections": [
+      {
+        "selector": "svetovye-portaly-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "light-portals-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "svetovye-portaly-podsvetka-litsevoy-poverhnosti",
+        "id": "",
+        "title": "Подсветка лицевой поверхности"
+      },
+      {
+        "selector": "svetovye-portaly-svetovoy-portal-ili-vhodnaya-gruppa",
+        "id": "",
+        "title": "Световой портал или входная группа"
+      },
+      {
+        "selector": "svetovye-portaly-portal-i-oformlenie-fasada",
+        "id": "",
+        "title": "Портал и оформление фасада"
+      },
+      {
+        "selector": "svetovye-portaly-portal-i-svetovaya-vyveska",
+        "id": "",
+        "title": "Портал и световая вывеска"
+      },
+      {
+        "selector": "svetovye-portaly-kak-vybirayut-ispolnenie",
+        "id": "",
+        "title": "Как выбирают исполнение"
+      },
+      {
+        "selector": "svetovye-portaly-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "svetovye-portaly-proizvodstvo-i-montazh",
+        "id": "",
+        "title": "Производство и монтаж"
+      },
+      {
+        "selector": "svetovye-portaly-kak-prohodit-zakaz",
+        "id": "",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "svetovye-portaly-faq",
+        "id": "page-faq",
+        "title": "Вопросы о световых порталах"
+      },
+      {
+        "selector": "svetovye-portaly-contact",
+        "id": "portal-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/tablichki/index.html",
+    "url": "/tablichki/",
+    "sections": [
+      {
+        "selector": "tablichki-kakaya-tablichka-nuzhna",
+        "id": "plate-choice",
+        "title": "Какая табличка нужна"
+      },
+      {
+        "selector": "tablichki-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "tablichki-soderzhanie-opredelyaet-ispolnenie",
+        "id": "",
+        "title": "Содержание определяет исполнение"
+      },
+      {
+        "selector": "tablichki-tablichka-i-drugie-nositeli-informatsii",
+        "id": "",
+        "title": "Табличка и другие носители информации"
+      },
+      {
+        "selector": "tablichki-stoimost-tablichki-po-vybrannomu-sostavu",
+        "id": "",
+        "title": "Стоимость таблички по выбранному составу"
+      },
+      {
+        "selector": "tablichki-izgotovlenie-i-ustanovka",
+        "id": "",
+        "title": "Изготовление и установка"
+      },
+      {
+        "selector": "tablichki-ot-zadachi-k-gotovoy-tablichke",
+        "id": "",
+        "title": "От задачи к готовой табличке"
+      },
+      {
+        "selector": "tablichki-faq",
+        "id": "page-faq",
+        "title": "Вопросы о выборе таблички"
+      },
+      {
+        "selector": "tablichki-contact",
+        "id": "plate-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/ulichnye-stendy-portfolio/index.html",
+    "url": "/ulichnye-stendy-portfolio/",
+    "sections": [
+      {
+        "selector": "ulichnye-stendy-portfolio-ulichnye-stendy-primery-rabot",
+        "id": "",
+        "title": "Уличные стенды - примеры работ"
+      },
+      {
+        "selector": "ulichnye-stendy-portfolio-gallery",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "ulichnye-stendy-portfolio-obsudit-zadachu",
+        "id": "",
+        "title": "Обсудить задачу"
+      },
+      {
+        "selector": "ulichnye-stendy-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/ulichnye-stendy/index.html",
+    "url": "/ulichnye-stendy/",
+    "sections": [
+      {
+        "selector": "ulichnye-stendy-cases",
+        "id": "stand-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "ulichnye-stendy-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "ulichnye-stendy-snachala-uchastok-zatem-ispolnenie",
+        "id": "",
+        "title": "Сначала участок, затем исполнение"
+      },
+      {
+        "selector": "ulichnye-stendy-informatsionnyy-stend-i-reklamnyy-orientir",
+        "id": "",
+        "title": "Информационный стенд и рекламный ориентир"
+      },
+      {
+        "selector": "ulichnye-stendy-usloviya-ustanovki-obsuzhdayutsya-po-obektu",
+        "id": "",
+        "title": "Условия установки обсуждаются по объекту"
+      },
+      {
+        "selector": "ulichnye-stendy-stoimost-naruzhnogo-ispolneniya",
+        "id": "",
+        "title": "Стоимость наружного исполнения"
+      },
+      {
+        "selector": "ulichnye-stendy-izgotovlenie-dlya-vybrannogo-uchastka",
+        "id": "",
+        "title": "Изготовление для выбранного участка"
+      },
+      {
+        "selector": "ulichnye-stendy-obsuzhdenie-naruzhnogo-razmescheniya",
+        "id": "",
+        "title": "Обсуждение наружного размещения"
+      },
+      {
+        "selector": "ulichnye-stendy-faq",
+        "id": "page-faq",
+        "title": "Вопросы о наружном размещении"
+      },
+      {
+        "selector": "ulichnye-stendy-contact",
+        "id": "stand-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/vakansii/index.html",
+    "url": "/vakansii/",
+    "sections": [
+      {
+        "selector": "vakansii-content",
+        "id": "",
+        "title": "Специалист в сборочный цех"
+      },
+      {
+        "selector": "vakansii-svyazannye-napravleniya",
+        "id": "",
+        "title": "Связанные направления"
+      },
+      {
+        "selector": "vakansii-faq",
+        "id": "page-faq",
+        "title": "Вопросы для соискателей"
+      }
+    ]
+  },
+  {
+    "source": "pages/vxodnye-gruppy-portfolio/index.html",
+    "url": "/vxodnye-gruppy-portfolio/",
+    "sections": [
+      {
+        "selector": "entrance-portfolio-intro",
+        "id": "",
+        "title": "Входные группы - примеры работ"
+      },
+      {
+        "selector": "entrance-portfolio-gallery",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "entrance-portfolio-outro",
+        "id": "",
+        "title": "Обсудить оформление своего входа"
+      },
+      {
+        "selector": "vxodnye-gruppy-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/vxodnye-gruppy/index.html",
+    "url": "/vxodnye-gruppy/",
+    "sections": [
+      {
+        "selector": "vxodnye-gruppy-tolko-vhod-ili-ves-fasad",
+        "id": "",
+        "title": "Только вход или весь фасад"
+      },
+      {
+        "selector": "entrance-groups-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "vxodnye-gruppy-iz-chego-mozhet-sostoyat-oformlenie",
+        "id": "",
+        "title": "Из чего может состоять оформление"
+      },
+      {
+        "selector": "vxodnye-gruppy-vhodnaya-gruppa-ili-odna-vyveska",
+        "id": "",
+        "title": "Входная группа или одна вывеска"
+      },
+      {
+        "selector": "vxodnye-gruppy-svetovoy-portal-kak-variant-oformleniya-vhoda",
+        "id": "",
+        "title": "Световой портал как вариант оформления входа"
+      },
+      {
+        "selector": "vxodnye-gruppy-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "vxodnye-gruppy-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "vxodnye-gruppy-dizayn-i-soglasovanie",
+        "id": "",
+        "title": "Дизайн и согласование"
+      },
+      {
+        "selector": "vxodnye-gruppy-izgotovlenie-i-montazh",
+        "id": "",
+        "title": "Изготовление и монтаж"
+      },
+      {
+        "selector": "vxodnye-gruppy-kak-prohodit-zakaz",
+        "id": "",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "vxodnye-gruppy-podrobnee-ob-oformlenii-vhoda",
+        "id": "",
+        "title": "Подробнее об оформлении входа"
+      },
+      {
+        "selector": "vxodnye-gruppy-faq",
+        "id": "page-faq",
+        "title": "Вопросы о входных группах"
+      },
+      {
+        "selector": "vxodnye-gruppy-contact",
+        "id": "entrance-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/vystavochnye-stendy/index.html",
+    "url": "/vystavochnye-stendy/",
+    "sections": [
+      {
+        "selector": "vystavochnye-stendy-bazovyy-vybor-ili-individualnaya-komponovka",
+        "id": "",
+        "title": "Базовый выбор или индивидуальная компоновка"
+      },
+      {
+        "selector": "vystavochnye-stendy-intro",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "vystavochnye-stendy-firmennoe-oformlenie-v-prezentatsionnom-prostranstve",
+        "id": "",
+        "title": "Фирменное оформление в презентационном пространстве"
+      },
+      {
+        "selector": "vystavochnye-stendy-vystavochnyy-i-informatsionnyy-raznye-zadachi",
+        "id": "",
+        "title": "Выставочный и информационный — разные задачи"
+      },
+      {
+        "selector": "vystavochnye-stendy-chto-vhodit-v-raschet-vystavochnogo-stenda",
+        "id": "",
+        "title": "Что входит в расчёт выставочного стенда"
+      },
+      {
+        "selector": "vystavochnye-stendy-izgotovlenie-i-sborka-dlya-meropriyatiya",
+        "id": "",
+        "title": "Изготовление и сборка для мероприятия"
+      },
+      {
+        "selector": "vystavochnye-stendy-ot-prezentatsionnoy-zadachi-k-sostavu-stenda",
+        "id": "",
+        "title": "От презентационной задачи к составу стенда"
+      },
+      {
+        "selector": "vystavochnye-stendy-faq",
+        "id": "page-faq",
+        "title": "Вопросы о выставочной задаче"
+      },
+      {
+        "selector": "vystavochnye-stendy-contact",
+        "id": "stand-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski-portfolio/index.html",
+    "url": "/vyveski-portfolio/",
+    "sections": [
+      {
+        "selector": "vyveski-portfolio-fotografii-rabot",
+        "id": "",
+        "title": "Фотографии работ"
+      },
+      {
+        "selector": "vyveski-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      },
+      {
+        "selector": "vyveski-portfolio-related-services",
+        "id": "",
+        "title": "",
+        "tag": "div"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski-s-pajetkami-portfolio/index.html",
+    "url": "/vyveski-s-pajetkami-portfolio/",
+    "sections": [
+      {
+        "selector": "sequin-portfolio-intro",
+        "id": "",
+        "title": "Вывески с пайетками - примеры работ"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-portfolio-fotografii-rabot",
+        "id": "",
+        "title": "Фотографии работ"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-portfolio-obsudit-svoyu-vyvesku",
+        "id": "",
+        "title": "Обсудить свою вывеску"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-portfolio-faq",
+        "id": "page-faq",
+        "title": "Вопросы по примерам работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "url": "/vyveski-s-pajetkami/",
+    "sections": [
+      {
+        "selector": "vyveski-s-pajetkami-payetki-i-drugie-ispolneniya-vyvesok",
+        "id": "",
+        "title": "Пайетки и другие исполнения вывесок"
+      },
+      {
+        "selector": "sequin-signs-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "vyveski-s-pajetkami-kak-vyglyadit-effekt",
+        "id": "",
+        "title": "Как выглядит эффект"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-chto-mozhno-oformit",
+        "id": "",
+        "title": "Что можно оформить"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-razmeschenie-na-fasade",
+        "id": "",
+        "title": "Размещение на фасаде"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-ot-chego-zavisit-stoimost",
+        "id": "",
+        "title": "От чего зависит стоимость"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-izgotovlenie-i-montazh",
+        "id": "",
+        "title": "Изготовление и монтаж"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-kak-prohodit-zakaz",
+        "id": "",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-faq",
+        "id": "page-faq",
+        "title": "Вопросы о вывесках с пайетками"
+      },
+      {
+        "selector": "vyveski-s-pajetkami-contact",
+        "id": "sequin-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski/index.html",
+    "url": "/vyveski/",
+    "sections": [
+      {
+        "selector": "vyveski-fasadnye-vyveski",
+        "id": "",
+        "title": "Фасадные вывески"
+      },
+      {
+        "selector": "signs-hub-choice",
+        "id": "signs-hub-choice",
+        "title": "Как выбрать тип вывески"
+      },
+      {
+        "selector": "signs-hub-hero",
+        "id": "",
+        "title": "Фасадные вывески"
+      },
+      {
+        "selector": "signs-hub-elements",
+        "id": "signs-hub-elements",
+        "title": "Виды вывесок"
+      },
+      {
+        "selector": "signs-hub-light",
+        "id": "signs-hub-light",
+        "title": "Световые и несветовые решения"
+      },
+      {
+        "selector": "signs-hub-placement",
+        "id": "signs-hub-placement",
+        "title": "Для фасада и интерьера"
+      },
+      {
+        "selector": "vyveski-cases",
+        "id": "signs-hub-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "signs-hub-price",
+        "id": "signs-hub-price",
+        "title": "От чего зависит стоимость вывески"
+      },
+      {
+        "selector": "signs-hub-process",
+        "id": "signs-hub-process",
+        "title": "Как заказать вывеску"
+      },
+      {
+        "selector": "signs-hub-related",
+        "id": "signs-hub-related",
+        "title": "Если задача шире одной вывески"
+      },
+      {
+        "selector": "vyveski-faq",
+        "id": "signs-hub-faq",
+        "title": "Вопросы об изготовлении вывесок"
+      },
+      {
+        "selector": "vyveski-contact",
+        "id": "signs-hub-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/vzaimovygodnoe-sotrudnichestvo/index.html",
+    "url": "/vzaimovygodnoe-sotrudnichestvo/",
+    "sections": [
+      {
+        "selector": "agency-hero",
+        "id": "",
+        "title": "Сотрудничество с рекламными агентствами"
+      },
+      {
+        "selector": "agency-directions",
+        "id": "agency-directions",
+        "title": "Что можно передать в производство"
+      },
+      {
+        "selector": "agency-production",
+        "id": "agency-production",
+        "title": "Собственное производство"
+      },
+      {
+        "selector": "agency-tasks",
+        "id": "agency-tasks",
+        "title": "Когда нужен производственный подрядчик"
+      },
+      {
+        "selector": "agency-process",
+        "id": "agency-process",
+        "title": "Как начинается работа"
+      },
+      {
+        "selector": "agency-data",
+        "id": "agency-data",
+        "title": "Что нужно для расчёта"
+      },
+      {
+        "selector": "agency-materials",
+        "id": "agency-materials",
+        "title": "Печать и обработка материалов"
+      },
+      {
+        "selector": "agency-outdoor",
+        "id": "agency-outdoor",
+        "title": "Наружные конструкции по проекту"
+      },
+      {
+        "selector": "vzaimovygodnoe-sotrudnichestvo-cases",
+        "id": "agency-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "agency-cost",
+        "id": "agency-cost",
+        "title": "Стоимость по параметрам заказа"
+      },
+      {
+        "selector": "vzaimovygodnoe-sotrudnichestvo-faq",
+        "id": "agency-faq",
+        "title": "Вопросы о производственном сотрудничестве"
+      },
+      {
+        "selector": "vzaimovygodnoe-sotrudnichestvo-contact",
+        "id": "agency-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-vyveski/index.html",
+    "url": "/svetovye-vyveski/",
+    "sections": [
+      {
+        "selector": "light-signs-types",
+        "id": "light-signs-types",
+        "title": "Основные виды световых вывесок"
+      },
+      {
+        "selector": "svetovye-vyveski-company",
+        "id": "light-signs-intro",
+        "title": "Подберём световую вывеску для вашего объекта"
+      },
+      {
+        "selector": "svetovye-vyveski-kak-vybrat-svetovoe-reshenie",
+        "id": "",
+        "title": "Как выбрать световое решение"
+      },
+      {
+        "selector": "svetovye-vyveski-dlya-kakih-obektov-podhodyat-svetovye-vyveski",
+        "id": "",
+        "title": "Для каких объектов подходят световые вывески"
+      },
+      {
+        "selector": "svetovye-vyveski-ot-chego-zavisit-stoimost-svetovoy-vyveski",
+        "id": "",
+        "title": "От чего зависит стоимость световой вывески"
+      },
+      {
+        "selector": "svetovye-vyveski-cases",
+        "id": "home-works",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "svetovye-vyveski-kak-prohodit-zakaz",
+        "id": "",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "svetovye-vyveski-proizvodstvo-svetovyh-vyvesok",
+        "id": "",
+        "title": "Производство световых вывесок"
+      },
+      {
+        "selector": "svetovye-vyveski-montazh-na-fasade-i-v-interere",
+        "id": "",
+        "title": "Монтаж на фасаде и в интерьере"
+      },
+      {
+        "selector": "svetovye-vyveski-garantiya-i-obsluzhivanie",
+        "id": "",
+        "title": "Гарантия и обслуживание"
+      },
+      {
+        "selector": "svetovye-vyveski-faq",
+        "id": "page-faq",
+        "title": "Частые вопросы"
+      },
+      {
+        "selector": "svetovye-vyveski-contact",
+        "id": "light-signs-request",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/remont-vyvesok/index.html",
+    "url": "/remont-vyvesok/",
+    "sections": [
+      {
+        "selector": "repair-types",
+        "id": "repair-types",
+        "title": "Какие конструкции можно рассмотреть для восстановления"
+      },
+      {
+        "selector": "repair-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "repair-problems",
+        "id": "repair-problems",
+        "title": "Какие неисправности и изменения рассматриваем"
+      },
+      {
+        "selector": "repair__section--dark",
+        "id": "",
+        "title": "Когда имеет смысл обсудить ремонт"
+      },
+      {
+        "selector": "repair-choice",
+        "id": "repair-choice",
+        "title": "Ремонт или новая вывеска"
+      },
+      {
+        "selector": "remont-vyvesok-kak-prohodit-obraschenie",
+        "id": "",
+        "title": "Как проходит обращение"
+      },
+      {
+        "selector": "repair-price",
+        "id": "repair-price",
+        "title": "От чего зависит цена ремонта"
+      },
+      {
+        "selector": "remont-vyvesok-esli-trebuetsya-demontazh-i-povtornyy-montazh",
+        "id": "",
+        "title": "Если требуется демонтаж и повторный монтаж"
+      },
+      {
+        "selector": "remont-vyvesok-cases",
+        "id": "repair-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "remont-vyvesok-faq",
+        "id": "repair-faq",
+        "title": "Вопросы о ремонте вывесок"
+      },
+      {
+        "selector": "remont-vyvesok-contact",
+        "id": "repair-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/oformlenie-fasadov/index.html",
+    "url": "/oformlenie-fasadov/",
+    "sections": [
+      {
+        "selector": "facade-elements",
+        "id": "facade-elements",
+        "title": "Что входит в оформление фасада"
+      },
+      {
+        "selector": "facade-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "oformlenie-fasadov-odin-stil-dlya-vhoda-nazvaniya-i-fasada",
+        "id": "",
+        "title": "Один стиль для входа, названия и фасада"
+      },
+      {
+        "selector": "facade-choice",
+        "id": "facade-choice",
+        "title": "Как подобрать решение под фасад"
+      },
+      {
+        "selector": "oformlenie-fasadov-kogda-dostatochno-odnogo-elementa-a-kogda-nuzhen-kompleks",
+        "id": "",
+        "title": "Когда достаточно одного элемента, а когда нужен комплекс"
+      },
+      {
+        "selector": "facade-price",
+        "id": "facade-price",
+        "title": "От чего зависит стоимость оформления фасада"
+      },
+      {
+        "selector": "oformlenie-fasadov-cases",
+        "id": "facade-projects",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "oformlenie-fasadov-kak-prohodit-rabota-nad-oformleniem",
+        "id": "",
+        "title": "Как проходит работа над оформлением"
+      },
+      {
+        "selector": "oformlenie-fasadov-montazh-na-konkretnom-fasade",
+        "id": "",
+        "title": "Монтаж на конкретном фасаде"
+      },
+      {
+        "selector": "facade__section--notice",
+        "id": "",
+        "title": "Согласование размещения"
+      },
+      {
+        "selector": "oformlenie-fasadov-faq",
+        "id": "facade-faq",
+        "title": "Вопросы об оформлении фасада"
+      },
+      {
+        "selector": "oformlenie-fasadov-contact",
+        "id": "facade-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "url": "/navigaciya-i-ukazateli/",
+    "sections": [
+      {
+        "selector": "wayfinding-elements",
+        "id": "wayfinding-elements",
+        "title": "Какие элементы входят в систему навигации"
+      },
+      {
+        "selector": "wayfinding-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "wayfinding-places",
+        "id": "wayfinding-places",
+        "title": "Где используется навигация"
+      },
+      {
+        "selector": "wayfinding-inside-outside",
+        "id": "wayfinding-inside-outside",
+        "title": "Внутренняя и наружная навигация"
+      },
+      {
+        "selector": "wayfinding-format",
+        "id": "wayfinding-format",
+        "title": "Как подобрать формат"
+      },
+      {
+        "selector": "wayfinding-choice",
+        "id": "wayfinding-choice",
+        "title": "Табличка или система навигации"
+      },
+      {
+        "selector": "wayfinding-price",
+        "id": "wayfinding-price",
+        "title": "От чего зависит стоимость навигации"
+      },
+      {
+        "selector": "wayfinding-production",
+        "id": "wayfinding-production",
+        "title": "Изготовление и монтаж"
+      },
+      {
+        "selector": "navigaciya-i-ukazateli-cases",
+        "id": "wayfinding-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "wayfinding-process",
+        "id": "wayfinding-process",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "navigaciya-i-ukazateli-faq",
+        "id": "wayfinding-faq",
+        "title": "Вопросы о навигации и указателях"
+      },
+      {
+        "selector": "navigaciya-i-ukazateli-contact",
+        "id": "wayfinding-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "url": "/vyveski-dlya-magazina/",
+    "sections": [
+      {
+        "selector": "shop-signs-elements",
+        "id": "shop-signs-elements",
+        "title": "Какие вывески подходят для магазина"
+      },
+      {
+        "selector": "shop-signs-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "shop-signs-selection",
+        "id": "shop-signs-selection",
+        "title": "Как выбрать конструкцию"
+      },
+      {
+        "selector": "shop-signs-choice",
+        "id": "shop-signs-choice",
+        "title": "Что выбрать: буквы, короб или фасадную вывеску"
+      },
+      {
+        "selector": "shop-signs-situations",
+        "id": "shop-signs-situations",
+        "title": "Для разных форматов торговой точки"
+      },
+      {
+        "selector": "vyveski-dlya-magazina-cases",
+        "id": "shop-signs-examples",
+        "title": "Более 1500 вывесок произвели и установили с 2010 года"
+      },
+      {
+        "selector": "shop-signs-price",
+        "id": "shop-signs-price",
+        "title": "От чего зависит стоимость вывески магазина"
+      },
+      {
+        "selector": "shop-signs-more",
+        "id": "shop-signs-more",
+        "title": "Если нужна не только вывеска"
+      },
+      {
+        "selector": "shop-signs-production",
+        "id": "shop-signs-production",
+        "title": "Изготовление и монтаж"
+      },
+      {
+        "selector": "shop-signs-process",
+        "id": "shop-signs-process",
+        "title": "Как проходит заказ"
+      },
+      {
+        "selector": "vyveski-dlya-magazina-faq",
+        "id": "shop-signs-faq",
+        "title": "Вопросы о вывесках для магазина"
+      },
+      {
+        "selector": "vyveski-dlya-magazina-contact",
+        "id": "shop-signs-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/oformlenie-seti-magazinov/index.html",
+    "url": "/oformlenie-seti-magazinov/",
+    "sections": [
+      {
+        "selector": "store-network-elements",
+        "id": "store-network-elements",
+        "title": "Что входит в оформление магазинов сети"
+      },
+      {
+        "selector": "store-network-hero",
+        "id": "",
+        "title": ""
+      },
+      {
+        "selector": "oformlenie-seti-magazinov-edinyy-stil-dlya-neskolkih-magazinov",
+        "id": "",
+        "title": "Единый стиль для нескольких магазинов"
+      },
+      {
+        "selector": "store-network__section--dark",
+        "id": "",
+        "title": "Что меняется от магазина к магазину"
+      },
+      {
+        "selector": "store-network-repeat",
+        "id": "store-network-repeat",
+        "title": "Какие элементы можно повторять"
+      },
+      {
+        "selector": "store-network-cases",
+        "id": "store-network-cases",
+        "title": "Реальные работы: SPAR и «Малинка»"
+      },
+      {
+        "selector": "oformlenie-seti-magazinov-kak-organizuetsya-rabota-s-neskolkimi-obektami",
+        "id": "",
+        "title": "Как организуется работа с несколькими объектами"
+      },
+      {
+        "selector": "store-network-price",
+        "id": "store-network-price",
+        "title": "От чего зависит стоимость оформления сети"
+      },
+      {
+        "selector": "oformlenie-seti-magazinov-izgotovlenie-i-svyazannye-uslugi",
+        "id": "",
+        "title": "Изготовление и связанные услуги"
+      },
+      {
+        "selector": "oformlenie-seti-magazinov-faq",
+        "id": "store-network-faq",
+        "title": "Вопросы об оформлении сети магазинов"
+      },
+      {
+        "selector": "oformlenie-seti-magazinov-contact",
+        "id": "store-network-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "search/index.html",
+    "url": "/search/",
+    "sections": [
+      {
+        "selector": "search-faq",
+        "id": "page-faq",
+        "title": "Вопросы по разделу"
+      }
+    ]
+  },
+  {
+    "source": "pages/privacy-policy/index.html",
+    "url": "/privacy-policy/",
+    "sections": [
+      {
+        "selector": "privacy-policy-document",
+        "id": "",
+        "title": "1. Оператор и контакты"
+      }
+    ]
+  },
+  {
+    "source": "pages/cookies/index.html",
+    "url": "/cookies/",
+    "sections": [
+      {
+        "selector": "cookies-document",
+        "id": "",
+        "title": "1. Оператор"
+      }
+    ]
+  },
+  {
+    "source": "pages/personal-data-consent/index.html",
+    "url": "/personal-data-consent/",
+    "sections": [
+      {
+        "selector": "personal-data-consent-document",
+        "id": "",
+        "title": "1. Цель и данные"
+      }
+    ]
+  }
+]

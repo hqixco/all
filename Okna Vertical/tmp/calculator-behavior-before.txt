@@ -1,0 +1,56 @@
+const homeLeadForm = document.querySelector(".home-lead-form");
+const homeLeadStatus = homeLeadForm?.querySelector(".home-form-status");
+const homePriceForm = document.querySelector("#price-form");
+const homePriceStatus = homePriceForm?.querySelector(".home-price__status");
+const homeCalculatorPrice = homeLeadForm?.querySelector(
+  ".home-calculator__price",
+);
+const updateHomeCalculatorPrice = () => {
+  if (!homeLeadForm || !homeCalculatorPrice) return;
+  homeLeadForm
+    .querySelectorAll('.home-calc-sizes input[type="range"]')
+    .forEach((range) => {
+      const progress =
+        ((Number(range.value) - Number(range.min)) /
+          (Number(range.max) - Number(range.min))) *
+        100;
+      range.style.setProperty("--range-progress", `${progress}%`);
+      const valueOutput = range.closest("label")?.querySelector("output");
+      if (valueOutput) valueOutput.textContent = `${range.value} мм`;
+    });
+  const data = new FormData(homeLeadForm);
+  const count = Number(data.get("windows_count")) || 1;
+  const width = Number(data.get("window_width")) || 1300;
+  const height = Number(data.get("window_height")) || 1400;
+  const areaRatio = (width * height) / (1300 * 1400);
+  const sizeFactor = Math.min(1.55, Math.max(0.82, 1 + (areaRatio - 1) * 0.18));
+  const countFactor = { 2: 1, 4: 2.35, 7: 4.1, 10: 5.7 }[count] || 1;
+  const serviceCount = { 2: 1, 4: 3, 7: 5.5, 10: 7.5 }[count] || 1;
+  const placeFactor =
+    { apartment: 1, house: 1.05, cottage: 0.95, other: 1.04 }[
+      data.get("installation_place")
+    ] || 1;
+  let price = 8350 * countFactor * sizeFactor * placeFactor;
+  if (data.get("installation") === "yes") price += 3150 * serviceCount;
+  if (data.get("delivery") === "yes") price += 1750;
+  if (data.get("dismantling") === "yes") price += 1100 * serviceCount;
+  if (data.get("waste_removal") === "yes") price += 850;
+  homeCalculatorPrice.textContent = `от ${new Intl.NumberFormat("ru-RU").format(Math.round(price / 50) * 50)} ₽`;
+};
+homeLeadForm?.addEventListener("input", updateHomeCalculatorPrice);
+updateHomeCalculatorPrice();
+homeLeadForm?.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  if (!homeLeadForm.reportValidity()) return;
+  try {
+    await submitLeadForm(homeLeadForm, "home-window-calculator");
+    homeLeadStatus.textContent =
+      "Спасибо! Мы перезвоним и уточним размеры для расчёта.";
+    homeLeadForm.reset();
+    window.setTimeout(updateHomeCalculatorPrice, 0);
+  } catch (error) {
+    homeLeadStatus.textContent =
+      error.message || "Не удалось отправить заявку. Позвоните нам.";
+  }
+});
+

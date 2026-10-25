@@ -1,0 +1,48 @@
+<section class="quiz-section" id="{{id}}" data-component="quiz" data-static-quiz="">
+        <div class="quiz-heading">
+          <h2>{{{titleHtml}}}</h2>
+          <p>{{{leadHtml}}}</p>
+        </div>
+        <div class="quiz-layout">
+          <div class="quiz-video">
+            <video playsinline="" preload="metadata" poster="/assets/quiz-video-poster.jpg" aria-label="Видеообращение в квизе">
+              <source src="/assets/quiz-video.mp4" type="video/mp4">
+            </video>
+            <button class="quiz-video__toggle" type="button" aria-label="Воспроизвести видео">
+              <svg class="quiz-video__play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4.5v15l12-7.5-12-7.5Z"></path></svg>
+              <svg class="quiz-video__pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h3v16H7zM14 4h3v16h-3z"></path></svg>
+            </button>
+            <span class="quiz-video__badge">Дмитрий, руководитель компании</span>
+          </div>
+
+          <div class="quiz-card">
+            <div class="progress"><span style="width:20%"></span></div>
+            <div class="question-meta">{{{questionMetaHtml}}}</div>
+            <h3>{{{questionTitleHtml}}}</h3><p>{{{questionDescriptionHtml}}}</p>
+            <div class="quiz-options">{{{optionsHtml}}}</div>
+            <div class="quiz-footer">
+              <button class="back-button" type="button" disabled="">Назад</button>
+              <button class="button button--red next-button" type="button">
+                <span class="quiz-next-label">Следующий вопрос</span><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg>
+              </button>
+            </div>
+            <div class="quiz-result" hidden="">
+              <div class="quiz-result__form-side">
+                <h3>{{{resultTitleHtml}}}</h3>
+                <p class="quiz-result__lead">{{{resultLeadHtml}}}</p>
+                <form class="quiz-result__form"><input type="hidden" name="quiz_answers"><input type="hidden" name="source_name" value="{{sourceName}}">
+                  <label><span>Телефон</span><span class="contact-method-combo"><input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required=""><select class="contact-method-select" name="contact_method" aria-label="Способ связи"><option value="Телефон" selected="">По телефону</option><option value="Telegram">Telegram</option><option value="MAX">MAX</option><option value="SMS">SMS</option></select></span></label>
+                  <label><span>Комментарий</span><textarea name="comment" rows="3" placeholder="{{commentPlaceholder}}"></textarea>
+                  </label>
+                  <button class="button button--red" type="submit">
+                    Получить предварительный расчет <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg>
+                  </button>
+                  <label class="quiz-result__policy"><input type="checkbox" name="policy" required=""><span>Ознакомлен и согласен с условиями
+                      <a href="/politika-konfidentsialnosti/">политики конфиденциальности</a></span></label>
+                  <div class="quiz-result__status" aria-live="polite"></div>
+                </form>
+              </div><div class="quiz-success" hidden=""><h3>Заявка отправлена</h3><p>{{{successHtml}}}</p></div>
+            </div>
+          </div>
+        </div>
+      <script type="application/json" data-quiz-questions="">{{{questionsJson}}}</script></section>

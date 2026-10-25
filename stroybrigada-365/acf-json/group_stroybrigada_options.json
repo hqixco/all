@@ -1,0 +1,618 @@
+{
+  "key": "group_stroybrigada_options",
+  "title": "Stroybrigada: Настройки сайта",
+  "fields": [
+    {
+      "key": "field_stroybrigada_tab_contacts",
+      "label": "Контакты",
+      "name": "",
+      "type": "tab",
+      "placement": "top",
+      "endpoint": 0
+    },
+    {
+      "key": "field_stroybrigada_primary_phone",
+      "label": "Основной телефон",
+      "name": "primary_phone",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_additional_phones",
+      "label": "Дополнительные телефоны",
+      "name": "additional_phones",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "row",
+      "button_label": "Добавить",
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "sub_fields": [
+        {
+          "key": "field_stroybrigada_phone",
+          "label": "Телефон",
+          "name": "phone",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_options_additional_phones_label",
+          "label": "Подпись",
+          "name": "label",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "key": "field_stroybrigada_email",
+      "label": "Email",
+      "name": "email",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_address",
+      "label": "Адрес",
+      "name": "address",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_stroybrigada_work_hours",
+      "label": "Режим работы",
+      "name": "work_hours",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_whatsapp_url",
+      "label": "WhatsApp",
+      "name": "whatsapp_url",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_telegram_url",
+      "label": "Telegram",
+      "name": "telegram_url",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_tab_header",
+      "label": "Шапка",
+      "name": "",
+      "type": "tab",
+      "placement": "top",
+      "endpoint": 0
+    },
+    {
+      "key": "field_stroybrigada_site_logo",
+      "label": "Логотип",
+      "name": "site_logo",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "id",
+      "preview_size": "medium",
+      "library": "all"
+    },
+    {
+      "key": "field_stroybrigada_header_text",
+      "label": "Подпись",
+      "name": "header_text",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_stroybrigada_header_button_enabled",
+      "label": "Показывать кнопку",
+      "name": "header_button_enabled",
+      "aria-label": "",
+      "type": "true_false",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": 1,
+      "ui": 1
+    },
+    {
+      "key": "field_stroybrigada_header_button_text",
+      "label": "Текст кнопки",
+      "name": "header_button_text",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_header_button_url",
+      "label": "Ссылка кнопки",
+      "name": "header_button_url",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_tab_footer",
+      "label": "Подвал",
+      "name": "",
+      "type": "tab",
+      "placement": "top",
+      "endpoint": 0
+    },
+    {
+      "key": "field_stroybrigada_footer_logo",
+      "label": "Логотип",
+      "name": "footer_logo",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "id",
+      "preview_size": "medium",
+      "library": "all"
+    },
+    {
+      "key": "field_stroybrigada_footer_info_text",
+      "label": "Описание",
+      "name": "footer_info_text",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_stroybrigada_company_details",
+      "label": "Реквизиты",
+      "name": "company_details",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_stroybrigada_footer_copyright",
+      "label": "Копирайт",
+      "name": "footer_copyright",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_stroybrigada_legal_links",
+      "label": "Юридические ссылки",
+      "name": "legal_links",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "row",
+      "button_label": "Добавить",
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "sub_fields": [
+        {
+          "key": "field_stroybrigada_options_legal_links_title",
+          "label": "Название",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_options_legal_links_url",
+          "label": "URL",
+          "name": "url",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "key": "field_stroybrigada_social_links",
+      "label": "Соцсети",
+      "name": "social_links",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "row",
+      "button_label": "Добавить",
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "sub_fields": [
+        {
+          "key": "field_stroybrigada_options_social_links_title",
+          "label": "Название",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_options_social_links_url",
+          "label": "URL",
+          "name": "url",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "key": "field_stroybrigada_tab_forms",
+      "label": "Формы",
+      "name": "",
+      "type": "tab",
+      "placement": "top",
+      "endpoint": 0
+    },
+    {
+      "key": "field_stroybrigada_forms_email_to",
+      "label": "Email получателя",
+      "name": "forms_email_to",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_forms_default_title",
+      "label": "Заголовок по умолчанию",
+      "name": "forms_default_title",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_forms_consent_text",
+      "label": "Текст согласия",
+      "name": "forms_consent_text",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_stroybrigada_forms_success_text",
+      "label": "Сообщение успеха",
+      "name": "forms_success_text",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_forms_error_text",
+      "label": "Сообщение ошибки",
+      "name": "forms_error_text",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_default_lead_goal",
+      "label": "Цель Метрики",
+      "name": "default_lead_goal",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_tab_analytics",
+      "label": "Аналитика",
+      "name": "",
+      "type": "tab",
+      "placement": "top",
+      "endpoint": 0
+    },
+    {
+      "key": "field_stroybrigada_yandex_metrika_id",
+      "label": "ID Яндекс Метрики",
+      "name": "yandex_metrika_id",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_metrics_enabled",
+      "label": "Включить Метрику",
+      "name": "metrics_enabled",
+      "aria-label": "",
+      "type": "true_false",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": 1,
+      "ui": 1
+    },
+    {
+      "key": "field_stroybrigada_metric_goal_lead",
+      "label": "Цель заявки",
+      "name": "metric_goal_lead",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_metric_goal_quiz",
+      "label": "Цель квиза",
+      "name": "metric_goal_quiz",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "stroybrigada-settings"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 1,
+  "modified": 1784375367
+}

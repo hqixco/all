@@ -1,0 +1,1081 @@
+{
+  "ID": {
+    "type": "integer",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "ID"
+  },
+  "TITLE": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Название лида"
+  },
+  "HONORIFIC": {
+    "type": "crm_status",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "statusType": "HONORIFIC",
+    "title": "Обращение"
+  },
+  "NAME": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Имя"
+  },
+  "SECOND_NAME": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Отчество"
+  },
+  "LAST_NAME": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Фамилия"
+  },
+  "BIRTHDATE": {
+    "type": "date",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Дата рождения"
+  },
+  "COMPANY_TITLE": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Название компании"
+  },
+  "SOURCE_ID": {
+    "type": "crm_status",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "statusType": "SOURCE",
+    "title": "Источник"
+  },
+  "SOURCE_DESCRIPTION": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Дополнительно об источнике"
+  },
+  "STATUS_ID": {
+    "type": "crm_status",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "statusType": "STATUS",
+    "title": "Стадия"
+  },
+  "STATUS_DESCRIPTION": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Дополнительно о стадии"
+  },
+  "STATUS_SEMANTIC_ID": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Состояние статуса"
+  },
+  "POST": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Должность"
+  },
+  "ADDRESS": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Адрес"
+  },
+  "ADDRESS_2": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Адрес (стр. 2)"
+  },
+  "ADDRESS_CITY": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Город"
+  },
+  "ADDRESS_POSTAL_CODE": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Почтовый индекс"
+  },
+  "ADDRESS_REGION": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Район"
+  },
+  "ADDRESS_PROVINCE": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Область"
+  },
+  "ADDRESS_COUNTRY": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Страна"
+  },
+  "ADDRESS_COUNTRY_CODE": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Код страны"
+  },
+  "ADDRESS_LOC_ADDR_ID": {
+    "type": "integer",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Идентификатор адреса местоположения"
+  },
+  "CURRENCY_ID": {
+    "type": "crm_currency",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Валюта"
+  },
+  "OPPORTUNITY": {
+    "type": "double",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Сумма"
+  },
+  "IS_MANUAL_OPPORTUNITY": {
+    "type": "char",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "IS_MANUAL_OPPORTUNITY"
+  },
+  "OPENED": {
+    "type": "char",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Доступен для всех"
+  },
+  "COMMENTS": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Комментарий"
+  },
+  "HAS_PHONE": {
+    "type": "char",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Задан телефон"
+  },
+  "HAS_EMAIL": {
+    "type": "char",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Задан e-mail"
+  },
+  "HAS_IMOL": {
+    "type": "char",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Задана открытая линия"
+  },
+  "ASSIGNED_BY_ID": {
+    "type": "user",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Ответственный"
+  },
+  "CREATED_BY_ID": {
+    "type": "user",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Кем создан"
+  },
+  "MODIFY_BY_ID": {
+    "type": "user",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Кем изменен"
+  },
+  "MOVED_BY_ID": {
+    "type": "user",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "MOVED_BY_ID"
+  },
+  "DATE_CREATE": {
+    "type": "datetime",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Дата создания"
+  },
+  "DATE_MODIFY": {
+    "type": "datetime",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Дата изменения"
+  },
+  "MOVED_TIME": {
+    "type": "datetime",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "MOVED_TIME"
+  },
+  "COMPANY_ID": {
+    "type": "crm_company",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Компания",
+    "settings": {
+      "parentEntityTypeId": 4
+    }
+  },
+  "CONTACT_ID": {
+    "type": "crm_contact",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "isDeprecated": true,
+    "title": "Контакт"
+  },
+  "CONTACT_IDS": {
+    "type": "crm_contact",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": false,
+    "title": "CONTACT_IDS"
+  },
+  "IS_RETURN_CUSTOMER": {
+    "type": "char",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Повторный лид"
+  },
+  "DATE_CLOSED": {
+    "type": "datetime",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Дата завершения"
+  },
+  "ORIGINATOR_ID": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Внешний источник"
+  },
+  "ORIGIN_ID": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Идентификатор элемента во внешнем источнике"
+  },
+  "UTM_SOURCE": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Рекламная система"
+  },
+  "UTM_MEDIUM": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Тип трафика"
+  },
+  "UTM_CAMPAIGN": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Обозначение рекламной кампании"
+  },
+  "UTM_CONTENT": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Содержание кампании"
+  },
+  "UTM_TERM": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "Условие поиска кампании"
+  },
+  "LAST_ACTIVITY_TIME": {
+    "type": "datetime",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "LAST_ACTIVITY_TIME"
+  },
+  "LAST_ACTIVITY_BY": {
+    "type": "user",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "LAST_ACTIVITY_BY"
+  },
+  "LAST_COMMUNICATION_TIME": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": true,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": false,
+    "title": "LAST_COMMUNICATION_TIME"
+  },
+  "PHONE": {
+    "type": "crm_multifield",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": false,
+    "title": "Телефон"
+  },
+  "EMAIL": {
+    "type": "crm_multifield",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": false,
+    "title": "E-mail"
+  },
+  "WEB": {
+    "type": "crm_multifield",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": false,
+    "title": "Сайт"
+  },
+  "IM": {
+    "type": "crm_multifield",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": false,
+    "title": "Мессенджер"
+  },
+  "LINK": {
+    "type": "crm_multifield",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": false,
+    "title": "LINK"
+  },
+  "UF_CRM_1594920298": {
+    "type": "enumeration",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "items": [
+      {
+        "ID": "44",
+        "VALUE": "5-7 дней"
+      },
+      {
+        "ID": "46",
+        "VALUE": "2-3 недели"
+      },
+      {
+        "ID": "48",
+        "VALUE": "1-2 месяца"
+      },
+      {
+        "ID": "50",
+        "VALUE": "3-6 месяцев"
+      },
+      {
+        "ID": "406",
+        "VALUE": "Более полугода"
+      }
+    ],
+    "title": "UF_CRM_1594920298",
+    "listLabel": "Сроки принятия решения",
+    "formLabel": "Сроки принятия решения",
+    "filterLabel": "Сроки принятия решения",
+    "settings": {
+      "DISPLAY": "UI",
+      "LIST_HEIGHT": 1,
+      "CAPTION_NO_VALUE": "",
+      "SHOW_NO_VALUE": "Y"
+    }
+  },
+  "UF_CRM_1594922353": {
+    "type": "enumeration",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": true,
+    "items": [
+      {
+        "ID": "66",
+        "VALUE": "Конструкции ПВХ"
+      },
+      {
+        "ID": "70",
+        "VALUE": "Алюминиевые конструкции"
+      },
+      {
+        "ID": "418",
+        "VALUE": "Остекление балконов и лоджий"
+      },
+      {
+        "ID": "420",
+        "VALUE": "Отделка балконов и лоджий"
+      },
+      {
+        "ID": "422",
+        "VALUE": "Остекление коттеджей"
+      },
+      {
+        "ID": "240",
+        "VALUE": "Рольставни/ворота"
+      },
+      {
+        "ID": "68",
+        "VALUE": "Жалюзи"
+      },
+      {
+        "ID": "244",
+        "VALUE": "Сервисное обслуживание"
+      },
+      {
+        "ID": "242",
+        "VALUE": "Комплектующие"
+      },
+      {
+        "ID": "72",
+        "VALUE": "Входные группы"
+      },
+      {
+        "ID": "238",
+        "VALUE": "Перегородки"
+      },
+      {
+        "ID": "424",
+        "VALUE": "Другое"
+      }
+    ],
+    "title": "UF_CRM_1594922353",
+    "listLabel": "Товарная группа",
+    "formLabel": "Товарная группа",
+    "filterLabel": "Товарная группа",
+    "settings": {
+      "DISPLAY": "DIALOG",
+      "LIST_HEIGHT": 1,
+      "CAPTION_NO_VALUE": "",
+      "SHOW_NO_VALUE": "Y"
+    }
+  },
+  "UF_CRM_1734605367": {
+    "type": "file",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": true,
+    "title": "UF_CRM_1734605367",
+    "listLabel": "Файлы клиента",
+    "formLabel": "Файлы клиента",
+    "filterLabel": "Файлы клиента",
+    "settings": {
+      "SIZE": 20,
+      "LIST_WIDTH": 0,
+      "LIST_HEIGHT": 0,
+      "MAX_SHOW_SIZE": 0,
+      "MAX_ALLOWED_SIZE": 0,
+      "EXTENSIONS": [],
+      "TARGET_BLANK": "Y"
+    }
+  },
+  "UF_CRM_1734605600": {
+    "type": "enumeration",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "items": [
+      {
+        "ID": "466",
+        "VALUE": "Эконом"
+      },
+      {
+        "ID": "468",
+        "VALUE": "Стандарт"
+      },
+      {
+        "ID": "470",
+        "VALUE": "Премиум"
+      },
+      {
+        "ID": "472",
+        "VALUE": "Другое"
+      }
+    ],
+    "title": "UF_CRM_1734605600",
+    "listLabel": "Ценовая категория",
+    "formLabel": "Ценовая категория",
+    "filterLabel": "Ценовая категория",
+    "settings": {
+      "DISPLAY": "UI",
+      "LIST_HEIGHT": 5,
+      "CAPTION_NO_VALUE": "",
+      "SHOW_NO_VALUE": "Y"
+    }
+  },
+  "UF_CRM_1771523406052": {
+    "type": "enumeration",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "items": [
+      {
+        "ID": "658",
+        "VALUE": "Доставка с производства"
+      },
+      {
+        "ID": "660",
+        "VALUE": "Доставка"
+      },
+      {
+        "ID": "662",
+        "VALUE": "Отгрузка со склада"
+      }
+    ],
+    "title": "UF_CRM_1771523406052",
+    "listLabel": "Тип отгрузки",
+    "formLabel": "Тип отгрузки",
+    "filterLabel": "Тип отгрузки",
+    "settings": {
+      "DISPLAY": "UI",
+      "LIST_HEIGHT": 1,
+      "CAPTION_NO_VALUE": "",
+      "SHOW_NO_VALUE": "Y"
+    }
+  },
+  "UF_CRM_1771523441404": {
+    "type": "boolean",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "title": "UF_CRM_1771523441404",
+    "listLabel": "Услуги грузчиков",
+    "formLabel": "Услуги грузчиков",
+    "filterLabel": "Услуги грузчиков",
+    "settings": {
+      "DEFAULT_VALUE": 0,
+      "DISPLAY": "CHECKBOX",
+      "LABEL": [
+        "",
+        ""
+      ],
+      "LABEL_CHECKBOX": {
+        "ru": "Услуги грузчиков",
+        "en": "Услуги грузчиков",
+        "de": "Услуги грузчиков",
+        "ua": "Услуги грузчиков",
+        "la": "Услуги грузчиков",
+        "tc": "Услуги грузчиков",
+        "in": "Услуги грузчиков",
+        "sc": "Услуги грузчиков",
+        "br": "Услуги грузчиков",
+        "fr": "Услуги грузчиков",
+        "pl": "Услуги грузчиков",
+        "tr": "Услуги грузчиков",
+        "ja": "Услуги грузчиков",
+        "vn": "Услуги грузчиков",
+        "th": "Услуги грузчиков",
+        "ms": "Услуги грузчиков",
+        "it": "Услуги грузчиков",
+        "id": "Услуги грузчиков",
+        "hi": "Услуги грузчиков",
+        "kz": "Услуги грузчиков",
+        "ar": "Услуги грузчиков"
+      }
+    }
+  },
+  "UF_CRM_1771523463": {
+    "type": "integer",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "title": "UF_CRM_1771523463",
+    "listLabel": "Этаж",
+    "formLabel": "Этаж",
+    "filterLabel": "Этаж",
+    "settings": {
+      "SIZE": 20,
+      "MIN_VALUE": 0,
+      "MAX_VALUE": 0,
+      "DEFAULT_VALUE": null
+    }
+  },
+  "UF_CRM_1771523526534": {
+    "type": "boolean",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "title": "UF_CRM_1771523526534",
+    "listLabel": "Грузовой лифт",
+    "formLabel": "Грузовой лифт",
+    "filterLabel": "Грузовой лифт",
+    "settings": {
+      "DEFAULT_VALUE": 0,
+      "DISPLAY": "CHECKBOX",
+      "LABEL": [
+        "",
+        ""
+      ],
+      "LABEL_CHECKBOX": {
+        "ru": "Грузовой лифт",
+        "en": "Грузовой лифт",
+        "de": "Грузовой лифт",
+        "ua": "Грузовой лифт",
+        "la": "Грузовой лифт",
+        "tc": "Грузовой лифт",
+        "in": "Грузовой лифт",
+        "sc": "Грузовой лифт",
+        "br": "Грузовой лифт",
+        "fr": "Грузовой лифт",
+        "pl": "Грузовой лифт",
+        "tr": "Грузовой лифт",
+        "ja": "Грузовой лифт",
+        "vn": "Грузовой лифт",
+        "th": "Грузовой лифт",
+        "ms": "Грузовой лифт",
+        "it": "Грузовой лифт",
+        "id": "Грузовой лифт",
+        "hi": "Грузовой лифт",
+        "kz": "Грузовой лифт",
+        "ar": "Грузовой лифт"
+      }
+    }
+  },
+  "UF_CRM_1771523548295": {
+    "type": "boolean",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "title": "UF_CRM_1771523548295",
+    "listLabel": "Вывоз строительного мусора",
+    "formLabel": "Вывоз строительного мусора",
+    "filterLabel": "Вывоз строительного мусора",
+    "settings": {
+      "DEFAULT_VALUE": 0,
+      "DISPLAY": "CHECKBOX",
+      "LABEL": [
+        "",
+        ""
+      ],
+      "LABEL_CHECKBOX": {
+        "ru": "Вывоз строительного мусора",
+        "en": "Вывоз строительного мусора",
+        "de": "Вывоз строительного мусора",
+        "ua": "Вывоз строительного мусора",
+        "la": "Вывоз строительного мусора",
+        "tc": "Вывоз строительного мусора",
+        "in": "Вывоз строительного мусора",
+        "sc": "Вывоз строительного мусора",
+        "br": "Вывоз строительного мусора",
+        "fr": "Вывоз строительного мусора",
+        "pl": "Вывоз строительного мусора",
+        "tr": "Вывоз строительного мусора",
+        "ja": "Вывоз строительного мусора",
+        "vn": "Вывоз строительного мусора",
+        "th": "Вывоз строительного мусора",
+        "ms": "Вывоз строительного мусора",
+        "it": "Вывоз строительного мусора",
+        "id": "Вывоз строительного мусора",
+        "hi": "Вывоз строительного мусора",
+        "kz": "Вывоз строительного мусора",
+        "ar": "Вывоз строительного мусора"
+      }
+    }
+  },
+  "UF_CRM_1771523615801": {
+    "type": "enumeration",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "items": [
+      {
+        "ID": "664",
+        "VALUE": "Скидка пенсионерам"
+      },
+      {
+        "ID": "666",
+        "VALUE": "Скидка новоселам"
+      }
+    ],
+    "title": "UF_CRM_1771523615801",
+    "listLabel": "Скидки",
+    "formLabel": "Скидки",
+    "filterLabel": "Скидки",
+    "settings": {
+      "DISPLAY": "UI",
+      "LIST_HEIGHT": 1,
+      "CAPTION_NO_VALUE": "",
+      "SHOW_NO_VALUE": "Y"
+    }
+  },
+  "UF_CRM_1771523653684": {
+    "type": "enumeration",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": true,
+    "items": [
+      {
+        "ID": "668",
+        "VALUE": "Набор по уходу за окнами в подарок"
+      },
+      {
+        "ID": "670",
+        "VALUE": "Москитные сетки в подарок"
+      }
+    ],
+    "title": "UF_CRM_1771523653684",
+    "listLabel": "Акции",
+    "formLabel": "Акции",
+    "filterLabel": "Акции",
+    "settings": {
+      "DISPLAY": "DIALOG",
+      "LIST_HEIGHT": 1,
+      "CAPTION_NO_VALUE": "",
+      "SHOW_NO_VALUE": "Y"
+    }
+  },
+  "UF_CRM_1771523695732": {
+    "type": "enumeration",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "items": [
+      {
+        "ID": "672",
+        "VALUE": "Расчет стоимости"
+      },
+      {
+        "ID": "674",
+        "VALUE": "Выезд на объект"
+      },
+      {
+        "ID": "676",
+        "VALUE": "Встреча в офисе"
+      },
+      {
+        "ID": "1134",
+        "VALUE": "Другое"
+      }
+    ],
+    "title": "UF_CRM_1771523695732",
+    "listLabel": "Результат квалификации лида",
+    "formLabel": "Результат квалификации лида",
+    "filterLabel": "Результат квалификации лида",
+    "settings": {
+      "DISPLAY": "UI",
+      "LIST_HEIGHT": 1,
+      "CAPTION_NO_VALUE": "",
+      "SHOW_NO_VALUE": "Y"
+    }
+  },
+  "UF_CRM_1771523719660": {
+    "type": "enumeration",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "items": [
+      {
+        "ID": "678",
+        "VALUE": "Высокий"
+      },
+      {
+        "ID": "680",
+        "VALUE": "Средний"
+      },
+      {
+        "ID": "682",
+        "VALUE": "Низкий"
+      }
+    ],
+    "title": "UF_CRM_1771523719660",
+    "listLabel": "Приоритет",
+    "formLabel": "Приоритет",
+    "filterLabel": "Приоритет",
+    "settings": {
+      "DISPLAY": "UI",
+      "LIST_HEIGHT": 1,
+      "CAPTION_NO_VALUE": "",
+      "SHOW_NO_VALUE": "Y"
+    }
+  },
+  "UF_CRM_WHATSAPPUSERNAME_WZ": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "title": "UF_CRM_WHATSAPPUSERNAME_WZ",
+    "listLabel": "WhatsappUsername_WZ",
+    "formLabel": "WhatsappUsername_WZ",
+    "filterLabel": "UF_CRM_WHATSAPPUSERNAME_WZ",
+    "settings": {
+      "SIZE": 20,
+      "ROWS": 1,
+      "REGEXP": "",
+      "MIN_LENGTH": 0,
+      "MAX_LENGTH": 0,
+      "DEFAULT_VALUE": ""
+    }
+  },
+  "UF_CRM_WHATSAPPLID_WZ": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "title": "UF_CRM_WHATSAPPLID_WZ",
+    "listLabel": "WhatsappLid_WZ",
+    "formLabel": "WhatsappLid_WZ",
+    "filterLabel": "UF_CRM_WHATSAPPLID_WZ",
+    "settings": {
+      "SIZE": 20,
+      "ROWS": 1,
+      "REGEXP": "",
+      "MIN_LENGTH": 0,
+      "MAX_LENGTH": 0,
+      "DEFAULT_VALUE": ""
+    }
+  },
+  "UF_CRM_1775148517203": {
+    "type": "file",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": true,
+    "isDynamic": true,
+    "title": "UF_CRM_1775148517203",
+    "listLabel": "Записи звонков",
+    "formLabel": "Записи звонков",
+    "filterLabel": "Записи звонков",
+    "settings": {
+      "SIZE": 20,
+      "LIST_WIDTH": 0,
+      "LIST_HEIGHT": 0,
+      "MAX_SHOW_SIZE": 0,
+      "MAX_ALLOWED_SIZE": 0,
+      "EXTENSIONS": [],
+      "TARGET_BLANK": "Y",
+      "DEFAULT_VIEW": null
+    }
+  },
+  "UF_CRM_CIANPROFILEID_WZ": {
+    "type": "string",
+    "isRequired": false,
+    "isReadOnly": false,
+    "isImmutable": false,
+    "isMultiple": false,
+    "isDynamic": true,
+    "title": "UF_CRM_CIANPROFILEID_WZ",
+    "listLabel": "CianProfileId_WZ",
+    "formLabel": "CianProfileId_WZ",
+    "filterLabel": "UF_CRM_CIANPROFILEID_WZ",
+    "settings": {
+      "SIZE": 20,
+      "ROWS": 1,
+      "REGEXP": "",
+      "MIN_LENGTH": 0,
+      "MAX_LENGTH": 0,
+      "DEFAULT_VALUE": ""
+    }
+  }
+}

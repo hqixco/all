@@ -1,0 +1,26 @@
+{
+  "name": "vyveska-zakaz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/sync-blog.mjs && node scripts/sync-home-blocks.mjs && node scripts/sync-works.mjs && node scripts/sync-spar.mjs && node scripts/sync-faq.mjs && node scripts/sync-menu-state.mjs && node scripts/sync-order-process.mjs && node scripts/sync-service-intro.mjs && node scripts/sync-production.mjs && node scripts/sync-section-selectors.mjs && node scripts/sync-heading-styles.mjs && node scripts/sync-table-styles.mjs && node scripts/sync-site-prices.mjs && node scripts/sync-request-actions.mjs && node scripts/sync-portfolio-counts.mjs && vite build && node scripts/section-selectors-audit.mjs && node scripts/order-process-audit.mjs && node scripts/service-intro-audit.mjs && node scripts/factor-photos-audit.mjs && node scripts/production-audit.mjs && node scripts/heading-styles-audit.mjs && node scripts/table-styles-audit.mjs && node scripts/site-prices-audit.mjs && node scripts/blog-audit.mjs",
+    "navigation:update": "node scripts/sync-navigation.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/audit.mjs && node scripts/bem-audit.mjs && node scripts/seo-audit.mjs && node scripts/forms-audit.mjs",
+    "faq:check": "node scripts/faq-audit.mjs",
+    "sections:check": "node scripts/section-selectors-audit.mjs",
+    "orders:check": "node scripts/order-process-audit.mjs",
+    "intros:check": "node scripts/service-intro-audit.mjs",
+    "blog:check": "node scripts/blog-audit.mjs",
+    "blog:visual": "node tmp/blog-visual.mjs"
+  },
+  "devDependencies": {
+    "cheerio": "^1.1.2",
+    "html-validate": "^11.16.2",
+    "postcss": "^8.5.6",
+    "sharp": "^0.35.5",
+    "vite": "^7.3.0"
+  }
+}

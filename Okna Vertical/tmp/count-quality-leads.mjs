@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const webhook=fs.readFileSync('public/mail.php','utf8').match(/const BITRIX_WEBHOOK_URL = '([^']+)'/)[1];
+const response=await fetch(webhook+'crm.status.list.json',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({filter:{ENTITY_ID:'STATUS'}}),signal:AbortSignal.timeout(30000)});
+const data=await response.json();if(data.error)throw Error(data.error+': '+data.error_description);
+const labels=new Map(data.result.map(x=>[x.STATUS_ID,x.NAME]));
+console.log(JSON.stringify({statuses:data.result.map(x=>({id:x.STATUS_ID,name:x.NAME}))},null,2));
+const summary=JSON.parse(fs.readFileSync('tmp/september-leads-summary.json','utf8'));
+const excluded=data.result.filter(x=>/спам|недозвон|не\s*дозвон|не удалось связаться|нет ответа|пропущенный звонок/i.test(x.NAME)).map(x=>x.STATUS_ID);
+const result=summary.comparison.map(site=>{const statuses=Object.entries(site.statuses).map(([id,count])=>({id,status:labels.get(id)||id,count,excluded:excluded.includes(id)}));return {site:site.source,total:site.leads,excluded:statuses.filter(x=>x.excluded).reduce((sum,x)=>sum+x.count,0),quality:statuses.filter(x=>!x.excluded).reduce((sum,x)=>sum+x.count,0),statuses};});
+fs.writeFileSync('tmp/september-quality-leads.json',JSON.stringify({period:summary.period,excludedIds:excluded,result},null,2));
+console.log(JSON.stringify({period:summary.period,excludedIds:excluded,result},null,2));

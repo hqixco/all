@@ -9,10 +9,6 @@ const textTargets = [
   'src/main.js',
   'politika-konfidentsialnosti/index.html',
   'cookie/index.html',
-  'zamena-shifera/index.html',
-  'zamena-krovli-na-profnastil/index.html',
-  'zamena-krovli-na-metallocherepitsu/index.html',
-  'rekonstruktsiya-staroj-kryshi/index.html',
 ].map((file) => path.join(root, file));
 
 const rasterExtensions = new Set(['.png', '.jpg', '.jpeg', '.webp']);

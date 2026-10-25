@@ -1,0 +1,182 @@
+.root__main .b__block .b__list.carousel__track {
+  display: flex;
+  min-height: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  scroll-behavior: auto;
+}
+
+.root__main .b__block .b__list.carousel__track::-webkit-scrollbar {
+  display: none;
+}
+
+.root__main .b__block .b__item.carousel__slide {
+  flex: 0 0 100%;
+  width: 100%;
+  min-height: 450px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.root__main .b__block .b__list.carousel__track.carousel__track--dragging {
+  cursor: grabbing;
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+
+.root__main .objects__list {
+  gap: 20px;
+}
+
+.root__main .portfolio__list > *,.root__main .objects__list > * {
+  min-width: 0;
+}
+
+.root__head .menu.menu--open {
+  display: block;
+}
+
+body::before {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .62);
+  content: "";
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity .22s ease, visibility 0s linear .22s;
+}
+
+body.page--modal-open { overflow: hidden; }
+body.page--modal-open::before {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition-delay: 0s;
+}
+
+.modal__content.modal__content--mounted {
+  position: fixed;
+  z-index: 1001;
+  top: 50%;
+  left: 50%;
+  display: block;
+  max-height: calc(100vh - 32px);
+  overflow: auto;
+  background: #fff;
+  opacity: 0;
+  transform: translate(-50%, calc(-50% + 12px));
+  transition: opacity .22s ease, transform .22s ease;
+}
+
+.modal__content--mounted.modal__content--open {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before, .modal__content.modal__content--mounted { transition: none; }
+}
+
+.modal__content .legacy__button {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: var(--mobile-button-height,var(--compact-button-height,48px));
+  padding: var(--mobile-button-padding,var(--compact-button-padding,12px 22px));
+  font-size: var(--mobile-button-font-size,var(--compact-button-font-size,16px));
+  text-align: center;
+}
+
+.root__main .b__block .b__item[hidden] {
+  display: none;
+}
+
+.form__honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.form__status {
+  margin: 12px 0;
+}
+
+/* Keep the menu close control outside the scrolling navigation panel. */
+@media (max-width: 1000px) {
+  body.page--menu-open { overflow-y: hidden; }
+  .root__head .site-nav.site-nav--open { position: fixed; top: 90px; bottom: 0; left: 0; right: 0; margin: 0; padding: 16px 20px 28px; box-sizing: border-box; overflow-y: auto; background: #fff; color: #222; z-index: 1100; }
+  .root__head .line--1 .hamburger.hamburger--open { position: relative; z-index: 1200; }
+  .root__head .hamburger:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+  .root__head .hamburger:focus { outline: 2px solid #fff; outline-offset: 3px; }
+}
+
+/* Navigation contrast must not inherit a page-specific text color. */
+.root__head .site-nav { color: #fff; }
+@media (max-width: 1000px) { .root__head .site-nav { color: #222; } }
+
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #2d2572;
+  cursor: pointer;
+  transition: background-color .18s ease;
+}
+.modal__close:hover { background: #eeeaf7; }
+.modal__close:focus { outline: 2px solid #41309b; outline-offset: 2px; }
+.modal__close svg { display: block; }
+
+.head__phone-link, .head__max-link { display: flex; align-items: center; text-decoration: none; }
+.head__contact-icon { display: block; flex: 0 0 17px; width: 17px; height: 17px; margin-right: 7px; }
+.head__phone-link + .head__phone-link { margin-top: 3px; }
+.head__max-link { margin-top: 5px; font-size: 13px; line-height: 18px; }
+.head__max-link:hover span { text-decoration: underline; }
+
+.head__address { display: flex; align-items: flex-start; }
+.head__address-icon { display: block; flex: 0 0 22px; margin: 2px 10px 0 0; }
+.head__address-copy { display: flex; flex-direction: column; }
+.head__address-label { margin-bottom: 3px; font-size: 12px; line-height: 17px; font-weight: 400; color: #e0d9f2; }
+
+.modal__fields{display:grid;gap:14px;margin-bottom:24px}
+.modal__field{display:block;color:#494154;font-size:14px;font-weight:500}
+.modal__attachment{display:flex;align-items:flex-start;padding:14px;border:1px dashed #b9afcc;border-radius:8px;background:#faf9fc;color:#59439b;font-size:14px;cursor:pointer}
+.modal__attachment>svg{display:block;flex:0 0 20px;margin:1px 10px 0 0}
+.modal__attachment>span{min-width:0;flex:1}
+.modal__attachment small{display:block;margin-top:5px;color:#7c7588;font-size:12px;font-weight:400}
+
+@media(max-width:480px){.page-content__wrapper-form-button{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;min-width:0;max-width:100%;min-height:var(--mobile-button-height);padding:var(--mobile-button-padding);border:var(--mobile-button-border);border-radius:var(--mobile-button-radius);background:var(--mobile-button-background);box-shadow:var(--mobile-button-shadow);color:#fff;font:var(--mobile-button-weight) var(--mobile-button-font-size)/var(--mobile-button-line-height) Roboto,Arial,sans-serif;text-align:center;text-transform:var(--mobile-button-transform);white-space:normal;cursor:pointer}}
+
+@media(max-width:480px){
+.modal__content{padding:16px;max-width:calc(100% - 24px);--form-field-padding:8px 10px;--form-field-font-size:16px;--form-field-min-height:40px;--form-textarea-min-height:76px;--form-textarea-height:76px;--form-consent-font-size:11px}
+.modal__title{padding:0 22px;margin-bottom:12px;font-size:20px;line-height:1.2}
+.modal__close{width:32px;height:32px;top:6px;right:6px}
+.modal__close svg{width:18px;height:18px}
+.modal__fields{gap:10px;margin-bottom:14px}
+.modal__field{font-size:12px}
+.modal__attachment{padding:10px;font-size:12px;line-height:1.3}
+.modal__attachment small{margin-top:4px;font-size:10px}
+.modal__attachment input[type="file"]{margin-top:6px;font-size:11px}
+.modal__content .form-policy{margin-top:10px}
+}

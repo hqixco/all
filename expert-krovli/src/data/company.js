@@ -6,7 +6,7 @@ export const companyData = {
   phone: '7 910 774-83-70',
   phoneHref: 'tel:+79107748370',
   email: 'laakonven@yandex.ru',
-  telegram: 'https://t.me/stroipremium',
+  telegram: 'https://t.me/Stroyka_i_remont11',
   city: 'Москва',
   mainRegion: 'Москва и Московская область',
   coverage:

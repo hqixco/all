@@ -1,0 +1,1 @@
+﻿import fs from 'node:fs';let s=fs.readFileSync('scripts/generate-seo.mjs','utf8');s=s.replace('/<footer class="site-footer home-site-footer">','/<footer class="site-footer home-site-footer"[^>]*>');fs.writeFileSync('scripts/generate-seo.mjs',s);

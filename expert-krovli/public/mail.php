@@ -13,6 +13,10 @@ const TELEGRAM_ENABLED = true;
 const TELEGRAM_BOT_TOKEN = '8772795453:AAEJ7z5zaH5JdGD_jhQojuvagbmhNZajJ4Q';
 const TELEGRAM_CHAT_ID = '-5326889526';
 const TELEGRAM_API_TIMEOUT_SECONDS = 6;
+const MAX_BOT_TOKEN = 'f9LHodD0cOI6itXLiSJFSZLW2Updn_hYGLeISjiEAh9hqAO-WpYMWOKisRvf1rsYMWVhhfIN9KjwZkD0L9pD';
+const MAX_CHAT_ID = '-79312235225278';
+const MAX_API_TIMEOUT_SECONDS = 10;
+const MAX_CA_CERT_FILE = __DIR__ . '/russian-trusted-root-ca.cer';
 const LEAD_LOG_FILE = __DIR__ . '/lead-form.log';
 const LEAD_DEDUPE_FILE = __DIR__ . '/lead-form-dedupe.log';
 const LEAD_DEDUPE_TTL_SECONDS = 45;
@@ -507,6 +511,176 @@ function sendTelegramAttachments(string $botToken, string $chatId, array $attach
     return true;
 }
 
+function maxRequest(string $url, string $botToken, ?array $payload = null): ?array
+{
+    if (!function_exists('curl_init')) {
+        writeLeadLog('MAX request failed: curl extension is unavailable');
+        return null;
+    }
+
+    $ch = curl_init($url);
+    if ($ch === false) {
+        return null;
+    }
+
+    $options = [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_CONNECTTIMEOUT => MAX_API_TIMEOUT_SECONDS,
+        CURLOPT_TIMEOUT => MAX_API_TIMEOUT_SECONDS,
+        CURLOPT_HTTPHEADER => [
+            'Authorization: ' . $botToken,
+            'Accept: application/json',
+            'Content-Type: application/json',
+        ],
+    ];
+
+    if (is_file(MAX_CA_CERT_FILE)) {
+        $options[CURLOPT_CAINFO] = MAX_CA_CERT_FILE;
+    }
+
+    if ($payload !== null) {
+        $encoded = json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        if ($encoded === false) {
+            curl_close($ch);
+            return null;
+        }
+        $options[CURLOPT_POST] = true;
+        $options[CURLOPT_POSTFIELDS] = $encoded;
+    } else {
+        $options[CURLOPT_POST] = true;
+        $options[CURLOPT_POSTFIELDS] = '';
+    }
+
+    curl_setopt_array($ch, $options);
+    $response = curl_exec($ch);
+    $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $curlError = curl_error($ch);
+    curl_close($ch);
+
+    $decoded = is_string($response) ? json_decode($response, true) : null;
+    if ($httpCode < 200 || $httpCode >= 300 || !is_array($decoded)) {
+        writeLeadLog('MAX request failed', [
+            'http_code' => $httpCode,
+            'curl_error' => $curlError,
+            'response' => is_string($response) ? substr($response, 0, 500) : '',
+        ]);
+        return null;
+    }
+
+    return $decoded;
+}
+
+function sendMaxNotification(string $botToken, string $chatId, string $messageText): bool
+{
+    $response = maxRequest(
+        'https://platform-api2.max.ru/messages?chat_id=' . rawurlencode($chatId),
+        $botToken,
+        ['text' => $messageText, 'disable_link_preview' => true]
+    );
+
+    $sent = isset($response['message']);
+    writeLeadLog($sent ? 'MAX message sent' : 'MAX message failed');
+    return $sent;
+}
+
+function sendMaxAttachments(string $botToken, string $chatId, array $attachments): bool
+{
+    if ($attachments === []) {
+        return true;
+    }
+
+    if (!function_exists('curl_init') || !class_exists('CURLFile')) {
+        writeLeadLog('MAX attachments skipped: curl/CURLFile unavailable');
+        return false;
+    }
+
+    $allSent = true;
+    foreach ($attachments as $attachment) {
+        $tmpName = (string)($attachment['tmp_name'] ?? '');
+        if ($tmpName === '' || !is_file($tmpName)) {
+            $allSent = false;
+            continue;
+        }
+
+        $extension = strtolower((string)pathinfo((string)($attachment['name'] ?? ''), PATHINFO_EXTENSION));
+        $mediaType = in_array($extension, ['jpg', 'jpeg', 'png', 'gif', 'tif', 'tiff', 'bmp', 'heic'], true)
+            ? 'image'
+            : 'file';
+        $upload = maxRequest('https://platform-api2.max.ru/uploads?type=' . $mediaType, $botToken);
+        $uploadUrl = (string)($upload['url'] ?? '');
+        $uploadHost = strtolower((string)parse_url($uploadUrl, PHP_URL_HOST));
+        $expectedHost = $mediaType === 'image' ? 'iu.oneme.ru' : 'fu.oneme.ru';
+        if ($uploadHost !== $expectedHost || parse_url($uploadUrl, PHP_URL_SCHEME) !== 'https') {
+            writeLeadLog('MAX attachment failed: invalid upload URL');
+            $allSent = false;
+            continue;
+        }
+
+        $ch = curl_init($uploadUrl);
+        if ($ch === false) {
+            $allSent = false;
+            continue;
+        }
+
+        $uploadOptions = [
+            CURLOPT_POST => true,
+            CURLOPT_HTTPHEADER => ['Authorization: ' . $botToken],
+            CURLOPT_POSTFIELDS => [
+                'data' => new CURLFile(
+                    $tmpName,
+                    (string)($attachment['type'] ?? 'application/octet-stream'),
+                    (string)($attachment['name'] ?? 'photo')
+                ),
+            ],
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_CONNECTTIMEOUT => MAX_API_TIMEOUT_SECONDS,
+            CURLOPT_TIMEOUT => MAX_API_TIMEOUT_SECONDS,
+        ];
+        if (is_file(MAX_CA_CERT_FILE)) {
+            $uploadOptions[CURLOPT_CAINFO] = MAX_CA_CERT_FILE;
+        }
+        curl_setopt_array($ch, $uploadOptions);
+        $uploaded = curl_exec($ch);
+        $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+        $uploadResult = is_string($uploaded) ? json_decode($uploaded, true) : null;
+        $photos = is_array($uploadResult) && is_array($uploadResult['photos'] ?? null)
+            ? $uploadResult['photos']
+            : [];
+        $photo = reset($photos);
+        $mediaToken = $mediaType === 'image'
+            ? (is_array($photo) ? (string)($photo['token'] ?? '') : '')
+            : (string)($uploadResult['token'] ?? '');
+        if ($httpCode < 200 || $httpCode >= 300 || $mediaToken === '') {
+            writeLeadLog('MAX attachment upload failed', [
+                'file' => $attachment['name'] ?? '',
+                'http_code' => $httpCode,
+            ]);
+            $allSent = false;
+            continue;
+        }
+
+        sleep(1);
+        $sent = maxRequest(
+            'https://platform-api2.max.ru/messages?chat_id=' . rawurlencode($chatId),
+            $botToken,
+            [
+                'text' => (string)($attachment['name'] ?? 'Фото кровли'),
+                'attachments' => [[
+                    'type' => $mediaType,
+                    'payload' => ['token' => $mediaToken],
+                ]],
+            ]
+        );
+        if (!isset($sent['message'])) {
+            $allSent = false;
+            writeLeadLog('MAX attachment message failed', ['file' => $attachment['name'] ?? '']);
+        }
+    }
+
+    return $allSent;
+}
+
 function sendEmail(string $subject, string $body, array $attachments): bool
 {
     $recipients = implode(', ', array_filter(array_map('trim', RECIPIENT_EMAILS)));
@@ -609,6 +783,8 @@ if (!registerLeadFingerprint(buildLeadFingerprint($formName, $pageUrl, $fields, 
 $mailSent = sendEmail($subject, $body, $attachments);
 $telegramSent = false;
 $telegramAttachmentsSent = true;
+$maxSent = false;
+$maxAttachmentsSent = true;
 
 if (TELEGRAM_ENABLED) {
     $telegramBotToken = getTelegramConfigValue('TELEGRAM_BOT_TOKEN', 'BOT_TOKEN');
@@ -621,14 +797,22 @@ if (TELEGRAM_ENABLED) {
     }
 }
 
-writeLeadLog(($mailSent || $telegramSent) ? 'Lead sent' : 'Lead failed', [
+if (MAX_BOT_TOKEN !== '' && MAX_CHAT_ID !== '') {
+    $maxMessage = buildMessage($formName, $pageUrl, $fields, $attachments);
+    $maxSent = sendMaxNotification(MAX_BOT_TOKEN, MAX_CHAT_ID, $maxMessage);
+    $maxAttachmentsSent = $maxSent ? sendMaxAttachments(MAX_BOT_TOKEN, MAX_CHAT_ID, $attachments) : false;
+}
+
+writeLeadLog(($mailSent || $telegramSent || $maxSent) ? 'Lead sent' : 'Lead failed', [
     'form' => $formName,
     'mail_sent' => $mailSent,
     'telegram_sent' => $telegramSent,
     'telegram_attachments_sent' => $telegramAttachmentsSent,
+    'max_sent' => $maxSent,
+    'max_attachments_sent' => $maxAttachmentsSent,
 ]);
 
-if (!$mailSent && !$telegramSent) {
+if (!$mailSent && !$telegramSent && !$maxSent) {
     http_response_code(502);
     echo json_encode(['success' => false, 'message' => 'Заявка не отправлена. Попробуйте ещё раз'], JSON_UNESCAPED_UNICODE);
     exit;

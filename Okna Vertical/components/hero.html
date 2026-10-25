@@ -1,0 +1,34 @@
+<section class="page-hero {{layoutClass}}" data-component="hero"><img class="page-hero__backdrop" src="{{imageSrc}}" width="{{imageWidth}}" height="{{imageHeight}}" alt="{{imageAlt}}" aria-hidden="true" fetchpriority="high">{{{breadcrumbHtml}}}<div class="home-wrap page-hero__content"><div class="page-hero__copy">{{#showKicker}}<p class="page-hero__kicker hero-kicker">{{{kickerHtml}}}</p>{{/showKicker}}<h1>{{{titleHtml}}}</h1>{{#showLead}}<p class="page-hero__lead">{{{leadHtml}}}</p>{{/showLead}}{{#showBenefits}}<div class="page-hero__cards">{{#benefits}}<article><div><svg viewBox="0 0 32 32" fill="none" aria-hidden="true">{{{iconHtml}}}</svg><strong>{{{titleHtml}}}</strong></div><p>{{{descriptionHtml}}}</p></article>{{/benefits}}</div>{{/showBenefits}}{{{actionsHtml}}}</div>{{{visualHtml}}}<div class="home-page home-hero__products page-hero__products" aria-label="{{productsLabel}}">{{#products}}<{{cardTag}} class="home-hero-card" {{{cardAttributes}}}><img src="{{imageSrc}}" width="{{imageWidth}}" height="{{imageHeight}}" alt="{{imageAlt}}" fetchpriority="high"><span>{{{titleHtml}}}</span><b>{{{captionHtml}}}</b><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"></path></svg></i></{{cardTag}}>{{/products}}</div></div></section>
+{{#showFacts}}<div class="home-facts home-wrap" aria-label="Факты о компании">
+          <div>
+            <b><svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M24 4 39 10v11c0 10-6 18-15 23C15 39 9 31 9 21V10l15-6Z"></path>
+                <path d="m17 24 5 5 10-11"></path></svg></b><span>Гарантия до 5 лет на изделия и монтаж</span>
+          </div>
+          <div>
+            <b><svg viewBox="0 0 48 48" aria-hidden="true">
+                <rect x="8" y="10" width="32" height="30" rx="4"></rect>
+                <path d="M15 5v10M33 5v10M8 19h32M15 27h7M15 34h13"></path></svg></b><span>С 2005 года устанавливаем окна</span>
+          </div>
+          <div>
+            <b><svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M5 42h38M9 42V18h14v24M25 42V7h14v35"></path>
+                <path d="M14 25h4M14 32h4M30 14h4M30 22h4M30 30h4"></path></svg></b><span>5 000+ готовых объектов</span>
+          </div>
+          <div>
+            <b><svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M11 5h22l6 6v32H11z"></path>
+                <path d="M33 5v8h6M17 21h16M17 28h8M17 35h16"></path></svg></b><span>Честная смета без скрытых доплат</span>
+          </div>
+          <div>
+            <b><svg viewBox="0 0 48 48" aria-hidden="true">
+                <circle cx="24" cy="24" r="18"></circle>
+                <circle cx="18" cy="18" r="3"></circle>
+                <circle cx="30" cy="30" r="3"></circle>
+                <path d="m17 32 14-16"></path></svg></b><span>Рассрочка без % до 3 лет</span>
+          </div>
+          <div>
+            <b><img src="/assets/veka-dealer-mark.png" width="44" height="49" alt="VEKA"></b><span>Официальный дилер оконных конструкций VEKA. Самые низкие цены напрямую от производителя.</span>
+          </div>
+        </div>
+{{/showFacts}}

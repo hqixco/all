@@ -1,0 +1,816 @@
+[
+  {
+    "url": "/fasadnye-vyveski/",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "items": [
+      {
+        "label": "Доступное место и размеры",
+        "src": "/assets/images/facade-storefront.webp"
+      },
+      {
+        "label": "Надпись или логотип",
+        "src": "/assets/images/light-signs-hero.webp"
+      },
+      {
+        "label": "Расстояние просмотра",
+        "src": "/assets/images/facade-spar.webp"
+      },
+      {
+        "label": "Фон и поверхность фасада",
+        "src": "/assets/images/facade-malinka.webp"
+      },
+      {
+        "label": "Необходимость подсветки",
+        "src": "/assets/images/light-signs-halo.webp"
+      },
+      {
+        "label": "Выбранная конструкция",
+        "src": "/assets/images/light-signs-box.webp"
+      },
+      {
+        "label": "Способ крепления",
+        "src": "/assets/images/installation-preparation.webp"
+      },
+      {
+        "label": "Необходимость монтажа",
+        "src": "/assets/images/facade-installation.webp"
+      },
+      {
+        "label": "Бюджет заказа",
+        "src": "/assets/images/light-signs-production.webp"
+      },
+      {
+        "label": "Тип конструкции",
+        "src": "/assets/images/light-signs-letters.webp"
+      },
+      {
+        "label": "Размеры",
+        "src": "/assets/images/entrance-wide-facade.webp"
+      },
+      {
+        "label": "Материалы",
+        "src": "/assets/images/light-signs-production.webp"
+      },
+      {
+        "label": "Подсветка",
+        "src": "/assets/images/light-signs-halo.webp"
+      },
+      {
+        "label": "Количество элементов",
+        "src": "/assets/images/light-signs-combined.webp"
+      },
+      {
+        "label": "Сложность формы",
+        "src": "/assets/images/signs-hub-neon.webp"
+      },
+      {
+        "label": "Основание и фасад",
+        "src": "/assets/images/facade-hero.webp"
+      },
+      {
+        "label": "Монтаж",
+        "src": "/assets/images/installation-work.webp"
+      },
+      {
+        "label": "Связанные работы",
+        "src": "/assets/images/repair-facade.webp"
+      }
+    ]
+  },
+  {
+    "url": "/frizy/",
+    "source": "pages/frizy/index.html",
+    "items": [
+      {
+        "label": "Длина и высота",
+        "src": "/assets/images/frieze-clinic.webp"
+      },
+      {
+        "label": "Исполнение и материалы",
+        "src": "/assets/images/frieze-eurospar.webp"
+      },
+      {
+        "label": "Содержание и графика",
+        "src": "/assets/images/frieze-dark-line.webp"
+      },
+      {
+        "label": "Подсветка",
+        "src": "/assets/images/frieze-malinka.webp"
+      },
+      {
+        "label": "Опорная конструкция при необходимости",
+        "src": "/assets/images/frieze-paint-shop.webp"
+      },
+      {
+        "label": "Условия монтажа",
+        "src": "/assets/images/frieze-clinic.webp"
+      }
+    ]
+  },
+  {
+    "url": "/interernye-vyveski/",
+    "source": "pages/interernye-vyveski/index.html",
+    "items": [
+      {
+        "label": "Размеры доступной стены",
+        "src": "/assets/images/non-illuminated-letters-hero.webp"
+      },
+      {
+        "label": "Фон и цвет",
+        "src": "/assets/images/interior-sign-salon.webp"
+      },
+      {
+        "label": "Форма логотипа или надписи",
+        "src": "/assets/images/interior-sign-green-house.webp"
+      },
+      {
+        "label": "Расстояние просмотра",
+        "src": "/assets/images/interior-logo-orion.webp"
+      },
+      {
+        "label": "Нужна ли подсветка",
+        "src": "/assets/images/interior-logo-crown.webp"
+      },
+      {
+        "label": "Способ установки",
+        "src": "/assets/images/interior-logo-orion.webp"
+      },
+      {
+        "label": "Где внутри помещения будет размещение",
+        "src": "/assets/images/interior-sign-bar.webp"
+      },
+      {
+        "label": "Доступные размеры",
+        "src": "/assets/images/non-illuminated-letters-hero.webp"
+      },
+      {
+        "label": "Логотип или текст",
+        "src": "/assets/images/light-signs-hero.webp"
+      },
+      {
+        "label": "Фон стены или зоны",
+        "src": "/assets/images/interior-sign-salon.webp"
+      },
+      {
+        "label": "Расстояние просмотра",
+        "src": "/assets/images/interior-logo-orion.webp"
+      },
+      {
+        "label": "Пожелания к подсветке",
+        "src": "/assets/images/interior-logo-crown.webp"
+      },
+      {
+        "label": "Предпочтительное исполнение",
+        "src": "/assets/images/light-signs-box.webp"
+      },
+      {
+        "label": "Нужна ли установка",
+        "src": "/assets/images/interior-logo-orion.webp"
+      },
+      {
+        "label": "Тип конструкции",
+        "src": "/assets/images/light-signs-hero.webp"
+      },
+      {
+        "label": "Размеры",
+        "src": "/assets/images/non-illuminated-letters-hero.webp"
+      },
+      {
+        "label": "Материал",
+        "src": "/assets/images/light-signs-production.webp"
+      },
+      {
+        "label": "Подсветка",
+        "src": "/assets/images/interior-logo-crown.webp"
+      },
+      {
+        "label": "Количество элементов",
+        "src": "/assets/images/light-signs-combined.webp"
+      },
+      {
+        "label": "Сложность формы",
+        "src": "/assets/images/interior-sign-green-house.webp"
+      },
+      {
+        "label": "Способ крепления",
+        "src": "/assets/images/interior-logo-orion.webp"
+      },
+      {
+        "label": "Монтаж",
+        "src": "/assets/images/interior-logo-crown.webp"
+      }
+    ]
+  },
+  {
+    "url": "/kryshnye-ustanovki/",
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "items": [
+      {
+        "label": "Доступное место в верхней зоне здания",
+        "src": "/assets/images/roof-eurospar-frame.webp"
+      },
+      {
+        "label": "Надпись или логотип",
+        "src": "/assets/images/roof-spar-sign.webp"
+      },
+      {
+        "label": "Размеры и пропорции относительно здания",
+        "src": "/assets/images/roof-electric-sign.webp"
+      },
+      {
+        "label": "Рекламное исполнение и подсветка",
+        "src": "/assets/images/roof-building-signs.webp"
+      },
+      {
+        "label": "Конструктивное решение",
+        "src": "/assets/images/roof-electric-angle.webp"
+      },
+      {
+        "label": "Условия установки",
+        "src": "/assets/images/roof-upper-names.webp"
+      },
+      {
+        "label": "Размеры",
+        "src": "/assets/images/roof-eurospar-frame.webp"
+      },
+      {
+        "label": "Рекламное исполнение",
+        "src": "/assets/images/roof-spar-sign.webp"
+      },
+      {
+        "label": "Конструкция и материалы",
+        "src": "/assets/images/roof-electric-sign.webp"
+      },
+      {
+        "label": "Подсветка",
+        "src": "/assets/images/roof-building-signs.webp"
+      },
+      {
+        "label": "Разработка конструктивного решения при необходимости",
+        "src": "/assets/images/roof-electric-angle.webp"
+      },
+      {
+        "label": "Условия установки и монтаж",
+        "src": "/assets/images/roof-upper-names.webp"
+      }
+    ]
+  },
+  {
+    "url": "/naruzhnaya-reklama/",
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "items": [
+      {
+        "label": "Тип конструкции",
+        "src": "/assets/images/outdoor-hub-entrance.webp"
+      },
+      {
+        "label": "Размеры и материалы",
+        "src": "/assets/images/outdoor-hub-letters.webp"
+      },
+      {
+        "label": "Наличие подсветки",
+        "src": "/assets/images/outdoor-hub-roof.webp"
+      },
+      {
+        "label": "Сложность изготовления",
+        "src": "/assets/images/outdoor-hub-pylon.webp"
+      },
+      {
+        "label": "Количество элементов",
+        "src": "/assets/images/facade-installation.webp"
+      },
+      {
+        "label": "Монтаж и условия установки",
+        "src": "/assets/images/light-signs-production.webp"
+      }
+    ]
+  },
+  {
+    "url": "/neonovye-vyveski/",
+    "source": "pages/neonovye-vyveski/index.html",
+    "items": [
+      {
+        "label": "Текст или логотип",
+        "src": "/assets/images/neon-sign-green-house.webp"
+      },
+      {
+        "label": "Размеры",
+        "src": "/assets/images/neon-sign-facade-entry.webp"
+      },
+      {
+        "label": "Форма линий",
+        "src": "/assets/images/neon-sign-storm-dance.webp"
+      },
+      {
+        "label": "Цвет свечения",
+        "src": "/assets/images/neon-sign-bar.webp"
+      },
+      {
+        "label": "Фон",
+        "src": "/assets/images/neon-sign-salon.webp"
+      },
+      {
+        "label": "Место установки",
+        "src": "/assets/images/neon-sign-facade-windows.webp"
+      },
+      {
+        "label": "Наличие основания",
+        "src": "/assets/images/signs-hub-neon.webp"
+      },
+      {
+        "label": "Способ крепления",
+        "src": "/assets/images/portfolio-neonovye-vyveski.webp"
+      }
+    ]
+  },
+  {
+    "url": "/panel-kronshtejny/",
+    "source": "pages/panel-kronshtejny/index.html",
+    "items": [
+      {
+        "label": "Размеры и форма",
+        "src": "/assets/images/bracket-spar-side.webp"
+      },
+      {
+        "label": "Количество рекламных поверхностей",
+        "src": "/assets/images/bracket-pharmacy-side.webp"
+      },
+      {
+        "label": "Конструкция и материалы",
+        "src": "/assets/images/bracket-round-sample.webp"
+      },
+      {
+        "label": "Подсветка при выбранном исполнении",
+        "src": "/assets/images/bracket-spar-angle.webp"
+      },
+      {
+        "label": "Основание",
+        "src": "/assets/images/bracket-spar-side.webp"
+      },
+      {
+        "label": "Условия монтажа",
+        "src": "/assets/images/bracket-pharmacy-side.webp"
+      }
+    ]
+  },
+  {
+    "url": "/reklamnye-konstrukcii/",
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "items": [
+      {
+        "label": "Тип конструкции",
+        "src": "/assets/images/structure-lightbox.webp"
+      },
+      {
+        "label": "Размеры",
+        "src": "/assets/images/structure-letters.webp"
+      },
+      {
+        "label": "Материалы и форма",
+        "src": "/assets/images/structure-standing.webp"
+      },
+      {
+        "label": "Подсветка",
+        "src": "/assets/images/structure-roof.webp"
+      },
+      {
+        "label": "Количество элементов",
+        "src": "/assets/images/structure-entrance.webp"
+      },
+      {
+        "label": "Условия установки и монтаж",
+        "src": "/assets/images/structure-street-board.webp"
+      }
+    ]
+  },
+  {
+    "url": "/stely-i-pilony/",
+    "source": "pages/stely-i-pilony/index.html",
+    "items": [
+      {
+        "label": "Доступное место и размеры конструкции",
+        "src": "/assets/images/company-pylon.webp"
+      },
+      {
+        "label": "Расстояние и направления просмотра",
+        "src": "/assets/images/outdoor-hub-pylon.webp"
+      },
+      {
+        "label": "Подход людей и движение транспорта",
+        "src": "/assets/images/home-work-pylon.webp"
+      },
+      {
+        "label": "Объём информации",
+        "src": "/assets/images/agency-b2b-pylon.webp"
+      },
+      {
+        "label": "Необходимость подсветки",
+        "src": "/assets/images/services-pylon.webp"
+      },
+      {
+        "label": "Основание и условия установки",
+        "src": "/assets/images/structure-standing.webp"
+      },
+      {
+        "label": "Габариты, форма и конструкция",
+        "src": "/assets/images/company-pylon.webp"
+      },
+      {
+        "label": "Материалы",
+        "src": "/assets/images/outdoor-hub-pylon.webp"
+      },
+      {
+        "label": "Содержание и оформление",
+        "src": "/assets/images/home-work-pylon.webp"
+      },
+      {
+        "label": "Подсветка",
+        "src": "/assets/images/agency-b2b-pylon.webp"
+      },
+      {
+        "label": "Количество рабочих сторон при выбранном исполнении",
+        "src": "/assets/images/services-pylon.webp"
+      },
+      {
+        "label": "Основание и способ установки",
+        "src": "/assets/images/structure-standing.webp"
+      },
+      {
+        "label": "Монтаж",
+        "src": "/assets/images/company-pylon.webp"
+      }
+    ]
+  },
+  {
+    "url": "/svetovye-portaly/",
+    "source": "pages/svetovye-portaly/index.html",
+    "items": [
+      {
+        "label": "Размеры входной зоны",
+        "src": "/assets/images/light-portal-red.webp"
+      },
+      {
+        "label": "Форма и место конструкции",
+        "src": "/assets/images/light-portal-green.webp"
+      },
+      {
+        "label": "Внешний вид лицевой поверхности",
+        "src": "/assets/images/light-portal-stars.webp"
+      },
+      {
+        "label": "Подсветка",
+        "src": "/assets/images/portfolio-svetovye-portaly.webp"
+      },
+      {
+        "label": "Основание для установки",
+        "src": "/assets/images/light-portal-red.webp"
+      },
+      {
+        "label": "Условия монтажа",
+        "src": "/assets/images/light-portal-green.webp"
+      },
+      {
+        "label": "Размеры и форма",
+        "src": "/assets/images/light-portal-stars.webp"
+      },
+      {
+        "label": "Выбранные материалы",
+        "src": "/assets/images/portfolio-svetovye-portaly.webp"
+      },
+      {
+        "label": "Лицевая поверхность",
+        "src": "/assets/images/light-portal-red.webp"
+      },
+      {
+        "label": "Подсветка",
+        "src": "/assets/images/light-portal-green.webp"
+      },
+      {
+        "label": "Основание и условия установки",
+        "src": "/assets/images/light-portal-stars.webp"
+      },
+      {
+        "label": "Монтаж",
+        "src": "/assets/images/portfolio-svetovye-portaly.webp"
+      }
+    ]
+  },
+  {
+    "url": "/vxodnye-gruppy/",
+    "source": "pages/vxodnye-gruppy/index.html",
+    "items": [
+      {
+        "label": "Размеры зоны входа",
+        "src": "/assets/images/entrance-red-frame.webp"
+      },
+      {
+        "label": "Количество и выбранные конструкции",
+        "src": "/assets/images/entrance-wide-facade.webp"
+      },
+      {
+        "label": "Материалы оформления",
+        "src": "/assets/images/facade-storefront.webp"
+      },
+      {
+        "label": "Наличие подсветки",
+        "src": "/assets/images/facade-installation.webp"
+      },
+      {
+        "label": "Основание и условия установки",
+        "src": "/assets/images/entrance-red-frame.webp"
+      },
+      {
+        "label": "Монтаж",
+        "src": "/assets/images/entrance-wide-facade.webp"
+      }
+    ]
+  },
+  {
+    "url": "/vyveski-s-pajetkami/",
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "items": [
+      {
+        "label": "Размеры и форма панели",
+        "src": "/assets/images/sequin-sign-gold-panel.webp"
+      },
+      {
+        "label": "Надпись или изображение",
+        "src": "/assets/images/sequin-sign-entry.webp"
+      },
+      {
+        "label": "Выбранное исполнение",
+        "src": "/assets/images/sequin-sign-entry-angle.webp"
+      },
+      {
+        "label": "Основание",
+        "src": "/assets/images/sequin-sign-gold-panel.webp"
+      },
+      {
+        "label": "Способ установки",
+        "src": "/assets/images/sequin-sign-entry.webp"
+      },
+      {
+        "label": "Монтаж",
+        "src": "/assets/images/sequin-sign-entry-angle.webp"
+      }
+    ]
+  },
+  {
+    "url": "/vyveski/",
+    "source": "pages/vyveski/index.html",
+    "items": [
+      {
+        "label": "Тип конструкции",
+        "src": "/assets/images/light-signs-box.webp"
+      },
+      {
+        "label": "Размеры и материалы",
+        "src": "/assets/images/non-illuminated-letters-hero.webp"
+      },
+      {
+        "label": "Наличие подсветки",
+        "src": "/assets/images/light-signs-halo.webp"
+      },
+      {
+        "label": "Количество элементов",
+        "src": "/assets/images/signs-hub-letters.webp"
+      },
+      {
+        "label": "Сложность изготовления",
+        "src": "/assets/images/light-signs-production.webp"
+      },
+      {
+        "label": "Монтаж и условия установки",
+        "src": "/assets/images/facade-installation.webp"
+      }
+    ]
+  },
+  {
+    "url": "/svetovye-vyveski/",
+    "source": "pages/svetovye-vyveski/index.html",
+    "items": [
+      {
+        "label": "Размер и графика. Количество букв, высота символов, сложность логотипа и площадь панели.",
+        "src": "/assets/images/light-signs-letters.webp"
+      },
+      {
+        "label": "Тип свечения. Лицевая подсветка, контражур или их сочетание.",
+        "src": "/assets/images/light-signs-halo.webp"
+      },
+      {
+        "label": "Материалы. Исполнение корпуса, лицевой части, подложки и несущих элементов.",
+        "src": "/assets/images/light-signs-production.webp"
+      },
+      {
+        "label": "Комплект конструкции. Буквы отдельно или оформление с коробом, рамой и дополнительными элементами.",
+        "src": "/assets/images/light-signs-combined.webp"
+      },
+      {
+        "label": "Монтаж. Основание, высота, доступ к фасаду и точке электропитания.",
+        "src": "/assets/images/facade-installation.webp"
+      },
+      {
+        "label": "Подготовка. Наличие готового макета, необходимость замеров и доработки оформления.",
+        "src": "/assets/images/installation-preparation.webp"
+      }
+    ]
+  },
+  {
+    "url": "/remont-vyvesok/",
+    "source": "pages/remont-vyvesok/index.html",
+    "items": [
+      {
+        "label": "Тип и исполнение конструкции",
+        "src": "/assets/images/repair-hero.webp"
+      },
+      {
+        "label": "Характер повреждения",
+        "src": "/assets/images/repair-letters.webp"
+      },
+      {
+        "label": "Количество затронутых элементов",
+        "src": "/assets/images/repair-facade.webp"
+      },
+      {
+        "label": "Необходимость демонтажа",
+        "src": "/assets/images/repair-lightbox.webp"
+      },
+      {
+        "label": "Место установки и доступ",
+        "src": "/assets/images/home-task-repair.webp"
+      },
+      {
+        "label": "Материалы и объём восстановления",
+        "src": "/assets/images/banner-repair.webp"
+      }
+    ]
+  },
+  {
+    "url": "/oformlenie-fasadov/",
+    "source": "pages/oformlenie-fasadov/index.html",
+    "items": [
+      {
+        "label": "Количество и размеры элементов",
+        "src": "/assets/images/facade-hero.webp"
+      },
+      {
+        "label": "Материалы и сложность изготовления",
+        "src": "/assets/images/facade-storefront.webp"
+      },
+      {
+        "label": "Наличие и способ подсветки",
+        "src": "/assets/images/frieze-eurospar.webp"
+      },
+      {
+        "label": "Основание фасада и места крепления",
+        "src": "/assets/images/facade-installation.webp"
+      },
+      {
+        "label": "Высота и доступ к месту монтажа",
+        "src": "/assets/images/entrance-wide-facade.webp"
+      },
+      {
+        "label": "Сочетание нескольких видов конструкций",
+        "src": "/assets/images/light-signs-production.webp"
+      }
+    ]
+  },
+  {
+    "url": "/navigaciya-i-ukazateli/",
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "items": [
+      {
+        "label": "Расстояние чтения и размер надписи",
+        "src": "/assets/images/wayfinding-office-sign.webp"
+      },
+      {
+        "label": "Место установки и направление движения",
+        "src": "/assets/images/wayfinding-room-plan.webp"
+      },
+      {
+        "label": "Количество информации",
+        "src": "/assets/images/wayfinding-outdoor-board.webp"
+      },
+      {
+        "label": "Размер и материалы изделия",
+        "src": "/assets/images/wayfinding-information-board.webp"
+      },
+      {
+        "label": "Помещение или улица",
+        "src": "/assets/images/wayfinding-office-sign.webp"
+      },
+      {
+        "label": "Количество связанных элементов",
+        "src": "/assets/images/wayfinding-room-plan.webp"
+      },
+      {
+        "label": "Количество элементов",
+        "src": "/assets/images/wayfinding-outdoor-board.webp"
+      },
+      {
+        "label": "Размеры и материалы",
+        "src": "/assets/images/wayfinding-information-board.webp"
+      },
+      {
+        "label": "Способ нанесения информации",
+        "src": "/assets/images/wayfinding-office-sign.webp"
+      },
+      {
+        "label": "Использование внутри или снаружи",
+        "src": "/assets/images/wayfinding-room-plan.webp"
+      },
+      {
+        "label": "Сложность изготовления",
+        "src": "/assets/images/wayfinding-outdoor-board.webp"
+      },
+      {
+        "label": "Необходимость и условия монтажа",
+        "src": "/assets/images/wayfinding-information-board.webp"
+      }
+    ]
+  },
+  {
+    "url": "/vyveski-dlya-magazina/",
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "items": [
+      {
+        "label": "Расположение магазина и фасад",
+        "src": "/assets/images/shop-signs-hero.webp"
+      },
+      {
+        "label": "Размер доступного места",
+        "src": "/assets/images/facade-storefront.webp"
+      },
+      {
+        "label": "Расстояние просмотра",
+        "src": "/assets/images/frieze-eurospar.webp"
+      },
+      {
+        "label": "Работа днём и вечером",
+        "src": "/assets/images/light-signs-letters.webp"
+      },
+      {
+        "label": "Необходимость подсветки",
+        "src": "/assets/images/facade-installation.webp"
+      },
+      {
+        "label": "Бюджет и условия монтажа",
+        "src": "/assets/images/light-signs-production.webp"
+      },
+      {
+        "label": "Тип конструкции",
+        "src": "/assets/images/shop-signs-hero.webp"
+      },
+      {
+        "label": "Размеры и материалы",
+        "src": "/assets/images/facade-storefront.webp"
+      },
+      {
+        "label": "Подсветка",
+        "src": "/assets/images/frieze-eurospar.webp"
+      },
+      {
+        "label": "Количество элементов",
+        "src": "/assets/images/light-signs-letters.webp"
+      },
+      {
+        "label": "Сложность изготовления",
+        "src": "/assets/images/facade-installation.webp"
+      },
+      {
+        "label": "Условия монтажа",
+        "src": "/assets/images/light-signs-production.webp"
+      }
+    ]
+  },
+  {
+    "url": "/oformlenie-seti-magazinov/",
+    "source": "pages/oformlenie-seti-magazinov/index.html",
+    "items": [
+      {
+        "label": "Количество торговых объектов",
+        "src": "/assets/images/store-network-hero.webp"
+      },
+      {
+        "label": "Набор и размеры конструкций",
+        "src": "/assets/images/store-network-spar-brick.webp"
+      },
+      {
+        "label": "Материалы и подсветка",
+        "src": "/assets/images/store-network-malinka-roof.webp"
+      },
+      {
+        "label": "Различия фасадов и мест размещения",
+        "src": "/assets/images/facade-installation.webp"
+      },
+      {
+        "label": "Сложность и условия монтажа",
+        "src": "/assets/images/light-signs-production.webp"
+      },
+      {
+        "label": "Объём изготовления",
+        "src": "/assets/images/frieze-eurospar.webp"
+      }
+    ]
+  }
+]

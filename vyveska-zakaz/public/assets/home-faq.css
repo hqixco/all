@@ -1,0 +1,17 @@
+.home-faq__lead{max-width:850px;font-size:var(--compact-text-size,17px);line-height:1.55;color:#6d6675}
+.home-faq__columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:28px;align-items:start}
+.home-faq__column{display:grid;gap:12px;align-content:start;min-width:0}
+.home-faq__item{min-width:0;border:1px solid var(--ui-border);border-radius:var(--ui-card-radius);overflow:hidden;background:#fff}
+.home-faq__question{display:flex;align-items:center;justify-content:space-between;padding:var(--ui-faq-question-padding);cursor:pointer;list-style:none;color:#292335;transition:background .2s ease}
+.home-faq__question::-webkit-details-marker{display:none}
+.home-faq__question:hover{background:var(--ui-soft)}
+.home-faq__question h3{min-width:0;margin:0;font-size:var(--ui-faq-title-size);line-height:1.4}
+.home-faq__question-icon{display:block;flex:0 0 20px;margin-left:16px;color:#7961bb;transition:transform .2s ease}
+.home-faq__item[open] .home-faq__question{background:var(--ui-open)}
+.home-faq__item[open] .home-faq__question-icon{transform:rotate(180deg)}
+.home-faq__answer{padding:var(--ui-faq-answer-padding)}
+.home-faq__answer-text{--paragraph-margin:0 0 14px;margin:var(--paragraph-margin);font-size:var(--ui-faq-text-size);line-height:1.6;color:#51495b}
+.home-faq__answer-text:last-child{--paragraph-margin:0;margin:0}
+@media(max-width:760px){.home-faq__columns{grid-template-columns:minmax(0,1fr);gap:12px;margin-top:22px}.home-faq__question{padding:var(--ui-faq-question-padding)}.home-faq__answer{padding:var(--ui-faq-answer-padding)}.home-faq__answer-text{font-size:var(--ui-faq-text-size)}}
+@media(max-width:500px){.home-faq__lead{font-size:13px;line-height:1.4}.home-faq__columns{gap:8px;margin-top:16px}.home-faq__column{gap:8px}.home-faq__item{border-radius:var(--ui-card-radius)}.home-faq__question{padding:var(--ui-faq-question-padding)}.home-faq__question h3{font-size:var(--ui-faq-title-size);line-height:1.35}.home-faq__question-icon{width:16px;height:16px;flex-basis:16px;margin-left:8px}.home-faq__answer{padding:var(--ui-faq-answer-padding)}.home-faq__answer-text{--paragraph-margin:0 0 10px;margin:var(--paragraph-margin);font-size:var(--ui-faq-text-size);line-height:1.45}}
+@media(prefers-reduced-motion:reduce){.home-faq__question,.home-faq__question-icon{transition:none}}

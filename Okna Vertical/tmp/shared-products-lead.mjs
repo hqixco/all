@@ -1,0 +1,1 @@
+﻿import fs from 'node:fs';const f='src/seo.css';let s=fs.readFileSync(f,'utf8').replaceAll('.seo-page p:not(.hero-kicker),', '.seo-page p:not(.hero-kicker):not(.home-section-lead),');fs.writeFileSync(f,s);

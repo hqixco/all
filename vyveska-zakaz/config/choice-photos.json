@@ -1,0 +1,849 @@
+[
+  {
+    "url": "/adresnye-tablichki/",
+    "source": "pages/adresnye-tablichki/index.html",
+    "section": "adresnye-tablichki-soderzhanie-adresnogo-znaka",
+    "cls": "plate-choice__plates-family-grid",
+    "title": "Содержание адресного знака",
+    "count": 3,
+    "photos": [
+      "/assets/images/panel-building-signs.webp",
+      "/assets/images/panel-shop-label.webp",
+      "/assets/images/panel-information-board.webp"
+    ]
+  },
+  {
+    "url": "/brendirovanie-transporta/",
+    "source": "pages/brendirovanie-transporta/index.html",
+    "section": "brendirovanie-transporta-chto-razmestit-na-avtomobile",
+    "cls": "vehicle-branding-section__vehicle-branding-grid",
+    "title": "Что разместить на автомобиле",
+    "count": 3,
+    "photos": [
+      "/assets/images/company-vehicle.webp",
+      "/assets/images/agency-b2b-vehicle.webp",
+      "/assets/images/home-work-vehicle.webp"
+    ]
+  },
+  {
+    "url": "/ceny/",
+    "source": "pages/ceny/index.html",
+    "section": "prices-factors",
+    "cls": "prices-factors__prices-cards",
+    "title": "Почему цена рассчитывается индивидуально",
+    "count": 4,
+    "photos": [
+      "/assets/images/letters-hero.webp",
+      "/assets/images/light-signs-hero.webp",
+      "/assets/images/lightbox-hero.webp",
+      "/assets/images/installation-work.webp"
+    ]
+  },
+  {
+    "url": "/ceny/",
+    "source": "pages/ceny/index.html",
+    "section": "prices-complex",
+    "cls": "prices-complex__prices-cards",
+    "title": "Если нужен комплексный проект",
+    "count": 3,
+    "photos": [
+      "/assets/images/facade-spar.webp",
+      "/assets/images/store-network-hero.webp",
+      "/assets/images/lightbox-hero.webp"
+    ]
+  },
+  {
+    "url": "/dizajn/",
+    "source": "pages/dizajn/index.html",
+    "section": "dizajn-kakie-zadachi-reshaet-dizayn-maket",
+    "cls": "design-section__design-grid",
+    "title": "Какие задачи решает дизайн-макет",
+    "count": 3,
+    "photos": [
+      "/assets/images/letters-hero.webp",
+      "/assets/images/panel-interior-graphics.webp",
+      "/assets/images/facade-hero.webp"
+    ]
+  },
+  {
+    "url": "/dizajn/",
+    "source": "pages/dizajn/index.html",
+    "section": "dizajn-chto-vhodit-v-rabotu",
+    "cls": "design-section__design-grid",
+    "title": "Что входит в работу",
+    "count": 2,
+    "photos": [
+      "/assets/images/letters-hero.webp",
+      "/assets/images/panel-interior-graphics.webp"
+    ]
+  },
+  {
+    "url": "/fasadnye-vyveski/",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "section": "facade-signs-facade-design",
+    "cls": "facade-signs-section__facade-signs-grid",
+    "title": "Одна вывеска или оформление всего фасада",
+    "count": 2,
+    "photos": [
+      "/assets/images/facade-hero.webp",
+      "/assets/images/facade-spar.webp"
+    ]
+  },
+  {
+    "url": "/fasadnye-vyveski/",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "section": "facade-signs-lighting",
+    "cls": "facade-signs-section__facade-signs-grid",
+    "title": "Световая или без подсветки",
+    "count": 2,
+    "photos": [
+      "/assets/images/light-signs-hero.webp",
+      "/assets/images/non-illuminated-letters-hero.webp"
+    ]
+  },
+  {
+    "url": "/fasadnye-vyveski/",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "section": "facade-signs-letters-or-lightbox",
+    "cls": "facade-signs-section__facade-signs-grid",
+    "title": "Объёмные буквы или световой короб",
+    "count": 2,
+    "photos": [
+      "/assets/images/letters-hero.webp",
+      "/assets/images/lightbox-hero.webp"
+    ]
+  },
+  {
+    "url": "/fasadnye-vyveski/",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "section": "facade-signs-approval-and-installation",
+    "cls": "facade-signs-section__facade-signs-grid",
+    "title": "Согласование и монтаж",
+    "count": 2,
+    "photos": [
+      "/assets/images/facade-storefront.webp",
+      "/assets/images/installation-work.webp"
+    ]
+  },
+  {
+    "url": "/frezerovka/",
+    "source": "pages/frezerovka/index.html",
+    "section": "frezerovka-vyberite-listovoy-material",
+    "cls": "milling-family-section__milling-family-grid",
+    "title": "Выберите листовой материал",
+    "count": 4,
+    "photos": [
+      "/assets/images/project-905.webp",
+      "/assets/images/project-914.webp",
+      "/assets/images/project-899.webp",
+      "/assets/images/project-899.webp"
+    ]
+  },
+  {
+    "url": "/frizy/",
+    "source": "pages/frizy/index.html",
+    "section": "frizy-varianty-oformleniya-friza",
+    "cls": "friezes-brackets-section__friezes-brackets-grid",
+    "title": "Варианты оформления фриза",
+    "count": 3,
+    "photos": [
+      "/assets/images/frieze-paint-shop.webp",
+      "/assets/images/frieze-dark-line.webp",
+      "/assets/images/frieze-eurospar.webp"
+    ]
+  },
+  {
+    "url": "/frizy/",
+    "source": "pages/frizy/index.html",
+    "section": "frizy-bez-sobstvennoy-podsvetki-ili-so-svetom",
+    "cls": "friezes-brackets-section__friezes-brackets-grid",
+    "title": "Без собственной подсветки или со светом",
+    "count": 2,
+    "photos": [
+      "/assets/images/non-illuminated-letters-hero.webp",
+      "/assets/images/light-signs-hero.webp"
+    ]
+  },
+  {
+    "url": "/informacionnye-stendy/",
+    "source": "pages/informacionnye-stendy/index.html",
+    "section": "informacionnye-stendy-kak-budet-razmeschatsya-informatsiya",
+    "cls": "stands-family-section__stands-family-grid",
+    "title": "Как будет размещаться информация",
+    "count": 3,
+    "photos": [
+      "/assets/images/stand-fire-safety.webp",
+      "/assets/images/stand-white-pockets.webp",
+      "/assets/images/stand-street-wide.webp"
+    ]
+  },
+  {
+    "url": "/kryshnye-ustanovki/",
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "section": "kryshnye-ustanovki-krysha-i-fasad-raznye-zadachi",
+    "cls": "roof-installations-section__roof-installations-grid",
+    "title": "Крыша и фасад: разные задачи",
+    "count": 2,
+    "photos": [
+      "/assets/images/installation-work.webp",
+      "/assets/images/facade-hero.webp"
+    ]
+  },
+  {
+    "url": "/montazh-naruzhnoj-reklamy/",
+    "source": "pages/montazh-naruzhnoj-reklamy/index.html",
+    "section": "montazh-naruzhnoj-reklamy-ustanovka-i-demontazh",
+    "cls": "installation-approval-section__installation-approval-grid",
+    "title": "Установка и демонтаж",
+    "count": 3,
+    "photos": [
+      "/assets/images/installation-work.webp",
+      "/assets/images/installation-work.webp",
+      "/assets/images/facade-installation.webp"
+    ]
+  },
+  {
+    "url": "/naruzhnaya-reklama/",
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "section": "outdoor-hub-decisions",
+    "cls": "outdoor-hub-decisions__outdoor-hub-decisions",
+    "title": "Вывеска или другая наружная конструкция",
+    "count": 6,
+    "photos": [
+      "/assets/images/outdoor-hub-letters.webp",
+      "/assets/images/company-pylon.webp",
+      "/assets/images/bracket-pharmacy-side.webp",
+      "/assets/images/entrance-red-frame.webp",
+      "/assets/images/roof-spar-sign.webp",
+      "/assets/images/facade-spar.webp"
+    ]
+  },
+  {
+    "url": "/naruzhnaya-reklama/",
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "section": "outdoor-hub-complex",
+    "cls": "outdoor-hub-complex__outdoor-hub-services",
+    "title": "Комплексное оформление объекта",
+    "count": 4,
+    "photos": [
+      "/assets/images/facade-spar.webp",
+      "/assets/images/store-network-hero.webp",
+      "/assets/images/wayfinding-outdoor-board.webp",
+      "/assets/images/repair-facade.webp"
+    ]
+  },
+  {
+    "url": "/naruzhnaya-reklama/",
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "section": "outdoor-hub-related",
+    "cls": "outdoor-hub-related__outdoor-hub-services",
+    "title": "Связанные услуги",
+    "count": 3,
+    "photos": [
+      "/assets/images/panel-interior-graphics.webp",
+      "/assets/images/facade-storefront.webp",
+      "/assets/images/installation-work.webp"
+    ]
+  },
+  {
+    "url": "/naruzhnaya-reklama/",
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "section": "outdoor-hub-tasks",
+    "cls": "outdoor-hub-tasks__outdoor-hub-tasks",
+    "title": "Для каких задач подходит наружная реклама",
+    "count": 5,
+    "photos": [
+      "/assets/images/outdoor-hub-letters.webp",
+      "/assets/images/company-pylon.webp",
+      "/assets/images/bracket-pharmacy-side.webp",
+      "/assets/images/entrance-red-frame.webp",
+      "/assets/images/roof-spar-sign.webp"
+    ]
+  },
+  {
+    "url": "/neonovye-vyveski/",
+    "source": "pages/neonovye-vyveski/index.html",
+    "section": "neonovye-vyveski-chto-mozhno-sdelat",
+    "cls": "neon-signs-section__neon-signs-grid",
+    "title": "Что можно сделать",
+    "count": 3,
+    "photos": [
+      "/assets/images/neon-sign-bar.webp",
+      "/assets/images/neon-sign-green-house.webp",
+      "/assets/images/neon-sign-storm-dance.webp"
+    ]
+  },
+  {
+    "url": "/neonovye-vyveski/",
+    "source": "pages/neonovye-vyveski/index.html",
+    "section": "neonovye-vyveski-neon-i-drugie-svetovye-vyveski",
+    "cls": "neon-signs-section__neon-signs-grid",
+    "title": "Неон и другие световые вывески",
+    "count": 3,
+    "photos": [
+      "/assets/images/neon-sign-bar.webp",
+      "/assets/images/neon-sign-green-house.webp",
+      "/assets/images/lightbox-hero.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-kakie-effekty-mozhno-sochetat",
+    "cls": "child-effect__lit-child-cards",
+    "title": "Какие эффекты можно сочетать",
+    "count": 3,
+    "photos": [
+      "/assets/images/combined-lit-letters-hero.webp",
+      "/assets/images/combined-lit-letters-example.webp",
+      "/assets/images/light-signs-combined.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-neskolko-effektov-v-odnom-meste-razmescheniya",
+    "cls": "child-placement__lit-child-scenarios",
+    "title": "Несколько эффектов в одном месте размещения",
+    "count": 2,
+    "photos": [
+      "/assets/images/combined-lit-letters-hero.webp",
+      "/assets/images/interior-logo-orion.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/index.html",
+    "section": "halo-placement",
+    "cls": "halo-placement__halo-cards",
+    "title": "Поверхность и размещение",
+    "count": 2,
+    "photos": [
+      "/assets/images/halo-letters-work-1.webp",
+      "/assets/images/interior-logo-orion.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-lampochkami/",
+    "source": "pages/obemnye-bukvy-s-lampochkami/index.html",
+    "section": "obemnye-bukvy-s-lampochkami-svetyaschiesya-tochki-kak-chast-risunka",
+    "cls": "child-effect__lit-child-cards",
+    "title": "Светящиеся точки как часть рисунка",
+    "count": 3,
+    "photos": [
+      "/assets/images/bulb-letters-hero.webp",
+      "/assets/images/bulb-letters-example.webp",
+      "/assets/images/bulb-letters-hero.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-lampochkami/",
+    "source": "pages/obemnye-bukvy-s-lampochkami/index.html",
+    "section": "obemnye-bukvy-s-lampochkami-zavedeniya-fotozony-i-interernye-nadpisi",
+    "cls": "child-placement__lit-child-scenarios",
+    "title": "Заведения, фотозоны и интерьерные надписи",
+    "count": 2,
+    "photos": [
+      "/assets/images/bulb-letters-hero.webp",
+      "/assets/images/bulb-letters-example.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-licevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-licevoj-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-licevoj-podsvetkoj-svetyaschayasya-perednyaya-poverhnost",
+    "cls": "child-effect__lit-child-cards",
+    "title": "Светящаяся передняя поверхность",
+    "count": 3,
+    "photos": [
+      "/assets/images/front-lit-letters-hero.webp",
+      "/assets/images/front-lit-letters-example.webp",
+      "/assets/images/light-signs-letters.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-licevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-licevoj-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-licevoj-podsvetkoj-svetovoe-litso-na-fasade-i-v-pomeschenii",
+    "cls": "child-placement__lit-child-scenarios",
+    "title": "Световое лицо на фасаде и в помещении",
+    "count": 2,
+    "photos": [
+      "/assets/images/front-lit-letters-hero.webp",
+      "/assets/images/interior-logo-orion.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-torcevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-torcevoj-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-torcevoj-podsvetkoj-svetovye-borta-vmesto-svetovogo-litsa",
+    "cls": "child-effect__lit-child-cards",
+    "title": "Световые борта вместо светового лица",
+    "count": 3,
+    "photos": [
+      "/assets/images/edge-lit-letters-hero.webp",
+      "/assets/images/edge-lit-letters-example.webp",
+      "/assets/images/edge-lit-letters-hero.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-torcevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-torcevoj-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-torcevoj-podsvetkoj-perimetr-bukv-v-arhitekture-i-interere",
+    "cls": "child-placement__lit-child-scenarios",
+    "title": "Периметр букв в архитектуре и интерьере",
+    "count": 2,
+    "photos": [
+      "/assets/images/edge-lit-letters-hero.webp",
+      "/assets/images/edge-lit-letters-example.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-vneshnej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vneshnej-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-vneshnej-podsvetkoj-osveschaetsya-poverhnost-a-ne-vnutrenniy-obem",
+    "cls": "child-effect__lit-child-cards",
+    "title": "Освещается поверхность, а не внутренний объём",
+    "count": 3,
+    "photos": [
+      "/assets/images/externally-lit-letters-hero.webp",
+      "/assets/images/externally-lit-letters-example.webp",
+      "/assets/images/externally-lit-letters-hero.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-vneshnej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vneshnej-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-vneshnej-podsvetkoj-nadpis-i-osveschenie-na-fasade",
+    "cls": "child-placement__lit-child-scenarios",
+    "title": "Надпись и освещение на фасаде",
+    "count": 2,
+    "photos": [
+      "/assets/images/externally-lit-letters-hero.webp",
+      "/assets/images/externally-lit-letters-example.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-vnutrennej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vnutrennej-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-vnutrennej-podsvetkoj-istochnik-vnutri-svetovoy-risunok-snaruzhi",
+    "cls": "child-effect__lit-child-cards",
+    "title": "Источник внутри, световой рисунок снаружи",
+    "count": 3,
+    "photos": [
+      "/assets/images/internally-lit-letters-hero.webp",
+      "/assets/images/internally-lit-letters-example.webp",
+      "/assets/images/front-lit-letters-hero.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-vnutrennej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vnutrennej-podsvetkoj/index.html",
+    "section": "obemnye-bukvy-s-vnutrennej-podsvetkoj-korpus-dlya-fasada-vhoda-ili-pomescheniya",
+    "cls": "child-placement__lit-child-scenarios",
+    "title": "Корпус для фасада, входа или помещения",
+    "count": 2,
+    "photos": [
+      "/assets/images/internally-lit-letters-hero.webp",
+      "/assets/images/interior-logo-orion.webp"
+    ]
+  },
+  {
+    "url": "/obemnye-nesvetovye-bukvy/",
+    "source": "pages/obemnye-nesvetovye-bukvy/index.html",
+    "section": "nonlight-difference",
+    "cls": "nonlight-difference__nonlight-cards",
+    "title": "Что отличает буквы без подсветки",
+    "count": 3,
+    "photos": [
+      "/assets/images/non-illuminated-letters-hero.webp",
+      "/assets/images/non-illuminated-letters-project-1.webp",
+      "/assets/images/non-illuminated-letters-project-2.webp"
+    ]
+  },
+  {
+    "url": "/ofisnye-tablichki/",
+    "source": "pages/ofisnye-tablichki/index.html",
+    "section": "ofisnye-tablichki-nadpisi-dlya-raznyh-pomescheniy",
+    "cls": "plate-choice__plates-family-grid",
+    "title": "Надписи для разных помещений",
+    "count": 3,
+    "photos": [
+      "/assets/images/wayfinding-office-sign.webp",
+      "/assets/images/panel-table-sign.webp",
+      "/assets/images/panel-safety-board.webp"
+    ]
+  },
+  {
+    "url": "/pechat-na-plenke/",
+    "source": "pages/pechat-na-plenke/index.html",
+    "section": "pechat-na-plenke-tri-vida-plenki",
+    "cls": "printing-materials-section__printing-materials-grid",
+    "title": "Три вида плёнки",
+    "count": 3,
+    "photos": [
+      "/assets/images/panel-shop-label.webp",
+      "/assets/images/lightbox-hero.webp",
+      "/assets/images/entrance-glazing-frame.webp"
+    ]
+  },
+  {
+    "url": "/pechat/",
+    "source": "pages/pechat/index.html",
+    "section": "pechat-vybor-po-materialu",
+    "cls": "printing-core-section__printing-core-grid",
+    "title": "Выбор по материалу",
+    "count": 4,
+    "photos": [
+      "/assets/images/home-slide-printing.webp",
+      "/assets/images/portfolio-banner.webp",
+      "/assets/images/panel-shop-label.webp",
+      "/assets/images/panel-bedroom-image.webp"
+    ]
+  },
+  {
+    "url": "/plotternaya-rezka/",
+    "source": "pages/plotternaya-rezka/index.html",
+    "section": "plotternaya-rezka-rezka-pechat-i-frezerovka",
+    "cls": "plotter-cutting-section__plotter-cutting-grid",
+    "title": "Резка, печать и фрезеровка",
+    "count": 3,
+    "photos": [
+      "/assets/images/portfolio-plotternaya-rezka.webp",
+      "/assets/images/home-slide-printing.webp",
+      "/assets/images/project-905.webp"
+    ]
+  },
+  {
+    "url": "/reklamnye-konstrukcii/",
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "section": "reklamnye-konstrukcii-mesto-opredelyaet-krug-variantov",
+    "cls": "advertising-structures-section__advertising-structures-grid",
+    "title": "Место определяет круг вариантов",
+    "count": 5,
+    "photos": [
+      "/assets/images/facade-hero.webp",
+      "/assets/images/entrance-red-frame.webp",
+      "/assets/images/roof-spar-sign.webp",
+      "/assets/images/company-pylon.webp",
+      "/assets/images/interior-logo-orion.webp"
+    ]
+  },
+  {
+    "url": "/reklamnye-konstrukcii/",
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "section": "reklamnye-konstrukcii-ot-soderzhaniya-k-izdeliyu",
+    "cls": "advertising-structures-section__advertising-structures-grid",
+    "title": "От содержания к изделию",
+    "count": 5,
+    "photos": [
+      "/assets/images/facade-hero.webp",
+      "/assets/images/lightbox-hero.webp",
+      "/assets/images/entrance-red-frame.webp",
+      "/assets/images/company-pylon.webp",
+      "/assets/images/interior-logo-orion.webp"
+    ]
+  },
+  {
+    "url": "/soglasovanie-naruzhnoj-reklamy/",
+    "source": "pages/soglasovanie-naruzhnoj-reklamy/index.html",
+    "section": "soglasovanie-naruzhnoj-reklamy-maket-razmeschenie-i-fizicheskaya-ustanovka",
+    "cls": "installation-approval-section__installation-approval-grid",
+    "title": "Макет, размещение и физическая установка",
+    "count": 3,
+    "photos": [
+      "/assets/images/panel-interior-graphics.webp",
+      "/assets/images/facade-storefront.webp",
+      "/assets/images/installation-work.webp"
+    ]
+  },
+  {
+    "url": "/stely-i-pilony/",
+    "source": "pages/stely-i-pilony/index.html",
+    "section": "stely-i-pilony-chto-mozhno-razmestit",
+    "cls": "steles-pylons-section__steles-pylons-grid",
+    "title": "Что можно разместить",
+    "count": 3,
+    "photos": [
+      "/assets/images/company-pylon.webp",
+      "/assets/images/stand-street-wide.webp",
+      "/assets/images/wayfinding-outdoor-board.webp"
+    ]
+  },
+  {
+    "url": "/stojki-resepshen/",
+    "source": "pages/stojki-resepshen/index.html",
+    "section": "stojki-resepshen-razmery-konfiguratsiya-i-oformlenie",
+    "cls": "reception-desk-section__reception-desk-grid",
+    "title": "Размеры, конфигурация и оформление",
+    "count": 3,
+    "photos": [
+      "/assets/images/interior-logo-orion.webp",
+      "/assets/images/panel-interior-pattern.webp",
+      "/assets/images/interior-logo-crown.webp"
+    ]
+  },
+  {
+    "url": "/svetovye-koroba/",
+    "source": "pages/svetovye-koroba/index.html",
+    "section": "lightbox-comparison",
+    "cls": "lightbox-comparison__lightbox-scenarios",
+    "title": "Короб или отдельные объёмные буквы",
+    "count": 2,
+    "photos": [
+      "/assets/images/lightbox-hero.webp",
+      "/assets/images/letters-hero.webp"
+    ]
+  },
+  {
+    "url": "/svetovye-koroba/",
+    "source": "pages/svetovye-koroba/index.html",
+    "section": "lightbox-placement",
+    "cls": "lightbox-placement__lightbox-scenarios",
+    "title": "Лайтбоксы на фасаде и в интерьере",
+    "count": 2,
+    "photos": [
+      "/assets/images/lightbox-hero.webp",
+      "/assets/images/interior-logo-orion.webp"
+    ]
+  },
+  {
+    "url": "/svetovye-koroba/",
+    "source": "pages/svetovye-koroba/index.html",
+    "section": "lightbox-variants",
+    "cls": "lightbox-variants__lightbox-cards",
+    "title": "Лицевая поверхность и конструктивные направления",
+    "count": 3,
+    "photos": [
+      "/assets/images/lightbox-hero.webp",
+      "/assets/images/lightbox-work-2.webp",
+      "/assets/images/lightbox-inlay.webp"
+    ]
+  },
+  {
+    "url": "/svetovye-koroba/",
+    "source": "pages/svetovye-koroba/index.html",
+    "section": "lightbox-repair",
+    "cls": "lightbox-repair__lightbox-cards",
+    "title": "Если короб уже существует",
+    "count": 3,
+    "photos": [
+      "/assets/images/repair-facade.webp",
+      "/assets/images/repair-lightbox.webp",
+      "/assets/images/lightbox-inlay.webp"
+    ]
+  },
+  {
+    "url": "/svetovye-portaly/",
+    "source": "pages/svetovye-portaly/index.html",
+    "section": "svetovye-portaly-svetovoy-portal-ili-vhodnaya-gruppa",
+    "cls": "light-portals-section__light-portals-grid",
+    "title": "Световой портал или входная группа",
+    "count": 2,
+    "photos": [
+      "/assets/images/light-portal-green.webp",
+      "/assets/images/entrance-red-frame.webp"
+    ]
+  },
+  {
+    "url": "/vystavochnye-stendy/",
+    "source": "pages/vystavochnye-stendy/index.html",
+    "section": "vystavochnye-stendy-bazovyy-vybor-ili-individualnaya-komponovka",
+    "cls": "stands-family-section__stands-family-grid",
+    "title": "Базовый выбор или индивидуальная компоновка",
+    "count": 2,
+    "photos": [
+      "/assets/images/portfolio-project-939.webp",
+      "/assets/images/portfolio-project-942.webp"
+    ]
+  },
+  {
+    "url": "/vyveski-s-pajetkami/",
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "section": "vyveski-s-pajetkami-chto-mozhno-oformit",
+    "cls": "sequin-signs-section__sequin-signs-grid",
+    "title": "Что можно оформить",
+    "count": 2,
+    "photos": [
+      "/assets/images/sequin-sign-entry.webp",
+      "/assets/images/sequin-sign-gold-panel.webp"
+    ]
+  },
+  {
+    "url": "/vyveski/",
+    "source": "pages/vyveski/index.html",
+    "section": "signs-hub-related",
+    "cls": "signs-hub-related__signs-hub-services",
+    "title": "Если задача шире одной вывески",
+    "count": 3,
+    "photos": [
+      "/assets/images/facade-spar.webp",
+      "/assets/images/store-network-hero.webp",
+      "/assets/images/repair-hero.webp"
+    ]
+  },
+  {
+    "url": "/remont-vyvesok/",
+    "source": "pages/remont-vyvesok/index.html",
+    "section": "repair-problems",
+    "cls": "repair-problems__repair-problems",
+    "title": "Какие неисправности и изменения рассматриваем",
+    "count": 3,
+    "photos": [
+      "/assets/images/repair-lightbox.webp",
+      "/assets/images/repair-facade.webp",
+      "/assets/images/repair-letters.webp"
+    ]
+  },
+  {
+    "url": "/remont-vyvesok/",
+    "source": "pages/remont-vyvesok/index.html",
+    "section": "repair-choice",
+    "cls": "repair-choice__repair-comparison",
+    "title": "Ремонт или новая вывеска",
+    "count": 2,
+    "photos": [
+      "/assets/images/repair-facade.webp",
+      "/assets/images/repair-facade.webp"
+    ]
+  },
+  {
+    "url": "/oformlenie-fasadov/",
+    "source": "pages/oformlenie-fasadov/index.html",
+    "section": "facade-elements",
+    "cls": "facade-elements__facade-components",
+    "title": "Что входит в оформление фасада",
+    "count": 6,
+    "photos": [
+      "/assets/images/facade-hero.webp",
+      "/assets/images/letters-hero.webp",
+      "/assets/images/lightbox-hero.webp",
+      "/assets/images/entrance-wide-facade.webp",
+      "/assets/images/entrance-red-frame.webp",
+      "/assets/images/bracket-pharmacy-side.webp"
+    ]
+  },
+  {
+    "url": "/oformlenie-fasadov/",
+    "source": "pages/oformlenie-fasadov/index.html",
+    "section": "facade-choice",
+    "cls": "facade-choice__facade-criteria",
+    "title": "Как подобрать решение под фасад",
+    "count": 4,
+    "photos": [
+      "/assets/images/facade-hero.webp",
+      "/assets/images/roof-spar-sign.webp",
+      "/assets/images/light-signs-hero.webp",
+      "/assets/images/installation-work.webp"
+    ]
+  },
+  {
+    "url": "/navigaciya-i-ukazateli/",
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "section": "wayfinding-places",
+    "cls": "wayfinding-places__wayfinding-elements",
+    "title": "Где используется навигация",
+    "count": 4,
+    "photos": [
+      "/assets/images/wayfinding-office-sign.webp",
+      "/assets/images/wayfinding-information-board.webp",
+      "/assets/images/wayfinding-room-plan.webp",
+      "/assets/images/wayfinding-outdoor-board.webp"
+    ]
+  },
+  {
+    "url": "/navigaciya-i-ukazateli/",
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "section": "wayfinding-inside-outside",
+    "cls": "wayfinding-inside-outside__wayfinding-split",
+    "title": "Внутренняя и наружная навигация",
+    "count": 2,
+    "photos": [
+      "/assets/images/interior-logo-orion.webp",
+      "/assets/images/wayfinding-information-board.webp"
+    ]
+  },
+  {
+    "url": "/navigaciya-i-ukazateli/",
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "section": "wayfinding-production",
+    "cls": "wayfinding-production__wayfinding-services",
+    "title": "Изготовление и монтаж",
+    "count": 3,
+    "photos": [
+      "/assets/images/panel-interior-graphics.webp",
+      "/assets/images/wayfinding-information-board.webp",
+      "/assets/images/installation-work.webp"
+    ]
+  },
+  {
+    "url": "/vyveski-dlya-magazina/",
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "section": "shop-signs-situations",
+    "cls": "shop-signs-situations__shop-signs-elements",
+    "title": "Для разных форматов торговой точки",
+    "count": 5,
+    "photos": [
+      "/assets/images/shop-signs-hero.webp",
+      "/assets/images/shop-signs-malinka.webp",
+      "/assets/images/shop-signs-spar.webp",
+      "/assets/images/shop-signs-pharmacy.webp",
+      "/assets/images/light-signs-hero.webp"
+    ]
+  },
+  {
+    "url": "/vyveski-dlya-magazina/",
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "section": "shop-signs-more",
+    "cls": "shop-signs-more__shop-signs-services",
+    "title": "Если нужна не только вывеска",
+    "count": 3,
+    "photos": [
+      "/assets/images/facade-spar.webp",
+      "/assets/images/store-network-hero.webp",
+      "/assets/images/wayfinding-outdoor-board.webp"
+    ]
+  },
+  {
+    "url": "/vyveski-dlya-magazina/",
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "section": "shop-signs-production",
+    "cls": "shop-signs-production__shop-signs-services",
+    "title": "Изготовление и монтаж",
+    "count": 3,
+    "photos": [
+      "/assets/images/panel-interior-graphics.webp",
+      "/assets/images/shop-signs-malinka.webp",
+      "/assets/images/installation-work.webp"
+    ]
+  },
+  {
+    "url": "/oformlenie-seti-magazinov/",
+    "source": "pages/oformlenie-seti-magazinov/index.html",
+    "section": "store-network__section--dark",
+    "cls": "store-network-section__store-network-differences",
+    "title": "Что меняется от магазина к магазину",
+    "count": 6,
+    "photos": [
+      "/assets/images/store-network-malinka-flat.webp",
+      "/assets/images/store-network-spar-brick.webp",
+      "/assets/images/store-network-spar-arches.webp",
+      "/assets/images/store-network-malinka-roof.webp",
+      "/assets/images/installation-work.webp",
+      "/assets/images/store-network-hero.webp"
+    ]
+  },
+  {
+    "url": "/oformlenie-seti-magazinov/",
+    "source": "pages/oformlenie-seti-magazinov/index.html",
+    "section": "oformlenie-seti-magazinov-izgotovlenie-i-svyazannye-uslugi",
+    "cls": "store-network-section__store-network-services",
+    "title": "Изготовление и связанные услуги",
+    "count": 3,
+    "photos": [
+      "/assets/images/panel-interior-graphics.webp",
+      "/assets/images/installation-work.webp",
+      "/assets/images/facade-storefront.webp"
+    ]
+  }
+]

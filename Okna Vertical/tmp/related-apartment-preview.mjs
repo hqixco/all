@@ -1,0 +1,1 @@
+﻿import fs from 'node:fs';import sharp from 'sharp';await sharp('public/assets/apartment-balcony-block-card.webp').resize({width:570,height:356,fit:'cover'}).webp({quality:82}).toFile('public/assets/related-balcony-block.webp');console.log('Apartment balcony block preview updated:',fs.statSync('public/assets/related-balcony-block.webp').size,'bytes');

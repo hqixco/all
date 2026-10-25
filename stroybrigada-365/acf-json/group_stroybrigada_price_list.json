@@ -1,0 +1,218 @@
+{
+  "key": "group_stroybrigada_price_list",
+  "title": "Stroybrigada: Таблица цен",
+  "fields": [
+    {
+      "key": "field_stroybrigada_price_actual_date",
+      "label": "Дата актуальности",
+      "name": "price_actual_date",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_price_intro",
+      "label": "Вводный текст",
+      "name": "price_intro",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_stroybrigada_price_rows",
+      "label": "Строки цен",
+      "name": "price_rows",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "row",
+      "button_label": "Добавить",
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "sub_fields": [
+        {
+          "key": "field_stroybrigada_price_list_price_rows_title",
+          "label": "Работа",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_price_list_price_rows_unit",
+          "label": "Единица",
+          "name": "unit",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_price_list_price_rows_price_from",
+          "label": "Цена от",
+          "name": "price_from",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_price_list_price_rows_price_to",
+          "label": "Цена до",
+          "name": "price_to",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_price_list_price_rows_price_text",
+          "label": "Текстовая цена",
+          "name": "price_text",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_price_list_price_rows_note",
+          "label": "Примечание",
+          "name": "note",
+          "aria-label": "",
+          "type": "textarea",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "rows": 4,
+          "new_lines": ""
+        },
+        {
+          "key": "field_stroybrigada_service",
+          "label": "Связанная услуга",
+          "name": "service",
+          "aria-label": "",
+          "type": "relationship",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "post_type": [
+            "service"
+          ],
+          "taxonomy": "",
+          "filters": [
+            "search",
+            "post_type",
+            "taxonomy"
+          ],
+          "return_format": "id",
+          "min": "",
+          "max": "",
+          "elements": [
+            "featured_image"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_stroybrigada_price_note",
+      "label": "Примечание",
+      "name": "price_note",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 4,
+      "new_lines": ""
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "price_list"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 1,
+  "modified": 1784375367
+}

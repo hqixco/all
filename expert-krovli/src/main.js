@@ -1,26 +1,21 @@
 import './styles.css';
 
+const isPristroykiPage = document.body.dataset.page === 'pristroyki';
+
 const caseAssetUrls = import.meta.glob('/src/assets/*.{webp,png,jpg,jpeg}', {
   eager: true,
   import: 'default',
   query: '?url',
 });
 
-const formatRub = new Intl.NumberFormat('ru-RU').format;
-
-const areaInput = document.querySelector('#area');
-const materialInput = document.querySelector('#material');
-const baseInput = document.querySelector('#base');
-const result = document.querySelector('#calc-result');
-const meterResult = document.querySelector('#calc-meter');
-const breakdown = document.querySelector('#calc-breakdown');
 const forms = document.querySelectorAll('.lead-form, .estimator-quiz');
 const YANDEX_METRIKA_ID = 111317038;
-const YANDEX_METRIKA_FORM_GOAL = 'form_submit';
+const YANDEX_METRIKA_FORM_GOAL = document.body?.dataset.page === 'pristroyki' ? 'pristroyki_form_submit' : 'form_submit';
 const submittingLeadForms = new WeakSet();
 const siteHeader = document.querySelector('.site-header');
 const nav = document.querySelector('.nav');
 const navToggle = document.querySelector('.nav-toggle');
+const navDropdowns = document.querySelectorAll('.nav-dropdown');
 const navLinks = document.querySelectorAll('a[href^="#"]:not([data-popup-open])');
 const leadPopup = document.querySelector('#lead-popup');
 const leadPopupOpeners = document.querySelectorAll('[data-popup-open]');
@@ -55,6 +50,10 @@ let estimatorIsFinalStep = false;
 function closeNavMenu() {
   if (!siteHeader || !navToggle) return;
   siteHeader.classList.remove('is-nav-open');
+  navDropdowns.forEach((dropdown) => {
+    dropdown.classList.remove('is-open');
+    dropdown.querySelector('.nav-dropdown__toggle')?.setAttribute('aria-expanded', 'false');
+  });
   navToggle.setAttribute('aria-expanded', 'false');
   navToggle.setAttribute('aria-label', 'Открыть меню');
 }
@@ -110,12 +109,12 @@ const estimatorQuestions = [
     title: 'Какая примерная площадь кровли?',
     name: 'roof_area',
     options: [
-      ['До 80 м²', '/quiz-assets/quiz-area-up-to-80.webp'],
-      ['80-140 м²', '/quiz-assets/quiz-area-80-140.webp'],
-      ['140-220 м²', '/quiz-assets/quiz-area-140-220.webp'],
-      ['220-350 м²', '/quiz-assets/quiz-area-220-350.webp'],
-      ['Больше 350 м²', '/quiz-assets/quiz-area-over-350.webp'],
-      ['Не знаю площадь', '/quiz-assets/quiz-area-unknown.webp']
+      ['До 80 м²'],
+      ['80-140 м²'],
+      ['140-220 м²'],
+      ['220-350 м²'],
+      ['Больше 350 м²'],
+      ['Не знаю площадь']
     ]
   },
   {
@@ -131,6 +130,37 @@ const estimatorQuestions = [
     ]
   }
 ];
+if (document.body.dataset.page === 'pristroyki') {
+  estimatorQuestions.splice(0, estimatorQuestions.length,
+    {
+      title: 'Какую пристройку планируете?',
+      name: 'replacement_scope',
+      summary: {
+        'Терраса или веранда': 'Подберем открытый или остекленный вариант и свяжем его с существующим домом.',
+        'Теплая комната': 'Рассчитаем утепленную пристройку с отоплением и надежным примыканием.',
+        'Кухня или кабинет': 'Учтем нагрузку, коммуникации и утепление новой комнаты.',
+        'Тамбур или входная группа': 'Спроектируем компактную пристройку, защищающую дом от холода и осадков.',
+        'Пока не знаю': 'По фото и размерам предложим оптимальный вариант пристройки.'
+      },
+      options: [['Терраса или веранда'], ['Теплая комната'], ['Кухня или кабинет'], ['Тамбур или входная группа'], ['Пока не знаю']]
+    },
+    {
+      title: 'Какое основание уже есть?',
+      name: 'roof_material',
+      options: [['Ленточный фундамент'], ['Сваи или винтовые сваи'], ['Плита'], ['Нужно определить'], ['Пока не знаю']]
+    },
+    {
+      title: 'Какая площадь пристройки?',
+      name: 'roof_area',
+      options: [['До 15 м²'], ['15-30 м²'], ['30-50 м²'], ['Больше 50 м²'], ['Не знаю площадь']]
+    },
+    {
+      title: 'Когда хотите начать работы?',
+      name: 'start_time',
+      options: [['Срочно'], ['В течение недели'], ['В этом месяце'], ['Через 1-2 месяца'], ['Планирую заранее'], ['После консультации']]
+    }
+  );
+}
 const estimatorTotalSteps = estimatorQuestions.length + 1;
 
 navToggle?.addEventListener('click', () => {
@@ -142,142 +172,12 @@ navToggle?.addEventListener('click', () => {
   openNavMenu();
 });
 
-const materialRates = {
-  shifer: { label: 'Шифер', material: 620, install: 680, extras: 280 },
-  profnastil: { label: 'Профнастил', material: 800, install: 760, extras: 340 },
-  metal: { label: 'Металлочерепица', material: 1050, install: 860, extras: 420 },
-  soft: { label: 'Мягкая кровля', material: 1250, install: 1100, extras: 560 },
-  falz: { label: 'Фальц', material: 1700, install: 1450, extras: 680 },
-};
-
-const baseRates = {
-  cover: { base: 240, factor: 0.98, trash: 14000, gutter: 28000 },
-  batten: { base: 650, factor: 1.03, trash: 18000, gutter: 32000 },
-  rebuild: { base: 1900, factor: 1.1, trash: 32000, gutter: 48000 },
-};
-
-const groupMeta = {
-  works: { title: 'Работы', note: 'Демонтаж, подготовка, монтаж' },
-  materials: { title: 'Материалы', note: 'Покрытие, мембраны, доборы' },
-  extras: { title: 'Дополнительно', note: 'Опции и услуги' },
-};
-
-const calcSelections = {
-  works: {
-    dismantling: true,
-    basePrep: true,
-    install: true,
-  },
-  materials: {
-    covering: true,
-    membranes: true,
-    flashings: true,
-  },
-  extras: {
-    gutter: false,
-    trash: false,
-    insulation: false,
-    snow: false,
-  },
-};
-
-function range(value, spread = 0.11, step = 10000) {
-  const min = Math.max(step, Math.round((value * (1 - spread)) / step) * step);
-  const max = Math.max(min + step, Math.round((value * (1 + spread)) / step) * step);
-  return `${formatRub(min)}-${formatRub(max)} ₽`;
-}
-
-function clamp(value, min, max) {
-  return Math.min(Math.max(value, min), max);
-}
-
-function updateEstimate() {
-  if (!areaInput || !materialInput || !baseInput || !result || !meterResult || !breakdown) {
-    return;
-  }
-
-  const area = clamp(Number(areaInput.value) || Number(areaInput.min) || 40, 40, 600);
-  const material = materialRates[materialInput.value] || materialRates.metal;
-  const base = baseRates[baseInput.value] || baseRates.batten;
-
-  const groups = {
-    works: [
-      ['dismantling', 'Демонтаж', area * 300],
-      ['basePrep', 'Подготовка основания', area * base.base],
-      ['install', 'Монтаж покрытия', area * material.install],
-    ],
-    materials: [
-      ['covering', 'Кровельное покрытие', area * material.material],
-      ['membranes', 'Мембраны и пиломатериал', area * 340],
-      ['flashings', 'Доборные элементы', area * material.extras],
-    ],
-    extras: [
-      ['gutter', 'Нужен новый водосток', base.gutter],
-      ['trash', 'Вывезти старое покрытие', base.trash],
-      ['insulation', 'Требуется утепление', baseInput.value === 'rebuild' ? area * 520 : 0],
-      ['snow', 'Нужны снегозадержатели', area > 120 ? 12000 : 0],
-    ],
-  };
-
-  const estimateRows = [
-    ...groups.works.filter(([id]) => calcSelections.works[id]),
-    ...groups.materials.filter(([id]) => calcSelections.materials[id]),
-    ...groups.extras
-      .filter(([id, , value]) => value > 0 && calcSelections.extras[id]),
-  ];
-
-  const total = estimateRows.reduce((sum, row) => sum + row.at(-1), 0) * base.factor;
-  const meter = total / area;
-
-  result.textContent = range(total);
-  meterResult.textContent = `≈ ${range(meter, 0.08, 100).replace(' ₽', '')} ₽/м2 с работой и материалами`;
-  breakdown.innerHTML = Object.entries(groups)
-    .map(([key, rows]) => {
-      const visibleRows = rows.filter((row) => row.at(-1) > 0);
-      const subtotal = visibleRows.reduce((sum, row) => {
-        const id = row[0];
-        const value = row.at(-1);
-        return sum + (calcSelections[key][id] ? value : 0);
-      }, 0) * base.factor;
-      const meta = groupMeta[key];
-      const lines = visibleRows
-        .map((row) => {
-          const id = row[0];
-          const label = row[1];
-          const value = row.at(-1);
-          const checked = calcSelections[key][id];
-          const price = range(value * base.factor, 0.08, 1000).replace('-', '-<wbr>');
-          return `<label class="calc-group__row${!checked ? ' is-muted' : ''}"><input class="calc-check" type="checkbox" data-group="${key}" data-item="${id}"${checked ? ' checked' : ''} /><span>${label}</span><em></em><strong>${price}</strong></label>`;
-        })
-        .join('');
-
-      return `<section class="calc-group calc-group--${key}">
-        <header><span class="calc-group__icon calc-group__icon--${key}" aria-hidden="true"></span><div><h3>${meta.title}</h3><p>${meta.note}</p></div></header>
-        <div class="calc-group__lines">${lines}</div>
-        <footer><span>Итого ${key === 'works' ? 'за работы' : key === 'materials' ? 'за материалы' : 'дополнительно'}</span><strong>${range(subtotal)}</strong></footer>
-      </section>`;
-    })
-    .join('');
-}
-
-[areaInput, materialInput, baseInput].filter(Boolean).forEach((control) => {
-  control.addEventListener('input', updateEstimate);
-  control.addEventListener('change', updateEstimate);
-});
-
-breakdown?.addEventListener('change', (event) => {
-  const input = event.target;
-  if (!(input instanceof HTMLInputElement) || input.type !== 'checkbox' || !input.dataset.group || !input.dataset.item) {
-    return;
-  }
-
-  const groupSelections = calcSelections[input.dataset.group];
-  if (!groupSelections || !(input.dataset.item in groupSelections)) {
-    return;
-  }
-
-  groupSelections[input.dataset.item] = input.checked;
-  updateEstimate();
+navDropdowns.forEach((dropdown) => {
+  const toggle = dropdown.querySelector('.nav-dropdown__toggle');
+  toggle?.addEventListener('click', () => {
+    const isOpen = dropdown.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+  });
 });
 
 navLinks.forEach((link) => {
@@ -612,7 +512,9 @@ function renderEstimatorLeadStep() {
   if (estimatorProgress) estimatorProgress.style.width = '100%';
   if (estimatorPrev) estimatorPrev.disabled = false;
   if (quizSummary) {
-    quizSummary.textContent = 'Прикрепите фото кровли, если они есть. По ответам подготовим предварительный расчет и скажем, что можно не менять.';
+    quizSummary.textContent = isPristroykiPage
+      ? 'Прикрепите фото дома и места будущей пристройки. По ответам подготовим предварительный расчет.'
+      : 'Прикрепите фото кровли, если они есть. По ответам подготовим предварительный расчет и скажем, что можно не менять.';
   }
 
   estimatorOptions.innerHTML = `
@@ -627,7 +529,7 @@ function renderEstimatorLeadStep() {
         <input name="phone" type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel" required />
       </label>
       <label class="estimator-lead__file">
-        <span>Фото кровли</span>
+        <span>${isPristroykiPage ? 'Фото дома и места строительства' : 'Фото кровли'}</span>
         <input name="photos[]" type="file" accept="image/*" multiple />
       </label>
       <label class="estimator-lead__policy">
@@ -881,7 +783,6 @@ mobileCaseMedia.addEventListener('change', setupCaseTextDisclosures);
 forms.forEach(bindLeadForm);
 if (estimatorQuiz) bindLeadForm(estimatorQuiz);
 bindPhoneMasks();
-updateEstimate();
 renderEstimatorStep();
 setupReviewTextDisclosures();
 setupCaseTextDisclosures();

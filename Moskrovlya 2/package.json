@@ -1,0 +1,16 @@
+{
+  "name": "moskrovlya-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bem": "node scripts/add-bem-classes.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "parse5": "^8.0.1",
+    "vite": "^7.1.4"
+  }
+}

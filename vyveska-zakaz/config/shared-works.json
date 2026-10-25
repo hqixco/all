@@ -1,0 +1,475 @@
+[
+  {
+    "source": "pages/akrilajt/index.html",
+    "url": "/akrilajt/",
+    "sections": [
+      {
+        "index": 0,
+        "id": null,
+        "title": "Фотографии работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/banner/index.html",
+    "url": "/banner/",
+    "sections": [
+      {
+        "index": 0,
+        "id": null,
+        "title": "Фотографии баннерного оформления"
+      }
+    ]
+  },
+  {
+    "source": "pages/brandmauery-reklamnye-panno/index.html",
+    "url": "/brandmauery-reklamnye-panno/",
+    "sections": [
+      {
+        "index": 4,
+        "id": "panel-order-works",
+        "title": "Изображения и панели из исходной подборки"
+      }
+    ]
+  },
+  {
+    "source": "pages/brendirovanie-avtomobilya/index.html",
+    "url": "/brendirovanie-avtomobilya/",
+    "sections": [
+      {
+        "index": 0,
+        "id": null,
+        "title": "Фотографии оформления"
+      }
+    ]
+  },
+  {
+    "source": "pages/brendirovanie-transporta/index.html",
+    "url": "/brendirovanie-transporta/",
+    "sections": [
+      {
+        "index": 0,
+        "id": null,
+        "title": "Примеры автомобильного оформления"
+      }
+    ]
+  },
+  {
+    "source": "pages/fasadnye-vyveski/index.html",
+    "url": "/fasadnye-vyveski/",
+    "sections": [
+      {
+        "index": 6,
+        "id": null,
+        "title": "Реальные вывески на фасадах"
+      }
+    ]
+  },
+  {
+    "source": "pages/frizy/index.html",
+    "url": "/frizy/",
+    "sections": [
+      {
+        "index": 0,
+        "id": "frieze-order-works",
+        "title": "Примеры горизонтального оформления"
+      }
+    ]
+  },
+  {
+    "source": "pages/interernye-vyveski/index.html",
+    "url": "/interernye-vyveski/",
+    "sections": [
+      {
+        "index": 8,
+        "id": "interior-examples",
+        "title": "Реальные работы внутри помещений"
+      }
+    ]
+  },
+  {
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "url": "/kryshnye-ustanovki/",
+    "sections": [
+      {
+        "index": 0,
+        "id": null,
+        "title": "Реальные работы"
+      }
+    ]
+  },
+  {
+    "source": "pages/montazh-naruzhnoj-reklamy/index.html",
+    "url": "/montazh-naruzhnoj-reklamy/",
+    "sections": [
+      {
+        "index": 0,
+        "id": "works",
+        "title": "Кадры с объектов"
+      }
+    ]
+  },
+  {
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "url": "/naruzhnaya-reklama/",
+    "sections": [
+      {
+        "index": 5,
+        "id": "outdoor-hub-examples",
+        "title": "Реальные работы: разные типы конструкций"
+      }
+    ]
+  },
+  {
+    "source": "pages/neonovye-vyveski/index.html",
+    "url": "/neonovye-vyveski/",
+    "sections": [
+      {
+        "index": 6,
+        "id": null,
+        "title": "Реальные работы"
+      }
+    ]
+  },
+  {
+    "source": "pages/o-kompanii/index.html",
+    "url": "/o-kompanii/",
+    "sections": [
+      {
+        "index": 5,
+        "id": "company-works",
+        "title": "Реальные работы"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/",
+    "sections": [
+      {
+        "index": 5,
+        "id": "child-examples",
+        "title": "Объёмные световые буквы в интерьере"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-licevoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-licevoj-podsvetkoj/",
+    "sections": [
+      {
+        "index": 5,
+        "id": "child-examples",
+        "title": "Световые надписи в реальных проектах"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-torcevoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-torcevoj-podsvetkoj/",
+    "sections": [
+      {
+        "index": 5,
+        "id": "child-examples",
+        "title": "Объёмные надписи с разным световым рисунком"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-vnutrennej-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-vnutrennej-podsvetkoj/",
+    "sections": [
+      {
+        "index": 5,
+        "id": "child-examples",
+        "title": "Световые буквы в торговых пространствах"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy/index.html",
+    "url": "/obemnye-bukvy/",
+    "sections": [
+      {
+        "index": 6,
+        "id": "letters-works",
+        "title": "Примеры объёмных букв"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-nesvetovye-bukvy/index.html",
+    "url": "/obemnye-nesvetovye-bukvy/",
+    "sections": [
+      {
+        "index": 0,
+        "id": "nonlight-works",
+        "title": "Форма и размещение объёмной надписи"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-svetovye-bukvy/index.html",
+    "url": "/obemnye-svetovye-bukvy/",
+    "sections": [
+      {
+        "index": 7,
+        "id": "illuminated-works",
+        "title": "Примеры световых объёмных букв"
+      }
+    ]
+  },
+  {
+    "source": "pages/panel-kronshtejny/index.html",
+    "url": "/panel-kronshtejny/",
+    "sections": [
+      {
+        "index": 4,
+        "id": "bracket-order-works",
+        "title": "Примеры панелей и бокового размещения"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-bannere/index.html",
+    "url": "/pechat-na-bannere/",
+    "sections": [
+      {
+        "index": 0,
+        "id": null,
+        "title": "Примеры баннерной печати"
+      }
+    ]
+  },
+  {
+    "source": "pages/plotternaya-rezka/index.html",
+    "url": "/plotternaya-rezka/",
+    "sections": [
+      {
+        "index": 4,
+        "id": null,
+        "title": "Примеры из профильной галереи"
+      }
+    ]
+  },
+  {
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "url": "/reklamnye-konstrukcii/",
+    "sections": [
+      {
+        "index": 4,
+        "id": null,
+        "title": "Примеры отдельных изделий"
+      }
+    ]
+  },
+  {
+    "source": "pages/services/index.html",
+    "url": "/services/",
+    "sections": [
+      {
+        "index": 6,
+        "id": "services-examples",
+        "title": "Примеры работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/stely-i-pilony/index.html",
+    "url": "/stely-i-pilony/",
+    "sections": [
+      {
+        "index": 7,
+        "id": null,
+        "title": "Реальные работы"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-koroba-inkrustaciya/index.html",
+    "url": "/svetovye-koroba-inkrustaciya/",
+    "sections": [
+      {
+        "index": 0,
+        "id": null,
+        "title": "Примеры коробов с инкрустацией"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-portaly/index.html",
+    "url": "/svetovye-portaly/",
+    "sections": [
+      {
+        "index": 0,
+        "id": null,
+        "title": "Реальные работы"
+      }
+    ]
+  },
+  {
+    "source": "pages/ulichnye-stendy/index.html",
+    "url": "/ulichnye-stendy/",
+    "sections": [
+      {
+        "index": 0,
+        "id": "stand-works",
+        "title": "Наружные стенды и подготовленные конструкции"
+      }
+    ]
+  },
+  {
+    "source": "pages/vxodnye-gruppy/index.html",
+    "url": "/vxodnye-gruppy/",
+    "sections": [
+      {
+        "index": 5,
+        "id": null,
+        "title": "Реальные работы"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "url": "/vyveski-s-pajetkami/",
+    "sections": [
+      {
+        "index": 5,
+        "id": null,
+        "title": "Реальные работы"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski/index.html",
+    "url": "/vyveski/",
+    "sections": [
+      {
+        "index": 6,
+        "id": "signs-hub-examples",
+        "title": "Примеры выполненных работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/vzaimovygodnoe-sotrudnichestvo/index.html",
+    "url": "/vzaimovygodnoe-sotrudnichestvo/",
+    "sections": [
+      {
+        "index": 8,
+        "id": "agency-works",
+        "title": "Примеры выполненных работ"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-vyveski/index.html",
+    "url": "/svetovye-vyveski/",
+    "sections": [
+      {
+        "index": 12,
+        "id": null,
+        "title": "Примеры работ РПК «Ресурс»"
+      }
+    ]
+  },
+  {
+    "source": "pages/remont-vyvesok/index.html",
+    "url": "/remont-vyvesok/",
+    "sections": [
+      {
+        "index": 8,
+        "id": "repair-examples",
+        "title": "Примеры типов конструкций"
+      }
+    ]
+  },
+  {
+    "source": "pages/oformlenie-fasadov/index.html",
+    "url": "/oformlenie-fasadov/",
+    "sections": [
+      {
+        "index": 6,
+        "id": "facade-projects",
+        "title": "Реальные примеры оформления магазинов"
+      }
+    ]
+  },
+  {
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "url": "/navigaciya-i-ukazateli/",
+    "sections": [
+      {
+        "index": 8,
+        "id": "wayfinding-examples",
+        "title": "Примеры навигационных и информационных элементов"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "url": "/vyveski-dlya-magazina/",
+    "sections": [
+      {
+        "index": 5,
+        "id": "shop-signs-examples",
+        "title": "Примеры вывесок торговых точек"
+      }
+    ]
+  },
+  {
+    "source": "pages/informacionnye-stendy/index.html",
+    "url": "/informacionnye-stendy/",
+    "sections": [
+      {
+        "index": 0,
+        "id": "stand-works",
+        "title": "Реальные стенды с секциями и информацией"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/",
+    "sections": [
+      {
+        "index": 6,
+        "id": "halo-examples",
+        "title": "Реальные контражурные буквы"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-lampochkami/index.html",
+    "url": "/obemnye-bukvy-s-lampochkami/",
+    "sections": [
+      {
+        "index": 5,
+        "id": "child-examples",
+        "title": "Надписи для заведений из реального портфолио"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-vneshnej-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-vneshnej-podsvetkoj/",
+    "sections": [
+      {
+        "index": 5,
+        "id": "child-examples",
+        "title": "Надписи на зданиях из нашего портфолио"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-koroba/index.html",
+    "url": "/svetovye-koroba/",
+    "sections": [
+      {
+        "index": 0,
+        "id": "lightbox-examples",
+        "title": "Реальные световые короба"
+      }
+    ]
+  }
+]

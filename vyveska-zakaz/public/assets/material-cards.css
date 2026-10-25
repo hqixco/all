@@ -1,0 +1,5 @@
+.material-card__link{--link-color:var(--ui-ink);--link-hover-color:var(--ui-brand);--link-decoration:none;box-sizing:border-box;display:block;height:100%;padding:var(--ui-card-padding);color:var(--ui-ink);font-size:var(--ui-text-size);font-weight:600;line-height:1.4;text-decoration:none;transition:color .2s ease,background-color .2s ease}
+.material-card__link:hover{color:var(--ui-brand);background:var(--ui-soft);text-decoration:none}
+.material-card__link:focus{outline:2px solid var(--ui-focus);outline-offset:-3px}
+@media(max-width:767px){}
+@media(max-width:500px){.material-card__link{padding:12px;font-size:13px}}

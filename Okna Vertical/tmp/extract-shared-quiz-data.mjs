@@ -1,0 +1,12 @@
+﻿import fs from 'node:fs';
+fs.mkdirSync('src/components',{recursive:true});
+let main=fs.readFileSync('src/main.js','utf8');
+const start=main.indexOf('const firstQuizQuestion =');const end=main.indexOf('let quizQuestions =',start);
+const definitions=main.slice(start,end).replace(/const (firstQuizQuestion|ownerQuizQuestions|developerQuizQuestions|generalQuizQuestions|balconyQuizQuestions) =/g,'export const $1 =');
+fs.writeFileSync('src/components/quiz-data.js',definitions);
+main=main.slice(0,start)+main.slice(end);main="import {firstQuizQuestion, generalQuizQuestions, balconyQuizQuestions} from './components/quiz-data.js';\n"+main;
+main=main.replace('const componentQuizSection = document.querySelector("[data-static-quiz]");','const componentQuizSection = document.documentElement.classList.contains("page-house") ? null : document.querySelector("[data-static-quiz]");');
+main=main.replace('if (homePage && legacyQuizSection) {','if (homePage && legacyQuizSection && !homePage.querySelector("[data-static-quiz]")) {');
+fs.writeFileSync('src/main.js',main);
+let renderer=fs.readFileSync('scripts/components.mjs','utf8');renderer=renderer.replace("if(name==='quiz')data={...data,questionsJson:json(data.questions),optionsHtml:quizOptions(data.questions)};", "if(name==='quiz')data={...data,questionTitleHtml:escape(data.questions[0].title),questionDescriptionHtml:escape(data.questions[0].description),questionMetaHtml:`Вопрос 1 из ${data.questions.length}`,questionsJson:json(data.questions),optionsHtml:quizOptions(data.questions)};\n if(name==='calculator')data={...data,placeGroup:data.places?.length?{items:data.places}:false};\n if(name==='reviews')data={extraClass:'',...data};");fs.writeFileSync('scripts/components.mjs',renderer);
+let reviews=fs.readFileSync('components/reviews.html','utf8').replace('class="reviews-section okna-reviews"','class="reviews-section okna-reviews {{extraClass}}"');fs.writeFileSync('components/reviews.html',reviews);

@@ -491,7 +491,7 @@ function setupEstimatorQuiz(form) {
 document.querySelectorAll('.estimator-quiz').forEach(setupEstimatorQuiz);
 
 const formEndpoint = '/mail.php';
-const metrikaCounterId = 110986002;
+const metrikaCounterId = 113588144;
 const defaultMetrikaFormGoal = 'form_pristroyka';
 
 function resetFormFileState(form) {

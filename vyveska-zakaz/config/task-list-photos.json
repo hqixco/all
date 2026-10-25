@@ -1,0 +1,17 @@
+[
+  {
+    "url": "/remont-vyvesok/",
+    "selector": "ul.repair-section__repair-reasons",
+    "count": 5
+  },
+  {
+    "url": "/oformlenie-fasadov/",
+    "selector": "ul.facade-section__facade-task-list",
+    "count": 5
+  },
+  {
+    "url": "/oformlenie-seti-magazinov/",
+    "selector": "ul.store-network-section__store-network-style-list",
+    "count": 4
+  }
+]

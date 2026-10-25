@@ -1,0 +1,1 @@
+﻿import fs from 'node:fs';const f='src/style.css';let s=fs.readFileSync(f,'utf8');s=s.replace(/(\.quiz-video__toggle \{[^}]*?)border-radius: var\(--button-radius\);/,'$1border-radius: 50%;');fs.writeFileSync(f,s);

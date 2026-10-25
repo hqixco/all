@@ -1,0 +1,191 @@
+{
+  "key": "group_stroybrigada_imported_page",
+  "title": "Stroybrigada: Страница сайта",
+  "fields": [
+    {
+      "key": "field_stroybrigada_imported_page_tab",
+      "label": "Импортированные секции",
+      "name": "",
+      "type": "tab",
+      "placement": "top",
+      "endpoint": 0
+    },
+    {
+      "key": "field_stroybrigada_imported_page_h1",
+      "label": "H1",
+      "name": "stroybrigada_h1",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_imported_page_inline_styles",
+      "label": "Inline CSS страницы",
+      "name": "stroybrigada_inline_styles",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_stroybrigada_imported_page_sections",
+      "label": "Секции страницы",
+      "name": "stroybrigada_sections",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "row",
+      "button_label": "Добавить секцию",
+      "collapsed": "field_stroybrigada_imported_page_section_label",
+      "min": 0,
+      "max": 0,
+      "sub_fields": [
+        {
+          "key": "field_stroybrigada_imported_page_section_visible",
+          "label": "Показывать секцию",
+          "name": "visible",
+          "aria-label": "",
+          "type": "true_false",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": 1,
+          "ui": 1
+        },
+        {
+          "key": "field_stroybrigada_imported_page_section_key",
+          "label": "Ключ секции",
+          "name": "key",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_imported_page_section_label",
+          "label": "Название секции",
+          "name": "label",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_stroybrigada_imported_page_section_html",
+          "label": "HTML секции",
+          "name": "html",
+          "aria-label": "",
+          "type": "textarea",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "rows": 6,
+          "new_lines": ""
+        }
+      ]
+    },
+    {
+      "key": "field_stroybrigada_imported_page_modals_html",
+      "label": "HTML модальных окон",
+      "name": "stroybrigada_modals_html",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "rows": 6,
+      "new_lines": ""
+    },
+    {
+      "key": "field_stroybrigada_imported_page_attachments",
+      "label": "Импортированные изображения",
+      "name": "stroybrigada_imported_attachments",
+      "aria-label": "",
+      "type": "gallery",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "id",
+      "preview_size": "thumbnail",
+      "library": "all"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "page"
+      },
+      {
+        "param": "page_type",
+        "operator": "!=",
+        "value": "front_page"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0,
+  "modified": 1784692800
+}

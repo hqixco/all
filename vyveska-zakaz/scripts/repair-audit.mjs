@@ -1,0 +1,18 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import sharp from 'sharp';import {load} from 'cheerio';
+const route='/remont-vyvesok/';const origin='https://xn----7sbbagavscye2ftg.xn--p1ai';const pages=JSON.parse(fs.readFileSync('config/site-pages.json','utf8'));
+const source=load(fs.readFileSync('pages/remont-vyvesok/index.html','utf8'));const $=load(fs.readFileSync('dist/remont-vyvesok/index.html','utf8'));
+assert.equal(pages.find(p=>p.url===route).indexable,false);assert.equal($('meta[name="robots"]').attr('content'),'noindex, follow');assert.equal($('link[rel="canonical"]').attr('href'),origin+route);assert(!fs.readFileSync('dist/sitemap.xml','utf8').includes(route));
+assert.equal($('h1').length,1);assert.equal($('h1').text(),'Ремонт вывесок в Нижнем Новгороде');assert.equal($('title').text(),'Ремонт вывесок в Нижнем Новгороде — РПК Ресурс');assert($('meta[name="description"]').attr('content').length<=165);
+assert.equal($('main').text().replace(/\s+/g,' ').trim(),source('main').text().replace(/\s+/g,' ').trim());
+const graph=JSON.parse($('script[type="application/ld+json"]').text())['@graph'];const faq=graph.find(n=>n['@type']==='FAQPage');assert.equal(faq.mainEntity.length,8);assert.equal($('.repair__question').length,8);
+$('.repair__question').each((i,n)=>{assert.equal($(n).find('h3').text(),faq.mainEntity[i].name);assert.equal($(n).find('p').text(),faq.mainEntity[i].acceptedAnswer.text);});
+const crumbs=graph.find(n=>n['@type']==='BreadcrumbList');assert.equal(crumbs.itemListElement.length,4);assert.equal(crumbs.itemListElement.at(-1).item,origin+route);const service=graph.find(n=>n['@type']==='Service');assert.equal(service.url,origin+route);assert.equal(service.areaServed.name,'Нижний Новгород');
+for(const key of ['offers','price','aggregateRating','review'])assert(!Object.hasOwn(service,key));
+for(const slug of ['services','naruzhnaya-reklama','vyveski','svetovye-vyveski','svetovye-koroba','obemnye-bukvy','fasadnye-vyveski','montazh-naruzhnoj-reklamy','portfolio','ceny','kontakty'])assert($(`main a[href="/${slug}/"]`).length,slug);
+for(const node of $('main a[href]').toArray()){const href=$(node).attr('href');if(href.startsWith('mailto:'))continue;if(href.startsWith('#'))assert($(href).length,href);else assert(pages.some(p=>p.url===href),href);}
+const imagePaths=[];
+for(const node of $('main img').toArray()){const image=$(node);const path='dist'+image.attr('src');assert(!imagePaths.includes(path));imagePaths.push(path);const info=await sharp(path).metadata();assert.equal(+image.attr('width'),info.width);assert.equal(+image.attr('height'),info.height);assert(image.attr('alt'));assert(fs.statSync(path).size<300000);}
+const form=$('.repair__form');assert.equal(form.attr('action'),'/mail.php');assert.equal(form.attr('method'),'post');assert.equal(form.find('[name="form-type"]').length,1);assert.equal(form.find('[name="form-type"]').attr('value'),'order');assert.equal(form.find('[type="file"]').length,0);for(const name of ['your-name','your-phone','message','acceptance-962'])assert(form.find(`[name="${name}"]`).is('[required]'));
+const css=fs.readFileSync('dist/assets/repair.css','utf8');assert(!/@media[^{}]*(?:min-width|width\s*<=)/i.test(css));assert(!css.includes('!important'));assert(!/overflow-x\s*:\s*hidden/.test(css));
+const text=$('main').text();assert(!/24\/7|бесплатн|блок(?:ов|и|а)? питания|LED-модул|пайк|герметизац|аварийн|срочн|ремонт электроник|гаранти[яю] на ремонт|от \d+\s*(?:руб|₽)/i.test(text));
+console.log('Repair audit: metadata/noindex, 8 matching FAQ answers, BreadcrumbList/Service, 11 required contextual destinations, 4 real images, native order form and Safari media syntax passed.');

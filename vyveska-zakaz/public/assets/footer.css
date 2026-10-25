@@ -1,0 +1,27 @@
+.site-footer__main{padding-top:36px;padding-bottom:22px}
+.site-footer__top{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:36px;align-items:center;padding-bottom:30px}
+.site-footer__brand{min-width:0;max-width:350px}
+.site-footer__brand-link{display:inline-block}
+.site-footer__brand-image{display:block;width:200px;height:auto}
+.site-footer__description{margin:12px 0 8px;font-size:14px;line-height:1.45;color:#d1cedc}
+.site-footer__address{margin:0;font-size:13px;line-height:1.45;color:#aaa5b8}
+.site-footer__contacts{display:grid;gap:10px;min-width:0}
+.site-footer__contact-link{display:flex;align-items:center;color:#fff;font-size:15px;line-height:1.35;text-decoration:none}
+.site-footer__contact-link:hover{color:#c8b6f5}
+.site-footer__contact-icon{display:block;flex:0 0 18px;width:18px;height:18px;margin-right:9px;color:#bda5ef}
+.site-footer__contact-link span{min-width:0;overflow-wrap:break-word}
+.site-footer__navigation{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;padding:28px 0;border-top:1px solid #302a3b;border-bottom:1px solid #302a3b}
+.site-footer__column{min-width:0}
+.site-footer__column-title{margin:0 0 16px;color:#fff;font-size:16px;font-weight:700;line-height:1.3}
+.site-footer__links{display:grid;gap:9px;margin:0;padding:0;list-style:none}
+.site-footer__link-item{margin:0;padding:0;min-width:0}
+.site-footer__link{display:inline-block;color:#c4bfce;font-size:14px;line-height:1.4;text-decoration:none;overflow-wrap:break-word}
+.site-footer__link:hover{color:#fff;text-decoration:underline}
+.site-footer__bottom{display:flex;align-items:center;justify-content:space-between;margin-top:20px;gap:16px}
+.site-footer__copyright{margin:0;color:#aaa5b8;font-size:12px;line-height:1.4}
+.site-footer__policies{display:flex;flex-wrap:wrap;margin:-4px -10px}
+.site-footer__policy-link{margin:4px 10px;color:#aaa5b8;font-size:12px;line-height:1.4;text-decoration:none}
+.site-footer__policy-link:hover{color:#fff;text-decoration:underline}
+@media(max-width:1000px){.site-footer__top{gap:24px}.site-footer__brand-image{width:170px}.site-footer__callback-button{--compact-button-font-size:13px;--compact-button-padding:10px 14px;--compact-button-height:40px}.site-footer__navigation{gap:20px}.site-footer__link{font-size:13px}}
+@media(max-width:767px){.site-footer__main{padding-top:28px}.site-footer__top{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;padding-bottom:24px;align-items:start}.site-footer__callback-button{grid-column:1/-1;justify-self:start}.site-footer__navigation{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px;padding:24px 0}.site-footer__bottom{align-items:flex-start;flex-direction:column;gap:10px}.site-footer__column-title{font-size:15px;margin-bottom:12px}}
+@media(max-width:500px){.site-footer__main{padding-top:24px;padding-bottom:18px}.site-footer__top{gap:16px 12px;padding-bottom:20px}.site-footer__brand-image{width:125px}.site-footer__description{font-size:12px;line-height:1.35;margin-top:10px}.site-footer__address{font-size:11px;line-height:1.35}.site-footer__contacts{gap:8px}.site-footer__contact-link{font-size:12px}.site-footer__contact-icon{width:14px;height:14px;flex-basis:14px;margin-right:5px}.site-footer__callback-button{justify-self:stretch}.site-footer__navigation{gap:20px 14px;padding:20px 0}.site-footer__column-title{font-size:14px;margin-bottom:10px}.site-footer__links{gap:8px}.site-footer__link{font-size:12px;line-height:1.35}.site-footer__bottom{margin-top:16px}.site-footer__policy-link,.site-footer__copyright{font-size:11px}}

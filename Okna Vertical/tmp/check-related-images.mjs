@@ -1,0 +1,11 @@
+﻿import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const {chromium}=require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:1100,height:900}});
+await page.goto('http://127.0.0.1:4173/okna-v-kvartiru/');
+await page.locator('.apartment-related').scrollIntoViewIfNeeded();
+await page.locator('.related-card > img').evaluateAll(imgs=>Promise.all(imgs.map(img=>img.decode())));
+console.log(await page.locator('.related-card > img').evaluateAll(imgs=>imgs.map(img=>({src:img.getAttribute('src'),width:img.width,naturalWidth:img.naturalWidth,height:img.getAttribute('height')}))));
+await page.locator('.apartment-related').screenshot({path:'tmp/related-updated.png'});
+await browser.close();

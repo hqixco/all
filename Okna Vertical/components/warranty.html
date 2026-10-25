@@ -1,0 +1,38 @@
+<section class="warranty-section" id="{{id}}" data-component="warranty">
+        <div class="warranty-container">
+          <div class="warranty-grid">
+            <div class="warranty-table-wrap">
+              <h2>{{{titleHtml}}}</h2>
+              <p class="warranty-lead">{{{leadHtml}}}</p>
+              <div class="warranty-table">
+                <div class="warranty-table__head">
+                  <strong>Что покрывается гарантией</strong><strong>Срок гарантии</strong><strong>Что входит</strong>
+                </div>
+                {{#items}}<div class="warranty-row">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">{{{iconHtml}}}</svg><strong>{{{titleHtml}}}</strong><b>{{{termHtml}}}</b><span>{{{descriptionHtml}}}</span>
+                </div>{{/items}}
+                
+                
+                
+                
+                
+              </div>
+              <div class="warranty-footnote">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3 20 6v5c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6z"></path>
+                  <path d="m8 12 2.5 2.5 5-5"></path></svg><span>{{{footnoteHtml}}}</span>
+              </div>
+            </div>
+            <div class="warranty-info">
+              {{#information}}<div class="warranty-info__item">
+                <svg viewBox="0 0 24 24" aria-hidden="true">{{{iconHtml}}}</svg>
+                <div>{{{contentHtml}}}</div>
+              </div>{{/information}}
+              
+              
+              
+              
+              
+            </div>
+          </div>
+          </div></section>

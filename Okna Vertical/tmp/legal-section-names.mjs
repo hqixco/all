@@ -1,0 +1,2 @@
+﻿import fs from 'node:fs';const f='scripts/page-sections.mjs';let s=fs.readFileSync(f,'utf8');s=s.replace(' const seen = new Set();',` blocks ||= ({cookie:['definition','types','purpose','analytics','consent','settings','contacts'], 'politika-konfidentsialnosti':['general','data','purpose','legal-basis','processing','third-parties','cookies','rights','updates']})[slug];
+ const seen = new Set();`);fs.writeFileSync(f,s);

@@ -1,0 +1,100 @@
+body.page-pristroyki .hero {
+  background-image: url('/assets/pristroyki-hero.webp');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page-pristroyki .hero__title,
+body.page-pristroyki .hero__description,
+body.page-pristroyki .hero__eyebrow,
+body.page-pristroyki .hero__eyebrow-chip {
+  color: #111;
+  text-shadow: none;
+}
+
+body.page-pristroyki .audit__panel {
+  background-image: url('/assets/pristroyki-audit.webp');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.page-pristroyki .calculator .option-grid,
+body.page-pristroyki .calculator .option-grid--task-type {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+
+body.page-pristroyki .calculator .option-card,
+body.page-pristroyki .calculator .option-grid--task-type .option-card {
+  grid-template-columns: minmax(0, 1fr) 26px;
+  min-height: 60px;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 12px;
+}
+
+body.page-pristroyki .calculator .option-card__icon {
+  display: none;
+}
+
+body.page-pristroyki .calculator .option-grid--task_type .option-card {
+  grid-template-columns: 84px minmax(0, 1fr) 26px;
+  min-height: 84px;
+}
+
+body.page-pristroyki .calculator .option-grid--task_type .option-card__icon {
+  display: block;
+  width: 84px;
+  height: 64px;
+  overflow: hidden;
+  border-radius: 9px;
+}
+
+body.page-pristroyki .calculator .option-grid--task_type .option-card__icon-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+body.page-pristroyki .calculator .option-card__body {
+  gap: 2px;
+}
+
+body.page-pristroyki .calculator .option-card__title {
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+body.page-pristroyki .calculator .option-card__text {
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+@media (max-width: 767px) {
+  body.page-pristroyki .hero {
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.94) 0%,
+        rgba(255, 255, 255, 0.72) 48%,
+        rgba(255, 255, 255, 0.12) 100%
+      ),
+      url('/assets/pristroyki-hero.webp');
+    background-position: 66% center;
+  }
+
+  body.page-pristroyki .audit__panel {
+    background-position: 66% center;
+  }
+}
+
+@media (max-width: 480px) {
+  body.page-pristroyki .calculator .option-grid,
+  body.page-pristroyki .calculator .option-grid--task-type {
+    grid-template-columns: 1fr;
+  }
+}

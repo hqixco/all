@@ -1,0 +1,5 @@
+﻿import sharp from 'sharp';
+const names=['0c26f840-5783-4059-a8b8-c8b14f790384','28e9a09f-aca9-41df-84c0-ece75a17a952','6c8282c2-01ac-4837-a2ce-f3ba66a6bfaf','6b9017e5-7662-4f20-917f-7f8dd31ad275','210b46cb-d048-4b11-bb1f-5b3e51520dd5','ff2b2db6-b8ba-4137-b25f-97f66112bf68','2db95e2c-35cb-45d0-88c9-1ad9eb4cedcd','d226175b-f365-4713-a870-7cc1732fa612','49ba1c16-4f65-4c3e-8a6f-8a93c6906de7','9e8a1b9e-f5fc-41e0-a9eb-2347f9b27dc9'];
+const composite=[];
+for(let i=0;i<names.length;i++){const input=await sharp('C:/Users/User/Downloads/'+names[i]+'.png').resize(300,225,{fit:'contain',background:'#fff'}).png().toBuffer();composite.push({input,left:i%5*300,top:Math.floor(i/5)*260});composite.push({input:Buffer.from(`<svg width="300" height="35"><rect width="300" height="35" fill="white"/><text x="10" y="25" font-size="20">${i+1}: ${names[i].slice(0,8)}</text></svg>`),left:i%5*300,top:Math.floor(i/5)*260+225});}
+await sharp({create:{width:1500,height:520,channels:3,background:'#fff'}}).composite(composite).png().toFile('tmp/related-contact-sheet.png');

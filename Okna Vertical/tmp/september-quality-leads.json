@@ -1,0 +1,81 @@
+{
+  "period": "2026-09-01 — 2026-09-30",
+  "excludedIds": [
+    "20",
+    "3",
+    "10",
+    "9"
+  ],
+  "result": [
+    {
+      "site": "vertyar.ru",
+      "total": 17,
+      "excluded": 0,
+      "quality": 17,
+      "statuses": [
+        {
+          "id": "17",
+          "status": "Нецелевое обращение",
+          "count": 5,
+          "excluded": false
+        },
+        {
+          "id": "18",
+          "status": "Дубликат",
+          "count": 1,
+          "excluded": false
+        },
+        {
+          "id": "CONVERTED",
+          "status": "Качественный лид",
+          "count": 11,
+          "excluded": false
+        }
+      ]
+    },
+    {
+      "site": "okna-vertical.ru",
+      "total": 71,
+      "excluded": 20,
+      "quality": 51,
+      "statuses": [
+        {
+          "id": "10",
+          "status": "Не удалось связаться",
+          "count": 20,
+          "excluded": true
+        },
+        {
+          "id": "16",
+          "status": "Заказано в другом месте",
+          "count": 5,
+          "excluded": false
+        },
+        {
+          "id": "17",
+          "status": "Нецелевое обращение",
+          "count": 3,
+          "excluded": false
+        },
+        {
+          "id": "18",
+          "status": "Дубликат",
+          "count": 3,
+          "excluded": false
+        },
+        {
+          "id": "CONVERTED",
+          "status": "Качественный лид",
+          "count": 39,
+          "excluded": false
+        },
+        {
+          "id": "JUNK",
+          "status": "Неактуально",
+          "count": 1,
+          "excluded": false
+        }
+      ]
+    }
+  ]
+}

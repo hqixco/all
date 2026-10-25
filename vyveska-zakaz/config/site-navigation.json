@@ -1,0 +1,60 @@
+[
+  {
+    "label": "Вывески",
+    "url": "/vyveski/",
+    "children": [
+      "/svetovye-vyveski/",
+      "/fasadnye-vyveski/",
+      "/interernye-vyveski/",
+      "/neonovye-vyveski/",
+      "/obemnye-bukvy/",
+      "/svetovye-koroba/",
+      "/vyveski-dlya-magazina/"
+    ]
+  },
+  {
+    "label": "Услуги",
+    "url": "/services/",
+    "children": [
+      "/naruzhnaya-reklama/",
+      "/oformlenie-fasadov/",
+      "/oformlenie-seti-magazinov/",
+      "/navigaciya-i-ukazateli/",
+      "/remont-vyvesok/",
+      "/dizajn/",
+      "/soglasovanie-naruzhnoj-reklamy/",
+      "/montazh-naruzhnoj-reklamy/"
+    ]
+  },
+  {
+    "label": "Производство",
+    "children": [
+      "/pechat/",
+      "/frezerovka/",
+      "/plotternaya-rezka/",
+      "/brendirovanie-transporta/"
+    ]
+  },
+  {
+    "label": "Портфолио",
+    "url": "/portfolio/"
+  },
+  {
+    "label": "Цены",
+    "url": "/ceny/"
+  },
+  {
+    "label": "О компании",
+    "url": "/o-kompanii/",
+    "children": [
+      "/otzyvy/",
+      "/vzaimovygodnoe-sotrudnichestvo/",
+      "/blog/",
+      "/vakansii/"
+    ]
+  },
+  {
+    "label": "Контакты",
+    "url": "/kontakty/"
+  }
+]

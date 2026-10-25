@@ -1,0 +1,6 @@
+.hero-card-link { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 3; border-radius: inherit; }
+.hero-card-link:focus-visible { outline: 3px solid var(--orange); outline-offset: -3px; }
+.quiz-panel[hidden], [data-service="roof-replacement"] .quiz-controls[hidden] { display: none; }
+.replacement-gallery .estimate-modal__dialog { width: calc(100% - 32px); max-width: 1000px; }
+.replacement-gallery-image { display: block; width: 100%; height: 60vh; object-fit: contain; }
+.replacement-gallery-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; }

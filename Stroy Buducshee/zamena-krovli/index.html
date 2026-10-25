@@ -80,8 +80,19 @@
         </a>
 
         <nav class="main-nav" id="main-navigation" aria-label="Основная навигация">
-          <a class="main-nav__link" href="#prices">Цены</a>
+          <div class="main-nav__item main-nav__item--dropdown">
+            <button class="main-nav__link main-nav__dropdown-toggle" type="button" aria-expanded="false" aria-controls="services-menu-roof">
+              Услуги
+              <svg viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1 5 5 5-5" /></svg>
+            </button>
+            <div class="main-nav__dropdown" id="services-menu-roof">
+              <a href="/zamena-krovli/" aria-current="page">Замена кровли</a>
+              <a href="/zamena-polov/">Замена полов</a>
+              <a href="/pristroyki/">Пристройки</a>
+            </div>
+          </div>
           <a class="main-nav__link" href="#works">Наши работы</a>
+          <a class="main-nav__link" href="#videos">Видео</a>
           <a class="main-nav__link" href="#reviews">Отзывы</a>
           <a class="main-nav__link" href="#team">О бригаде</a>
           <a class="main-nav__link" href="#contacts">Контакты</a>
@@ -147,7 +158,7 @@
           >Работаем по Владимиру и Владимирской области</span
         >
         <h1 id="hero-title">
-          Замена старой кровли частного дома во&nbsp;Владимире и&nbsp;Владимирской области
+          Замена старой кровли частного дома во&nbsp;Владимире и&nbsp;Владимирской области от&nbsp;500&nbsp;₽/м²
         </h1>
         <p class="hero-lead">
           Перекроем крышу профнастилом, металлочерепицей или мягкой кровлей.
@@ -166,9 +177,9 @@
           </article>
           <article class="benefit-card">
             <svg aria-hidden="true" viewBox="0 0 32 32">
-              <path
-                d="m5 25 13.2-13.2M14.5 7.5l10 10M11.7 4.7l4.8-2.2 11 11-2.2 4.8M3.5 27.5l5.8-1.2-4.6-4.6-1.2 5.8Z"
-              />
+              <path d="M3 15.5 16 5l13 10.5M7 14.5V28h18V14.5" />
+              <path d="M11 20a6 6 0 0 1 10-4M21 12v4h-4" />
+              <path d="M21 22a6 6 0 0 1-10 4M11 30v-4h4" />
             </svg>
             <span>Демонтаж + новая кровля</span>
           </article>
@@ -185,7 +196,7 @@
         </div>
 
         <div class="price-box">
-          <strong>Замена кровли от <span>1 490 ₽/м²</span></strong>
+          <strong>Замена кровли от <span>500 ₽/м²</span></strong>
           <small
             >Стоимость работ зависит от состояния стропил и состава
             кровли.</small
@@ -246,6 +257,226 @@
         </div>
       </section>
     </main>
+    <section class="cases section-light" id="works">
+      <div class="section-shell">
+        <div class="cases-heading">
+          <h2>Ежегодно меняем кровлю на 50+ объектах, вот некоторые из последних</h2>
+          <p>
+            Реальные объекты по замене и монтажу кровли во Владимире и
+            Владимирской области.
+          </p>
+        </div>
+        <div class="cases-gallery">
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-aerated-concrete-metal-roof.webp"
+                alt="Монтаж металлочерепицы на доме из газобетона"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Монтаж металлочерепицы на доме из газобетона</h3>
+                <p>
+                  Смонтировали стропильную систему, уложили гидроизоляцию,
+                  подготовили обрешётку и установили металлочерепицу.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Дом из газобетона</span><span>Металлочерепица</span
+                  ><span class="case-gallery-card__price">от 76 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-timber-mansard-metal-roof.webp"
+                alt="Монтаж металлочерепицы на деревянной мансарде"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Монтаж металлочерепицы на деревянной мансарде</h3>
+                <p>
+                  Собрали каркас мансарды, смонтировали обрешётку, уложили
+                  металлочерепицу и установили конёк и торцевые планки.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Деревянная мансарда</span><span>Металлочерепица</span
+                  ><span class="case-gallery-card__price">от 68 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-wood-house-veranda-roof.webp"
+                data-gallery-images="/assets/images/case-wood-house-veranda-roof.webp|/assets/images/case-wood-house-veranda-roof-stage-one.webp|/assets/images/case-wood-house-veranda-roof-stage-two.webp"
+                alt="Монтаж металлочерепицы на деревянном доме с верандой"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Монтаж кровли на деревянном доме с верандой</h3>
+                <p>
+                  Построили каркас веранды, смонтировали обрешётку и уложили
+                  металлочерепицу на основной крыше и новом скате.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Дом с верандой</span><span>Металлочерепица</span
+                  ><span class="case-gallery-card__price">от 56 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-wood-house-profiled-roof.webp"
+                data-gallery-images="/assets/images/case-wood-house-profiled-roof.webp|/assets/images/case-wood-house-profiled-roof-finished.webp|/assets/images/case-wood-house-profiled-roof-installation.webp"
+                alt="Замена кровли профнастилом на деревянном доме"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Замена кровли на деревянном доме</h3>
+                <p>
+                  Демонтировали старое покрытие, восстановили обрешётку,
+                  уложили профнастил и оформили слуховое окно и примыкания.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Деревянный дом</span><span>Профнастил</span
+                  ><span class="case-gallery-card__price">от 52 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-block-house-hip-metal-roof.webp"
+                alt="Монтаж вальмовой металлочерепичной кровли на доме из блоков"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Вальмовая кровля на доме из блоков</h3>
+                <p>
+                  Собрали стропильную систему, смонтировали обрешётку и уложили
+                  тёмную металлочерепицу с оформлением карнизов и примыканий.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Вальмовая кровля</span><span>Металлочерепица</span
+                  ><span class="case-gallery-card__price">от 96 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-house-extension-metal-roof.webp"
+                data-gallery-images="/assets/images/case-house-extension-metal-roof.webp|/assets/images/case-house-extension-metal-roof-installation.webp|/assets/images/case-house-extension-metal-roof-junction.webp"
+                alt="Монтаж металлочерепицы на пристройке деревянного дома"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Кровля пристройки к деревянному дому</h3>
+                <p>
+                  Смонтировали обрешётку и зелёную металлочерепицу, оформили
+                  примыкания к соседним скатам и проход дымохода.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Пристройка</span><span>Металлочерепица</span
+                  ><span class="case-gallery-card__price">от 44 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-complex-hip-metal-roof.webp"
+                data-gallery-images="/assets/images/case-complex-hip-metal-roof.webp|/assets/images/case-complex-hip-metal-roof-framing.webp|/assets/images/case-complex-hip-metal-roof-aerial.webp"
+                alt="Сложная многоскатная кровля с металлочерепицей на кирпичном доме"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Сложная многоскатная кровля</h3>
+                <p>
+                  Подготовили основание для скатов сложной геометрии, уложили
+                  металлочерепицу и оформили ендовы, карнизы и дымоход.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Сложная геометрия</span><span>Металлочерепица</span
+                  ><span class="case-gallery-card__price">от 116 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-house-mansard-reconstruction.webp"
+                alt="Реконструкция крыши дома с мансардной надстройкой"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Реконструкция крыши с мансардой</h3>
+                <p>
+                  Демонтировали старую шиферную кровлю, возвели мансардную
+                  надстройку и выполнили новую крышу с металлическим покрытием.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Реконструкция</span><span>Мансарда</span
+                  ><span class="case-gallery-card__price">от 88 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-log-house-metal-roof.webp"
+                data-gallery-images="/assets/images/case-log-house-metal-roof.webp|/assets/images/case-log-house-metal-roof-removal.webp|/assets/images/case-log-house-metal-roof-lathing.webp|/assets/images/case-log-house-metal-roof-membrane.webp"
+                alt="Замена кровли металлочерепицей на доме из бревна"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Замена кровли на доме из бревна</h3>
+                <p>
+                  Демонтировали старое волнистое покрытие, подготовили
+                  основание и смонтировали коричневую металлочерепицу.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Дом из бревна</span><span>Металлочерепица</span
+                  ><span class="case-gallery-card__price">от 64 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+          <article class="case-gallery-card">
+            <div class="case-gallery-card__image">
+              <img
+                src="/assets/images/case-brick-house-gable-metal-roof.webp"
+                data-gallery-images="/assets/images/case-brick-house-gable-metal-roof.webp|/assets/images/case-brick-house-gable-metal-roof-finished.webp|/assets/images/case-brick-house-gable-metal-roof-framing.webp"
+                alt="Реконструкция двускатной кровли кирпичного дома"
+              />
+              <div class="case-gallery-card__copy">
+                <h3>Новая двускатная кровля кирпичного дома</h3>
+                <p>
+                  Собрали новую стропильную систему, уложили мембрану,
+                  подготовили обрешётку и смонтировали тёмную металлочерепицу.
+                </p>
+                <div class="case-gallery-card__meta">
+                  <span>Кирпичный дом</span><span>Металлочерепица</span
+                  ><span class="case-gallery-card__price">от 72 000 ₽</span>
+                </div>
+              </div>
+            </div>
+            <button type="button">Узнать стоимость</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <div id="quiz-position"></div>
 
     <section class="diagnostics section-light" id="services">
@@ -268,7 +499,7 @@
                   монтируем новое.
                 </p>
                 <div class="diagnostic-card__price">
-                  <b>от 1 490 ₽/м²</b
+                  <b>от 500 ₽/м²</b
                   ><small
                     >Демонтаж и монтаж покрытия. Без ремонта исправной
                     древесины.</small
@@ -287,7 +518,7 @@
                 <h3>Покрытие + обрешётка</h3>
                 <p>Меняем повреждённую древесину и выравниваем основание.</p>
                 <div class="diagnostic-card__price">
-                  <b>от 2 190 ₽/м²</b
+                  <b>от 1 500 ₽/м²</b
                   ><small
                     >Цена зависит от объёма замены доски и выбранного
                     покрытия.</small
@@ -309,7 +540,7 @@
                   неправильно.
                 </p>
                 <div class="diagnostic-card__price">
-                  <b>от 3 490 ₽/м²</b
+                  <b>от 2 500 ₽/м²</b
                   ><small
                     >Точный расчёт — после проверки стропил и геометрии
                     крыши.</small
@@ -920,7 +1151,7 @@
               <div>
                 <h3>Ондулин</h3>
                 <div class="old-roof-card__price">
-                  <b>от 1 590 ₽/м²</b>
+                  <b>от 500 ₽/м²</b>
                   <small>Демонтаж ондулина и замена покрытия без переделки конструкции.</small>
                 </div>
                 <p>Обновляем старую кровлю, если материал выработал ресурс.</p>
@@ -950,7 +1181,7 @@
               <div>
                 <h3>Рубероид</h3>
                 <div class="old-roof-card__price">
-                  <b>от 1 490 ₽/м²</b>
+                  <b>от 1 500 ₽/м²</b>
                   <small>Снятие старого материала и подготовка основания под новую кровлю.</small>
                 </div>
                 <p>Переделаем мягкую старую кровлю без лишних работ.</p>
@@ -980,7 +1211,7 @@
               <div>
                 <h3>Просевшая крыша</h3>
                 <div class="old-roof-card__price">
-                  <b>от 3 490 ₽/м²</b>
+                  <b>от 2 500 ₽/м²</b>
                   <small>Усиление или замена стропил рассчитывается после осмотра конструкции.</small>
                 </div>
                 <p>Проверим конструкцию и усилим проблемные места по факту.</p>
@@ -1003,221 +1234,108 @@
       </div>
     </section>
 
-    <section class="cases section-light" id="works">
+    <section class="section video-reviews" id="videos">
       <div class="section-shell">
-        <div class="cases-heading">
-          <h2>Примеры работ с фото</h2>
+        <div class="section-heading video-reviews__head">
+          <div>
+            <p class="section-kicker">Видео с объектов</p>
+            <h2>Показываем, как меняем кровлю</h2>
+          </div>
           <p>
-            Реальные объекты по замене и монтажу кровли во Владимире и
-            Владимирской области.
+            Короткие видео с объектов и этапов работ: от демонтажа
+            старого покрытия до готовой крыши.
           </p>
         </div>
-        <div class="cases-gallery">
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-aerated-concrete-metal-roof.webp"
-                alt="Монтаж металлочерепицы на доме из газобетона"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Монтаж металлочерепицы на доме из газобетона</h3>
-                <p>
-                  Смонтировали стропильную систему, уложили гидроизоляцию,
-                  подготовили обрешётку и установили металлочерепицу.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Дом из газобетона</span><span>Металлочерепица</span
-                  ><span class="case-gallery-card__price">от 95 000 ₽</span>
-                </div>
-              </div>
+        <div class="video-reviews__grid" id="video-reviews-grid">
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760971455065.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760971455065.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 1"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 1</h3>
           </article>
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-timber-mansard-metal-roof.webp"
-                alt="Монтаж металлочерепицы на деревянной мансарде"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Монтаж металлочерепицы на деревянной мансарде</h3>
-                <p>
-                  Собрали каркас мансарды, смонтировали обрешётку, уложили
-                  металлочерепицу и установили конёк и торцевые планки.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Деревянная мансарда</span><span>Металлочерепица</span
-                  ><span class="case-gallery-card__price">от 85 000 ₽</span>
-                </div>
-              </div>
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760976370265.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760976370265.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 2"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 2</h3>
           </article>
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-wood-house-veranda-roof.webp"
-                data-gallery-images="/assets/images/case-wood-house-veranda-roof.webp|/assets/images/case-wood-house-veranda-roof-stage-one.webp|/assets/images/case-wood-house-veranda-roof-stage-two.webp"
-                alt="Монтаж металлочерепицы на деревянном доме с верандой"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Монтаж кровли на деревянном доме с верандой</h3>
-                <p>
-                  Построили каркас веранды, смонтировали обрешётку и уложили
-                  металлочерепицу на основной крыше и новом скате.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Дом с верандой</span><span>Металлочерепица</span
-                  ><span class="case-gallery-card__price">от 70 000 ₽</span>
-                </div>
-              </div>
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760976108121.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760976108121.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 3"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 3</h3>
           </article>
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-wood-house-profiled-roof.webp"
-                data-gallery-images="/assets/images/case-wood-house-profiled-roof.webp|/assets/images/case-wood-house-profiled-roof-finished.webp|/assets/images/case-wood-house-profiled-roof-installation.webp"
-                alt="Замена кровли профнастилом на деревянном доме"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Замена кровли на деревянном доме</h3>
-                <p>
-                  Демонтировали старое покрытие, восстановили обрешётку,
-                  уложили профнастил и оформили слуховое окно и примыкания.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Деревянный дом</span><span>Профнастил</span
-                  ><span class="case-gallery-card__price">от 65 000 ₽</span>
-                </div>
-              </div>
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760974469721.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760974469721.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 4"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 4</h3>
           </article>
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-block-house-hip-metal-roof.webp"
-                alt="Монтаж вальмовой металлочерепичной кровли на доме из блоков"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Вальмовая кровля на доме из блоков</h3>
-                <p>
-                  Собрали стропильную систему, смонтировали обрешётку и уложили
-                  тёмную металлочерепицу с оформлением карнизов и примыканий.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Вальмовая кровля</span><span>Металлочерепица</span
-                  ><span class="case-gallery-card__price">от 120 000 ₽</span>
-                </div>
-              </div>
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760978664025.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760978664025.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 5"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 5</h3>
           </article>
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-house-extension-metal-roof.webp"
-                data-gallery-images="/assets/images/case-house-extension-metal-roof.webp|/assets/images/case-house-extension-metal-roof-installation.webp|/assets/images/case-house-extension-metal-roof-junction.webp"
-                alt="Монтаж металлочерепицы на пристройке деревянного дома"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Кровля пристройки к деревянному дому</h3>
-                <p>
-                  Смонтировали обрешётку и зелёную металлочерепицу, оформили
-                  примыкания к соседним скатам и проход дымохода.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Пристройка</span><span>Металлочерепица</span
-                  ><span class="case-gallery-card__price">от 55 000 ₽</span>
-                </div>
-              </div>
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760979122777.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760979122777.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 6"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 6</h3>
           </article>
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-complex-hip-metal-roof.webp"
-                data-gallery-images="/assets/images/case-complex-hip-metal-roof.webp|/assets/images/case-complex-hip-metal-roof-framing.webp|/assets/images/case-complex-hip-metal-roof-aerial.webp"
-                alt="Сложная многоскатная кровля с металлочерепицей на кирпичном доме"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Сложная многоскатная кровля</h3>
-                <p>
-                  Подготовили основание для скатов сложной геометрии, уложили
-                  металлочерепицу и оформили ендовы, карнизы и дымоход.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Сложная геометрия</span><span>Металлочерепица</span
-                  ><span class="case-gallery-card__price">от 145 000 ₽</span>
-                </div>
-              </div>
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760979581529.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760979581529.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 7"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 7</h3>
           </article>
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-house-mansard-reconstruction.webp"
-                alt="Реконструкция крыши дома с мансардной надстройкой"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Реконструкция крыши с мансардой</h3>
-                <p>
-                  Демонтировали старую шиферную кровлю, возвели мансардную
-                  надстройку и выполнили новую крышу с металлическим покрытием.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Реконструкция</span><span>Мансарда</span
-                  ><span class="case-gallery-card__price">от 110 000 ₽</span>
-                </div>
-              </div>
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760979712601.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760979712601.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 8"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 8</h3>
           </article>
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-log-house-metal-roof.webp"
-                data-gallery-images="/assets/images/case-log-house-metal-roof.webp|/assets/images/case-log-house-metal-roof-removal.webp|/assets/images/case-log-house-metal-roof-lathing.webp|/assets/images/case-log-house-metal-roof-membrane.webp"
-                alt="Замена кровли металлочерепицей на доме из бревна"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Замена кровли на доме из бревна</h3>
-                <p>
-                  Демонтировали старое волнистое покрытие, подготовили
-                  основание и смонтировали коричневую металлочерепицу.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Дом из бревна</span><span>Металлочерепица</span
-                  ><span class="case-gallery-card__price">от 80 000 ₽</span>
-                </div>
-              </div>
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760980957785.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760980957785.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 9"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 9</h3>
           </article>
-          <article class="case-gallery-card">
-            <div class="case-gallery-card__image">
-              <img
-                src="/assets/images/case-brick-house-gable-metal-roof.webp"
-                data-gallery-images="/assets/images/case-brick-house-gable-metal-roof.webp|/assets/images/case-brick-house-gable-metal-roof-finished.webp|/assets/images/case-brick-house-gable-metal-roof-framing.webp"
-                alt="Реконструкция двускатной кровли кирпичного дома"
-              />
-              <div class="case-gallery-card__copy">
-                <h3>Новая двускатная кровля кирпичного дома</h3>
-                <p>
-                  Собрали новую стропильную систему, уложили мембрану,
-                  подготовили обрешётку и смонтировали тёмную металлочерепицу.
-                </p>
-                <div class="case-gallery-card__meta">
-                  <span>Кирпичный дом</span><span>Металлочерепица</span
-                  ><span class="case-gallery-card__price">от 90 000 ₽</span>
-                </div>
-              </div>
+          <article class="video-preview-card">
+            <div class="video-preview-card__stage">
+              <video class="video-preview-card__image" poster="/videos/18760982202969.jpg" muted loop playsinline preload="metadata">
+                <source src="/videos/18760982202969.mp4" type="video/mp4" />
+              </video>
+              <button class="video-preview-card__play" type="button" aria-label="Включить видео: объект 10"></button>
             </div>
-            <button type="button">Узнать стоимость</button>
+            <h3 class="video-preview-card__title">Видео с объекта 10</h3>
           </article>
         </div>
       </div>
@@ -1469,16 +1587,15 @@
           </div>
           <h2>Прораб лично отвечает за вашу кровлю</h2>
           <p class="foreman-team__subtitle">
-            На осмотр и расчёт приезжает Александр, а не менеджер из
-            колл-центра. Он проверяет крышу, объясняет объём работ и ведёт
-            объект до сдачи.
+            На осмотр и расчёт приезжает прораб, а не менеджер из колл-центра.
+            Он проверяет крышу, объясняет объём работ и ведёт объект до сдачи.
           </p>
           <blockquote>
             <p>
               Если часть основания можно сохранить, скажу об этом сразу. Не
               накручиваем смету там, где достаточно локального решения.
             </p>
-            <cite>Александр, прораб «Строй Будущее»</cite>
+            <cite>Прораб «Строй Будущее»</cite>
           </blockquote>
           <ul class="foreman-team__facts">
             <li>
@@ -2257,6 +2374,7 @@
           <a id="privacy" href="#privacy">Политика конфиденциальности</a>
         </div>
       </div>
+      <a class="site-footer-bottom__credit" href="https://max.ru/u/f9LHodD0cOKO5otbFEi77cpANa3VvsBp-sG0rK6kZxy91xCTM6WCx1YjthU" target="_blank" rel="noreferrer">Сайты и реклама</a>
     </footer>
     <div
       class="roof-calculation-modal"

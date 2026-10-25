@@ -1,0 +1,878 @@
+[
+  {
+    "source": "pages/adresnye-tablichki/index.html",
+    "url": "/adresnye-tablichki/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "plate-order",
+        "title": "Рассчитать адресную табличку"
+      }
+    ]
+  },
+  {
+    "source": "pages/brandmauery-reklamnye-panno/index.html",
+    "url": "/brandmauery-reklamnye-panno/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 9,
+        "id": "panel-order",
+        "title": "Рассчитать рекламное панно"
+      }
+    ]
+  },
+  {
+    "source": "pages/brendirovanie-transporta/index.html",
+    "url": "/brendirovanie-transporta/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 7,
+        "id": "order",
+        "title": "Рассчитать брендирование транспорта"
+      }
+    ]
+  },
+  {
+    "source": "pages/bukvy-iz-orgstekla/index.html",
+    "url": "/bukvy-iz-orgstekla/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 2,
+        "id": null,
+        "title": "Онлайн заявка"
+      },
+      {
+        "type": "clients",
+        "index": 4,
+        "id": "partners",
+        "title": "Наши клиенты"
+      }
+    ]
+  },
+  {
+    "source": "pages/ceny/index.html",
+    "url": "/ceny/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 16,
+        "id": "prices-order",
+        "title": "Получить точный расчёт"
+      }
+    ]
+  },
+  {
+    "source": "pages/dizajn/index.html",
+    "url": "/dizajn/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 7,
+        "id": "order",
+        "title": "Рассчитать дизайн-макет"
+      }
+    ]
+  },
+  {
+    "source": "pages/fasadnye-vyveski/index.html",
+    "url": "/fasadnye-vyveski/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 14,
+        "id": "facade-order",
+        "title": "Рассчитать фасадную вывеску"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka-kompozita/index.html",
+    "url": "/frezerovka-kompozita/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать фрезеровку композита"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka-monolitnogo-polikarbonata/index.html",
+    "url": "/frezerovka-monolitnogo-polikarbonata/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать фрезеровку поликарбоната"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka-na-plastike/index.html",
+    "url": "/frezerovka-na-plastike/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать фрезеровку пластика"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka-orgstekla/index.html",
+    "url": "/frezerovka-orgstekla/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать фрезеровку оргстекла"
+      }
+    ]
+  },
+  {
+    "source": "pages/frezerovka/index.html",
+    "url": "/frezerovka/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 9,
+        "id": "order",
+        "title": "Рассчитать фрезеровку"
+      }
+    ]
+  },
+  {
+    "source": "pages/frizy/index.html",
+    "url": "/frizy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 9,
+        "id": "frieze-order",
+        "title": "Рассчитать рекламный фриз"
+      }
+    ]
+  },
+  {
+    "source": "pages/informacionnye-stendy/index.html",
+    "url": "/informacionnye-stendy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 9,
+        "id": "stand-order",
+        "title": "Рассчитать информационный стенд"
+      }
+    ]
+  },
+  {
+    "source": "pages/interernaya-pechat/index.html",
+    "url": "/interernaya-pechat/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "order",
+        "title": "Рассчитать интерьерную печать"
+      }
+    ]
+  },
+  {
+    "source": "pages/interernye-vyveski/index.html",
+    "url": "/interernye-vyveski/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 15,
+        "id": "interior-order",
+        "title": "Рассчитать интерьерную вывеску"
+      }
+    ]
+  },
+  {
+    "source": "pages/kontakty/index.html",
+    "url": "/kontakty/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 0,
+        "id": "order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "url": "/kryshnye-ustanovki/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "roof-order",
+        "title": "Рассчитать крышную установку"
+      }
+    ]
+  },
+  {
+    "source": "pages/montazh-naruzhnoj-reklamy/index.html",
+    "url": "/montazh-naruzhnoj-reklamy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 7,
+        "id": "order",
+        "title": "Рассчитать монтаж"
+      }
+    ]
+  },
+  {
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "url": "/naruzhnaya-reklama/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "outdoor-hub-order",
+        "title": "Получить расчёт наружной рекламы"
+      }
+    ]
+  },
+  {
+    "source": "pages/neonovye-vyveski/index.html",
+    "url": "/neonovye-vyveski/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 13,
+        "id": "neon-order",
+        "title": "Рассчитать неоновую вывеску"
+      }
+    ]
+  },
+  {
+    "source": "pages/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/index.html",
+    "url": "/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "stand-order",
+        "title": "Рассчитать нестандартный стенд"
+      }
+    ]
+  },
+  {
+    "source": "pages/o-kompanii/index.html",
+    "url": "/o-kompanii/",
+    "blocks": [
+      {
+        "type": "reviews",
+        "index": 7,
+        "id": "company-reviews",
+        "title": "Отзывы заказчиков"
+      },
+      {
+        "type": "contact",
+        "index": 13,
+        "id": "company-contact",
+        "title": "Обсудить проект"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-iz-akrila/index.html",
+    "url": "/obemnye-bukvy-iz-akrila/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 2,
+        "id": null,
+        "title": "Онлайн заявка"
+      },
+      {
+        "type": "clients",
+        "index": 4,
+        "id": "partners",
+        "title": "Наши клиенты"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-iz-kompozita/index.html",
+    "url": "/obemnye-bukvy-iz-kompozita/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 2,
+        "id": null,
+        "title": "Онлайн заявка"
+      },
+      {
+        "type": "clients",
+        "index": 4,
+        "id": "partners",
+        "title": "Наши клиенты"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-iz-profilej-als-i-elkamet/index.html",
+    "url": "/obemnye-bukvy-iz-profilej-als-i-elkamet/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 2,
+        "id": null,
+        "title": "Онлайн заявка"
+      },
+      {
+        "type": "clients",
+        "index": 4,
+        "id": "partners",
+        "title": "Наши клиенты"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "child-order",
+        "title": "Рассчитать буквы с комбинированной подсветкой"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "halo-order",
+        "title": "Рассчитать контражурные буквы"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-lampochkami/index.html",
+    "url": "/obemnye-bukvy-s-lampochkami/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "child-order",
+        "title": "Рассчитать объёмные буквы с лампочками"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-licevoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-licevoj-podsvetkoj/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "child-order",
+        "title": "Рассчитать буквы с лицевой подсветкой"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-torcevoj-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-torcevoj-podsvetkoj/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "child-order",
+        "title": "Рассчитать буквы с торцевой подсветкой"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-vneshnej-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-vneshnej-podsvetkoj/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "child-order",
+        "title": "Рассчитать буквы с внешней подсветкой"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy-s-vnutrennej-podsvetkoj/index.html",
+    "url": "/obemnye-bukvy-s-vnutrennej-podsvetkoj/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "child-order",
+        "title": "Рассчитать буквы с внутренней подсветкой"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-bukvy/index.html",
+    "url": "/obemnye-bukvy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 13,
+        "id": "letters-order",
+        "title": "Рассчитать объёмные буквы"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-nesvetovye-bukvy/index.html",
+    "url": "/obemnye-nesvetovye-bukvy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 12,
+        "id": "nonlight-order",
+        "title": "Рассчитать несветовые буквы"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-plastikovye-bukvy/index.html",
+    "url": "/obemnye-plastikovye-bukvy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 2,
+        "id": null,
+        "title": "Онлайн заявка"
+      },
+      {
+        "type": "clients",
+        "index": 4,
+        "id": "partners",
+        "title": "Наши клиенты"
+      }
+    ]
+  },
+  {
+    "source": "pages/obemnye-svetovye-bukvy/index.html",
+    "url": "/obemnye-svetovye-bukvy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 12,
+        "id": "illuminated-order",
+        "title": "Рассчитать световые буквы"
+      }
+    ]
+  },
+  {
+    "source": "pages/ofisnye-tablichki/index.html",
+    "url": "/ofisnye-tablichki/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "plate-order",
+        "title": "Рассчитать офисные таблички"
+      }
+    ]
+  },
+  {
+    "source": "pages/panel-kronshtejny/index.html",
+    "url": "/panel-kronshtejny/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 9,
+        "id": "bracket-order",
+        "title": "Рассчитать панель-кронштейн"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-bannere/index.html",
+    "url": "/pechat-na-bannere/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 9,
+        "id": "order",
+        "title": "Рассчитать печать баннера"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-bumage/index.html",
+    "url": "/pechat-na-bumage/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать печать на бумаге"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-fotooboyax/index.html",
+    "url": "/pechat-na-fotooboyax/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать печать фотообоев"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-perforirovannoj-plenke/index.html",
+    "url": "/pechat-na-perforirovannoj-plenke/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать печать на перфорированной плёнке"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-plenke/index.html",
+    "url": "/pechat-na-plenke/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 9,
+        "id": "order",
+        "title": "Рассчитать печать на плёнке"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-samokleyashhejsya-plenke/index.html",
+    "url": "/pechat-na-samokleyashhejsya-plenke/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать печать на самоклеящейся плёнке"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat-na-translyucentnoj-plenke/index.html",
+    "url": "/pechat-na-translyucentnoj-plenke/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать печать на транслюцентной плёнке"
+      }
+    ]
+  },
+  {
+    "source": "pages/pechat/index.html",
+    "url": "/pechat/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "order",
+        "title": "Рассчитать печать"
+      }
+    ]
+  },
+  {
+    "source": "pages/plotternaya-rezka/index.html",
+    "url": "/plotternaya-rezka/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 9,
+        "id": "order",
+        "title": "Рассчитать плоттерную резку"
+      }
+    ]
+  },
+  {
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "url": "/reklamnye-konstrukcii/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "structure-order",
+        "title": "Подобрать рекламную конструкцию"
+      }
+    ]
+  },
+  {
+    "source": "pages/services/index.html",
+    "url": "/services/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "services-order",
+        "title": "Обсудить задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/shirokoformatnaya-pechat/index.html",
+    "url": "/shirokoformatnaya-pechat/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "order",
+        "title": "Рассчитать широкоформатную печать"
+      }
+    ]
+  },
+  {
+    "source": "pages/soglasovanie-naruzhnoj-reklamy/index.html",
+    "url": "/soglasovanie-naruzhnoj-reklamy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 6,
+        "id": "order",
+        "title": "Обсудить согласование"
+      }
+    ]
+  },
+  {
+    "source": "pages/stely-i-pilony/index.html",
+    "url": "/stely-i-pilony/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 12,
+        "id": "steles-order",
+        "title": "Рассчитать стелу или пилон"
+      }
+    ]
+  },
+  {
+    "source": "pages/stojki-resepshen/index.html",
+    "url": "/stojki-resepshen/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "order",
+        "title": "Рассчитать стойку ресепшен"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-koroba/index.html",
+    "url": "/svetovye-koroba/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 14,
+        "id": "lightbox-order",
+        "title": "Рассчитать световой короб"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-portaly/index.html",
+    "url": "/svetovye-portaly/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "portal-order",
+        "title": "Рассчитать световой портал"
+      }
+    ]
+  },
+  {
+    "source": "pages/tablichki/index.html",
+    "url": "/tablichki/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "plate-order",
+        "title": "Рассчитать таблички"
+      }
+    ]
+  },
+  {
+    "source": "pages/ulichnye-stendy/index.html",
+    "url": "/ulichnye-stendy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 9,
+        "id": "stand-order",
+        "title": "Рассчитать уличный стенд"
+      }
+    ]
+  },
+  {
+    "source": "pages/vxodnye-gruppy/index.html",
+    "url": "/vxodnye-gruppy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 12,
+        "id": "entrance-order",
+        "title": "Рассчитать входную группу"
+      }
+    ]
+  },
+  {
+    "source": "pages/vystavochnye-stendy/index.html",
+    "url": "/vystavochnye-stendy/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 8,
+        "id": "stand-order",
+        "title": "Рассчитать выставочный стенд"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "url": "/vyveski-s-pajetkami/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "sequin-order",
+        "title": "Рассчитать вывеску с пайетками"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski/index.html",
+    "url": "/vyveski/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "signs-hub-order",
+        "title": "Обсудим вашу задачу"
+      }
+    ]
+  },
+  {
+    "source": "pages/vzaimovygodnoe-sotrudnichestvo/index.html",
+    "url": "/vzaimovygodnoe-sotrudnichestvo/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "agency-order",
+        "title": "Передать проект на расчёт"
+      }
+    ]
+  },
+  {
+    "source": "pages/svetovye-vyveski/index.html",
+    "url": "/svetovye-vyveski/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 18,
+        "id": "light-signs-request",
+        "title": "Заказать расчёт световой вывески"
+      }
+    ]
+  },
+  {
+    "source": "pages/remont-vyvesok/index.html",
+    "url": "/remont-vyvesok/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "repair-order",
+        "title": "Отправить фото для оценки ремонта"
+      }
+    ]
+  },
+  {
+    "source": "pages/oformlenie-fasadov/index.html",
+    "url": "/oformlenie-fasadov/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "facade-order",
+        "title": "Получить расчёт оформления фасада"
+      }
+    ]
+  },
+  {
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "url": "/navigaciya-i-ukazateli/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "wayfinding-order",
+        "title": "Получить расчёт навигации"
+      }
+    ]
+  },
+  {
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "url": "/vyveski-dlya-magazina/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 11,
+        "id": "shop-signs-order",
+        "title": "Рассчитать вывеску для магазина"
+      }
+    ]
+  },
+  {
+    "source": "pages/oformlenie-seti-magazinov/index.html",
+    "url": "/oformlenie-seti-magazinov/",
+    "blocks": [
+      {
+        "type": "contact",
+        "index": 10,
+        "id": "store-network-order",
+        "title": "Получить расчёт оформления сети"
+      }
+    ]
+  },
+  {
+    "source": "pages/otzyvy/index.html",
+    "url": "/otzyvy/",
+    "blocks": [
+      {
+        "type": "reviews",
+        "index": 0,
+        "id": "reviews",
+        "title": "Что говорят клиенты после запуска вывески"
+      }
+    ]
+  }
+]

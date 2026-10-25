@@ -1,0 +1,125 @@
+body[data-service="floors"] .hero {
+  background-image: linear-gradient(
+      90deg,
+      rgba(10, 18, 17, 0.8) 0%,
+      rgba(10, 18, 17, 0.58) 46%,
+      rgba(10, 18, 17, 0.25) 100%
+    ),
+    url("/assets/hero-floor-replacement.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+body[data-service="floors"] .weather .split-section > div:first-child::after {
+  background-image: url("/assets/floor-replacement-hero.webp");
+}
+
+body[data-service="floors"] .weather .split-section {
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  column-gap: 64px;
+  row-gap: 14px;
+}
+
+body[data-service="floors"] .weather .split-section > div:first-child {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+body[data-service="floors"] .weather .numbered-list {
+  display: contents;
+}
+
+body[data-service="floors"] .weather .numbered-list > .weather-media {
+  grid-column: 1;
+  grid-row: 2 / span 2;
+  align-self: start;
+  margin-top: 0;
+}
+
+body[data-service="floors"] .weather .numbered-list > article {
+  grid-column: 2;
+}
+
+body[data-service="floors"] .weather .numbered-list > article:nth-of-type(1) {
+  grid-row: 1;
+}
+
+body[data-service="floors"] .weather .numbered-list > article:nth-of-type(2) {
+  grid-row: 2;
+}
+
+body[data-service="floors"] .weather .numbered-list > article:nth-of-type(3) {
+  grid-row: 3;
+}
+
+@media (max-width: 1200px) {
+  body[data-service="floors"] .weather .numbered-list > article {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+
+body[data-service="floors"] .reviews .review-media {
+  width: 100%;
+  object-fit: cover;
+}
+
+body[data-service="floors"] .final-cta .final-layout > div:first-child::before {
+  background-image: url("/assets/case-floor-country-house-before.webp");
+  background-position: center 65%;
+}
+
+body[data-service="floors"] .final-cta .final-layout > div:first-child::after {
+  background-image: url("/assets/case-floor-country-house-after.webp");
+  background-position: center 70%;
+}
+
+body[data-service="floors"] .price-photo {
+  background-image: url("/assets/floor-price-estimate.webp");
+}
+
+body[data-service="floors"] .price .section-heading.heading-row {
+  display: block;
+  width: min(760px, 100%);
+  margin: 0 auto 10px;
+  grid-column: 1 / -1;
+  grid-row: 1;
+  text-align: center;
+}
+
+body[data-service="floors"] .price .section-heading.heading-row > p {
+  max-width: 620px;
+  margin: 18px auto 0;
+}
+
+body[data-service="floors"] .price .rates,
+body[data-service="floors"] .price-photo,
+body[data-service="floors"] .price .price-form {
+  grid-row: 2;
+}
+
+body[data-service="floors"] .price .rates > div:nth-of-type(1)::before {
+  background-image: url("/assets/floor-price-covering.webp");
+}
+
+body[data-service="floors"] .price .rates > div:nth-of-type(2)::before {
+  background-image: url("/assets/floor-price-demolition.webp");
+}
+
+body[data-service="floors"] .price .rates > div:nth-of-type(3)::before {
+  background-image: url("/assets/floor-price-reconstruction.webp");
+}
+
+body[data-service="floors"] .price .rates > div:nth-of-type(4)::before,
+body[data-service="floors"] .price .rates > div:nth-of-type(6)::before {
+  background-image: url("/assets/floor-price-deck-replacement.webp");
+}
+
+body[data-service="floors"] .price .rates > div:nth-of-type(5)::before {
+  background-image: url("/assets/floor-price-joist-insulation.webp");
+}
+
+body[data-service="floors"] .price .rates > div:nth-of-type(7)::before,
+body[data-service="floors"] .price .rates > div:nth-of-type(8)::before {
+  background-image: url("/assets/floor-price-covering.webp");
+}

@@ -1,0 +1,10 @@
+<aside class="cross-link home-wrap {{extraClass}}" data-component="cross-link">
+{{#simple}}<div class="direction-link"><p>{{question}}</p><a href="{{href}}"><span>{{label}}</span><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a></div>{{/simple}}
+{{#rich}}<div class="cross-link-card">
+<div class="cross-link-card__photo"><img class="cross-link-card__image" src="{{image}}" width="{{imageWidth}}" height="{{imageHeight}}" alt="{{imageAlt}}" loading="lazy"></div>
+<div class="cross-link-card__content"><p class="cross-link-card__kicker">{{kicker}}</p><h2>{{title}}</h2><p class="cross-link-card__description">{{description}}</p>
+<div class="cross-link-card__options">
+{{#options}}<a href="{{href}}"><svg class="cross-link-card__option-icon" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">{{{iconHtml}}}</svg>{{label}}<svg class="cross-link-card__link-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>{{/options}}
+</div><div class="cross-link-card__actions"><a class="cross-link-card__primary" href="{{href}}">{{primaryLabel}}<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="cross-link-card__secondary" href="{{secondaryHref}}">{{secondaryLabel}}</a></div></div>
+</div>{{/rich}}
+</aside>

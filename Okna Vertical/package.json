@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "node scripts/generate-seo.mjs && vite",
+    "build": "node scripts/generate-seo.mjs && vite build",
+    "preview": "vite preview",
+    "check:components": "node scripts/check-components.mjs"
   },
   "devDependencies": {
+    "sharp": "^0.35.5",
     "vite": "^7.0.0"
   }
 }

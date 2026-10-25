@@ -1,0 +1,56 @@
+<div class="package-modal" id="photo-estimate" aria-hidden="true">
+        <div class="package-modal__backdrop" data-package-close></div>
+        <div
+          class="package-modal__dialog"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="package-modal-title"
+        >
+          <button
+            class="package-modal__close"
+            type="button"
+            data-package-close
+            aria-label="Закрыть"
+          >
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+          </button>
+          <div class="package-modal__visual">
+            <img src="/assets/hero-product-window.jpg" alt="" />
+          </div>
+          <div class="package-modal__content">
+            <h2 id="package-modal-title">
+              Получить расчёт
+            </h2>
+            <h3 class="package-modal__description">
+              Оставьте контакты — уточним размеры, предложим подходящую
+              комплектацию и подготовим расчёт.
+            </h3>
+            <form class="package-modal__form"><label class="package-modal__upload package-upload" hidden><span class="package-upload__title">Прикрепить фото для расчёта</span><span class="package-upload__name">Выбрать фотографию</span><input type="file" name="photo" accept="image/*" disabled></label>
+              <label class="contact-method-label"
+                >Телефон<span class="contact-method-combo"><input
+                  type="tel"
+                  name="phone"
+                  placeholder="+7 (___) ___-__-__"
+                  required /><select class="contact-method-select" name="contact_method" aria-label="Способ связи"><option value="Телефон" selected>По телефону</option><option value="Telegram">Telegram</option><option value="MAX">MAX</option><option value="SMS">SMS</option></select></span></label><button class="button button--red" type="submit">
+                Получить расчёт <span><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></span></button
+              ><label class="package-policy"
+                ><input type="checkbox" name="policy" required /><span
+                  >Ознакомлен и согласен с условиями
+                  <a href="/politika-konfidentsialnosti/"
+                    >политики конфиденциальности</a
+                  ></span
+                ></label
+              >
+              <div class="package-modal__status" aria-live="polite"></div>
+            </form>
+          </div>
+          <div class="package-modal__success" aria-live="polite" hidden>
+            <span class="package-modal__success-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="m5 12.5 4.2 4.2L19 7" />
+              </svg>
+            </span>
+            <p></p>
+          </div>
+        </div>
+      </div>

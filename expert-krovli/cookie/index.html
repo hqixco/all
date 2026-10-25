@@ -18,9 +18,16 @@
         <small>Частная строительная бригада в Москве и МО</small>
       </a>
       <nav class="nav" id="site-nav" aria-label="Основная навигация">
+        <div class="nav-dropdown">
+          <button class="nav-dropdown__toggle" type="button" aria-expanded="false">Услуги <svg aria-hidden="true" viewBox="0 0 12 8"><path d="m1 1 5 5 5-5" /></svg></button>
+          <div class="nav-dropdown__menu">
+            <a href="/pristroyki/">Пристройки к дому</a>
+            <a href="/#prices">Замена кровли</a>
+          </div>
+        </div>
         <a href="/#prices">Цены</a>
         <a href="/#cases">Объекты</a>
-        <a href="/#calculator">Калькулятор</a>
+        <a href="/pristroyki/">Пристройки</a>
         <a href="/#faq">FAQ</a>
       </nav>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
@@ -28,7 +35,7 @@
       </button>
       <div class="header-contacts" aria-label="Контакты">
         <div class="header-socials" aria-label="Мессенджеры">
-          <a class="header-social" href="#" aria-label="Написать в Telegram"><img src="/src/assets/telegram-clean.svg" alt="" /><span>Telegram</span></a>
+          <a class="header-social" href="https://t.me/Stroyka_i_remont11" aria-label="Написать в Telegram"><img src="/src/assets/telegram-clean.svg" alt="" /><span>Telegram</span></a>
           <a class="header-social" href="#" aria-label="Написать в Max"><img src="/src/assets/max-icon.svg" alt="" /><span>Max</span></a>
         </div>
         <a class="header-phone" href="tel:+79107748370"><img src="/src/assets/phone-call.svg" alt="" /><span><b>+7 910 774-83-70</b><small>Звоните в любое время</small></span></a>
@@ -91,22 +98,16 @@
 
     <footer class="footer">
       <div class="footer__brand">
-        <img class="footer__logo" src="/src/assets/e-krovlya-logo-footer.png" alt="Expert Krovli" />
-        <p>Замена старой кровли без навязывания полной реконструкции: сохраняем исправное, меняем только то, что действительно сгнило.</p>
+        <a class="footer__brand-link" href="/" aria-label="Expert Krovli — на главную">
+          <img class="footer__logo" src="/src/assets/e-krovlya-logo-footer.png" alt="Expert Krovli" />
+          <p>Замена старой кровли без навязывания полной реконструкции: сохраняем исправное, меняем только то, что действительно сгнило.</p>
+        </a>
       </div>
       <div class="footer__column">
         <h2>Разделы</h2>
         <a href="/#prices">Цены</a>
         <a href="/#cases">Объекты</a>
-        <a href="/#calculator">Калькулятор</a>
         <a href="/#faq">FAQ</a>
-      </div>
-      <div class="footer__column">
-        <h2>Посадочные</h2>
-        <a href="/zamena-shifera/">Замена шифера</a>
-        <a href="/zamena-krovli-na-profnastil/">Профнастил</a>
-        <a href="/zamena-krovli-na-metallocherepitsu/">Металлочерепица</a>
-        <a href="/rekonstruktsiya-staroj-kryshi/">Реконструкция крыши</a>
       </div>
       <div class="footer__column">
         <h2>Документы</h2>
@@ -117,7 +118,7 @@
         <h2>Связь</h2>
         <a class="footer__phone" href="tel:+79107748370"><img src="/src/assets/phone-call.svg" alt="" />+7 910 774-83-70</a>
         <div class="footer__socials" aria-label="Мессенджеры">
-          <a class="footer__social" href="#" aria-label="Написать в Telegram"><img src="/src/assets/telegram-clean.svg" alt="" /></a>
+          <a class="footer__social" href="https://t.me/Stroyka_i_remont11" aria-label="Написать в Telegram"><img src="/src/assets/telegram-clean.svg" alt="" /></a>
           <a class="footer__social" href="#" aria-label="Написать в Max"><img src="/src/assets/max-icon.svg" alt="" /></a>
         </div>
         <span>Ежедневно с 9:00 до 20:00</span>

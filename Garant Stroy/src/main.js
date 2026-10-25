@@ -116,7 +116,7 @@ if (headerContact) {
       </a>
     </div>
     <div class="phone-stack">
-      <div class="phone-line"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.25 3.25 4.8 4.4c-.78.36-1.18 1.24-.95 2.06 1.62 5.9 6.22 10.5 12.12 12.12.82.23 1.7-.17 2.06-.95l1.15-2.45-3.22-2.02-1.7 1.38c-3.03-1.5-5.42-3.89-6.92-6.92l1.38-1.7-2.02-3.22Z"/></svg><a href="tel:+79095654401">+7 (909) 565-44-01</a></div>
+      <div class="phone-line"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.25 3.25 4.8 4.4c-.78.36-1.18 1.24-.95 2.06 1.62 5.9 6.22 10.5 12.12 12.12.82.23 1.7-.17 2.06-.95l1.15-2.45-3.22-2.02-1.7 1.38c-3.03-1.5-5.42-3.89-6.92-6.92l1.38-1.7-2.02-3.22Z"/></svg><a href="tel:+79116265959">8-911-626-59-59</a></div>
       <span>Звоните в любое время</span>
     </div>`;
 }
@@ -447,7 +447,7 @@ if (finalCtaCopy) {
   finalCtaCopy.insertAdjacentHTML(
     'beforeend',
     `<div class="final-cta-note" aria-hidden="true">
-      <span>${isExtensionsPage ? 'Подберём конструкцию<br>и рассчитаем стоимость' : isRecoveryPage ? 'Определим объём<br>восстановления дома' : 'Оценим состояние<br>и предложим решение'}</span>
+      <span>${isExtensionsPage ? 'Подберём конструкцию и рассчитаем стоимость' : isRecoveryPage ? 'Определим объём восстановления дома' : 'Оценим состояние и предложим решение'}</span>
       <svg viewBox="0 0 130 82" role="presentation">
         <path d="M5 10 C58 4, 95 23, 108 62" />
         <path d="M96 53 L108 66 L116 49" />

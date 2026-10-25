@@ -1,0 +1,623 @@
+[
+  {
+    "url": "/",
+    "source": "index.html",
+    "selector": "home-production",
+    "id": "home-production",
+    "title": "Производственные возможности",
+    "paragraphs": [
+      "Печать, фрезеровка, плоттерная резка и брендирование транспорта доступны как отдельные направления."
+    ]
+  },
+  {
+    "url": "/adresnye-tablichki/",
+    "source": "pages/adresnye-tablichki/index.html",
+    "selector": "adresnye-tablichki-proizvodstvo-dlya-vybrannogo-adresa",
+    "id": "adresnye-tablichki-proizvodstvo-dlya-vybrannogo-adresa",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании собственные производственные мощности и оборудование.",
+      "Заказы выполняют профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Монтаж рассматривается по поверхности здания и выбранному адресному знаку. Работы не объявляются автоматически включёнными в стоимость."
+    ]
+  },
+  {
+    "url": "/brendirovanie-transporta/",
+    "source": "pages/brendirovanie-transporta/index.html",
+    "selector": "brendirovanie-transporta-proizvodstvo-rpk-resurs",
+    "id": "brendirovanie-transporta-proizvodstvo-rpk-resurs",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Работаем с 2010 года. У компании собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Другие направления представлены в <a class=\"vehicle-branding-section__text-link\" href=\"/services/\">каталоге услуг</a>. Задать вопросы можно через <a class=\"vehicle-branding-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/fasadnye-vyveski/",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "selector": "facade-signs-production",
+    "id": "facade-signs-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Работаем с 2010 года. У компании собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Другие направления компании представлены в разделе <a class=\"facade-signs-section__text-link\" href=\"/services/\">услуг</a>."
+    ]
+  },
+  {
+    "url": "/informacionnye-stendy/",
+    "source": "pages/informacionnye-stendy/index.html",
+    "selector": "informacionnye-stendy-proizvodstvo-i-ustanovka-informatsionnoy-paneli",
+    "id": "informacionnye-stendy-proizvodstvo-i-ustanovka-informatsionnoy-paneli",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании собственные производственные мощности и оборудование.",
+      "Заказы выполняют профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Установку обсуждают по стенду и поверхности. Работы не объявляются автоматически включёнными в стоимость."
+    ]
+  },
+  {
+    "url": "/interernaya-pechat/",
+    "source": "pages/interernaya-pechat/index.html",
+    "selector": "interernaya-pechat-proizvodstvo-interernogo-oformleniya",
+    "id": "interernaya-pechat-proizvodstvo-interernogo-oformleniya",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Обсудить задачу можно через <a class=\"printing-core-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/interernye-vyveski/",
+    "source": "pages/interernye-vyveski/index.html",
+    "selector": "interernye-vyveski-proizvodstvo-rpk-resurs",
+    "id": "interernye-vyveski-proizvodstvo-rpk-resurs",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Компания работает с 2010 года. У РПК «Ресурс» собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Другие направления доступны в разделе <a class=\"interior-signs-section__text-link\" href=\"/services/\">услуг</a>."
+    ]
+  },
+  {
+    "url": "/kryshnye-ustanovki/",
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "selector": "kryshnye-ustanovki-proizvodstvo-montazh-i-razmeschenie",
+    "id": "kryshnye-ustanovki-proizvodstvo-montazh-i-razmeschenie",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» занимается рекламным производством с 2010 года. В работе используются собственные производственные мощности и оборудование; у компании профильные сотрудники. На продукцию и работы действует гарантия 3 года.",
+      "<a class=\"roof-installations-section__text-link\" href=\"/montazh-naruzhnoj-reklamy/\">Монтаж крышной конструкции</a> согласуется для конкретного объекта и места. Состав и стоимость установки обсуждают отдельно.",
+      "Вопросы размещения и <a class=\"roof-installations-section__text-link\" href=\"/soglasovanie-naruzhnoj-reklamy/\">согласования</a> рассматриваются для конкретного объекта и конструкции.",
+      "Другие направления компании — в разделе <a class=\"roof-installations-section__text-link\" href=\"/services/\">услуг</a>."
+    ]
+  },
+  {
+    "url": "/neonovye-vyveski/",
+    "source": "pages/neonovye-vyveski/index.html",
+    "selector": "neonovye-vyveski-proizvodstvo-rpk-resurs",
+    "id": "neonovye-vyveski-proizvodstvo-rpk-resurs",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Работаем с 2010 года. У компании собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Другие направления компании — в разделе <a class=\"neon-signs-section__text-link\" href=\"/services/\">услуг</a>."
+    ]
+  },
+  {
+    "url": "/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/",
+    "source": "pages/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/index.html",
+    "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-proizvodstvo-po-soglasovannomu-proektu",
+    "id": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-proizvodstvo-po-soglasovannomu-proektu",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании собственные производственные мощности и оборудование.",
+      "Заказы выполняют профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Установка индивидуального решения рассматривается по проекту и презентационному пространству. Работы не объявляются автоматически включёнными в стоимость."
+    ]
+  },
+  {
+    "url": "/o-kompanii/",
+    "source": "pages/o-kompanii/index.html",
+    "selector": "company-production",
+    "id": "company-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Компания располагает собственными производственными мощностями и использует собственное производственное оборудование. Печать и обработка материалов представлены отдельными услугами."
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-proizvodstvo-soglasovannoy-kombinatsii",
+    "id": "child-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Собственные мощности и оборудование РПК «Ресурс» используются для изготовления выбранной конструкции. Компания работает с 2010 года, проекты выполняют профильные сотрудники. Гарантия на готовую продукцию и работы — 3 года.",
+      "Монтаж доступен отдельно и согласуется по сочетанию эффектов, корпусу и месту. Если предусмотрен свет на фоне, поверхность за надписью также рассматривают при подготовке установки."
+    ]
+  },
+  {
+    "url": "/panel-kronshtejny/",
+    "source": "pages/panel-kronshtejny/index.html",
+    "selector": "panel-kronshtejny-proizvodstvo-i-montazh-panel-kronshteyna",
+    "id": "panel-kronshtejny-proizvodstvo-i-montazh-panel-kronshteyna",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Изготовление ведётся на собственных производственных мощностях и оборудовании с участием профильных сотрудников.",
+      "На продукцию и работы предоставляется гарантия 3 года.",
+      "Способ и состав <a class=\"friezes-brackets-section__text-link\" href=\"/montazh-naruzhnoj-reklamy/\">установки</a> определяют по конструкции, основанию и месту размещения. Стоимость монтажа согласуют отдельно. <a class=\"friezes-brackets-section__text-link\" href=\"/soglasovanie-naruzhnoj-reklamy/\">Согласование</a> представлено как отдельная связанная услуга."
+    ]
+  },
+  {
+    "url": "/plotternaya-rezka/",
+    "source": "pages/plotternaya-rezka/index.html",
+    "selector": "plotternaya-rezka-proizvodstvo-i-svyazannye-materialy",
+    "id": "plotternaya-rezka-proizvodstvo-i-svyazannye-materialy",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "<a class=\"plotter-cutting-section__text-link\" href=\"/rassmatrivaem-plotternuyu-rezku-v-chem-preimushhestva/\">Подробнее о плоттерной резке</a> — информационная статья. Её описания не заменяют согласование параметров заказа.",
+      "Другие направления доступны в <a class=\"plotter-cutting-section__text-link\" href=\"/services/\">каталоге услуг</a>, выполненные работы — в <a class=\"plotter-cutting-section__text-link\" href=\"/portfolio/\">портфолио</a>. Для обсуждения задачи — <a class=\"plotter-cutting-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/reklamnye-konstrukcii/",
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "selector": "reklamnye-konstrukcii-proizvodstvo-vybrannogo-ispolneniya",
+    "id": "reklamnye-konstrukcii-proizvodstvo-vybrannogo-ispolneniya",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Компания располагает собственными производственными мощностями и оборудованием, в изготовлении участвуют профильные сотрудники.",
+      "Гарантия на продукцию и работы — 3 года."
+    ]
+  },
+  {
+    "url": "/services/",
+    "source": "pages/services/index.html",
+    "selector": "production",
+    "id": "production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Печать, обработка рекламных материалов и оформление транспорта — самостоятельные направления заказа."
+    ]
+  },
+  {
+    "url": "/shirokoformatnaya-pechat/",
+    "source": "pages/shirokoformatnaya-pechat/index.html",
+    "selector": "shirokoformatnaya-pechat-proizvodstvo-reklamnogo-polotna",
+    "id": "shirokoformatnaya-pechat-proizvodstvo-reklamnogo-polotna",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Обсудить задачу можно через <a class=\"printing-core-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/stojki-resepshen/",
+    "source": "pages/stojki-resepshen/index.html",
+    "selector": "stojki-resepshen-proizvodstvo-i-soglasovanie-zadachi",
+    "id": "stojki-resepshen-proizvodstvo-i-soglasovanie-zadachi",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Работы по другим направлениям можно посмотреть в <a class=\"reception-desk-section__text-link\" href=\"/portfolio/\">общем портфолио</a>. Для обсуждения проекта доступны <a class=\"reception-desk-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/svetovye-portaly/",
+    "source": "pages/svetovye-portaly/index.html",
+    "selector": "svetovye-portaly-proizvodstvo-i-montazh",
+    "id": "svetovye-portaly-proizvodstvo-i-montazh",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Изготовлением рекламной продукции РПК «Ресурс» занимается с 2010 года. Производство опирается на собственные мощности, оборудование и профильных сотрудников. На продукцию и работы предоставляется гарантия 3 года.",
+      "Монтаж согласуется для конкретной конструкции и места установки. Состав и стоимость работ обсуждают отдельно; связанное направление — <a class=\"light-portals-section__text-link\" href=\"/montazh-naruzhnoj-reklamy/\">монтаж наружной рекламы</a>.",
+      "Другие направления собраны в разделе <a class=\"light-portals-section__text-link\" href=\"/services/\">услуг</a>."
+    ]
+  },
+  {
+    "url": "/vzaimovygodnoe-sotrudnichestvo/",
+    "source": "pages/vzaimovygodnoe-sotrudnichestvo/index.html",
+    "selector": "agency-production",
+    "id": "agency-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Компания располагает собственными производственными мощностями и использует собственное производственное оборудование. Работы выполняют квалифицированные сотрудники по профильным направлениям.",
+      "У компании есть сертификаты. Работаем не только в Нижнем Новгороде.",
+      "Печатные мощности — более 1000 м² в сутки: широкоформатная, интерьерная и УФ-печать. Гарантия на продукцию и работы — 3 года."
+    ],
+    "popupActions": [
+      {
+        "label": "Печать",
+        "title": "Рассчитать печать для агентства",
+        "placeholder": "Укажите материал, размеры изображения, тираж, качество печати и необходимую обработку.",
+        "button": "Рассчитать печать"
+      },
+      {
+        "label": "Фрезеровка",
+        "title": "Рассчитать фрезеровку для агентства",
+        "placeholder": "Укажите материал, толщину, размеры деталей, количество и необходимые операции.",
+        "button": "Рассчитать фрезеровку"
+      },
+      {
+        "label": "Плоттерная резка",
+        "title": "Рассчитать плоттерную резку для агентства",
+        "placeholder": "Укажите тип плёнки, размеры, количество, сложность макета и необходимость выборки или монтажной плёнки.",
+        "button": "Рассчитать резку плёнки"
+      },
+      {
+        "label": "Брендирование транспорта",
+        "title": "Рассчитать брендирование транспорта",
+        "placeholder": "Укажите модели и количество автомобилей, зоны оклейки, материал и наличие макета.",
+        "button": "Рассчитать оклейку авто"
+      }
+    ],
+    "catalogPopup": {
+      "title": "Обсудить производство для рекламного агентства",
+      "placeholder": "Укажите виды продукции, размеры, количество, материалы, сроки и необходимость монтажа.",
+      "button": "Рассчитать производство"
+    }
+  },
+  {
+    "url": "/svetovye-vyveski/",
+    "source": "pages/svetovye-vyveski/index.html",
+    "selector": "svetovye-vyveski-proizvodstvo-svetovyh-vyvesok",
+    "id": "svetovye-vyveski-proizvodstvo-svetovyh-vyvesok",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» занимается изготовлением рекламных конструкций. Для световой вывески сначала согласовывают геометрию и материалы, затем готовят элементы корпуса, собирают конструкцию и подсветку.",
+      "В буквах и коробах используются разные сочетания акрила, ПВХ и металла. Подбор зависит от исполнения и места размещения — единого материала для всех световых решений нет.",
+      "Сведения о компании — в разделе <a class=\"light-signs-section__light-signs-text-link\" href=\"/o-kompanii/\">«О компании»</a>. Детали изготовления конкретного типа доступны по ссылкам в карточках выше."
+    ]
+  },
+  {
+    "url": "/brandmauery-reklamnye-panno/",
+    "source": "pages/brandmauery-reklamnye-panno/index.html",
+    "selector": "brandmauery-reklamnye-panno-izgotovlenie-i-razmeschenie-na-obekte",
+    "id": "brandmauery-reklamnye-panno-izgotovlenie-i-razmeschenie-na-obekte",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года, располагает собственными производственными мощностями и оборудованием. В компании работают профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "<a class=\"brandmauer-panels-section__text-link\" href=\"/montazh-naruzhnoj-reklamy/\">Монтаж</a> — отдельное направление. Способ установки определяется для конкретного здания, размера панно и основания. Монтаж не объявляется автоматически включённым в стоимость.",
+      "Вопрос размещения и необходимость <a class=\"brandmauer-panels-section__text-link\" href=\"/soglasovanie-naruzhnoj-reklamy/\">согласования</a> рассматриваются для конкретного объекта."
+    ]
+  },
+  {
+    "url": "/frezerovka-kompozita/",
+    "source": "pages/frezerovka-kompozita/index.html",
+    "selector": "frezerovka-kompozita-proizvodstvennaya-baza",
+    "id": "frezerovka-kompozita-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Требования к результату обработки согласуются по задаче. Для обсуждения исходных данных используйте <a class=\"milling-family-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/frezerovka-monolitnogo-polikarbonata/",
+    "source": "pages/frezerovka-monolitnogo-polikarbonata/index.html",
+    "selector": "frezerovka-monolitnogo-polikarbonata-proizvodstvennaya-baza",
+    "id": "frezerovka-monolitnogo-polikarbonata-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Требования к результату обработки согласуются по задаче. Для обсуждения исходных данных используйте <a class=\"milling-family-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/frezerovka-na-plastike/",
+    "source": "pages/frezerovka-na-plastike/index.html",
+    "selector": "frezerovka-na-plastike-proizvodstvennaya-baza",
+    "id": "frezerovka-na-plastike-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Требования к результату обработки согласуются по задаче. Для обсуждения исходных данных используйте <a class=\"milling-family-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/frezerovka-orgstekla/",
+    "source": "pages/frezerovka-orgstekla/index.html",
+    "selector": "frezerovka-orgstekla-proizvodstvennaya-baza",
+    "id": "frezerovka-orgstekla-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Требования к результату обработки согласуются по задаче. Для обсуждения исходных данных используйте <a class=\"milling-family-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/frezerovka/",
+    "source": "pages/frezerovka/index.html",
+    "selector": "frezerovka-proizvodstvennaya-baza",
+    "id": "frezerovka-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Требования к результату обработки согласуются по задаче. Для обсуждения исходных данных используйте <a class=\"milling-family-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/index.html",
+    "selector": "halo-production",
+    "id": "halo-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Для контражурного эффекта место и способ установки имеют значение, поэтому монтаж согласуется под конкретную конструкцию. Необходимость и состав монтажных работ уточняются при расчёте.",
+      "<a class=\"halo-production__wrapper-text-link\" href=\"/montazh-naruzhnoj-reklamy/\">Монтаж наружной рекламы</a>"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-lampochkami/",
+    "source": "pages/obemnye-bukvy-s-lampochkami/index.html",
+    "selector": "obemnye-bukvy-s-lampochkami-izgotovlenie-bukv-dlya-vashey-kompozitsii",
+    "id": "child-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года и располагает собственными производственными мощностями и оборудованием. Профильные сотрудники изготавливают согласованную надпись. Гарантия на продукцию и выполненные работы — 3 года.",
+      "Монтаж доступен отдельно. Для вывески, интерьерной надписи или фотозоны способ установки согласуется по конструкции и конкретному месту."
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-licevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-licevoj-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-ot-maketa-svetovogo-litsa-do-ustanovki",
+    "id": "child-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование позволяют изготовить надпись по согласованному макету. Профильные сотрудники участвуют в подготовке и выполнении заказа; гарантия на продукцию и работы — 3 года.",
+      "Монтаж доступен отдельно. Способ крепления световой надписи и состав работ согласуют с учётом конструкции и места установки."
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-torcevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-torcevoj-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-izgotovlenie-bukv-so-svetovymi-bortami",
+    "id": "child-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Надпись изготавливают на собственных производственных мощностях РПК «Ресурс», с собственным оборудованием и участием профильных сотрудников. Компания работает с 2010 года. На продукцию и работы действует гарантия 3 года.",
+      "Установку согласуют отдельно: место размещения, конструкция корпуса и способ крепления определяют состав монтажных работ."
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-vneshnej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vneshnej-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-izgotovlenie-nadpisi-i-podgotovka-k-razmescheniyu",
+    "id": "child-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "Для выполнения проекта РПК «Ресурс» использует собственные производственные мощности и оборудование. Работа с 2010 года и профильные сотрудники — основа производственного блока компании. Гарантия на продукцию и работы — 3 года.",
+      "Монтаж букв и внешнего освещения согласуется отдельно. Место установки источника, конструкция надписи и условия фасада определяют необходимые работы."
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-vnutrennej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vnutrennej-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-soglasovannoe-ustroystvo-i-sobstvennoe-proizvodstvo",
+    "id": "child-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "С 2010 года РПК «Ресурс» занимается рекламным производством. У компании есть собственное оборудование и производственные мощности, а над изготовлением работают профильные сотрудники. Гарантия на продукцию и работы составляет 3 года.",
+      "Монтаж доступен отдельно от изготовления. Конструкция корпуса и место размещения рассматриваются при согласовании установки; состав работ определяется для надписи."
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy/",
+    "source": "pages/obemnye-bukvy/index.html",
+    "selector": "letters-production",
+    "id": "letters-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года, располагает собственными производственными мощностями и оборудованием. Работы выполняют квалифицированные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "<a class=\"letters-production__wrapper-text-link\" href=\"/montazh-naruzhnoj-reklamy/\">Монтаж</a> обсуждается для выбранной конструкции и места установки; его стоимость определяется отдельно. Другие направления доступны в <a class=\"letters-production__wrapper-text-link\" href=\"/services/\">каталоге услуг</a>."
+    ]
+  },
+  {
+    "url": "/obemnye-nesvetovye-bukvy/",
+    "source": "pages/obemnye-nesvetovye-bukvy/index.html",
+    "selector": "nonlight-production",
+    "id": "nonlight-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании есть собственные производственные мощности, оборудование и квалифицированные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "<a class=\"nonlight-production__wrapper-text-link\" href=\"/montazh-naruzhnoj-reklamy/\">Монтаж</a> доступен как отдельная услуга. Состав и стоимость установки согласуются под конструкцию и место. Другие направления представлены в <a class=\"nonlight-production__wrapper-text-link\" href=\"/services/\">каталоге услуг</a>."
+    ]
+  },
+  {
+    "url": "/obemnye-svetovye-bukvy/",
+    "source": "pages/obemnye-svetovye-bukvy/index.html",
+    "selector": "illuminated-production",
+    "id": "illuminated-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года, имеет собственные производственные мощности и оборудование. Работы выполняют профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "<a class=\"illuminated-production__wrapper-text-link\" href=\"/montazh-naruzhnoj-reklamy/\">Монтаж</a> доступен как отдельное направление и согласуется под конструкцию и место. Его состав и стоимость обсуждаются отдельно. Другие направления — в <a class=\"illuminated-production__wrapper-text-link\" href=\"/services/\">каталоге услуг</a>."
+    ]
+  },
+  {
+    "url": "/ofisnye-tablichki/",
+    "source": "pages/ofisnye-tablichki/index.html",
+    "selector": "ofisnye-tablichki-izgotovlenie-i-razmeschenie-v-ofise",
+    "id": "ofisnye-tablichki-izgotovlenie-i-razmeschenie-v-ofise",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании собственные производственные мощности и оборудование.",
+      "Заказы выполняют профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Способ крепления и установку согласуют для дверей, стен и других поверхностей организации. Работы не объявляются автоматически включёнными в стоимость."
+    ]
+  },
+  {
+    "url": "/pechat-na-bannere/",
+    "source": "pages/pechat-na-bannere/index.html",
+    "selector": "pechat-na-bannere-proizvodstvennaya-baza",
+    "id": "pechat-na-bannere-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Для обсуждения исходных данных — <a class=\"printing-materials-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/pechat-na-bumage/",
+    "source": "pages/pechat-na-bumage/index.html",
+    "selector": "pechat-na-bumage-proizvodstvennaya-baza",
+    "id": "pechat-na-bumage-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Для обсуждения исходных данных — <a class=\"printing-materials-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/pechat-na-fotooboyax/",
+    "source": "pages/pechat-na-fotooboyax/index.html",
+    "selector": "pechat-na-fotooboyax-proizvodstvennaya-baza",
+    "id": "pechat-na-fotooboyax-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Для обсуждения исходных данных — <a class=\"printing-materials-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/pechat-na-perforirovannoj-plenke/",
+    "source": "pages/pechat-na-perforirovannoj-plenke/index.html",
+    "selector": "pechat-na-perforirovannoj-plenke-proizvodstvennaya-baza",
+    "id": "pechat-na-perforirovannoj-plenke-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Для обсуждения исходных данных — <a class=\"printing-materials-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/pechat-na-plenke/",
+    "source": "pages/pechat-na-plenke/index.html",
+    "selector": "pechat-na-plenke-proizvodstvennaya-baza",
+    "id": "pechat-na-plenke-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Для обсуждения исходных данных — <a class=\"printing-materials-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/pechat-na-samokleyashhejsya-plenke/",
+    "source": "pages/pechat-na-samokleyashhejsya-plenke/index.html",
+    "selector": "pechat-na-samokleyashhejsya-plenke-proizvodstvennaya-baza",
+    "id": "pechat-na-samokleyashhejsya-plenke-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Для обсуждения исходных данных — <a class=\"printing-materials-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/pechat-na-translyucentnoj-plenke/",
+    "source": "pages/pechat-na-translyucentnoj-plenke/index.html",
+    "selector": "pechat-na-translyucentnoj-plenke-proizvodstvennaya-baza",
+    "id": "pechat-na-translyucentnoj-plenke-proizvodstvennaya-baza",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Для обсуждения исходных данных — <a class=\"printing-materials-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/pechat/",
+    "source": "pages/pechat/index.html",
+    "selector": "pechat-proizvodstvennye-moschnosti",
+    "id": "pechat-proizvodstvennye-moschnosti",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. Собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Более 1000 м² широкоформатной, интерьерной и УФ-печати в сутки.",
+      "Это общая производственная мощность трёх направлений; объём и сроки конкретного заказа согласуются отдельно.",
+      "Обсудить задачу можно через <a class=\"printing-core-section__text-link\" href=\"/kontakty/\">контакты компании</a>."
+    ]
+  },
+  {
+    "url": "/stely-i-pilony/",
+    "source": "pages/stely-i-pilony/index.html",
+    "selector": "stely-i-pilony-izgotovlenie-i-ustanovka",
+    "id": "stely-i-pilony-izgotovlenie-i-ustanovka",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "С 2010 года РПК «Ресурс» изготавливает рекламную продукцию. Компания использует собственные производственные мощности и оборудование, в работе участвуют профильные сотрудники. Гарантия на продукцию и работы составляет 3 года.",
+      "<a class=\"steles-pylons-section__text-link\" href=\"/montazh-naruzhnoj-reklamy/\">Монтаж</a> обсуждают по конструкции, размерам и основанию. Его состав и стоимость согласуют отдельно.",
+      "Необходимость <a class=\"steles-pylons-section__text-link\" href=\"/soglasovanie-naruzhnoj-reklamy/\">согласования размещения</a> рассматривается для конкретного места и конструкции.",
+      "Другие направления компании — в разделе <a class=\"steles-pylons-section__text-link\" href=\"/services/\">услуг</a>."
+    ]
+  },
+  {
+    "url": "/svetovye-koroba/",
+    "source": "pages/svetovye-koroba/index.html",
+    "selector": "lightbox-production",
+    "id": "lightbox-production",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании есть собственные производственные мощности и оборудование, проекты выполняют профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Монтаж согласуется отдельно по размеру, конструкции и месту размещения. Состав работ уточняют при расчёте заказа."
+    ]
+  },
+  {
+    "url": "/tablichki/",
+    "source": "pages/tablichki/index.html",
+    "selector": "tablichki-izgotovlenie-i-ustanovka",
+    "id": "tablichki-izgotovlenie-i-ustanovka",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании собственные производственные мощности и оборудование.",
+      "Заказы выполняют профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Установку обсуждают по изделию и месту размещения. Работы не объявляются автоматически включёнными в стоимость."
+    ]
+  },
+  {
+    "url": "/ulichnye-stendy/",
+    "source": "pages/ulichnye-stendy/index.html",
+    "selector": "ulichnye-stendy-izgotovlenie-dlya-vybrannogo-uchastka",
+    "id": "ulichnye-stendy-izgotovlenie-dlya-vybrannogo-uchastka",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании собственные производственные мощности и оборудование.",
+      "Заказы выполняют профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Состав <a class=\"stands-family-section__text-link\" href=\"/montazh-naruzhnoj-reklamy/\">монтажных работ</a> определяется по конструкции, основанию и участку. Работы не объявляются автоматически включёнными в стоимость."
+    ]
+  },
+  {
+    "url": "/vxodnye-gruppy/",
+    "source": "pages/vxodnye-gruppy/index.html",
+    "selector": "vxodnye-gruppy-izgotovlenie-i-montazh",
+    "id": "vxodnye-gruppy-izgotovlenie-i-montazh",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании собственные производственные мощности и оборудование, профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Способ монтажа зависит от состава входной группы, основания, размеров и места установки. <a class=\"entrance-groups-section__text-link\" href=\"/montazh-naruzhnoj-reklamy/\">Монтаж наружной рекламы</a> — отдельное направление; состав и стоимость работ обсуждают для вашего объекта.",
+      "Другие направления компании — в разделе <a class=\"entrance-groups-section__text-link\" href=\"/services/\">услуг</a>."
+    ]
+  },
+  {
+    "url": "/vystavochnye-stendy/",
+    "source": "pages/vystavochnye-stendy/index.html",
+    "selector": "vystavochnye-stendy-izgotovlenie-i-sborka-dlya-meropriyatiya",
+    "id": "vystavochnye-stendy-izgotovlenie-i-sborka-dlya-meropriyatiya",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "РПК «Ресурс» работает с 2010 года. У компании собственные производственные мощности и оборудование.",
+      "Заказы выполняют профильные сотрудники. Гарантия на продукцию и работы — 3 года.",
+      "Сборка и установка зависят от количества элементов и места мероприятия. Работы не объявляются автоматически включёнными в стоимость."
+    ]
+  },
+  {
+    "url": "/vyveski-s-pajetkami/",
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "selector": "vyveski-s-pajetkami-izgotovlenie-i-montazh",
+    "id": "vyveski-s-pajetkami-izgotovlenie-i-montazh",
+    "title": "Производство РПК «Ресурс»",
+    "paragraphs": [
+      "С 2010 года РПК «Ресурс» занимается изготовлением рекламной продукции. У компании собственные производственные мощности и оборудование, профильные сотрудники. На продукцию и работы предоставляется гарантия 3 года.",
+      "Способ установки зависит от конструкции, размеров, основания и места размещения. Необходимость, состав и стоимость монтажа обсуждаются отдельно. Для фасада есть связанное направление <a class=\"sequin-signs-section__text-link\" href=\"/montazh-naruzhnoj-reklamy/\">монтажа наружной рекламы</a>.",
+      "Другие направления компании представлены в разделе <a class=\"sequin-signs-section__text-link\" href=\"/services/\">услуг</a>."
+    ]
+  }
+]

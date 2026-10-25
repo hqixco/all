@@ -1,0 +1,2 @@
+﻿import sharp from 'sharp';
+const names=['987ce509-7d69-4846-af56-2a401c1842e7','3a20bc23-4ebf-4038-b338-4ea2e3e97e6f','c376852f-9ee2-47a1-aa48-0a710636529f'];const parts=[];for(let i=0;i<3;i++){const src='C:/Users/User/Downloads/'+names[i]+'.png';console.log(names[i],await sharp(src).metadata());parts.push({input:await sharp(src).resize(400,300,{fit:'contain',background:'#fff'}).png().toBuffer(),left:400*i,top:0});}await sharp({create:{width:1200,height:300,channels:3,background:'#fff'}}).composite(parts).png().toFile('tmp/laminated-photo-sheet.png');

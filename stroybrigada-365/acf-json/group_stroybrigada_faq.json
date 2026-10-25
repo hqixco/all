@@ -1,0 +1,104 @@
+{
+  "key": "group_stroybrigada_faq",
+  "title": "Stroybrigada: FAQ",
+  "fields": [
+    {
+      "key": "field_stroybrigada_faq_question",
+      "label": "Вопрос",
+      "name": "faq_question",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_stroybrigada_faq_answer",
+      "label": "Ответ",
+      "name": "faq_answer",
+      "aria-label": "",
+      "type": "wysiwyg",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "tabs": "visual",
+      "toolbar": "basic",
+      "media_upload": 0,
+      "delay": 0
+    },
+    {
+      "key": "field_stroybrigada_faq_services",
+      "label": "Связанные услуги",
+      "name": "faq_services",
+      "aria-label": "",
+      "type": "relationship",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "post_type": [
+        "service"
+      ],
+      "taxonomy": "",
+      "filters": [
+        "search",
+        "post_type",
+        "taxonomy"
+      ],
+      "return_format": "id",
+      "min": "",
+      "max": "",
+      "elements": [
+        "featured_image"
+      ]
+    },
+    {
+      "key": "field_stroybrigada_faq_order",
+      "label": "Сортировка",
+      "name": "faq_order",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "faq"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 1,
+  "modified": 1784375367
+}

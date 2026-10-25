@@ -1,0 +1,233 @@
+{
+  "findings": [],
+  "images": [
+    {
+      "file": "seo-apartment-window-1-backdrop.webp",
+      "width": 720,
+      "height": 960,
+      "bytes": 92648
+    },
+    {
+      "file": "seo-apartment-window-1-case.webp",
+      "width": 520,
+      "height": 693,
+      "bytes": 44556
+    },
+    {
+      "file": "seo-apartment-window-1-hero.webp",
+      "width": 720,
+      "height": 960,
+      "bytes": 92648
+    },
+    {
+      "file": "seo-apartment-window-2-backdrop.webp",
+      "width": 960,
+      "height": 1052,
+      "bytes": 56104
+    },
+    {
+      "file": "seo-apartment-window-2-hero.webp",
+      "width": 775,
+      "height": 849,
+      "bytes": 37430
+    },
+    {
+      "file": "seo-balcony-block-window-backdrop.webp",
+      "width": 900,
+      "height": 675,
+      "bytes": 123380
+    },
+    {
+      "file": "seo-balcony-block-window-hero.webp",
+      "width": 775,
+      "height": 581,
+      "bytes": 96084
+    },
+    {
+      "file": "seo-balcony-cold-glazing-backdrop.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 39878
+    },
+    {
+      "file": "seo-balcony-cold-glazing-hero.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 39878
+    },
+    {
+      "file": "seo-balcony-dark-1-backdrop.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 57320
+    },
+    {
+      "file": "seo-balcony-dark-1-case.webp",
+      "width": 520,
+      "height": 693,
+      "bytes": 40932
+    },
+    {
+      "file": "seo-balcony-dark-1-hero.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 57320
+    },
+    {
+      "file": "seo-case-one-1-case.webp",
+      "width": 520,
+      "height": 390,
+      "bytes": 35716
+    },
+    {
+      "file": "seo-company-office-backdrop.webp",
+      "width": 700,
+      "height": 700,
+      "bytes": 57760
+    },
+    {
+      "file": "seo-company-office-hero.webp",
+      "width": 700,
+      "height": 700,
+      "bytes": 57760
+    },
+    {
+      "file": "seo-hero-apartment-evening-backdrop.webp",
+      "width": 1916,
+      "height": 821,
+      "bytes": 162346
+    },
+    {
+      "file": "seo-installation-brick-backdrop.webp",
+      "width": 720,
+      "height": 604,
+      "bytes": 82630
+    },
+    {
+      "file": "seo-installation-brick-hero.webp",
+      "width": 720,
+      "height": 604,
+      "bytes": 82630
+    },
+    {
+      "file": "seo-installment-calendar-backdrop.webp",
+      "width": 330,
+      "height": 301,
+      "bytes": 18472
+    },
+    {
+      "file": "seo-installment-calendar-hero.webp",
+      "width": 330,
+      "height": 301,
+      "bytes": 18472
+    },
+    {
+      "file": "seo-loggia-finish-2-backdrop.webp",
+      "width": 900,
+      "height": 1200,
+      "bytes": 97396
+    },
+    {
+      "file": "seo-loggia-finish-2-hero.webp",
+      "width": 775,
+      "height": 1033,
+      "bytes": 69702
+    },
+    {
+      "file": "seo-loggia-warm-1-backdrop.webp",
+      "width": 900,
+      "height": 1200,
+      "bytes": 107580
+    },
+    {
+      "file": "seo-loggia-warm-1-hero.webp",
+      "width": 775,
+      "height": 1033,
+      "bytes": 79584
+    },
+    {
+      "file": "seo-panoramic-home-backdrop.webp",
+      "width": 380,
+      "height": 300,
+      "bytes": 22564
+    },
+    {
+      "file": "seo-panoramic-home-hero.webp",
+      "width": 380,
+      "height": 300,
+      "bytes": 22564
+    },
+    {
+      "file": "seo-permanent-home-backdrop.webp",
+      "width": 380,
+      "height": 300,
+      "bytes": 21842
+    },
+    {
+      "file": "seo-permanent-home-hero.webp",
+      "width": 380,
+      "height": 300,
+      "bytes": 21842
+    },
+    {
+      "file": "seo-seasonal-home-backdrop.webp",
+      "width": 380,
+      "height": 300,
+      "bytes": 29302
+    },
+    {
+      "file": "seo-seasonal-home-hero.webp",
+      "width": 380,
+      "height": 300,
+      "bytes": 29302
+    },
+    {
+      "file": "seo-service-doors-backdrop.webp",
+      "width": 450,
+      "height": 530,
+      "bytes": 41378
+    },
+    {
+      "file": "seo-service-doors-hero.webp",
+      "width": 450,
+      "height": 530,
+      "bytes": 41378
+    },
+    {
+      "file": "seo-service-terrace-backdrop.webp",
+      "width": 600,
+      "height": 450,
+      "bytes": 77336
+    },
+    {
+      "file": "seo-service-terrace-hero.webp",
+      "width": 600,
+      "height": 450,
+      "bytes": 77336
+    },
+    {
+      "file": "seo-warranty-cta-backdrop.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 24010
+    },
+    {
+      "file": "seo-warranty-cta-hero.webp",
+      "width": 775,
+      "height": 581,
+      "bytes": 22422
+    },
+    {
+      "file": "seo-window-calculator-visual-backdrop.webp",
+      "width": 1178,
+      "height": 918,
+      "bytes": 53898
+    },
+    {
+      "file": "seo-window-calculator-visual-hero.webp",
+      "width": 775,
+      "height": 604,
+      "bytes": 28452
+    }
+  ]
+}

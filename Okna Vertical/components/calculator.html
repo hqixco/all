@@ -1,0 +1,84 @@
+<section class="home-calculator home-page" id="{{id}}" data-component="calculator">
+        <div class="home-wrap home-calculator__grid">
+          <div class="home-calculator__aside">
+            <img class="home-calculator__visual" src="{{imageSrc}}" alt="{{imageAlt}}" width="{{imageWidth}}" height="{{imageHeight}}">
+            <div class="home-calculator__intro">
+              <p class="home-kicker">КАЛЬКУЛЯТОР</p>
+              <h2>{{{titleHtml}}}</h2>
+              <p>{{{leadHtml}}}</p>
+              <ul>
+                <li>
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <circle cx="24" cy="26" r="17"></circle>
+                    <path d="M24 9V4M18 4h12M24 26l8-7M10 12l4 4M38 12l-4 4"></path></svg><span><b>2 минуты</b>и расчёт готов</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <rect x="10" y="4" width="28" height="40" rx="3"></rect>
+                    <path d="M15 10h18v8H15zM16 25h3M23 25h3M30 25h3M16 32h3M23 32h3M30 32h3M16 39h3M23 39h10"></path></svg><span><b>Точно по вашим размерам</b>учтём все параметры</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <path d="M11 4h19l7 7v33H11zM30 4v9h7M17 22h14M17 29h14M17 36h9"></path></svg><span><b>Без скрытых доплат</b>согласуем смету после замера</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form class="home-lead-form home-calculator__form" action="/mail.php" method="post"><input type="hidden" name="source_name" value="{{sourceName}}">
+            <fieldset>
+              <legend><i>1</i>Тип и количество</legend>
+              <p>{{{countQuestionHtml}}}</p>
+              <div class="home-calc-options home-calc-options--count">{{#countOptions}}<label><input type="radio" name="windows_count" value="{{value}}"{{#checked}} checked{{/checked}}><span>{{{labelHtml}}}</span></label>{{/countOptions}}</div>
+              {{#installationPlace}}<input type="hidden" name="installation_place" value="{{installationPlace}}">{{/installationPlace}}{{#placeGroup}}<p>Куда устанавливаем?</p><div class="home-calc-options home-calc-options--place">{{#items}}<label><input type="radio" name="installation_place" value="{{value}}"{{#checked}} checked{{/checked}}><span>{{{labelHtml}}}</span></label>{{/items}}</div>{{/placeGroup}}
+            </fieldset>
+            <fieldset>
+              <legend><i>2</i>Размеры</legend>
+              <div class="home-calc-sizes">
+                <label>{{{widthLabelHtml}}}
+                  <output for="{{widthId}}">{{widthRange.value}} мм</output><input id="{{widthId}}" name="window_width" type="range" min="{{widthRange.min}}" max="{{widthRange.max}}" step="{{widthRange.step}}" value="{{widthRange.value}}"></label><label>{{{heightLabelHtml}}}
+                  <output for="{{heightId}}">{{heightRange.value}} мм</output><input id="{{heightId}}" name="window_height" type="range" min="{{heightRange.min}}" max="{{heightRange.max}}" step="{{heightRange.step}}" value="{{heightRange.value}}"></label>
+                <div class="home-calc-window" aria-hidden="true">
+                  <span></span><b>ширина</b><i>высота</i>
+                </div>
+              </div>
+              <label class="home-calc-switch"><input type="checkbox" name="custom_sizes"><span></span>У
+                меня нестандартные размеры</label>
+            </fieldset>
+            <fieldset>
+              <legend><i>3</i>Дополнительно</legend>
+              <div class="home-calc-extra">
+                {{#showInstallationOption}}<div>
+                  <p>Нужен монтаж?</p>
+                  <label><input type="radio" name="installation" value="yes"><span>Да</span></label><label><input type="radio" name="installation" value="no" checked=""><span>Нет</span></label>
+                </div>{{/showInstallationOption}}
+                <div>
+                  <p>Нужна доставка?</p>
+                  <label><input type="radio" name="delivery" value="yes"><span>Да</span></label><label><input type="radio" name="delivery" value="no" checked=""><span>Нет</span></label>
+                </div>
+                <div>
+                  <p>Нужен демонтаж?</p>
+                  <label><input type="radio" name="dismantling" value="yes"><span>Да</span></label><label><input type="radio" name="dismantling" value="no" checked=""><span>Нет</span></label>
+                </div>
+                <div>
+                  <p>Нужен вывоз мусора?</p>
+                  <label><input type="radio" name="waste_removal" value="yes"><span>Да</span></label><label><input type="radio" name="waste_removal" value="no" checked=""><span>Нет</span></label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="home-calc-result">
+              <div>
+                <span>Ориентировочная стоимость</span><div class="home-calculator__price-row"><output class="home-calculator__price" aria-live="polite">от {{initialPrice}} ₽</output>{{{installmentHtml}}}</div><small>Цена включает выбранные работы</small>
+              </div>
+              <div>
+                <label class="contact-method-label">Телефон<span class="contact-method-combo"><input name="phone" type="tel" placeholder="+7 (___) ___-__-__" required=""><select class="contact-method-select" name="contact_method" aria-label="Способ связи"><option value="Телефон" selected="">По телефону</option><option value="Telegram">Telegram</option><option value="MAX">MAX</option><option value="SMS">SMS</option></select></span></label>
+                <button class="home-button" type="submit">
+                  Получить подробную смету <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+                </button>
+              </div>
+            </div>
+            <label class="home-consent"><input type="checkbox" required=""><span>Соглашаюсь с
+                <a href="/politika-konfidentsialnosti/">политикой конфиденциальности</a></span></label>
+            <p class="home-form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      <script type="application/json" data-calculator-model>{{{modelJson}}}</script></section>

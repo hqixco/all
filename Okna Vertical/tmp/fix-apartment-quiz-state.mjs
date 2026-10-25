@@ -1,0 +1,2 @@
+﻿import fs from 'node:fs';let s=fs.readFileSync('scripts/generate-seo.mjs','utf8');s=s.replace(" quiz = quiz.replace('</form>\\n              </div>',", " quiz = quiz.replace(/<\\/form>\\s*<\\/div>/,");s=s.replace("quiz = quiz.replace('<span>→</span>'", "quiz = quiz.replaceAll('<span>→</span>'");fs.writeFileSync('scripts/generate-seo.mjs',s);
+s=fs.readFileSync('src/style.css','utf8').replace('.quiz-result[hidden] {','.quiz-option[hidden],\n.quiz-success[hidden],\n.quiz-result[hidden] {');fs.writeFileSync('src/style.css',s);

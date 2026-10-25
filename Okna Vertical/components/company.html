@@ -1,0 +1,14 @@
+<section class="company-section" id="{{id}}" data-component="company">
+	<div class="company-container">
+		<div class="company-intro">
+			<div class="section-eyebrow">{{eyebrow}}</div>
+			<h2>{{title}}</h2>
+			<p>{{lead}}</p>
+			<div class="company-office-callout">
+				<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>
+				<div><strong>{{officeTitle}}</strong><address>{{address}}</address><span>{{officeNote}}</span><a class="company-office-callout__route" href="{{routeHref}}" target="_blank" rel="noopener noreferrer">Проложить маршрут <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a></div>
+			</div>
+		</div>
+		<div class="company-gallery">{{#items}}<figure class="company-gallery__item"><img src="{{imageSrc}}" width="{{imageWidth}}" height="{{imageHeight}}" alt="{{imageAlt}}" loading="lazy"><figcaption>{{caption}}</figcaption></figure>{{/items}}</div>
+	</div>
+</section>

@@ -17,3 +17,7 @@ bystrosender-deploy.tar.gz
 **/.vscode/
 **/.chrome-check*/
 **/.git-upload-hidden/
+
+# Local browser automation profiles
+**/.chrome*/
+**/.browser-profile*/

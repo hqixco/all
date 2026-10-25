@@ -1,0 +1,134 @@
+[
+  {
+    "url": "/fasadnye-vyveski/",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "groups": 2,
+    "cards": 18
+  },
+  {
+    "url": "/frizy/",
+    "source": "pages/frizy/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/interernye-vyveski/",
+    "source": "pages/interernye-vyveski/index.html",
+    "groups": 3,
+    "cards": 22
+  },
+  {
+    "url": "/kryshnye-ustanovki/",
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "groups": 2,
+    "cards": 12
+  },
+  {
+    "url": "/naruzhnaya-reklama/",
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/neonovye-vyveski/",
+    "source": "pages/neonovye-vyveski/index.html",
+    "groups": 1,
+    "cards": 8
+  },
+  {
+    "url": "/obemnye-bukvy/",
+    "source": "pages/obemnye-bukvy/index.html",
+    "groups": 2,
+    "cards": 11
+  },
+  {
+    "url": "/obemnye-nesvetovye-bukvy/",
+    "source": "pages/obemnye-nesvetovye-bukvy/index.html",
+    "groups": 1,
+    "cards": 5
+  },
+  {
+    "url": "/panel-kronshtejny/",
+    "source": "pages/panel-kronshtejny/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/reklamnye-konstrukcii/",
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/services/",
+    "source": "pages/services/index.html",
+    "groups": 1,
+    "cards": 8
+  },
+  {
+    "url": "/stely-i-pilony/",
+    "source": "pages/stely-i-pilony/index.html",
+    "groups": 2,
+    "cards": 13
+  },
+  {
+    "url": "/svetovye-portaly/",
+    "source": "pages/svetovye-portaly/index.html",
+    "groups": 2,
+    "cards": 12
+  },
+  {
+    "url": "/vxodnye-gruppy/",
+    "source": "pages/vxodnye-gruppy/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/vyveski-s-pajetkami/",
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/vyveski/",
+    "source": "pages/vyveski/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/svetovye-vyveski/",
+    "source": "pages/svetovye-vyveski/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/remont-vyvesok/",
+    "source": "pages/remont-vyvesok/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/oformlenie-fasadov/",
+    "source": "pages/oformlenie-fasadov/index.html",
+    "groups": 1,
+    "cards": 6
+  },
+  {
+    "url": "/navigaciya-i-ukazateli/",
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "groups": 2,
+    "cards": 12
+  },
+  {
+    "url": "/vyveski-dlya-magazina/",
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "groups": 2,
+    "cards": 12
+  },
+  {
+    "url": "/oformlenie-seti-magazinov/",
+    "source": "pages/oformlenie-seti-magazinov/index.html",
+    "groups": 1,
+    "cards": 6
+  }
+]

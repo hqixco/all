@@ -1,0 +1,67 @@
+<section class="installation-section" id="{{id}}" data-component="installation">
+        <div class="installation-container">
+          <div class="installation-layout">
+            <div class="installation-sidebar">
+              <div class="installation-heading">
+                <div class="eyebrow">{{{kickerHtml}}}</div>
+                <h2>{{{titleHtml}}}</h2>
+                <p>{{{leadHtml}}}</p>
+              </div>
+              <div class="wall-tabs">
+                {{#walls}}<button class="{{className}}" type="button" data-wall-key="{{key}}" data-wall-image="{{imageSrc}}" data-wall-width="{{imageWidth}}" data-wall-height="{{imageHeight}}">
+                  <span>{{{titleHtml}}}</span>
+                </button>{{/walls}}
+                
+                
+                
+              </div>
+              <div class="installation-details">
+                {{#details}}<div>
+                  <strong>{{{titleHtml}}}</strong>
+                  <span>{{{descriptionHtml}}}</span>
+                </div>{{/details}}
+                
+                
+                
+                
+                
+              </div>
+            </div>
+            <div class="installation-main">
+              <div class="installation-visual">
+                <div class="installation-diagram">
+                  <img loading="lazy" src="{{imageSrc}}" width="{{imageWidth}}" height="{{imageHeight}}" alt="{{imageAlt}}">
+                </div>
+                <ol class="installation-points">
+                  {{#points}}<li>{{{textHtml}}}</li>{{/points}}
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                </ol>
+              </div>
+              <div class="installation-note">
+                <div class="installation-note-icon">
+                  <img src="/assets/damage.svg" alt="">
+                </div>
+                <div>
+                  <strong>{{{noteTitleHtml}}}</strong>
+                  <span>{{{noteHtml}}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="installation-benefits">
+            {{#benefits}}<div>
+              <img src="{{imageSrc}}" alt="">
+              <span>{{{textHtml}}}</span>
+            </div>{{/benefits}}
+            
+            
+            
+          </div>
+        </div>
+      <script type="application/json" data-wall-details>{{{wallDetailsJson}}}</script><script type="application/json" data-wall-points>{{{wallPointsJson}}}</script></section>

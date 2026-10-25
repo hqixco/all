@@ -5,8 +5,7 @@ declare(strict_types=1);
 header('Content-Type: application/json; charset=UTF-8');
 
 const RECIPIENT_EMAILS = [
-    'rostislav.prod@yandex.ru',
-    'artemartem1artemij@yandex.ru',
+    'garant-stroy-pro1@yandex.ru',
 ];
 const SUBJECT_PREFIX = 'Заявка с сайта по кровле';
 // Имя, которое получатель видит в поле «От кого».

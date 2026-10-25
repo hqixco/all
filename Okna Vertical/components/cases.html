@@ -1,0 +1,56 @@
+<section class="cases-section" data-case-category="{{category}}" id="{{id}}" data-component="cases">
+        <div class="cases-container">
+          <div class="cases-heading">
+            <div>
+              <div class="eyebrow">РЕАЛЬНЫЕ РАБОТЫ</div>
+              <h2>{{{titleHtml}}}</h2>
+            </div>
+            <p>
+              {{{leadHtml}}}
+            </p>
+          </div>
+          
+          {{#navigation}}<nav class="cases-menu" aria-label="Тип объекта">{{#items}}<button class="{{className}}" type="button" data-case-category="{{category}}">{{{labelHtml}}}</button>{{/items}}</nav>{{/navigation}}<div class="cases-grid">
+            {{#items}}<article class="case-card" data-case-categories="{{category}}">
+              <div class="case-photo case-photo--gallery is-case-slider" data-static-gallery="" >{{{photosHtml}}}</div>{{{thumbsHtml}}}
+              <h3>{{{titleHtml}}}</h3>
+              <div class="case-breakdown">
+                {{#details}}<div><span>{{{labelHtml}}}</span><strong>{{{valueHtml}}}</strong></div>{{/details}}
+                
+                
+                
+              </div>
+              <button class="button button--red case-button" type="button" data-package-title="{{titleHtml}}" data-package-modal-title="Рассчитать похожий проект" data-package-description="{{titleHtml}}. Пришлите размеры и фото вашего объекта — подготовим отдельную смету.">
+                Рассчитать похожий проект <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg>
+              </button>
+            </article>{{/items}}
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </div>
+          {{#showMore}}<button class="cases-show-more" type="button">Показать все</button>{{/showMore}}
+        </div>
+      </section>

@@ -1,0 +1,2 @@
+.construction-photo{--card-image-height:100px;--card-image-fit:cover;height:100px;overflow:hidden;border-radius:var(--ui-field-radius,8px);margin:0 0 12px;flex-shrink:0}
+.construction-photo__image{display:block;width:100%;height:100px;object-fit:cover}

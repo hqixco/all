@@ -1,0 +1,1487 @@
+[
+  {
+    "url": "/adresnye-tablichki/",
+    "source": "pages/adresnye-tablichki/index.html",
+    "selector": "adresnye-tablichki-intro",
+    "id": "adresnye-tablichki-intro",
+    "title": "Подберём адресную табличку для вашего здания",
+    "paragraphs": [
+      "Адресная табличка обозначает дом или здание: название улицы, номер и выбранное оформление. Текст, форму и размеры обсуждают для места размещения.",
+      "Передайте адрес и фото поверхности дома. Готовый макет можно обсудить вместе с материалом и способом установки."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/wayfinding-office-sign.webp",
+        "alt": "Офисная табличка на дистанционных креплениях",
+        "width": 820,
+        "height": 566
+      },
+      {
+        "src": "/assets/images/wayfinding-room-plan.webp",
+        "alt": "План помещений и навигационные обозначения",
+        "width": 560,
+        "height": 560
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Адресные таблички"
+  },
+  {
+    "url": "/brandmauery-reklamnye-panno/",
+    "source": "pages/brandmauery-reklamnye-panno/index.html",
+    "selector": "brandmauer-panels-hero",
+    "id": "brandmauer-panels-hero",
+    "title": "Подберём рекламное панно под ваш объект",
+    "paragraphs": [
+      "Рекламное панно размещает изображение или сообщение на наружной поверхности здания. Размеры, материал и способ установки выбирают для конкретного объекта.",
+      "Готовое панно — задача изготовления и размещения рекламного поля. Печать изображения может быть частью выбранного исполнения."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/panel-building-signs.webp",
+        "alt": "рекламное панно под ваш объект",
+        "width": 560,
+        "height": 747
+      },
+      {
+        "src": "/assets/images/panel-wall-image.webp",
+        "alt": "рекламное панно под ваш объект",
+        "width": 560,
+        "height": 747
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Брандмауэры (рекламные панно)"
+  },
+  {
+    "url": "/frezerovka-kompozita/",
+    "source": "pages/frezerovka-kompozita/index.html",
+    "selector": "frezerovka-kompozita-intro",
+    "id": "frezerovka-kompozita-intro",
+    "title": "Подготовим композитные детали по вашему макету",
+    "paragraphs": [
+      "Обработка алюминиевых композитных панелей нужна для раскроя деталей и подготовки пазов или насечек под последующий загиб. Набор операций определяется проектом детали.",
+      "Пришлите чертёж с размерами, толщину материала и количество деталей. Проверим подготовку файла и согласуем состав обработки и стоимость."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-914.webp",
+        "alt": "Фрезеровка композита, алюминиевых композитных панелей на заказ",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/assets/images/project-899.webp",
+        "alt": "Обработка оргстекла",
+        "width": 1380,
+        "height": 920
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Фрезеровка композита"
+  },
+  {
+    "url": "/frezerovka-monolitnogo-polikarbonata/",
+    "source": "pages/frezerovka-monolitnogo-polikarbonata/index.html",
+    "selector": "frezerovka-monolitnogo-polikarbonata-intro",
+    "id": "frezerovka-monolitnogo-polikarbonata-intro",
+    "title": "Вырежем детали из монолитного поликарбоната",
+    "paragraphs": [
+      "Монолитный поликарбонат обрабатывают по заданному контуру для получения деталей нужной конфигурации. Для обсуждения раскроя важно указать материал и параметры заготовки.",
+      "Пришлите чертёж с размерами, толщину материала и количество деталей. Проверим подготовку файла и согласуем состав обработки и стоимость."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-897.webp",
+        "alt": "Фрезеровка (фрезерная резка) монолитного поликарбоната в Нижнем Новгороде",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/assets/images/project-899.webp",
+        "alt": "Обработка оргстекла",
+        "width": 1380,
+        "height": 920
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Фрезеровка монолитного поликарбоната"
+  },
+  {
+    "url": "/frezerovka-na-plastike/",
+    "source": "pages/frezerovka-na-plastike/index.html",
+    "selector": "frezerovka-na-plastike-intro",
+    "id": "frezerovka-na-plastike-intro",
+    "title": "Подберём обработку пластика под вашу деталь",
+    "paragraphs": [
+      "Раскроим ПВХ по вашему контуру: подготовим детали, отверстия и пазы под дальнейшую сборку. Способ обработки согласуем по макету и толщине листа.",
+      "Пришлите чертёж с размерами, толщину материала и количество деталей. Проверим подготовку файла и согласуем состав обработки и стоимость."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-905.webp",
+        "alt": "Фрезеровка (фрезерная резка) на ПВХ пластике в Нижнем Новгороде",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/assets/images/project-899.webp",
+        "alt": "Обработка оргстекла",
+        "width": 1380,
+        "height": 920
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Фрезеровка на пластике"
+  },
+  {
+    "url": "/frezerovka-orgstekla/",
+    "source": "pages/frezerovka-orgstekla/index.html",
+    "selector": "frezerovka-orgstekla-intro",
+    "id": "frezerovka-orgstekla-intro",
+    "title": "Подготовим детали из оргстекла по вашему макету",
+    "paragraphs": [
+      "Выполним раскрой, гравировку или выборку на акриловом листе. Подберём обработку по форме детали и требованиям к результату.",
+      "Пришлите чертёж с размерами, толщину материала и количество деталей. Проверим подготовку файла и согласуем состав обработки и стоимость."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-899.webp",
+        "alt": "Фрезеровка, раскрой оргстекла на ЧПУ в Нижнем Новгороде",
+        "width": 1380,
+        "height": 920
+      },
+      {
+        "src": "/assets/images/project-905.webp",
+        "alt": "Фрезерная обработка пластика",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Фрезеровка оргстекла"
+  },
+  {
+    "url": "/frezerovka/",
+    "source": "pages/frezerovka/index.html",
+    "selector": "frezerovka-intro",
+    "id": "frezerovka-intro",
+    "title": "Подберём фрезерную обработку под вашу задачу",
+    "paragraphs": [
+      "Выберите материал для фрезерной обработки: ПВХ, алюминиевый композит, оргстекло или монолитный поликарбонат. Задачу и состав работ согласуют по исходным данным.",
+      "Пришлите чертёж с размерами, толщину материала и количество деталей. Проверим подготовку файла и согласуем состав обработки и стоимость."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-898.webp",
+        "alt": "Фрезерная резка (фрезеровка) рекламных материалов в Нижнем Новгороде",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "src": "/assets/images/project-899.webp",
+        "alt": "Обработка оргстекла",
+        "width": 1380,
+        "height": 920
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Фрезеровка"
+  },
+  {
+    "url": "/frizy/",
+    "source": "pages/frizy/index.html",
+    "selector": "frizy-intro",
+    "id": "frizy-intro",
+    "title": "Подберём фриз под фасад вашего объекта",
+    "paragraphs": [
+      "Рекламный фриз — протяжённый горизонтальный элемент оформления. Название, логотип или изображение размещают на нём по выбранному исполнению.",
+      "Длину, высоту и состав конструкции подбирают для фасада и задачи объекта."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/frieze-clinic.webp",
+        "alt": "фриз под фасад вашего объекта",
+        "width": 840,
+        "height": 630
+      },
+      {
+        "src": "/assets/images/frieze-eurospar.webp",
+        "alt": "фриз под фасад вашего объекта",
+        "width": 560,
+        "height": 420
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Фризы"
+  },
+  {
+    "url": "/informacionnye-stendy/",
+    "source": "pages/informacionnye-stendy/index.html",
+    "selector": "informacionnye-stendy-intro",
+    "id": "informacionnye-stendy-intro",
+    "title": "Подберём стенд под вашу информацию",
+    "paragraphs": [
+      "Информационный стенд размещает постоянные сведения или документы, которые нужно менять. Исполнение выбирают под содержание, место использования и размеры доступной поверхности.",
+      "Для листов и объявлений можно предусмотреть карманы. Их количество и расположение обсуждаются вместе с оформлением."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/stand-rent-info.webp",
+        "alt": "Панель с информацией об аренде на стене",
+        "width": 840,
+        "height": 1120
+      },
+      {
+        "src": "/assets/images/stand-white-pockets.webp",
+        "alt": "Информационный стенд с карманами",
+        "width": 560,
+        "height": 420
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Информационные стенды в Нижнем Новгороде"
+  },
+  {
+    "url": "/interernaya-pechat/",
+    "source": "pages/interernaya-pechat/index.html",
+    "selector": "interernaya-pechat-intro",
+    "id": "interernaya-pechat-intro",
+    "title": "Подготовим печать для вашего интерьера",
+    "paragraphs": [
+      "Интерьерная печать для плакатов, постеров, оформления витрин и помещений. При подготовке заказа учитываем макет и условия просмотра изображения вблизи.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Интерьерная печать"
+  },
+  {
+    "url": "/kryshnye-ustanovki/",
+    "source": "pages/kryshnye-ustanovki/index.html",
+    "selector": "roof-installations-hero",
+    "id": "roof-installations-hero",
+    "title": "Подберём крышную установку для вашего здания",
+    "paragraphs": [
+      "Крышная установка размещает название, логотип или другое рекламное оформление на уровне крыши здания. Рекламную часть и общую конструкцию выбирают для конкретного места.",
+      "Исполнение зависит от содержания, доступных размеров и условий установки."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/roof-eurospar-frame.webp",
+        "alt": "крышную установку для вашего здания",
+        "width": 840,
+        "height": 1120
+      },
+      {
+        "src": "/assets/images/roof-spar-sign.webp",
+        "alt": "крышную установку для вашего здания",
+        "width": 560,
+        "height": 420
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Крышные установки"
+  },
+  {
+    "url": "/naruzhnaya-reklama/",
+    "source": "pages/naruzhnaya-reklama/index.html",
+    "selector": "outdoor-hub-hero",
+    "id": "outdoor-hub-hero",
+    "title": "Подберём наружную рекламу под ваш объект",
+    "paragraphs": [
+      "Изготовление наружных рекламных конструкций под задачу вашего объекта: от вывески и оформления входа до стелы или крышной установки.",
+      "РПК «Ресурс» помогает подобрать тип изделия и согласовать размеры, материалы и оформление. При необходимости отдельно обсуждаются дизайн, согласование и монтаж."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/outdoor-hub-entrance.webp",
+        "alt": "Красное обрамление входа и надпись EUROSPAR express на фасаде",
+        "width": 840,
+        "height": 472
+      },
+      {
+        "src": "/assets/images/facade-storefront.webp",
+        "alt": "Размещение вывески над входом",
+        "width": 820,
+        "height": 615
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Наружная реклама"
+  },
+  {
+    "url": "/neonovye-vyveski/",
+    "source": "pages/neonovye-vyveski/index.html",
+    "selector": "neon-signs-hero",
+    "id": "neon-signs-hero",
+    "title": "Подберём неоновую вывеску под вашу задачу",
+    "paragraphs": [
+      "Пришлите надпись, логотип и фото места установки. Подберём размер, цвет свечения и основание для неоновой вывески в интерьере или у входа.",
+      "Учтём фон, расположение розетки и способ крепления. Согласуем внешний вид и стоимость изготовления с установкой."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/neon-sign-green-house.webp",
+        "alt": "Светящаяся надпись Green House на стене под светильником",
+        "width": 840,
+        "height": 630
+      },
+      {
+        "src": "/assets/images/neon-sign-facade-entry.webp",
+        "alt": "Неоновая вывеска у входа в здание",
+        "width": 560,
+        "height": 420
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Неоновые вывески"
+  },
+  {
+    "url": "/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/",
+    "source": "pages/nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya/index.html",
+    "selector": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-intro",
+    "id": "nestandartnyj-stend-dlya-vystavki-ili-prezentacii-vashego-predpriyatiya-intro",
+    "title": "Разработаем стенд для вашей презентации",
+    "paragraphs": [
+      "Индивидуальная конструкция нужна, когда базовой компоновки недостаточно для презентации и выделенного пространства. Форму и состав элементов обсуждают как отдельный проект.",
+      "Исходные данные — задача, площадь, содержание и фирменное оформление. По ним согласуют решение и состав изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/stand-white-pockets.webp",
+        "alt": "Информационный стенд с карманами",
+        "width": 560,
+        "height": 420
+      },
+      {
+        "src": "/assets/images/stand-green-panel.webp",
+        "alt": "Пример оформления информационного стенда",
+        "width": 560,
+        "height": 560
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Нестандартный стенд для выставки или презентации вашего предприятия"
+  },
+  {
+    "url": "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-intro",
+    "id": "obemnye-bukvy-s-kombinirovannoj-podsvetkoj-intro",
+    "title": "Подберём сочетание подсветки для ваших букв",
+    "paragraphs": [
+      "Комбинированное исполнение соединяет несколько световых эффектов в одной конструкции. Например, светящуюся лицевую поверхность и свет на фоне за буквами.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/combined-lit-letters-hero.webp",
+        "alt": "Пример световых объёмных букв",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "src": "/assets/images/combined-lit-letters-example.webp",
+        "alt": "Пример исполнения букв с выбранной подсветкой",
+        "width": 862,
+        "height": 750
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные буквы с комбинированной подсветкой"
+  },
+  {
+    "url": "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/index.html",
+    "selector": "halo-hero",
+    "id": "halo-hero",
+    "title": "Подберём контражурные буквы под ваш фон",
+    "paragraphs": [
+      "Контражурная подсветка направляет свет на поверхность за буквами, поэтому вокруг формы появляется световой ореол.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/halo-letters-work-2.webp",
+        "alt": "Буквы с контражурной подсветкой",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "/assets/images/halo-letters-work-1.webp",
+        "alt": "Пример надписи с контражурной подсветкой",
+        "width": 1000,
+        "height": 750
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные буквы с контражурной подсветкой"
+  },
+  {
+    "url": "/obemnye-bukvy-s-lampochkami/",
+    "source": "pages/obemnye-bukvy-s-lampochkami/index.html",
+    "selector": "obemnye-bukvy-s-lampochkami-intro",
+    "id": "obemnye-bukvy-s-lampochkami-intro",
+    "title": "Подберём буквы с лампочками под ваш проект",
+    "paragraphs": [
+      "Свет воспринимается как отдельные светящиеся точки в объёмной надписи. Лампочки могут находиться внутри или на поверхности букв — в зависимости от исполнения.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/bulb-letters-hero.webp",
+        "alt": "Пример световых объёмных букв",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "src": "/assets/images/bulb-letters-example.webp",
+        "alt": "Пример исполнения букв с выбранной подсветкой",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные буквы с лампочками"
+  },
+  {
+    "url": "/obemnye-bukvy-s-licevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-licevoj-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-licevoj-podsvetkoj-intro",
+    "id": "obemnye-bukvy-s-licevoj-podsvetkoj-intro",
+    "title": "Подберём буквы с лицевой подсветкой",
+    "paragraphs": [
+      "Свет проходит через переднюю часть буквы. При взгляде на надпись спереди основной акцент создаёт светящаяся лицевая поверхность.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/front-lit-letters-hero.webp",
+        "alt": "Пример световых объёмных букв",
+        "width": 602,
+        "height": 339
+      },
+      {
+        "src": "/assets/images/front-lit-letters-example.webp",
+        "alt": "Пример исполнения букв с выбранной подсветкой",
+        "width": 600,
+        "height": 750
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные буквы с лицевой подсветкой"
+  },
+  {
+    "url": "/obemnye-bukvy-s-torcevoj-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-torcevoj-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-torcevoj-podsvetkoj-intro",
+    "id": "obemnye-bukvy-s-torcevoj-podsvetkoj-intro",
+    "title": "Подберём буквы с торцевой подсветкой",
+    "paragraphs": [
+      "В этом исполнении подсвечиваются боковые части букв. Световой акцент воспринимается на торцах и по периметру объёмной формы.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/edge-lit-letters-hero.webp",
+        "alt": "Пример световых объёмных букв",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "src": "/assets/images/edge-lit-letters-example.webp",
+        "alt": "Пример исполнения букв с выбранной подсветкой",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные буквы с торцевой подсветкой"
+  },
+  {
+    "url": "/obemnye-bukvy-s-vneshnej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vneshnej-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-vneshnej-podsvetkoj-intro",
+    "id": "obemnye-bukvy-s-vneshnej-podsvetkoj-intro",
+    "title": "Подберём внешнюю подсветку для ваших букв",
+    "paragraphs": [
+      "Источник расположен снаружи и освещает поверхность букв. Надпись воспринимается в направленном на неё свете, без внутреннего свечения конструкции.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/externally-lit-letters-hero.webp",
+        "alt": "Пример световых объёмных букв",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "src": "/assets/images/externally-lit-letters-example.webp",
+        "alt": "Пример исполнения букв с выбранной подсветкой",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные буквы с внешней подсветкой"
+  },
+  {
+    "url": "/obemnye-bukvy-s-vnutrennej-podsvetkoj/",
+    "source": "pages/obemnye-bukvy-s-vnutrennej-podsvetkoj/index.html",
+    "selector": "obemnye-bukvy-s-vnutrennej-podsvetkoj-intro",
+    "id": "obemnye-bukvy-s-vnutrennej-podsvetkoj-intro",
+    "title": "Подберём буквы с внутренней подсветкой",
+    "paragraphs": [
+      "Источник света находится внутри буквы. Видимый результат зависит от конструкции корпуса и от того, какие части пропускают свет.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/internally-lit-letters-hero.webp",
+        "alt": "Пример световых объёмных букв",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "src": "/assets/images/internally-lit-letters-example.webp",
+        "alt": "Пример исполнения букв с выбранной подсветкой",
+        "width": 900,
+        "height": 675
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные буквы с внутренней подсветкой"
+  },
+  {
+    "url": "/obemnye-bukvy/",
+    "source": "pages/obemnye-bukvy/index.html",
+    "selector": "letters-hero",
+    "id": "letters-hero",
+    "title": "Подберём объёмные буквы для вашей вывески",
+    "paragraphs": [
+      "Объёмные буквы для фасада и интерьера — с подсветкой или без неё. Поможем определить исполнение по месту установки, размеру и желаемому виду надписи.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/letters-hero.webp",
+        "alt": "объёмные буквы для вашей вывески",
+        "width": 840,
+        "height": 630
+      },
+      {
+        "src": "/assets/images/letters-project-1.webp",
+        "alt": "объёмные буквы для вашей вывески",
+        "width": 560,
+        "height": 700
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные буквы"
+  },
+  {
+    "url": "/obemnye-nesvetovye-bukvy/",
+    "source": "pages/obemnye-nesvetovye-bukvy/index.html",
+    "selector": "nonlight-hero",
+    "id": "nonlight-hero",
+    "title": "Подберём несветовые буквы под ваш проект",
+    "paragraphs": [
+      "Несветовые объёмные буквы выбирают, когда собственная подсветка не требуется. Итоговый вид зависит от формы, размеров, материала, цвета и освещения места.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/non-illuminated-letters-hero.webp",
+        "alt": "несветовые буквы под ваш проект",
+        "width": 840,
+        "height": 630
+      },
+      {
+        "src": "/assets/images/non-illuminated-letters-project-1.webp",
+        "alt": "несветовые буквы под ваш проект",
+        "width": 560,
+        "height": 420
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные несветовые буквы"
+  },
+  {
+    "url": "/obemnye-svetovye-bukvy/",
+    "source": "pages/obemnye-svetovye-bukvy/index.html",
+    "selector": "illuminated-hero",
+    "id": "illuminated-hero",
+    "title": "Подберём световые буквы под ваше место установки",
+    "paragraphs": [
+      "Световые объёмные буквы нужны там, где надпись должна восприниматься с подсветкой. Способ свечения выбирается под место, фон и желаемый визуальный эффект.",
+      "Пришлите надпись или логотип и фото места установки. Согласуем размеры, материалы, крепление и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/illuminated-letters-hero.webp",
+        "alt": "световые буквы под ваше место установки",
+        "width": 840,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/illuminated-letters-project-1.webp",
+        "alt": "световые буквы под ваше место установки",
+        "width": 560,
+        "height": 560
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Объемные световые буквы"
+  },
+  {
+    "url": "/ofisnye-tablichki/",
+    "source": "pages/ofisnye-tablichki/index.html",
+    "selector": "ofisnye-tablichki-intro",
+    "id": "ofisnye-tablichki-intro",
+    "title": "Подберём таблички для вашего офиса",
+    "paragraphs": [
+      "Офисная табличка обозначает кабинет, отдел, помещение или сотрудника. Надписи и количество удобно собрать в единый список, а оформление согласовать для всей серии.",
+      "Номер, название отдела, имя или должность используются по задаче. Общий макет помогает связать таблички фирменными цветами, логотипом и расположением текста."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/wayfinding-office-sign.webp",
+        "alt": "Офисная табличка на дистанционных креплениях",
+        "width": 820,
+        "height": 566
+      },
+      {
+        "src": "/assets/images/wayfinding-room-plan.webp",
+        "alt": "План помещений и навигационные обозначения",
+        "width": 560,
+        "height": 560
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Офисные таблички"
+  },
+  {
+    "url": "/panel-kronshtejny/",
+    "source": "pages/panel-kronshtejny/index.html",
+    "selector": "panel-kronshtejny-intro",
+    "id": "panel-kronshtejny-intro",
+    "title": "Подберём панель-кронштейн для вашего фасада",
+    "paragraphs": [
+      "Панель-кронштейн размещается перпендикулярно стене или другой поверхности. Рекламная поверхность воспринимается сбоку относительно фасада.",
+      "Форму, содержание, направления просмотра и исполнение подбирают по месту установки."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/bracket-spar-side.webp",
+        "alt": "панель-кронштейн для вашего фасада",
+        "width": 624,
+        "height": 468
+      },
+      {
+        "src": "/assets/images/bracket-pharmacy-side.webp",
+        "alt": "панель-кронштейн для вашего фасада",
+        "width": 560,
+        "height": 420
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Панель-кронштейны"
+  },
+  {
+    "url": "/pechat-na-bannere/",
+    "source": "pages/pechat-na-bannere/index.html",
+    "selector": "pechat-na-bannere-intro",
+    "id": "pechat-na-bannere-intro",
+    "title": "Подготовим баннер под ваши размеры",
+    "paragraphs": [
+      "Изображение на баннерном материале для рекламного поля. Подберём состав печатного заказа по размерам, макету и назначению полотна.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Печать на баннере"
+  },
+  {
+    "url": "/pechat-na-bumage/",
+    "source": "pages/pechat-na-bumage/index.html",
+    "selector": "pechat-na-bumage-intro",
+    "id": "pechat-na-bumage-intro",
+    "title": "Подготовим печать плакатов и афиш",
+    "paragraphs": [
+      "Бумажный носитель для плакатов, афиш и оформления. Размер, макет и материал согласуем по месту использования печатного изображения.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Интерьерная и наружная печать на бумаге в Нижнем Новгороде"
+  },
+  {
+    "url": "/pechat-na-fotooboyax/",
+    "source": "pages/pechat-na-fotooboyax/index.html",
+    "selector": "pechat-na-fotooboyax-intro",
+    "id": "pechat-na-fotooboyax-intro",
+    "title": "Подготовим фотообои под вашу стену",
+    "paragraphs": [
+      "Фотообои с выбранным изображением для оформления стены. Заказ начинается с размеров помещения, сюжета и согласования рабочего макета.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Печать на фотообоях"
+  },
+  {
+    "url": "/pechat-na-perforirovannoj-plenke/",
+    "source": "pages/pechat-na-perforirovannoj-plenke/index.html",
+    "selector": "pechat-na-perforirovannoj-plenke-intro",
+    "id": "pechat-na-perforirovannoj-plenke-intro",
+    "title": "Подберём печать для оформления остекления",
+    "paragraphs": [
+      "Оформление остекления изображением на плёнке с перфорацией. Возможность применения и требования к результату рассматриваем для конкретного исполнения и места.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Печать на перфорированной пленке"
+  },
+  {
+    "url": "/pechat-na-plenke/",
+    "source": "pages/pechat-na-plenke/index.html",
+    "selector": "pechat-na-plenke-intro",
+    "id": "pechat-na-plenke-intro",
+    "title": "Подберём плёнку под вашу задачу",
+    "paragraphs": [
+      "Выберите вид плёнки по задаче размещения: самоклеящаяся, транслюцентная или перфорированная. На этой странице — выбор носителя и переход к конкретной услуге.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Печать на пленке"
+  },
+  {
+    "url": "/pechat-na-samokleyashhejsya-plenke/",
+    "source": "pages/pechat-na-samokleyashhejsya-plenke/index.html",
+    "selector": "pechat-na-samokleyashhejsya-plenke-intro",
+    "id": "pechat-na-samokleyashhejsya-plenke-intro",
+    "title": "Подготовим самоклеящуюся плёнку с вашим изображением",
+    "paragraphs": [
+      "Печатное изображение на самоклеящейся плёнке для витрин, наклеек и оформления поверхностей. Материал и дальнейшее применение согласуются по конкретному объекту.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Печать на самоклеящейся пленке"
+  },
+  {
+    "url": "/pechat-na-translyucentnoj-plenke/",
+    "source": "pages/pechat-na-translyucentnoj-plenke/index.html",
+    "selector": "pechat-na-translyucentnoj-plenke-intro",
+    "id": "pechat-na-translyucentnoj-plenke-intro",
+    "title": "Подготовим изображение для световой конструкции",
+    "paragraphs": [
+      "Печать изображения на светорассеивающей плёнке для рекламных конструкций с подсветкой. Размеры и параметры обсуждают с учётом выбранного светового поля.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Печать на транслюцентной пленке для рекламы на ситилайтах"
+  },
+  {
+    "url": "/pechat/",
+    "source": "pages/pechat/index.html",
+    "selector": "pechat-intro",
+    "id": "pechat-intro",
+    "title": "Подберём материал и способ печати",
+    "paragraphs": [
+      "Выберите направление рекламной печати и материал под задачу: широкоформатная, интерьерная или УФ-печать. Для расчёта нужны размеры, назначение, макет и количество.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Печать"
+  },
+  {
+    "url": "/plotternaya-rezka/",
+    "source": "pages/plotternaya-rezka/index.html",
+    "selector": "plotternaya-rezka-intro",
+    "id": "plotternaya-rezka-intro",
+    "title": "Подготовим надписи и наклейки по вашему макету",
+    "paragraphs": [
+      "Резка самоклеящейся плёнки по заданному контуру для надписей, графических элементов и наклеек. Материал, размеры и состав работ согласуют по макету.",
+      "Пришлите векторный макет, размеры и количество. Уточним цвет плёнки, подготовку элементов к переносу и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/portfolio-plotternaya-rezka.webp",
+        "alt": "надписи и наклейки по вашему макету",
+        "width": 640,
+        "height": 800
+      },
+      {
+        "src": "/assets/images/home-slide-printing.webp",
+        "alt": "надписи и наклейки по вашему макету",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Плоттерная резка"
+  },
+  {
+    "url": "/reklamnye-konstrukcii/",
+    "source": "pages/reklamnye-konstrukcii/index.html",
+    "selector": "advertising-structures-hero",
+    "id": "advertising-structures-hero",
+    "title": "Подберём рекламную конструкцию под ваш объект",
+    "paragraphs": [
+      "РПК «Ресурс» изготавливает разные типы рекламных конструкций для фасадов, входных зон, территории и помещений.",
+      "Начните с выбора изделия: названия, световой панели, отдельной информационной конструкции или элементов оформления входа. Размеры и исполнение уточняют по месту размещения."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/structure-lightbox.webp",
+        "alt": "Красный короб с надписью «ПИЦЦА» в помещении",
+        "width": 840,
+        "height": 859
+      },
+      {
+        "src": "/assets/images/facade-storefront.webp",
+        "alt": "Размещение вывески над входом",
+        "width": 820,
+        "height": 615
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Рекламные конструкции"
+  },
+  {
+    "url": "/services/",
+    "source": "pages/services/index.html",
+    "selector": "services-hero",
+    "id": "services-hero",
+    "title": "Подберём решение для вашей рекламной задачи",
+    "paragraphs": [
+      "Наружная реклама, оформление объектов, печать и обработка материалов. Выберите направление изготовления или связанные работы по вашей задаче.",
+      "Пришлите фото объекта, размеры и описание задачи. Обсудим подходящее исполнение, состав работ и стоимость."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/facade-storefront.webp",
+        "alt": "Размещение вывески над входом",
+        "width": 820,
+        "height": 615
+      },
+      {
+        "src": "/assets/images/light-signs-box.webp",
+        "alt": "Пример конструкции светового короба",
+        "width": 720,
+        "height": 720
+      }
+    ],
+    "button": "Обсудить задачу",
+    "popupTitle": "Расчёт: Услуги"
+  },
+  {
+    "url": "/shirokoformatnaya-pechat/",
+    "source": "pages/shirokoformatnaya-pechat/index.html",
+    "selector": "shirokoformatnaya-pechat-intro",
+    "id": "shirokoformatnaya-pechat-intro",
+    "title": "Подготовим печать для вашего рекламного поля",
+    "paragraphs": [
+      "Широкоформатная печать для баннеров и других рекламных материалов крупного формата. Подбор материала и параметров начинаем с макета, размеров и места использования.",
+      "Пришлите макет, размеры и количество. Проверим файл и согласуем материал, параметры печати и стоимость заказа."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/project-053.webp",
+        "alt": "Подготовка рулонного материала к печати",
+        "width": 367,
+        "height": 231
+      },
+      {
+        "src": "/assets/images/home-task-printing.webp",
+        "alt": "Изображение на печатном материале",
+        "width": 367,
+        "height": 231
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Изготовим широкоформатную печать любого типа"
+  },
+  {
+    "url": "/stely-i-pilony/",
+    "source": "pages/stely-i-pilony/index.html",
+    "selector": "steles-pylons-hero",
+    "id": "steles-pylons-hero",
+    "title": "Подберём стелу или пилон для вашего объекта",
+    "paragraphs": [
+      "Стелы и пилоны размещают название, логотип или информацию рядом с объектом и на территории. В профильной галерее представлены отдельно стоящие конструкции.",
+      "Исполнение подбирают по месту, содержанию, размерам и условиям установки."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/ad-lit-face.webp",
+        "alt": "Отдельно стоящая конструкция со светящейся вертикальной надписью",
+        "width": 840,
+        "height": 1120
+      },
+      {
+        "src": "/assets/images/company-pylon.webp",
+        "alt": "Отдельно стоящая рекламная стела",
+        "width": 560,
+        "height": 747
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Стелы"
+  },
+  {
+    "url": "/stojki-resepshen/",
+    "source": "pages/stojki-resepshen/index.html",
+    "selector": "reception-desk-hero",
+    "id": "reception-desk-hero",
+    "title": "Подберём стойку под вашу входную зону",
+    "paragraphs": [
+      "Стойка ресепшен организует рабочее место в зоне встречи посетителей. Внешний вид и конфигурацию выбирают под пространство и фирменное оформление компании.",
+      "Пришлите размеры зоны ресепшен, фото помещения и пожелания к оформлению. Согласуем компоновку, материалы и стоимость изготовления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/interior-logo-orion.webp",
+        "alt": "стойку под вашу входную зону",
+        "width": 315,
+        "height": 420
+      },
+      {
+        "src": "/assets/images/project-899.webp",
+        "alt": "стойку под вашу входную зону",
+        "width": 1380,
+        "height": 920
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Стойки ресепшен"
+  },
+  {
+    "url": "/svetovye-koroba/",
+    "source": "pages/svetovye-koroba/index.html",
+    "selector": "lightbox-hero",
+    "id": "lightbox-hero",
+    "title": "Подберём световой короб для вашей вывески",
+    "paragraphs": [
+      "Световой короб представляет собой единую конструкцию с лицевой поверхностью и внутренним светом.",
+      "Пришлите фото объекта, размеры и описание задачи. Обсудим подходящее исполнение, состав работ и стоимость."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/lightbox-hero.webp",
+        "alt": "Пример светового короба",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "src": "/assets/images/lightbox-inlay.webp",
+        "alt": "Пример светового короба",
+        "width": 900,
+        "height": 715
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Световые короба"
+  },
+  {
+    "url": "/svetovye-portaly/",
+    "source": "pages/svetovye-portaly/index.html",
+    "selector": "light-portals-hero",
+    "id": "light-portals-hero",
+    "title": "Подберём световой портал для вашего входа",
+    "paragraphs": [
+      "Световой портал оформляет вход световой конструкцией и работает как отдельный элемент наружного оформления.",
+      "Размеры, форму и исполнение подбирают для конкретной входной зоны и места установки."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/light-portal-red.webp",
+        "alt": "световой портал для вашего входа",
+        "width": 840,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/light-portal-green.webp",
+        "alt": "световой портал для вашего входа",
+        "width": 560,
+        "height": 747
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Световые порталы"
+  },
+  {
+    "url": "/tablichki/",
+    "source": "pages/tablichki/index.html",
+    "selector": "tablichki-intro",
+    "id": "tablichki-intro",
+    "title": "Подберём табличку под вашу задачу",
+    "paragraphs": [
+      "Табличка — компактный носитель с текстом, обозначением, номером, названием или другой информацией. Сначала определяют её назначение, затем размеры, материал и оформление.",
+      "Для адреса здания и для обозначения кабинета нужны разные исходные данные. Выберите направление или опишите содержание вашей таблички."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/wayfinding-office-sign.webp",
+        "alt": "Офисная табличка на дистанционных креплениях",
+        "width": 820,
+        "height": 566
+      },
+      {
+        "src": "/assets/images/wayfinding-room-plan.webp",
+        "alt": "План помещений и навигационные обозначения",
+        "width": 560,
+        "height": 560
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Таблички"
+  },
+  {
+    "url": "/ulichnye-stendy/",
+    "source": "pages/ulichnye-stendy/index.html",
+    "selector": "ulichnye-stendy-intro",
+    "id": "ulichnye-stendy-intro",
+    "title": "Подберём стенд для размещения на улице",
+    "paragraphs": [
+      "Уличный стенд предназначен для размещения информации вне помещения. Конструкция и способ установки выбираются с учётом места размещения.",
+      "Для обсуждения нужны участок, доступное место и содержание: объявления, сведения об объекте или другие информационные материалы."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/stand-road-winter.webp",
+        "alt": "Информационная конструкция у дороги, зимний вид",
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "src": "/assets/images/stand-white-pockets.webp",
+        "alt": "Информационный стенд с карманами",
+        "width": 560,
+        "height": 420
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Уличные стенды"
+  },
+  {
+    "url": "/vxodnye-gruppy/",
+    "source": "pages/vxodnye-gruppy/index.html",
+    "selector": "entrance-groups-hero",
+    "id": "entrance-groups-hero",
+    "title": "Подберём оформление вашей входной группы",
+    "paragraphs": [
+      "Входная группа выделяет и оформляет место входа в объект. Она может объединять несколько элементов, согласованных между собой.",
+      "Состав подбирают под фасад, размеры входа, фирменное оформление и задачу."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/entrance-red-frame.webp",
+        "alt": "Красное обрамление входа и надпись EUROSPAR express на фасаде",
+        "width": 900,
+        "height": 506
+      },
+      {
+        "src": "/assets/images/entrance-wide-facade.webp",
+        "alt": "Оформленная входная группа",
+        "width": 560,
+        "height": 315
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Входные группы"
+  },
+  {
+    "url": "/vystavochnye-stendy/",
+    "source": "pages/vystavochnye-stendy/index.html",
+    "selector": "vystavochnye-stendy-intro",
+    "id": "vystavochnye-stendy-intro",
+    "title": "Подберём стенд для вашей выставки",
+    "paragraphs": [
+      "Выставочный стенд представляет компанию, продукцию или материалы в пространстве мероприятия. Конструкция и оформление выбираются под презентационную задачу и доступную площадь.",
+      "Логотип, цвета и содержание помогают определить внешний вид. Компоновка обсуждается вместе с размерами и составом элементов."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/stand-white-pockets.webp",
+        "alt": "Информационный стенд с карманами",
+        "width": 560,
+        "height": 420
+      },
+      {
+        "src": "/assets/images/stand-green-panel.webp",
+        "alt": "Пример оформления информационного стенда",
+        "width": 560,
+        "height": 560
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Выставочные стенды"
+  },
+  {
+    "url": "/vyveski-s-pajetkami/",
+    "source": "pages/vyveski-s-pajetkami/index.html",
+    "selector": "sequin-signs-hero",
+    "id": "sequin-signs-hero",
+    "title": "Подберём оформление вывески с пайетками",
+    "paragraphs": [
+      "Подвижные элементы-пайетки образуют фактуру вывески или панели. При изменении их положения поверхность визуально меняется и мерцает.",
+      "Форму, размеры, содержание надписи и способ установки выбирают для конкретного места размещения."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/sequin-sign-gold-panel.webp",
+        "alt": "Надпись «ЗОЛОТО ПОДАРКИ» на золотистой фактурной панели фасада",
+        "width": 840,
+        "height": 630
+      },
+      {
+        "src": "/assets/images/sequin-sign-entry.webp",
+        "alt": "Вывеска с пайетками над входом в здание",
+        "width": 421,
+        "height": 420
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Вывески с пайетками"
+  },
+  {
+    "url": "/remont-vyvesok/",
+    "source": "pages/remont-vyvesok/index.html",
+    "selector": "repair-hero",
+    "id": "repair-hero",
+    "title": "Оценим состояние и подберём ремонт вывески",
+    "paragraphs": [
+      "Не светится вывеска, повреждён корпус или нужно обновить изображение в коробе? Начнём с оценки состояния и определим возможный состав ремонта.",
+      "РПК «Ресурс» выполняет ремонт освещения и корпуса световых коробов, замену изображения и отдельных элементов. Возможность восстановления другой рекламной конструкции обсуждается по её состоянию."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/repair-hero.webp",
+        "alt": "Световые короба с контрастными лицевыми панелями на рабочем столе",
+        "width": 950,
+        "height": 713
+      },
+      {
+        "src": "/assets/images/repair-letters.webp",
+        "alt": "Объёмные буквы рекламной вывески",
+        "width": 820,
+        "height": 461
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Ремонт вывесок"
+  },
+  {
+    "url": "/oformlenie-fasadov/",
+    "source": "pages/oformlenie-fasadov/index.html",
+    "selector": "facade-hero",
+    "id": "facade-hero",
+    "title": "Подберём оформление под ваш фасад",
+    "paragraphs": [
+      "Объединяем вывеску, буквы, фриз и оформление входа в целостный фасад магазина или другого коммерческого объекта.",
+      "РПК «Ресурс» подбирает состав конструкций, изготавливает наружное оформление и выполняет монтаж. Отдельные элементы выбираются под архитектуру здания, ваш макет и место установки."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/facade-hero.webp",
+        "alt": "Фасад магазина SPAR: надписи над витринами и красное оформление входа",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "/assets/images/facade-installation.webp",
+        "alt": "Подъёмная техника у фасада здания с наружными рекламными конструкциями",
+        "width": 820,
+        "height": 377
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Оформление фасадов"
+  },
+  {
+    "url": "/navigaciya-i-ukazateli/",
+    "source": "pages/navigaciya-i-ukazateli/index.html",
+    "selector": "wayfinding-hero",
+    "id": "wayfinding-hero",
+    "title": "Подберём навигацию для ваших посетителей",
+    "paragraphs": [
+      "Связанные указатели и информационные элементы помогают посетителю найти вход, кабинет, отдел, этаж или нужную зону.",
+      "Подбираем набор табличек и стендов для помещений и улицы: согласуем содержание, размеры и общее оформление. Одна задача — понятные обозначения на всём пути."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/wayfinding-office-sign.webp",
+        "alt": "навигацию для ваших посетителей",
+        "width": 820,
+        "height": 566
+      },
+      {
+        "src": "/assets/images/wayfinding-room-plan.webp",
+        "alt": "навигацию для ваших посетителей",
+        "width": 560,
+        "height": 560
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Навигация и указатели"
+  },
+  {
+    "url": "/vyveski-dlya-magazina/",
+    "source": "pages/vyveski-dlya-magazina/index.html",
+    "selector": "shop-signs-hero",
+    "id": "shop-signs-hero",
+    "title": "Подберём вывеску под ваш магазин",
+    "paragraphs": [
+      "Выберите вывеску под ваш магазин: место над входом, фасад, витрины или пространство внутри здания.",
+      "Подберём тип конструкции с учётом размеров, расстояния просмотра и необходимости подсветки. Согласуем изготовление и, если требуется, установку."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/shop-signs-hero.webp",
+        "alt": "Надписи «Малинка» и «Супермаркет» над стеклянными дверями и витринами магазина",
+        "width": 840,
+        "height": 630
+      },
+      {
+        "src": "/assets/images/facade-storefront.webp",
+        "alt": "Размещение вывески над входом",
+        "width": 820,
+        "height": 615
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Вывески для магазина"
+  },
+  {
+    "url": "/oformlenie-seti-magazinov/",
+    "source": "pages/oformlenie-seti-magazinov/index.html",
+    "selector": "store-network-hero",
+    "id": "store-network-hero",
+    "title": "Подберём единое оформление для вашей сети",
+    "paragraphs": [
+      "Вывески, фасадные конструкции и оформление входов для нескольких магазинов с общими визуальными принципами.",
+      "РПК «Ресурс» изготавливает рекламные элементы и выполняет монтаж. Подбираем повторяемый набор конструкций и адаптируем размеры и размещение под каждый торговый объект."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/store-network-hero.webp",
+        "alt": "Магазин SPAR: надпись над витринами и входом на угловом фасаде",
+        "width": 950,
+        "height": 713
+      },
+      {
+        "src": "/assets/images/store-network-spar-brick.webp",
+        "alt": "Магазин SPAR в кирпичном здании: объёмная надпись и красное оформление входа",
+        "width": 820,
+        "height": 615
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт: Оформление сети магазинов"
+  },
+  {
+    "url": "/svetovye-vyveski/",
+    "source": "pages/svetovye-vyveski/index.html",
+    "selector": "svetovye-vyveski-company",
+    "title": "Подберём световую вывеску для вашего объекта",
+    "paragraphs": [
+      "Пришлите фото места установки, название или логотип. Подберём тип подсветки и рассчитаем изготовление с монтажом.",
+      "Учтём размеры, расстояние до вывески, освещение и поверхность крепления. Макет и состав работ согласуем до запуска в производство."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/light-signs-letters.webp",
+        "alt": "Световая вывеска «Цветочный гастроном» на фасаде",
+        "width": 720,
+        "height": 540
+      },
+      {
+        "src": "/assets/images/light-signs-hero.webp",
+        "alt": "Световой логотип SOFT BROKER с подсветкой стены",
+        "width": 840,
+        "height": 630
+      }
+    ],
+    "button": "Получить расчёт",
+    "id": "light-signs-intro",
+    "popupTitle": "Расчёт световой вывески"
+  },
+  {
+    "url": "/fasadnye-vyveski/",
+    "source": "pages/fasadnye-vyveski/index.html",
+    "selector": "facade-signs-intro",
+    "title": "Подберём вывеску под ваш фасад",
+    "paragraphs": [
+      "Пришлите фото фасада и название или логотип. Предложим варианты вывески и рассчитаем изготовление с монтажом.",
+      "Учтём размер входной группы, материал стены и расстояние, с которого должна читаться вывеска. До изготовления согласуем макет, подсветку и способ крепления."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/facade-spar.webp",
+        "alt": "Вывеска SPAR над входом в магазин",
+        "width": 820,
+        "height": 461
+      },
+      {
+        "src": "/assets/images/facade-storefront.webp",
+        "alt": "Пример размещения вывески на фасаде магазина",
+        "width": 820,
+        "height": 615
+      }
+    ],
+    "button": "Получить расчёт",
+    "id": "facade-signs-intro",
+    "popupTitle": "Расчёт фасадной вывески"
+  },
+  {
+    "url": "/interernye-vyveski/",
+    "source": "pages/interernye-vyveski/index.html",
+    "selector": "interior-signs-hero",
+    "id": "interior-signs-intro",
+    "title": "Подберём вывеску под ваш интерьер",
+    "paragraphs": [
+      "Пришлите логотип и фото места установки. Подберём материал, размер и подсветку для стены, ресепшена или входной зоны.",
+      "Учтём отделку, освещение и расстояние до вывески. Согласуем внешний вид, способ крепления и стоимость изготовления с монтажом."
+    ],
+    "images": [
+      {
+        "src": "/assets/images/interior-logo-crown.webp",
+        "alt": "Светящийся логотип с короной на стене внутри помещения",
+        "width": 420,
+        "height": 420
+      },
+      {
+        "src": "/assets/images/interior-sign-green-house.webp",
+        "alt": "Неоновая надпись Green House в интерьере",
+        "width": 840,
+        "height": 630
+      }
+    ],
+    "button": "Получить расчёт",
+    "popupTitle": "Расчёт интерьерной вывески"
+  }
+]

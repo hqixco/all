@@ -1,0 +1,42 @@
+<section class="home-included home-page" id="{{id}}" data-component="included">
+        <div class="home-wrap">
+          <figure class="home-estimate">
+            <img src="{{imageSrc}}" width="{{imageWidth}}" height="{{imageHeight}}" loading="lazy" alt="{{imageAlt}}">
+            <aside class="home-included__promise">
+              <svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M13 9h22v34H13zM19 9V5h10v4M19 18h10M19 25h10M19 32h6"></path>
+                <rect x="29" y="28" width="12" height="13" rx="2"></rect>
+                <path d="M33 32h4M33 36h4"></path>
+              </svg>
+              <p>
+                <strong>{{{promiseTitleHtml}}}</strong><span>{{{promiseTextHtml}}}</span>
+              </p>
+            </aside>
+          </figure>
+          <div class="home-included__content">
+            <div class="home-included__top">
+              <div>
+                <p class="home-kicker">{{{kickerHtml}}}</p>
+                <h2>{{{titleHtml}}}</h2>
+                <p class="home-included__lead">{{{leadHtml}}}</p>
+              </div>
+            </div>
+            <div class="home-table">
+              <div class="home-table__head">
+                <span>Позиция</span><span>Условия</span>
+              </div>
+              {{#items}}<div>
+                <b>{{{labelHtml}}}</b><span class="{{conditionClass}}">{{{conditionHtml}}}</span>
+              </div>{{/items}}
+              
+              
+              
+              
+              
+              
+              
+            </div>
+            
+          </div>
+        </div>
+      </section>

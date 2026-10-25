@@ -7,6 +7,9 @@ export default defineConfig({
       input: {
         redirect: 'index.html',
         main: 'zamena-krovli/index.html',
+        facades: 'uteplenie-fasadov/index.html',
+        floors: 'zamena-polov/index.html',
+        extensions: 'pristroyki/index.html',
         privacy: 'privacy.html',
         cookies: 'cookies.html',
       },

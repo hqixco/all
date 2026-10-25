@@ -1,0 +1,294 @@
+body[data-service="fences"] .hero {
+  background-image: linear-gradient(90deg, rgba(8, 17, 19, .88) 0%, rgba(8, 17, 19, .76) 43%, rgba(8, 17, 19, .48) 100%), url('/assets/fence-hero-background.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+body[data-service="fences"] .hero h1,
+body[data-service="fences"] .hero h1 em,
+body[data-service="fences"] .hero .hero-note {
+  color: #fff;
+}
+
+body[data-service="fences"] .hero .lead,
+body[data-service="fences"] .hero .microcopy {
+  color: #f0f2f0;
+}
+
+body[data-service="fences"] .hero .button-ghost {
+  color: #fff;
+  border-color: rgba(255, 255, 255, .7);
+}
+
+body[data-service="fences"] .hero-materials__cta img {
+  filter: brightness(.76);
+}
+
+body[data-service="fences"] .fence-quiz-panel[hidden],
+body[data-service="fences"] .fence-quiz .quiz-next[hidden] {
+  display: none;
+}
+
+body[data-service="fences"] .fence-quiz:not(.fence-quiz-enhanced) .quiz-progress,
+body[data-service="fences"] .fence-quiz:not(.fence-quiz-enhanced) .quiz-step,
+body[data-service="fences"] .fence-quiz:not(.fence-quiz-enhanced) .quiz-prev,
+body[data-service="fences"] .fence-quiz:not(.fence-quiz-enhanced) .quiz-next {
+  display: none;
+}
+
+body[data-service="fences"] .fence-quiz:not(.fence-quiz-enhanced) .fence-quiz-panel + .fence-quiz-panel {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+body[data-service="fences"] .fence-quiz-enhanced .quiz-submit {
+  display: none;
+}
+
+body[data-service="fences"] .fence-quiz-enhanced.is-final-step .quiz-submit {
+  display: inline-flex;
+}
+
+body[data-service="fences"] .fence-quiz .quiz-options {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+body[data-service="fences"] .fence-quiz .quiz-option-text span {
+  display: grid;
+  place-items: center;
+}
+
+body[data-service="fences"] .fence-quiz .quiz-option-text b {
+  position: static;
+  width: 100%;
+  background: transparent;
+  padding: 16px;
+  text-align: center;
+  font-size: 16px;
+}
+
+body[data-service="fences"] .fence-quiz-hint {
+  color: var(--muted);
+  margin: -12px 0 20px;
+}
+
+body[data-service="fences"] .fence-quiz .quiz-final-fields {
+  max-width: 580px;
+}
+
+body[data-service="fences"] .fence-inspection {
+  background-image: linear-gradient(90deg, rgba(9, 10, 10, .96), rgba(9, 10, 10, .75)), url('/assets/fence-site-overview.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body[data-service="fences"] .fence-inspection .inspection-list article:nth-child(1)::before {
+  background-image: url('/assets/fence-inspection-boundary.webp');
+}
+
+body[data-service="fences"] .fence-inspection .inspection-list article:nth-child(2)::before {
+  background-image: url('/assets/fence-inspection-posts.webp');
+}
+
+body[data-service="fences"] .fence-inspection .inspection-list article:nth-child(3)::before {
+  background-image: url('/assets/fence-inspection-sections.webp');
+}
+
+body[data-service="fences"] .fence-inspection .inspection-list article:nth-child(4)::before {
+  background-image: url('/assets/fence-inspection-gates.webp');
+}
+
+body[data-service="fences"] .plans .plan-card:nth-child(1)::before {
+  background-image: url('/assets/fence-plan-new.webp');
+}
+
+body[data-service="fences"] .plans .plan-card:nth-child(2)::before {
+  background-image: url('/assets/fence-inspection-gates.webp');
+}
+
+body[data-service="fences"] .plans .plan-card:nth-child(3)::before {
+  background-image: url('/assets/fence-inspection-boundary.webp');
+}
+
+body[data-service="fences"] .final-cta .final-layout > div:first-child::before {
+  background-image: url('/assets/fence-inspection-posts.webp');
+}
+
+body[data-service="fences"] .final-cta .final-layout > div:first-child::after {
+  background-image: url('/assets/fence-inspection-sections.webp');
+}
+
+body[data-service="fences"] .fence-weather .split-section {
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr);
+  column-gap: 64px;
+  row-gap: 14px;
+}
+
+body[data-service="fences"] .fence-weather .split-section > div:first-child {
+  grid-column: 1;
+  grid-row: 1;
+  min-height: 0;
+  padding-bottom: 0;
+}
+
+body[data-service="fences"] .fence-weather-layout {
+  display: contents;
+}
+
+body[data-service="fences"] .fence-weather-layout > .weather-media {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: start;
+  margin-top: 0;
+}
+
+body[data-service="fences"] .fence-weather-layout > .numbered-list {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+body[data-service="fences"] .price .rates > div:nth-of-type(1)::before {
+  background-image: url("/assets/fence-profiled-sheet.webp");
+}
+
+body[data-service="fences"] .price .rates > div:nth-of-type(2)::before {
+  background-image: url("/assets/fence-picket.webp");
+}
+
+body[data-service="fences"] .price .rates > div:nth-of-type(3)::before {
+  background-image: url("/assets/fence-chain-link.webp");
+}
+
+body[data-service="fences"] .price .rates > div:nth-of-type(4)::before {
+  background-image: url("/assets/fence-hero.webp");
+}
+
+body[data-service="fences"] .price .rates > div:nth-of-type(5)::before {
+  background-image: url("/assets/fence-weather-access.webp");
+}
+
+body[data-service="fences"] .price .rates > div:nth-of-type(6)::before {
+  background-image: url("/assets/fence-weather-main.webp");
+}
+
+body[data-service="fences"] .price .rates > div:nth-of-type(4) {
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+body[data-service="fences"] .price .rates > div:nth-of-type(6) {
+  border-bottom: 1px solid rgba(23, 23, 21, 0.13);
+  border-radius: 0 0 8px 8px;
+}
+
+body[data-service="fences"] .fence-price-photo {
+  margin: 0;
+  overflow: hidden;
+  background: none;
+}
+
+body[data-service="fences"] .fence-price-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body[data-service="fences"] .fence-reviews .review-media {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  body[data-service="fences"] .fence-weather-layout {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  body[data-service="fences"] .fence-weather-layout > .weather-media,
+  body[data-service="fences"] .fence-weather-layout > .numbered-list {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  body[data-service="fences"] .fence-weather-layout > .numbered-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  body[data-service="fences"] .fence-weather-layout > .weather-media .weather-media-image {
+    height: 132px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  body[data-service="fences"] .fence-weather-layout > .weather-media .large-note {
+    min-height: 0;
+    margin: 0;
+    padding: 17px 18px;
+    border-radius: 0 0 10px 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  body[data-service="fences"] .fence-weather-layout {
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  body[data-service="fences"] .fence-weather-layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  body[data-service="fences"] .fence-weather-layout > .numbered-list {
+    display: contents;
+  }
+
+  body[data-service="fences"] .fence-weather-layout > .weather-media {
+    grid-column: auto;
+  }
+
+  body[data-service="fences"] .fence-weather-layout > .weather-media .weather-media-image {
+    height: 86px;
+  }
+
+  body[data-service="fences"] .fence-weather-layout > .weather-media .large-note {
+    padding: 14px 14px 14px 48px;
+    font-size: 13px;
+    line-height: 1.3;
+  }
+
+  body[data-service="fences"] .fence-weather-layout > .weather-media .large-note::before {
+    left: 14px;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  body[data-service="fences"] .hero {
+    background-image: linear-gradient(90deg, rgba(8, 17, 19, .91), rgba(8, 17, 19, .72)), url('/assets/fence-hero-background.webp');
+  }
+
+  body[data-service="fences"] .fence-quiz .quiz-options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body[data-service="fences"] .fence-price-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  body[data-service="fences"] .fence-quiz .quiz-option span {
+    height: 130px;
+  }
+}

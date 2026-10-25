@@ -1,0 +1,1 @@
+﻿import fs from 'node:fs';const f='scripts/generate-seo.mjs';let s=fs.readFileSync(f,'utf8').replace("if (!/квартир/i.test(card)) return '';", "if (!/квартир/i.test(card) || /остекление\\s+лоджии/i.test(card)) return '';");fs.writeFileSync(f,s);

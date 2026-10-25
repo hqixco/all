@@ -1,0 +1,1 @@
+﻿import fs from 'node:fs';const f='src/main.js';let s=fs.readFileSync(f,'utf8').replace(/text\.insertAdjacentElement\("afterend", toggle\);\s+toggle\.addEventListener/, 'text.insertAdjacentElement("afterend", toggle);\n    }\n    if (!toggle.dataset.reviewToggleReady) {\n      toggle.dataset.reviewToggleReady = "true";\n      toggle.addEventListener');fs.writeFileSync(f,s);

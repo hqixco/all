@@ -1,0 +1,38 @@
+[
+  {
+    "url": "/svetovye-koroba/",
+    "title": "Как устроен световой короб",
+    "photos": [
+      "lightbox-inlay",
+      "lightbox-hero",
+      "lightbox-work-2"
+    ]
+  },
+  {
+    "url": "/kryshnye-ustanovki/",
+    "title": "Из чего состоит выбранное исполнение",
+    "photos": [
+      "roof-spar-sign",
+      "roof-eurospar-frame",
+      "roof-electric-sign"
+    ]
+  },
+  {
+    "url": "/vxodnye-gruppy/",
+    "title": "Из чего может состоять оформление",
+    "photos": [
+      "entrance-wide-facade",
+      "panel-shop-bands",
+      "entrance-red-frame"
+    ]
+  },
+  {
+    "url": "/obemnye-bukvy-s-vnutrennej-podsvetkoj/",
+    "title": "Внутреннее устройство и соседние исполнения",
+    "photos": [
+      "internally-lit-letters-hero",
+      "front-lit-letters-hero",
+      "externally-lit-letters-hero"
+    ]
+  }
+]

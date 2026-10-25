@@ -1,0 +1,292 @@
+[
+  {
+    "selector": "#prices-signs",
+    "rows": [
+      [
+        "/vyveski/",
+        0,
+        "Несветовые вывески из букв"
+      ],
+      [
+        "/svetovye-vyveski/",
+        0,
+        "Световые буквы для вывесок"
+      ],
+      [
+        "/neonovye-vyveski/",
+        0,
+        "Неоновая вывеска: пример «Пицца»"
+      ],
+      [
+        "/vyveski-s-pajetkami/",
+        0,
+        "Вывески из пайеток"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-letters",
+    "rows": [
+      [
+        "/obemnye-nesvetovye-bukvy/",
+        0,
+        "Несветовые буквы, глубина до 50 мм"
+      ],
+      [
+        "/obemnye-nesvetovye-bukvy/",
+        1,
+        "Несветовые буквы, глубина 50–100 мм"
+      ],
+      [
+        "/obemnye-svetovye-bukvy/",
+        0,
+        "Буквы с внутренней подсветкой"
+      ],
+      [
+        "/obemnye-bukvy-iz-profilej-als-i-elkamet/",
+        0,
+        "Буквы из ALS-профиля"
+      ],
+      [
+        "/obemnye-bukvy-iz-akrila/",
+        0,
+        "Буквы из жидкого акрила"
+      ],
+      [
+        "/obemnye-bukvy-s-kontrazhurnoj-podsvetkoj/",
+        0,
+        "Контражурные буквы"
+      ],
+      [
+        "/obemnye-bukvy-s-torcevoj-podsvetkoj/",
+        0,
+        "Буквы с торцевой подсветкой"
+      ],
+      [
+        "/obemnye-bukvy-s-kombinirovannoj-podsvetkoj/",
+        0,
+        "Комбинированное свечение"
+      ],
+      [
+        "/obemnye-bukvy-s-lampochkami/",
+        0,
+        "Корпус буквы с лампочками, высота до 30 см"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-boxes",
+    "rows": [
+      [
+        "/svetovye-koroba/",
+        0,
+        "Короб из поликарбоната без каркаса"
+      ],
+      [
+        "/svetovye-koroba/",
+        1,
+        "Короб из поликарбоната с каркасом"
+      ],
+      [
+        "/svetovye-koroba/",
+        2,
+        "Короб с акриловой лицевой панелью без каркаса"
+      ],
+      [
+        "/panel-kronshtejny/",
+        0,
+        "Панель-кронштейн"
+      ],
+      [
+        "/svetovye-portaly/",
+        0,
+        "Световой портал"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-roofs",
+    "rows": [
+      [
+        "/kryshnye-ustanovki/",
+        0,
+        "Крышные установки"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-pylons",
+    "rows": [
+      [
+        "/stely-i-pilony/",
+        0,
+        "Стелы и пилоны"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-boards",
+    "rows": [
+      [
+        "/informacionnye-stendy/",
+        0,
+        "Информационный стенд: ПВХ 3 мм"
+      ],
+      [
+        "/informacionnye-stendy/",
+        1,
+        "Информационный стенд: ПВХ 4 мм"
+      ],
+      [
+        "/tablichki/",
+        0,
+        "Таблички"
+      ],
+      [
+        "/adresnye-tablichki/",
+        0,
+        "Адресные таблички"
+      ],
+      [
+        "/ulichnye-stendy/",
+        0,
+        "Уличные стенды"
+      ],
+      [
+        "/vystavochnye-stendy/",
+        0,
+        "Выставочные стенды"
+      ],
+      [
+        "/stojki-resepshen/",
+        0,
+        "Стойки ресепшен"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-friezes",
+    "rows": [
+      [
+        "/frizy/",
+        0,
+        "Фриз из сотового поликарбоната"
+      ],
+      [
+        "/frizy/",
+        1,
+        "Фриз из оцинкованного металла"
+      ],
+      [
+        "/frizy/",
+        2,
+        "Фриз из композита"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-printing",
+    "rows": [
+      [
+        "/pechat-na-bannere/",
+        0,
+        "Баннер 330 г/м², 360 dpi"
+      ],
+      [
+        "/pechat-na-bannere/",
+        1,
+        "Баннер 440 г/м², 360 dpi"
+      ],
+      [
+        "/interernaya-pechat/",
+        0,
+        "Баннер 330 г/м², 720 dpi"
+      ],
+      [
+        "/interernaya-pechat/",
+        1,
+        "Баннер 440 г/м², 720 dpi"
+      ],
+      [
+        "/pechat-na-plenke/",
+        0,
+        "Самоклеящаяся плёнка 100 мкм"
+      ],
+      [
+        "/pechat-na-bumage/",
+        0,
+        "Бумага City Lite 150 г/м²"
+      ],
+      [
+        "/pechat-na-perforirovannoj-plenke/",
+        0,
+        "Перфорированная плёнка"
+      ],
+      [
+        "/pechat-na-translyucentnoj-plenke/",
+        0,
+        "Транслюцентная плёнка"
+      ],
+      [
+        "/pechat-na-fotooboyax/",
+        0,
+        "Фотообои"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-cutting",
+    "rows": [
+      [
+        "/frezerovka/",
+        0,
+        "Фрезерная резка"
+      ],
+      [
+        "/plotternaya-rezka/",
+        0,
+        "Плоттерная резка с Oracal 641"
+      ],
+      [
+        "/plotternaya-rezka/",
+        1,
+        "Плоттерная резка с выборкой и монтажной плёнкой"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-design",
+    "rows": [
+      [
+        "/dizajn/",
+        0,
+        "Дизайн рекламного макета"
+      ],
+      [
+        "/montazh-naruzhnoj-reklamy/",
+        0,
+        "Монтаж рекламной конструкции"
+      ],
+      [
+        "/soglasovanie-naruzhnoj-reklamy/",
+        0,
+        "Сопровождение согласования"
+      ],
+      [
+        "/remont-vyvesok/",
+        0,
+        "Ремонт вывески"
+      ]
+    ]
+  },
+  {
+    "selector": "#prices-vehicles",
+    "rows": [
+      [
+        "/brendirovanie-transporta/",
+        0,
+        "Брендирование транспорта"
+      ]
+    ]
+  }
+]

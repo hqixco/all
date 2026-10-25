@@ -7,6 +7,24 @@ header('Content-Type: application/json; charset=UTF-8');
 const RECIPIENT_EMAIL = 'rostislav.prod@yandex.ru, mail@vertyar.ru';
 const SUBJECT_PREFIX = 'Заявка с сайта Окна Вертикаль';
 const SENDER_EMAIL = 'no-reply@okna-vertical.ru';
+const BITRIX_WEBHOOK_URL = 'https://vertical24.bitrix24.ru/rest/1/rg1ianu8hluvx2cd/';
+const BITRIX_ASSIGNED_BY_ID = 3220;
+const TELEGRAM_BOT_TOKEN = '8837367146:AAFe2y7kVMnFHpQEuZlufy46t9alLkXeL_Y';
+const TELEGRAM_CHAT_ID = '-5413802353';
+
+function getConfigValue(string $name): string
+{
+    $value = getenv($name);
+    if (is_string($value) && trim($value) !== '') {
+        return trim($value);
+    }
+
+    if (defined($name)) {
+        return trim((string) constant($name));
+    }
+
+    return '';
+}
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
@@ -28,6 +46,7 @@ function label(string $key): string
         'message' => 'Сообщение',
         'policy' => 'Согласие на обработку данных',
         'request_title' => 'Тема заявки',
+        'quiz_answers' => 'Ответы квиза',
         'consent' => 'Согласие на обработку данных',
         'project-file' => 'Файл проекта',
         'estimate' => 'Расчёт',
@@ -42,6 +61,151 @@ function validPhone(string $phone): bool
         $digits = '7' . substr($digits, 1);
     }
     return strlen($digits) === 11 && ($digits[0] ?? '') === '7';
+}
+
+function sendBitrixLead(string $formName, string $pageUrl, array $fields, array $attachments): bool
+{
+    $title = clean((string) ($fields['request_title'] ?? ''));
+    if ($title === '') {
+        $title = 'Заявка с сайта — ' . $formName;
+    }
+
+    $comments = [
+        'Форма: ' . $formName,
+        'Страница: ' . $pageUrl,
+    ];
+    foreach ($fields as $key => $value) {
+        if (in_array($key, ['name', 'phone', 'email', 'policy', 'consent', 'request_title'], true)) {
+            continue;
+        }
+        $comments[] = label((string) $key) . ': ' . $value;
+    }
+    foreach ($attachments as $attachment) {
+        $comments[] = 'Файл: ' . $attachment['name'];
+    }
+
+    $payload = [
+        'fields' => [
+            'TITLE' => $title,
+            'NAME' => (string) ($fields['name'] ?? ''),
+            'PHONE' => [[
+                'VALUE' => (string) ($fields['phone'] ?? ''),
+                'VALUE_TYPE' => 'WORK',
+            ]],
+            'COMMENTS' => implode("\n", $comments),
+            'SOURCE_ID' => '19',
+            'ASSIGNED_BY_ID' => BITRIX_ASSIGNED_BY_ID,
+        ],
+        'params' => [
+            'REGISTER_SONET_EVENT' => 'Y',
+        ],
+    ];
+
+    $endpoint = BITRIX_WEBHOOK_URL . 'crm.lead.add.json';
+    $postData = http_build_query($payload);
+    $response = false;
+    $httpCode = 0;
+    $errorMessage = '';
+
+    if (function_exists('curl_init')) {
+        $curl = curl_init($endpoint);
+        curl_setopt_array($curl, [
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => $postData,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_CONNECTTIMEOUT => 5,
+            CURLOPT_TIMEOUT => 12,
+        ]);
+        $response = curl_exec($curl);
+        $httpCode = (int) curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        $errorMessage = curl_error($curl);
+        curl_close($curl);
+    } else {
+        $context = stream_context_create([
+            'http' => [
+                'method' => 'POST',
+                'header' => "Content-Type: application/x-www-form-urlencoded\r\nConnection: close\r\n",
+                'content' => $postData,
+                'timeout' => 12,
+                'ignore_errors' => true,
+            ],
+        ]);
+        $response = @file_get_contents($endpoint, false, $context);
+        $statusLine = $http_response_header[0] ?? '';
+        if (preg_match('/\s(\d{3})\s/', $statusLine, $matches)) {
+            $httpCode = (int) $matches[1];
+        }
+        $errorMessage = 'stream transport';
+    }
+
+    if ($response === false || $httpCode < 200 || $httpCode >= 300) {
+        error_log('Bitrix24 lead error: ' . ($errorMessage !== '' ? $errorMessage : 'HTTP ' . $httpCode));
+        return false;
+    }
+
+    $result = json_decode($response, true);
+    if (!is_array($result) || !isset($result['result'])) {
+        error_log('Bitrix24 lead error: invalid response.');
+        return false;
+    }
+
+    return true;
+}
+
+function sendTelegramMessage(string $botToken, string $chatId, string $message): bool
+{
+    if ($botToken === '' || $chatId === '') {
+        error_log('Telegram error: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is not configured.');
+        return false;
+    }
+
+    $endpoint = 'https://api.telegram.org/bot' . $botToken . '/sendMessage';
+    $postData = http_build_query([
+        'chat_id' => $chatId,
+        'text' => $message,
+        'disable_web_page_preview' => 'true',
+    ]);
+    $response = false;
+    $httpCode = 0;
+
+    if (function_exists('curl_init')) {
+        $curl = curl_init($endpoint);
+        curl_setopt_array($curl, [
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => $postData,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_CONNECTTIMEOUT => 5,
+            CURLOPT_TIMEOUT => 12,
+        ]);
+        $response = curl_exec($curl);
+        $httpCode = (int) curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        $errorMessage = curl_error($curl);
+        curl_close($curl);
+    } else {
+        $context = stream_context_create([
+            'http' => [
+                'method' => 'POST',
+                'header' => "Content-Type: application/x-www-form-urlencoded\r\nConnection: close\r\n",
+                'content' => $postData,
+                'timeout' => 12,
+                'ignore_errors' => true,
+            ],
+        ]);
+        $response = @file_get_contents($endpoint, false, $context);
+        $statusLine = $http_response_header[0] ?? '';
+        if (preg_match('/\s(\d{3})\s/', $statusLine, $matches)) {
+            $httpCode = (int) $matches[1];
+        }
+        $errorMessage = 'stream transport';
+    }
+
+    if ($response === false || $httpCode < 200 || $httpCode >= 300) {
+        error_log('Telegram error: ' . ($errorMessage ?? ('HTTP ' . $httpCode)));
+        return false;
+    }
+
+    $result = json_decode($response, true);
+    return is_array($result) && ($result['ok'] ?? false) === true;
 }
 
 function sendMail(string $to, string $subject, string $body, array $attachments, string $replyTo = ''): bool
@@ -150,10 +314,29 @@ foreach ($attachments as $attachment) {
     $lines[] = 'Файл: ' . $attachment['name'];
 }
 
+$bitrixSent = sendBitrixLead($formName, $pageUrl, $fields, $attachments);
 $sent = sendMail(RECIPIENT_EMAIL, SUBJECT_PREFIX . ': ' . $formName, implode("\r\n", $lines), $attachments, $replyTo);
-if (!$sent) {
+$telegramSent = sendTelegramMessage(
+    getConfigValue('TELEGRAM_BOT_TOKEN'),
+    getConfigValue('TELEGRAM_CHAT_ID'),
+    implode("\n", $lines),
+);
+if (!$bitrixSent || !$sent || !$telegramSent) {
     http_response_code(502);
-    echo json_encode(['success' => false, 'message' => 'Заявка не отправлена. Попробуйте ещё раз'], JSON_UNESCAPED_UNICODE);
+    $failedChannels = [];
+    if (!$bitrixSent) {
+        $failedChannels[] = 'Bitrix24';
+    }
+    if (!$sent) {
+        $failedChannels[] = 'электронную почту';
+    }
+    if (!$telegramSent) {
+        $failedChannels[] = 'Telegram';
+    }
+    echo json_encode([
+        'success' => false,
+        'message' => 'Не удалось отправить заявку в ' . implode(' и ', $failedChannels) . '.',
+    ], JSON_UNESCAPED_UNICODE);
     exit;
 }
 

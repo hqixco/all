@@ -30,9 +30,16 @@
         <small>Частная строительная бригада в Москве и МО</small>
       </a>
       <nav class="nav" id="site-nav" aria-label="Основная навигация">
+        <div class="nav-dropdown">
+          <button class="nav-dropdown__toggle" type="button" aria-expanded="false">Услуги <svg aria-hidden="true" viewBox="0 0 12 8"><path d="m1 1 5 5 5-5" /></svg></button>
+          <div class="nav-dropdown__menu">
+            <a href="/pristroyki/">Пристройки к дому</a>
+            <a href="/#prices">Замена кровли</a>
+          </div>
+        </div>
         <a href="#prices">Цены</a>
         <a href="#cases">Объекты</a>
-        <a href="#calculator">Калькулятор</a>
+        <a href="/pristroyki/">Пристройки</a>
         <a href="#faq">FAQ</a>
       </nav>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
@@ -40,7 +47,7 @@
       </button>
       <div class="header-contacts" aria-label="Контакты">
         <div class="header-socials" aria-label="Мессенджеры">
-          <a class="header-social" href="#" aria-label="Написать в Telegram">
+          <a class="header-social" href="https://t.me/Stroyka_i_remont11" aria-label="Написать в Telegram">
             <img src="/src/assets/telegram-clean.svg" alt="" />
             <span>Telegram</span>
           </a>
@@ -68,8 +75,8 @@
             Снимем старое покрытие, проверим стропила и обрешетку. Исправные конструкции сохраним, поврежденные заменим только после согласования.
           </p>
           <div class="hero__price-row" aria-label="Ориентировочные цены">
-            <span><i class="hero__mini-icon hero__mini-icon--roof" aria-hidden="true"></i><em>Замена покрытия</em><strong>от 500 ₽/м²</strong></span>
-            <span><i class="hero__mini-icon hero__mini-icon--home" aria-hidden="true"></i><em>Полная замена кровли</em><strong>от 2 600 ₽/м²</strong></span>
+            <span><i class="hero__mini-icon hero__mini-icon--roof" aria-hidden="true"></i><em>Замена покрытия</em><strong>от 500 ₽ за м²</strong></span>
+            <span><i class="hero__mini-icon hero__mini-icon--home" aria-hidden="true"></i><em>Полная замена кровли</em><strong>от 2 600 ₽ за м²</strong></span>
           </div>
           <div class="hero__actions">
             <a class="button button--primary button--photo" href="#lead-popup" data-popup-open>Рассчитать стоимость по фото</a>
@@ -118,6 +125,75 @@
         </div>
       </section>
 
+      <section class="section cases cases-section" id="cases">
+        <div class="section__head cases-section__head">
+          <h2>Примеры работ с итоговой ценой</h2>
+          <p>Показываем не только красивые фотографии, но и что именно вошло в стоимость.</p>
+        </div>
+        <div class="works__cases works-grid works-grid--featured">
+          <article class="case-card work-card">
+            <div class="case-card__photo case-card__photo--slider case-image-01" data-case-images="/src/assets/case-roof-burgundy-dacha-01.webp,/src/assets/case-roof-burgundy-dacha-02.webp,/src/assets/case-roof-burgundy-dacha-03.webp"></div>
+            <h3 class="case-card__title">Замена кровли на двухэтажном доме</h3>
+            <div class="case-card__breakdown">
+              <div><span>Площадь</span><strong>128 м2</strong></div>
+              <div><span>Срок</span><strong>6 дней</strong></div>
+              <div><span>Итоговая стоимость</span><strong>335 000 ₽</strong></div>
+              <div><span>Что сделали</span><strong>Демонтировали старое покрытие, подготовили основание и смонтировали новую тёмную кровлю на основном доме. Оформили конёк, карнизные свесы и узлы примыкания, чтобы крыша выглядела аккуратно и была полностью защищена от протечек.</strong></div>
+
+            </div>
+            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
+          </article>
+          <article class="case-card work-card">
+            <div class="case-card__photo case-card__photo--slider case-image-02" data-case-images="/src/assets/case-roof-brown-brick-house-01.webp,/src/assets/case-roof-brown-brick-house-02.webp"></div>
+            <h3 class="case-card__title">Реконструкция кровли на кирпичном доме</h3>
+            <div class="case-card__breakdown">
+              <div><span>Площадь</span><strong>146 м2</strong></div>
+              <div><span>Срок</span><strong>9 дней</strong></div>
+              <div><span>Итоговая стоимость</span><strong>380 000 ₽</strong></div>
+              <div><span>Что сделали</span><strong>На кирпичном доме выполнили устройство новой вальмовой кровли: собрали стропильную конструкцию, подготовили основание и смонтировали кровельное покрытие. Дополнительно оформили свесы и привели геометрию крыши к единому аккуратному виду.</strong></div>
+
+            </div>
+            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
+          </article>
+          <article class="case-card work-card">
+            <div class="case-card__photo case-card__photo--slider case-image-03" data-case-images="/src/assets/case-roof-green-garden-house-01.webp,/src/assets/case-roof-green-garden-house-02.webp"></div>
+            <h3 class="case-card__title">Монтаж кровли на пристройке и входной группе</h3>
+            <div class="case-card__breakdown">
+              <div><span>Площадь</span><strong>98 м2</strong></div>
+              <div><span>Срок</span><strong>5 дней</strong></div>
+              <div><span>Итоговая стоимость</span><strong>255 000 ₽</strong></div>
+              <div><span>Что сделали</span><strong>Смонтировали новую кровельную конструкцию над пристройкой к дому: собрали стропила, подготовили обрешётку и выполнили устройство покрытия. Аккуратно оформили примыкание к основному зданию, чтобы новая часть крыши выглядела цельно и надёжно работала в эксплуатации.</strong></div>
+
+            </div>
+            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
+          </article>
+          <article class="case-card work-card">
+            <div class="case-card__photo case-card__photo--slider case-image-04" data-case-images="/src/assets/case-roof-green-garden-house-03.webp,/src/assets/case-roof-green-garden-house-04.webp"></div>
+            <h3 class="case-card__title">Замена старой кровли на дачном доме</h3>
+            <div class="case-card__breakdown">
+              <div><span>Площадь</span><strong>112 м2</strong></div>
+              <div><span>Срок</span><strong>5 дней</strong></div>
+              <div><span>Итоговая стоимость</span><strong>290 000 ₽</strong></div>
+              <div><span>Что сделали</span><strong>На дачном доме демонтировали изношенное старое покрытие и поэтапно выполнили замену кровли. Подготовили основание, обновили проблемные участки и смонтировали новое покрытие с аккуратной подгонкой по скатам и свесам.</strong></div>
+
+            </div>
+            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
+          </article>
+          <article class="case-card work-card">
+            <div class="case-card__photo case-card__photo--slider case-image-05" data-case-images="/src/assets/case-roof-metal-tile-garden-house-01.webp,/src/assets/case-roof-metal-tile-garden-house-02.webp"></div>
+            <h3 class="case-card__title">Замена кровли на деревянном садовом доме</h3>
+            <div class="case-card__breakdown">
+              <div><span>Площадь</span><strong>134 м2</strong></div>
+              <div><span>Срок</span><strong>7 дней</strong></div>
+              <div><span>Итоговая стоимость</span><strong>350 000 ₽</strong></div>
+              <div><span>Что сделали</span><strong>Демонтировали старое покрытие и проверили деревянное основание. Заменили повреждённые участки обрешётки, уложили гидроизоляцию и смонтировали тёмную металлочерепицу. Оформили карнизные свесы, примыкания и узлы вокруг пристройки.</strong></div>
+
+            </div>
+            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
+          </article>
+        </div>
+      </section>
+
       <section class="section prices" id="prices">
         <div class="section__head">
           <h2>Сколько стоит замена кровли: 3 варианта</h2>
@@ -162,7 +238,7 @@
           <article class="price-card price-card--accent">
             <figure class="price-card__media">
               <img src="/src/assets/service-batten.webp" alt="" />
-              <span class="price-card__badge" aria-hidden="true">★ Частый вариант</span>
+            <span class="price-card__badge"><span class="badge-icon" aria-hidden="true"></span>Частый вариант</span>
             </figure>
             <div class="price-card__title-row">
               <h3>Замена покрытия и обрешетки</h3>
@@ -231,125 +307,6 @@
         </div>
       </section>
 
-      <section class="section calculator" id="calculator">
-        <div class="calculator__copy">
-          <h2>Рассчитайте стоимость замены кровли</h2>
-          <p>Укажите площадь крыши, материал и объем замены. Покажем предварительный диапазон и состав сметы без звонка менеджеру.</p>
-          <ul class="calculator-benefits">
-            <li><span class="calculator-benefits__icon calculator-benefits__icon--calc" aria-hidden="true"></span><strong>Расчет сразу на экране</strong><em>Получите диапазон стоимости за 1 минуту</em></li>
-            <li><span class="calculator-benefits__icon calculator-benefits__icon--estimate" aria-hidden="true"></span><strong>Работы и материалы отдельно</strong><em>Понимаете, за что платите</em></li>
-            <li><span class="calculator-benefits__icon calculator-benefits__icon--shield" aria-hidden="true"></span><strong>Скрытые дефекты добавляем только после согласования</strong><em>Никаких неожиданных доплат</em></li>
-          </ul>
-        </div>
-        <form class="calc" id="roof-calc">
-          <div class="calc__controls">
-            <label>
-              Площадь кровли, м2
-              <input id="area" type="number" min="40" max="600" value="140" />
-            </label>
-            <label>
-              Материал покрытия
-              <select id="material">
-                <option value="shifer">Шифер</option>
-                <option value="profnastil">Профнастил</option>
-                <option value="metal" selected>Металлочерепица</option>
-                <option value="soft">Мягкая кровля</option>
-                <option value="falz">Фальц</option>
-              </select>
-            </label>
-            <label>
-              Что требуется заменить?
-              <select id="base">
-                <option value="cover">Меняем только покрытие</option>
-                <option value="batten" selected>Покрытие и обрешетка</option>
-                <option value="rebuild">Полная реконструкция</option>
-              </select>
-            </label>
-          </div>
-          <div class="calc-groups" id="calc-breakdown"></div>
-          <div class="calc__result">
-            <span class="calc__result-icon" aria-hidden="true"></span>
-            <div>
-              <span>Предварительная стоимость</span>
-              <strong id="calc-result">520 000-650 000 ₽</strong>
-              <em id="calc-meter">≈ 3 800-4 500 ₽/м2 с работой и материалами</em>
-            </div>
-            <p>Точная цена зависит от геометрии крыши, высоты, подъезда и состояния конструкций после демонтажа.<br /><b>Что уже включено:</b> демонтаж, обрешетка, покрытие, доборы, водосток и вывоз.</p>
-          </div>
-          <a class="button button--primary button--photo" href="#lead-popup" data-popup-open>Уточнить расчет по фотографиям</a>
-          <p class="calc__notice">Понадобятся 3-5 фото крыши и примерный адрес. Ответим за 10-15 минут.</p>
-        </form>
-      </section>
-
-      <section class="section cases cases-section" id="cases">
-        <div class="section__head cases-section__head">
-          <h2>Примеры работ с итоговой ценой</h2>
-          <p>Показываем не только красивые фотографии, но и что именно вошло в стоимость.</p>
-        </div>
-        <div class="works__cases works-grid works-grid--featured">
-          <article class="case-card work-card">
-            <div class="case-card__photo case-card__photo--slider case-image-01" data-case-images="/src/assets/case-roof-burgundy-dacha-01.webp,/src/assets/case-roof-burgundy-dacha-02.webp,/src/assets/case-roof-burgundy-dacha-03.webp"></div>
-            <h3 class="case-card__title">Замена кровли на двухэтажном доме</h3>
-            <div class="case-card__breakdown">
-              <div><span>Площадь</span><strong>128 м2</strong></div>
-              <div><span>Срок</span><strong>6 дней</strong></div>
-              <div><span>Итоговая стоимость</span><strong>475 000 ₽</strong></div>
-              <div><span>Что сделали</span><strong>Демонтировали старое покрытие, подготовили основание и смонтировали новую тёмную кровлю на основном доме. Оформили конёк, карнизные свесы и узлы примыкания, чтобы крыша выглядела аккуратно и была полностью защищена от протечек.</strong></div>
-
-            </div>
-            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
-          </article>
-          <article class="case-card work-card">
-            <div class="case-card__photo case-card__photo--slider case-image-02" data-case-images="/src/assets/case-roof-brown-brick-house-01.webp,/src/assets/case-roof-brown-brick-house-02.webp"></div>
-            <h3 class="case-card__title">Реконструкция кровли на кирпичном доме</h3>
-            <div class="case-card__breakdown">
-              <div><span>Площадь</span><strong>146 м2</strong></div>
-              <div><span>Срок</span><strong>9 дней</strong></div>
-              <div><span>Итоговая стоимость</span><strong>690 000 ₽</strong></div>
-              <div><span>Что сделали</span><strong>На кирпичном доме выполнили устройство новой вальмовой кровли: собрали стропильную конструкцию, подготовили основание и смонтировали кровельное покрытие. Дополнительно оформили свесы и привели геометрию крыши к единому аккуратному виду.</strong></div>
-
-            </div>
-            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
-          </article>
-          <article class="case-card work-card">
-            <div class="case-card__photo case-card__photo--slider case-image-03" data-case-images="/src/assets/case-roof-green-garden-house-01.webp,/src/assets/case-roof-green-garden-house-02.webp"></div>
-            <h3 class="case-card__title">Монтаж кровли на пристройке и входной группе</h3>
-            <div class="case-card__breakdown">
-              <div><span>Площадь</span><strong>98 м2</strong></div>
-              <div><span>Срок</span><strong>5 дней</strong></div>
-              <div><span>Итоговая стоимость</span><strong>386 000 ₽</strong></div>
-              <div><span>Что сделали</span><strong>Смонтировали новую кровельную конструкцию над пристройкой к дому: собрали стропила, подготовили обрешётку и выполнили устройство покрытия. Аккуратно оформили примыкание к основному зданию, чтобы новая часть крыши выглядела цельно и надёжно работала в эксплуатации.</strong></div>
-
-            </div>
-            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
-          </article>
-          <article class="case-card work-card">
-            <div class="case-card__photo case-card__photo--slider case-image-04" data-case-images="/src/assets/case-roof-green-garden-house-03.webp,/src/assets/case-roof-green-garden-house-04.webp"></div>
-            <h3 class="case-card__title">Замена старой кровли на дачном доме</h3>
-            <div class="case-card__breakdown">
-              <div><span>Площадь</span><strong>112 м2</strong></div>
-              <div><span>Срок</span><strong>5 дней</strong></div>
-              <div><span>Итоговая стоимость</span><strong>438 000 ₽</strong></div>
-              <div><span>Что сделали</span><strong>На дачном доме демонтировали изношенное старое покрытие и поэтапно выполнили замену кровли. Подготовили основание, обновили проблемные участки и смонтировали новое покрытие с аккуратной подгонкой по скатам и свесам.</strong></div>
-
-            </div>
-            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
-          </article>
-          <article class="case-card work-card">
-            <div class="case-card__photo case-card__photo--slider case-image-05" data-case-images="/src/assets/case-roof-metal-tile-garden-house-01.webp,/src/assets/case-roof-metal-tile-garden-house-02.webp"></div>
-            <h3 class="case-card__title">Замена кровли на деревянном садовом доме</h3>
-            <div class="case-card__breakdown">
-              <div><span>Площадь</span><strong>134 м2</strong></div>
-              <div><span>Срок</span><strong>7 дней</strong></div>
-              <div><span>Итоговая стоимость</span><strong>512 000 ₽</strong></div>
-              <div><span>Что сделали</span><strong>Демонтировали старое покрытие и проверили деревянное основание. Заменили повреждённые участки обрешётки, уложили гидроизоляцию и смонтировали тёмную металлочерепицу. Оформили карнизные свесы, примыкания и узлы вокруг пристройки.</strong></div>
-
-            </div>
-            <a class="button button--primary button--photo case-card__estimate-button" href="#lead-popup" data-popup-open>Рассчитать мою кровлю</a>
-          </article>
-        </div>
-      </section>
-
       <section class="section materials">
         <div class="section__head">
           <h2>Какое покрытие выбрать при замене кровли</h2>
@@ -361,7 +318,7 @@
             <div class="material-card__head"><h3>Профнастил</h3></div>
             <p class="material-card__for">Для дачи и простого частного дома</p>
             <p>Относительно недорогое покрытие для простых односкатных и двускатных крыш.</p>
-            <div class="material-card__price"><span aria-hidden="true"></span><strong>от 800 ₽/м²</strong><em>Срок службы: 20-30 лет</em></div>
+            <div class="material-card__price"><span aria-hidden="true"></span><strong>от 500 ₽/м²</strong><em>Срок службы: 20-30 лет</em></div>
             <div class="material-card__fit"><span aria-hidden="true"></span><p><b>Подходит:</b> простая геометрия, ограниченный бюджет</p></div>
             <ul>
               <li>Быстрый монтаж</li>
@@ -374,7 +331,7 @@
               data-popup-title="Рассчитать кровлю с профнастилом"
               data-popup-text="Пришлите фото крыши и примерную площадь. Посчитаем профнастил с монтажом, доборами и нужной подготовкой основания."
               data-popup-button="Рассчитать профнастил"
-            >Рассчитать с профнастилом →</a>
+            >Рассчитать с профнастилом</a>
           </article>
           <article class="material-card">
             <figure class="material-card__media"><img src="/src/assets/quiz-material-metallocherepica.webp" alt="" /><span>Часто выбирают</span></figure>
@@ -394,7 +351,7 @@
               data-popup-title="Рассчитать кровлю с металлочерепицей"
               data-popup-text="Пришлите фото дома. Подберем металлочерепицу под геометрию крыши и посчитаем материал, доборы и монтаж."
               data-popup-button="Рассчитать металлочерепицу"
-            >Рассчитать с металлочерепицей →</a>
+            >Рассчитать с металлочерепицей</a>
           </article>
           <article class="material-card">
             <figure class="material-card__media"><img src="/src/assets/quiz-material-myagkaya-krovlya.webp" alt="" /><span>Для сложной крыши</span></figure>
@@ -414,7 +371,7 @@
               data-popup-title="Рассчитать мягкую кровлю"
               data-popup-text="Пришлите фото сложных скатов, ендов и примыканий. Посчитаем мягкую кровлю со сплошным основанием и комплектующими."
               data-popup-button="Рассчитать мягкую кровлю"
-            >Рассчитать мягкую кровлю →</a>
+            >Рассчитать мягкую кровлю</a>
           </article>
           <article class="material-card">
             <figure class="material-card__media"><img src="/src/assets/material-standing-seam.webp" alt="" /><span>Долговечный вариант</span></figure>
@@ -434,7 +391,7 @@
               data-popup-title="Рассчитать фальцевую кровлю"
               data-popup-text="Пришлите фото и размеры крыши. Проверим уклоны, узлы примыканий и посчитаем фальцевое покрытие с монтажом."
               data-popup-button="Рассчитать фальц"
-            >Рассчитать фальцевую кровлю →</a>
+            >Рассчитать фальцевую кровлю</a>
           </article>
         </div>
         <div class="materials-cta">
@@ -484,70 +441,70 @@
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-alexey-istra.webp')"></div>
             <h3>Светлана · Истра</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>Зелёная крыша хорошо подошла к светлому фасаду дома. Работали аккуратно возле крыльца и цветников, ничего на участке не повредили.</p>
             <span class="review-card__source review-card__source--yandex">Источник:</span>
           </article>
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-elena-podolsk.webp')"></div>
             <h3>Александр · Подольск</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>Заменили старое покрытие на коричневый профнастил. Скаты получились ровными, после окончания работ дорожку и участок оставили чистыми.</p>
             <span class="review-card__source review-card__source--avito">Источник:</span>
           </article>
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-mikhail-chekhov.webp')"></div>
             <h3>Михаил · Чехов</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>Для кирпичного дома выбрали светлую кровлю. Мастера помогли подобрать оттенок, аккуратно оформили края и примыкание возле трубы.</p>
             <span class="review-card__source review-card__source--yandex">Источник:</span>
           </article>
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-igor-krasnogorsk.webp')"></div>
             <h3>Игорь · Красногорск</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>Давно собирался обновить крышу на деревянной даче. Новое покрытие уложили ровно, теперь дом выглядит аккуратнее и протечек больше нет.</p>
             <span class="review-card__source review-card__source--avito">Источник:</span>
           </article>
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-olga-odintsovo.webp')"></div>
             <h3>Ольга · Одинцово</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>Перед началом работ вместе осмотрели крышу и обсудили, какие участки нужно ремонтировать. Бордовое покрытие хорошо сочетается со светлым фасадом.</p>
             <span class="review-card__source review-card__source--yandex">Источник:</span>
           </article>
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-sergey-dmitrov.webp')"></div>
             <h3>Сергей · Дмитров</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>Полностью обновили кровлю и установили новые доборные элементы. Работали осторожно рядом с огородом, грядки и посадки не пострадали.</p>
             <span class="review-card__source review-card__source--avito">Источник:</span>
           </article>
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-natalya-mytishchi.webp')"></div>
             <h3>Наталья · Мытищи</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>Понравилось, что при замене крыши сохранили исправные части основания. Тёмное покрытие получилось ровным, возле теплицы после работ всё убрали.</p>
             <span class="review-card__source review-card__source--yandex">Источник:</span>
           </article>
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-andrey-domodedovo.webp')"></div>
             <h3>Андрей · Домодедово</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>Красную металлочерепицу подобрали под светлый дом. Крышу заменили без затягивания сроков, строительный мусор собрали и вывезли.</p>
             <span class="review-card__source review-card__source--avito">Источник:</span>
           </article>
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-roof-03.webp')"></div>
             <h3>Марина · Пушкино</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>После осмотра подробно объяснили, почему крыша начала протекать. Заменили проблемные участки и уложили новое тёмное покрытие.</p>
             <span class="review-card__source review-card__source--yandex">Источник:</span>
           </article>
           <article class="review-card">
             <div class="review-card__media" style="background-image:url('/src/assets/review-roof-01.webp')"></div>
             <h3>Павел · Балашиха</h3>
-            <strong>★★★★★</strong>
+            <span class="review-rating" aria-label="5 из 5"></span>
             <p>Новую кровлю смонтировали аккуратно и без задержек. Тёмная крыша хорошо смотрится на светлом доме, после монтажа участок оставили в порядке.</p>
             <span class="review-card__source review-card__source--avito">Источник:</span>
           </article>
@@ -559,20 +516,20 @@
           <h2>Коротко о частых спорных вопросах</h2>
         </div>
         <div class="faq__grid">
-          <details><summary>Можно ли заменить только один скат?</summary><p>Да, если остальные скаты исправны и новый материал можно аккуратно состыковать с существующей кровлей.</p></details>
-          <details><summary>Нужно ли снимать старый рубероид?</summary><p>Обычно да. Старые слои мешают увидеть основание, удерживают влагу и дают ложное ощущение экономии.</p></details>
-          <details><summary>Можно ли оставить существующие стропила?</summary><p>Да, если древесина сухая, без гнили, сильного прогиба и следов разрушения в узлах.</p></details>
-          <details><summary>Что делать со старым шифером?</summary><p>Снимаем аккуратно, складываем отдельно. Вывоз можно включить в смету отдельной строкой.</p></details>
-          <details><summary>Кто вывозит мусор?</summary><p>По договоренности: можем организовать контейнер и вывоз, либо оставить материалы в указанном месте.</p></details>
-          <details><summary>Можно ли жить в доме во время работ?</summary><p>В большинстве случаев да. Работы идут снаружи, но шум, пыль и временные ограничения нужно учитывать.</p></details>
-          <details><summary>Что будет, если пойдет дождь?</summary><p>Работаем участками и держим тенты на объекте. Открытые зоны закрываются в день демонтажа.</p></details>
-          <details><summary>Сколько длится замена крыши 100-150 м2?</summary><p>Обычно 4-10 рабочих дней. Полная реконструкция, сложная геометрия и утепление увеличивают срок.</p></details>
-          <details><summary>Цена изменится после демонтажа?</summary><p>Может измениться только при скрытых дефектах. Сначала фото, объем и стоимость, затем согласование.</p></details>
-          <details><summary>Кто закупает материалы?</summary><p>Можем закупить сами или работать с вашими материалами. Важно заранее проверить комплектацию.</p></details>
-          <details><summary>Какая гарантия на протечки?</summary><p>Гарантия фиксируется в договоре и зависит от состава работ и выбранного материала.</p></details>
-          <details><summary>Работаете ли дальше 100 км от МКАД?</summary><p>Да, обсуждаем логистику, проживание бригады и доставку материалов отдельно.</p></details>
-          <details><summary>Можно ли выполнить замену без утепления?</summary><p>Да, если чердак холодный или утепление не требуется по задаче дома.</p></details>
-          <details><summary>Что выгоднее: шифер, профнастил или металлочерепица?</summary><p>Шифер обычно дешевле, профнастил быстрее в монтаже, металлочерепица аккуратнее выглядит на жилом доме.</p></details>
+          <details><summary>Можно ли заменить только один скат?</summary><p>Да, если остальные скаты не имеют прогибов и гнили, а новый материал можно корректно состыковать со старым. На осмотре проверяем ендовы, конёк и узлы примыкания, чтобы частичный ремонт не создал новую точку протечки.</p></details>
+          <details><summary>Нужно ли снимать старый рубероид?</summary><p>В большинстве случаев да: под несколькими слоями не видно состояние настила и стропил, а влага остаётся внутри пирога. Снимаем покрытие до основания, сортируем отходы и отдельно показываем, что можно сохранить.</p></details>
+          <details><summary>Можно ли оставить существующие стропила?</summary><p>Можно, если древесина сухая, без следов насекомых, гнили и критического прогиба. Проверяем сечения и опирание, при необходимости усиливаем отдельные узлы, а не предлагаем менять всю систему без причины.</p></details>
+          <details><summary>Что делать со старым шифером?</summary><p>Снимаем его аккуратно, упаковываем и складываем в обозначенном месте либо организуем вывоз. В смете заранее указываем объём демонтажа, подъём и утилизацию, чтобы стоимость не появилась неожиданно.</p></details>
+          <details><summary>Кто вывозит мусор?</summary><p>Можем поставить контейнер и вывезти старое покрытие, упаковку и обрезки после монтажа. Если вывоз не нужен, складываем материалы в согласованной зоне и оставляем участок чистым и безопасным.</p></details>
+          <details><summary>Можно ли жить в доме во время работ?</summary><p>Обычно да: демонтаж и монтаж идут снаружи. Шумные этапы заранее согласуем, проходы закрываем плёнкой, а при работах возле входа организуем временный безопасный маршрут.</p></details>
+          <details><summary>Что будет, если пойдет дождь?</summary><p>Работаем захватками и не оставляем открытый участок на ночь. После демонтажа сразу укладываем временную защиту, а утеплитель и деревянные элементы храним сухими до закрытия кровельного пирога.</p></details>
+          <details><summary>Сколько длится замена крыши 100-150 м2?</summary><p>Простая замена покрытия занимает примерно 4–7 рабочих дней, а реконструкция со стропилами и утеплением — 8–14. На срок влияют геометрия, количество примыканий, погода и доступ для доставки материалов.</p></details>
+          <details><summary>Цена изменится после демонтажа?</summary><p>Только если обнаружатся скрытые дефекты, которых не видно по фото: сгнившие опоры, разрушенный настил или протечки в узлах. Останавливаемся, показываем проблему и согласуем отдельную стоимость до продолжения работ.</p></details>
+          <details><summary>Кто закупает материалы?</summary><p>Закупим и доставим сами либо работаем с вашими материалами. Перед монтажом проверяем комплектацию: мембраны, крепёж, доборные элементы, вентиляцию и совместимость выбранного покрытия.</p></details>
+          <details><summary>Какая гарантия на протечки?</summary><p>Гарантия и перечень работ фиксируются в договоре. Перед сдачей проверяем примыкания, проходки, водостоки и крепёж, а после дождя готовы приехать на гарантийный осмотр, если появятся вопросы.</p></details>
+          <details><summary>Работаете ли дальше 100 км от МКАД?</summary><p>Да, выезжаем по Московской области и дальше по согласованию. До старта отдельно считаем дорогу, доставку и при необходимости проживание бригады, чтобы эти расходы были видны в смете заранее.</p></details>
+          <details><summary>Можно ли выполнить замену без утепления?</summary><p>Да, для холодного чердака достаточно правильно собрать кровельный пирог с вентиляцией и гидроизоляцией. Если помещение планируется отапливать, утепление лучше предусмотреть сразу, иначе позже придётся разбирать покрытие.</p></details>
+          <details><summary>Что выгоднее: шифер, профнастил или металлочерепица?</summary><p>Шифер обычно дешевле и хорошо подходит для хозяйственных построек, профнастил легче и быстрее монтируется, а металлочерепица даёт более выразительный вид. Сравниваем не только лист, но и доборные элементы, срок службы и стоимость монтажа.</p></details>
         </div>
       </section>
 
@@ -580,22 +537,16 @@
 
     <footer class="footer">
       <div class="footer__brand">
-        <img class="footer__logo" src="/src/assets/e-krovlya-logo-footer.png" alt="Expert Krovli" />
-        <p>Замена старой кровли без навязывания полной реконструкции: сохраняем исправное, меняем только то, что действительно сгнило.</p>
+        <a class="footer__brand-link" href="/" aria-label="Expert Krovli — на главную">
+          <img class="footer__logo" src="/src/assets/e-krovlya-logo-footer.png" alt="Expert Krovli" />
+          <p>Замена старой кровли без навязывания полной реконструкции: сохраняем исправное, меняем только то, что действительно сгнило.</p>
+        </a>
       </div>
       <div class="footer__column">
         <h2>Разделы</h2>
         <a href="#prices">Цены</a>
         <a href="#cases">Объекты</a>
-        <a href="#calculator">Калькулятор</a>
         <a href="#faq">FAQ</a>
-      </div>
-      <div class="footer__column">
-        <h2>Посадочные</h2>
-        <a href="/zamena-shifera/">Замена шифера</a>
-        <a href="/zamena-krovli-na-profnastil/">Профнастил</a>
-        <a href="/zamena-krovli-na-metallocherepitsu/">Металлочерепица</a>
-        <a href="/rekonstruktsiya-staroj-kryshi/">Реконструкция крыши</a>
       </div>
       <div class="footer__column">
         <h2>Работаем</h2>
@@ -614,10 +565,10 @@
         <a class="footer__phone" href="tel:+79107748370"><img src="/src/assets/phone-call.svg" alt="" />+7 910 774-83-70</a>
         <div class="footer__socials" aria-label="Мессенджеры">
           <a class="footer__social" href="#" aria-label="Написать в Max">
-            <img src="/src/assets/telegram-clean.svg" alt="" />
-          </a>
-          <a class="footer__social" href="#" aria-label="Написать в Telegram">
             <img src="/src/assets/max-icon.svg" alt="" />
+          </a>
+          <a class="footer__social" href="https://t.me/Stroyka_i_remont11" aria-label="Написать в Telegram">
+            <img src="/src/assets/telegram-clean.svg" alt="" />
           </a>
         </div>
         <a href="#lead-popup" data-popup-open>Оставить заявку</a>
@@ -656,7 +607,7 @@
             <em>Можно выбрать несколько файлов</em>
           </label>
           <button class="button button--primary" id="lead-popup-submit" type="submit">Получить расчет кровли</button>
-          <label class="form-policy"><input type="checkbox" name="policy" required /><span aria-hidden="true"></span><b>Ознакомлен и согласен с условиями политики конфиденциальности.</b></label>
+          <label class="form-policy"><input type="checkbox" name="policy" required /><span aria-hidden="true"></span><b>Ознакомлен и согласен с условиями <a href="/politika-konfidentsialnosti/">политики конфиденциальности</a>.</b></label>
           <p class="form-message" aria-live="polite"></p>
         </form>
       </div>

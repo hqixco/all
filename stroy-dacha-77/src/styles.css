@@ -3978,6 +3978,19 @@ details {
   text-underline-offset: 2px;
 }
 
+.footer .site-footer-bottom__credit {
+  position: absolute;
+  right: 18px;
+  bottom: 12px;
+  color: rgba(255, 255, 255, 0.38);
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .mobile-actions {
   display: none;
 }
@@ -6766,6 +6779,12 @@ details {
 
   .footer a.footer__credit {
     right: 12px;
+    bottom: 10px;
+    font-size: 10px;
+  }
+
+  .footer .site-footer-bottom__credit {
+    right: 10px;
     bottom: 10px;
     font-size: 10px;
   }

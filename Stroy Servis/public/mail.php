@@ -6,18 +6,23 @@ header('Content-Type: application/json; charset=UTF-8');
 
 const RECIPIENT_EMAILS = [
     'rostislav.prod@yandex.ru',
-    'artemartem1artemij@yandex.ru',
+    'Hrurbrhu74@yandex.ru'
 ];
-const SUBJECT_PREFIX = 'Заявка с сайта по кровле';
+const SUBJECT_PREFIX = 'Заявка с сайта stroy-servis-pro.ru';
 // Имя, которое получатель видит в поле «От кого».
-const MAIL_FROM_NAME = 'Гарант Строй';
+const MAIL_FROM_NAME = 'Строй Сервис';
 // Адрес отправителя. Укажите здесь адрес на домене сайта, например info@example.ru.
 // Пустое значение использует no-reply@текущий-домен сайта.
-const MAIL_FROM_EMAIL = 'no-reply@garant-stroy-pro.ru';
+const MAIL_FROM_EMAIL = 'no-reply@stroy-servis-pro.ru';
 const TELEGRAM_ENABLED = true;
-const TELEGRAM_BOT_TOKEN = '8803429357:AAF_OfnYYU3Y9U7q58MAWUN8xrpmqg8Z47c';
-const TELEGRAM_CHAT_ID = '-5314526190';
+const TELEGRAM_BOT_TOKEN = '8984326109:AAEksJkrc27NWDc7L0Ix3r3w770XsHuvyuA';
+const TELEGRAM_CHAT_ID = '-5305970314';
 const TELEGRAM_API_TIMEOUT_SECONDS = 6;
+const MAX_ENABLED = true;
+const MAX_BOT_TOKEN = 'f9LHodD0cOI6itXLiSJFSZLW2Updn_hYGLeISjiEAh9hqAO-WpYMWOKisRvf1rsYMWVhhfIN9KjwZkD0L9pD';
+const MAX_CHAT_ID = '-79330183307454';
+const MAX_API_TIMEOUT_SECONDS = 8;
+const MAX_CA_FILE = __DIR__ . '/max-root-ca.crt';
 const LEAD_LOG_FILE = __DIR__ . '/lead-form.log';
 const LEAD_DEDUPE_FILE = __DIR__ . '/lead-form-dedupe.log';
 const LEAD_DEDUPE_TTL_SECONDS = 45;
@@ -159,6 +164,26 @@ function buildLeadFingerprint(string $formName, string $pageUrl, array $fields, 
     ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
 }
 
+function getServiceLabel(string $formName, string $pageUrl): string
+{
+    $source = mb_strtolower($formName . ' ' . $pageUrl, 'UTF-8');
+
+    if (str_contains($source, 'пристрой') || str_contains($source, 'pristroy')) {
+        return 'Пристройки';
+    }
+
+    if (
+        str_contains($source, 'восстанов')
+        || str_contains($source, 'домов')
+        || str_contains($source, 'vosstanovlen')
+        || str_contains($source, 'recovery')
+    ) {
+        return 'Восстановление домов';
+    }
+
+    return 'Замена кровли';
+}
+
 function registerLeadFingerprint(string $fingerprint): bool
 {
     $handle = @fopen(LEAD_DEDUPE_FILE, 'c+');
@@ -251,7 +276,7 @@ function escapeTelegramHtml(string $value): string
 
 function buildTelegramMessage(string $formName, string $pageUrl, array $fields, array $attachments): string
 {
-    $lines = ['<b>Новая заявка с сайта Гарант Строй</b>', ''];
+    $lines = ['<b>Новая заявка с сайта Строй Сервис</b>', ''];
     $fieldOrder = [
         'name',
         'phone',
@@ -512,6 +537,69 @@ function sendTelegramAttachments(string $botToken, string $chatId, array $attach
     return true;
 }
 
+function sendMaxNotification(string $botToken, string $chatId, string $messageText): bool
+{
+    if ($botToken === '' || $chatId === '') {
+        writeLeadLog('MAX message skipped: empty config', [
+            'has_bot_token' => $botToken !== '',
+            'has_chat_id' => $chatId !== '',
+        ]);
+        return false;
+    }
+
+    $payload = json_encode([
+        'text' => mb_substr($messageText, 0, 4000, 'UTF-8'),
+        'format' => 'html',
+        'disable_link_preview' => true,
+    ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    if ($payload === false) {
+        writeLeadLog('MAX message failed: json encode error');
+        return false;
+    }
+
+    $endpoint = 'https://platform-api2.max.ru/messages?chat_id=' . rawurlencode($chatId);
+    $headers = [
+        'Authorization: ' . $botToken,
+        'Content-Type: application/json',
+        'Accept: application/json',
+    ];
+
+    if (function_exists('curl_init')) {
+        $ch = curl_init($endpoint);
+        if ($ch !== false) {
+            curl_setopt_array($ch, [
+                CURLOPT_POST => true,
+                CURLOPT_POSTFIELDS => $payload,
+                CURLOPT_HTTPHEADER => $headers,
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_CONNECTTIMEOUT => MAX_API_TIMEOUT_SECONDS,
+                CURLOPT_TIMEOUT => MAX_API_TIMEOUT_SECONDS,
+                CURLOPT_CAINFO => MAX_CA_FILE,
+            ]);
+            $response = curl_exec($ch);
+            $httpCode = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            $curlError = curl_error($ch);
+            curl_close($ch);
+
+            $decoded = is_string($response) ? json_decode($response, true) : null;
+            if ($httpCode === 200 && is_array($decoded) && isset($decoded['message'])) {
+                writeLeadLog('MAX message sent', ['http_code' => $httpCode]);
+                return true;
+            }
+
+            writeLeadLog('MAX message failed', [
+                'http_code' => $httpCode,
+                'api_code' => is_array($decoded) ? ($decoded['code'] ?? '') : '',
+                'curl_error' => $curlError,
+            ]);
+        }
+    } else {
+        writeLeadLog('MAX message failed: curl extension is unavailable');
+    }
+
+    return false;
+}
+
 function sendEmail(string $subject, string $body, array $attachments): bool
 {
     $recipients = implode(', ', array_filter(array_map('trim', RECIPIENT_EMAILS)));
@@ -602,7 +690,7 @@ $formName = trim((string)($_POST['form_name'] ?? 'Форма'));
 $pageUrl = trim((string)($_POST['page_url'] ?? ''));
 $fields = collectFields($_POST);
 $body = buildMessage($formName, $pageUrl, $fields, $attachments);
-$subject = SUBJECT_PREFIX . ': ' . $formName;
+$subject = SUBJECT_PREFIX . ' — ' . getServiceLabel($formName, $pageUrl) . ': ' . $formName;
 
 if (!registerLeadFingerprint(buildLeadFingerprint($formName, $pageUrl, $fields, $attachments))) {
     writeLeadLog('Duplicate lead skipped', [
@@ -615,6 +703,7 @@ if (!registerLeadFingerprint(buildLeadFingerprint($formName, $pageUrl, $fields, 
 $mailSent = sendEmail($subject, $body, $attachments);
 $telegramSent = false;
 $telegramAttachmentsSent = true;
+$maxSent = false;
 
 if (TELEGRAM_ENABLED) {
     $telegramBotToken = getTelegramConfigValue('TELEGRAM_BOT_TOKEN', 'BOT_TOKEN');
@@ -627,14 +716,29 @@ if (TELEGRAM_ENABLED) {
     }
 }
 
-writeLeadLog(($mailSent || $telegramSent) ? 'Lead sent' : 'Lead failed', [
+if (MAX_ENABLED) {
+    $maxBotToken = getTelegramConfigValue('MAX_BOT_TOKEN', 'MAX_BOT_TOKEN');
+    $maxChatId = getTelegramConfigValue('MAX_CHAT_ID', 'MAX_CHAT_ID');
+    if ($maxBotToken !== '' && $maxChatId !== '') {
+        $maxSent = sendMaxNotification(
+            $maxBotToken,
+            $maxChatId,
+            buildTelegramMessage($formName, $pageUrl, $fields, $attachments)
+        );
+    } else {
+        writeLeadLog('MAX message skipped: empty config');
+    }
+}
+
+writeLeadLog(($mailSent || $telegramSent || $maxSent) ? 'Lead sent' : 'Lead failed', [
     'form' => $formName,
     'mail_sent' => $mailSent,
     'telegram_sent' => $telegramSent,
     'telegram_attachments_sent' => $telegramAttachmentsSent,
+    'max_sent' => $maxSent,
 ]);
 
-if (!$mailSent && !$telegramSent) {
+if (!$mailSent && !$telegramSent && !$maxSent) {
     http_response_code(502);
     echo json_encode(['success' => false, 'message' => 'Заявка не отправлена. Попробуйте ещё раз'], JSON_UNESCAPED_UNICODE);
     exit;

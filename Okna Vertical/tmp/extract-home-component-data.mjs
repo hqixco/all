@@ -1,0 +1,43 @@
+﻿import fs from 'node:fs';
+import sharp from 'sharp';
+import {createRequire} from 'node:module';
+import {apartmentPage} from '../seo-pages/components/apartment.js';
+const require=createRequire(import.meta.url);const {chromium}=require('C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const browser=await chromium.launch({headless:true});const page=await browser.newPage();await page.setContent(fs.readFileSync('index.html','utf8'));
+const output=await page.evaluate(()=>{
+ const main=document.querySelector('main.home-page');
+ const get=(root,selector)=>root.querySelector(selector)?.innerHTML||'';
+ const attr=(root,selector,name)=>root.querySelector(selector)?.getAttribute(name)||'';
+ const pic=(root,selector)=>({imageSrc:attr(root,selector,'src'),imageWidth:attr(root,selector,'width'),imageHeight:attr(root,selector,'height'),imageAlt:attr(root,selector,'alt')});
+ const modal=(root,selector)=>({modalTitle:attr(root,selector,'data-package-title'),modalHeading:attr(root,selector,'data-package-modal-title'),modalDescription:attr(root,selector,'data-package-description'),modalImage:attr(root,selector,'data-package-image'),modalSubmit:attr(root,selector,'data-package-submit')});
+ const rows=(root,selector,fn)=>[...root.querySelectorAll(selector)].map(fn);
+ const root=name=>main.querySelector(name)||document.querySelector(name);
+ const sections={};let el=root('.home-products');
+ sections.solutions={component:'products',data:{id:el.id,titleHtml:get(el,'h2'),leadHtml:get(el,'.home-section-lead'),items:rows(el,'.home-product-card',card=>({...pic(card,'.home-product-card__visual > img'),kickerHtml:get(card,'.home-product-card__content > span'),titleHtml:get(card,'h3'),descriptionHtml:get(card,'.home-product-card__content > p'),priceHtml:get(card,'.home-product-card__content > strong'),features:rows(card,'dl > div',row=>({labelHtml:get(row,'dt'),valueHtml:get(row,'dd')})),...modal(card,'button'),buttonLabelHtml:get(card,'button').replace(/<b>→<\/b>/,'<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>')}))}};
+ el=root('.home-included');sections.price={component:'included',data:{id:'',...pic(el,'.home-estimate > img'),titleHtml:get(el,'h2'),kickerHtml:get(el,'.home-kicker'),leadHtml:get(el,'.home-included__lead'),promiseTitleHtml:get(el,'.home-included__promise strong'),promiseTextHtml:get(el,'.home-included__promise span'),items:rows(el,'.home-table > div:not(.home-table__head)',row=>({labelHtml:get(row,'b'),conditionHtml:get(row,'span'),conditionClass:attr(row,'span','class')}))}};
+ el=root('.installation-section');sections.process={component:'installation',data:{id:el.id,kickerHtml:get(el,'.eyebrow'),titleHtml:get(el,'h2'),leadHtml:get(el,'.installation-heading p'),noteTitleHtml:get(el,'.installation-note strong'),noteHtml:get(el,'.installation-note span'),...pic(el,'.installation-diagram img'),walls:rows(el,'.wall-tab',tab=>({key:tab.dataset.wallKey,imageSrc:tab.dataset.wallImage,className:tab.className,titleHtml:get(tab,'span')})),details:rows(el,'.installation-details > div',row=>({titleHtml:get(row,'strong'),descriptionHtml:get(row,'span')})),points:rows(el,'.installation-points > li',row=>({textHtml:row.innerHTML})),benefits:rows(el,'.installation-benefits > div',row=>({imageSrc:attr(row,'img','src'),textHtml:get(row,'span')}))}};
+ el=root('.warranty-section');sections.warranty={component:'warranty',data:{id:el.id,titleHtml:get(el,'h2'),leadHtml:get(el,'.warranty-lead'),footnoteHtml:get(el,'.warranty-footnote span'),items:rows(el,'.warranty-row',row=>({iconHtml:get(row,'svg'),titleHtml:get(row,'strong'),termHtml:get(row,'b'),descriptionHtml:get(row,'span')})),information:rows(el,'.warranty-info__item',row=>({iconHtml:get(row,'svg'),contentHtml:get(row,'div')})),ctaHtml:el.querySelector('.warranty-cta')?.outerHTML||''}};
+ el=root('.reviews-section');sections.reviews={component:'reviews',data:{id:el.id,titleHtml:get(el,'h2'),items:rows(el,'.review-card',row=>({mediaStyle:attr(row,'.review-card__media','style'),titleHtml:get(row,'h3'),textHtml:get(row,'p'),sourceClass:attr(row,'.review-card__source','class'),sourceHtml:get(row,'.review-card__source')}))}};
+ el=root('.home-faq');sections.faq={component:'faq',data:{id:el.id,titleHtml:get(el,'h2'),items:rows(el,'details',row=>({questionHtml:get(row,'summary'),answerHtml:get(row,'p')}))}};
+ el=root('.home-calculator');sections.calculator={component:'calculator',data:{id:el.id,...pic(el,'.home-calculator__visual'),titleHtml:get(el,'h2'),leadHtml:get(el,'.home-calculator__intro > p:not(.home-kicker)'),sourceName:'Калькулятор: главная',installationPlace:'',places:rows(el,'[name="installation_place"]',input=>({value:input.value,labelHtml:get(input.closest('label'),'span'),checked:input.checked}))}};
+ el=root('.cases-section');sections.cases={component:'cases',data:{id:el.id,titleHtml:get(el,'h2'),category:'balconies',navigation:{items:rows(el,'.cases-menu button',button=>({category:button.dataset.caseCategory,labelHtml:button.innerHTML,className:button.className}))},items:rows(el,'.case-card',card=>({titleHtml:get(card,'h3'),photos:rows(card,'.case-photo img',img=>({src:img.getAttribute('src'),alt:img.getAttribute('alt')})),details:rows(card,'.case-breakdown > div',row=>({labelHtml:get(row,'span'),valueHtml:get(row,'strong')}))}))}};
+ el=document.querySelector('.site-footer');const footer={descriptionHtml:get(el,'.footer-brand > p'),ctaTitleHtml:get(el,'.footer-cta strong'),...modal(el,'.footer-cta a')};
+ return {sections,footer};
+});
+for(const block of Object.values(output.sections)){
+ const images=block.data.items||[block.data];for(const item of images){if(item.imageSrc&&(!item.imageWidth||!item.imageHeight)){const meta=await sharp('public'+item.imageSrc).metadata();item.imageWidth=meta.width;item.imageHeight=meta.height;}}
+}
+// Common optional slots and action labels; no per-page layout copies.
+for(const item of apartmentPage.sections.solutions.data.items){item.buttonLabelHtml='Рассчитать стоимость<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>';item.modalSubmit='Получить расчёт';}
+apartmentPage.sections.warranty.data.ctaHtml='';apartmentPage.sections.cases.data.navigation=false;apartmentPage.sections.calculator.data.places=[];
+apartmentPage.sections.hero.data.productsLabel='Окна для квартиры';
+let products=fs.readFileSync('components/products.html','utf8');products=products.replace(/>Рассчитать стоимость<svg[\s\S]*?<\/svg><\/button>/,' data-package-submit="{{modalSubmit}}">{{{buttonLabelHtml}}}</button>');fs.writeFileSync('components/products.html',products);
+let cases=fs.readFileSync('components/cases.html','utf8');cases=cases.replace('<div class="cases-grid">','{{#navigation}}<nav class="cases-menu" aria-label="Тип объекта">{{#items}}<button class="{{className}}" type="button" data-case-category="{{category}}">{{{labelHtml}}}</button>{{/items}}</nav>{{/navigation}}<div class="cases-grid">');fs.writeFileSync('components/cases.html',cases);
+let warranty=fs.readFileSync('components/warranty.html','utf8');warranty=warranty.replace(/<\/div>\s*<\/section>\s*$/,'{{{ctaHtml}}}</div></section>\n');fs.writeFileSync('components/warranty.html',warranty);
+let calc=fs.readFileSync('components/calculator.html','utf8');calc=calc.replace('<input type="hidden" name="installation_place" value="{{installationPlace}}">','{{#installationPlace}}<input type="hidden" name="installation_place" value="{{installationPlace}}">{{/installationPlace}}{{#placeGroup}}<p>Куда устанавливаем?</p><div class="home-calc-options home-calc-options--place">{{#items}}<label><input type="radio" name="installation_place" value="{{value}}"{{#checked}} checked{{/checked}}><span>{{{labelHtml}}}</span></label>{{/items}}</div>{{/placeGroup}}');fs.writeFileSync('components/calculator.html',calc);
+let hero=fs.readFileSync('components/hero.html','utf8').replace('aria-label="Окна для квартиры"','aria-label="{{productsLabel}}"');fs.writeFileSync('components/hero.html',hero);
+fs.writeFileSync('seo-pages/components/apartment.js','// Page content only. Layouts live in components/*.html.\nexport const apartmentPage = '+JSON.stringify(apartmentPage,null,2)+';\n');
+fs.writeFileSync('seo-pages/components/home.js','// Shared components on the homepage.\nexport const homeComponents = '+JSON.stringify(output,null,2)+';\n');
+await browser.close();
+console.log('Homepage data extracted for '+Object.keys(output.sections).length+' shared blocks');
+

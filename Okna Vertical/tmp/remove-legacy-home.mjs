@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+let html=fs.readFileSync('index.html','utf8');
+const start=html.indexOf('    <main id="top" class="legacy-page">');
+const end=html.indexOf('</main>',start)+7;
+const legacy=html.slice(start,end);
+const modalStart=legacy.indexOf('      <div class="package-modal"');
+const modalEnd=legacy.indexOf('      <div class="mobile-actions',modalStart);
+if(start<0||modalStart<0||modalEnd<0)throw Error('Missing legacy boundaries');
+html=html.slice(0,start)+legacy.slice(modalStart,modalEnd)+html.slice(end);
+fs.writeFileSync('index.html',html);
