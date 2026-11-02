@@ -1,0 +1,62 @@
+.signs-hub p { margin: var(--paragraph-margin,0 0 18px); }
+.signs-hub a:focus, .signs-hub button:focus, .signs-hub summary:focus { outline: 3px solid var(--ui-focus); outline-offset: 4px; }
+.signs-hub__breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; padding: var(--mobile-breadcrumb-top,22px) 20px var(--mobile-breadcrumb-bottom,8px) 20px; }
+.signs-hub__breadcrumbs > * { margin: var(--mobile-breadcrumb-item-margin,0 10px 8px 0); }
+.signs-hub__separator { display: inline-flex; }
+.signs-hub a.signs-hub__button, .signs-hub__button { display: inline-flex; align-items: center; justify-content: center; min-height: var(--mobile-button-height,var(--compact-button-height,48px)); text-align: center; cursor: pointer; }
+.signs-hub__section { scroll-margin-top: 20px; }
+.signs-hub__subheading { margin: 0 0 14px; }
+.signs-hub__intro { max-width: 880px; }
+.signs-hub__note { margin-top: 28px; }
+.signs-hub__split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start; }
+.signs-hub__split > * { min-width: 0; }
+.signs-hub-light__card-image, .signs-hub-placement__card-image { display: block; width: 100%; height: 100px; object-fit: cover; border-radius: var(--ui-field-radius); margin-bottom: 12px; }
+.signs-hub__faq { max-width: 980px; }
+.signs-hub__question summary { display: flex; justify-content: space-between; align-items: center; cursor: pointer; list-style: none; }
+.signs-hub__question summary::-webkit-details-marker { display: none; }
+.signs-hub__question summary svg { flex: 0 0 20px; margin-left: 18px; }
+.signs-hub__question[open] summary svg { transform: rotate(180deg); }
+.signs-hub__question p { padding-right: 40px; }
+.signs-hub__checklist { padding-left: 20px; margin: 24px 0; }
+.signs-hub__checklist li { margin-bottom: 10px; }
+.signs-hub__field { display: block; }
+.signs-hub__field input, .signs-hub__field textarea { display: block; width: 100%; max-width: 100%; box-sizing: border-box; }
+.signs-hub__field textarea { resize: vertical; min-height: 130px; }
+.signs-hub__field input:focus, .signs-hub__field textarea:focus { outline: 2px solid var(--ui-focus); outline-offset: 2px; }
+.signs-hub__consent { display: flex; align-items: flex-start; margin: 8px 0 22px; }
+.signs-hub__consent input { -webkit-appearance: checkbox; appearance: auto; width: 18px; height: 18px; flex: 0 0 18px; margin: 2px 10px 0 0; }
+
+.signs-hub__elements { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; margin-top: 30px; }
+.signs-hub__element { padding: 24px; min-width: 0; }
+.signs-hub__element-image { display: block; width: 100%; height: 100px; object-fit: cover; border-radius: var(--ui-field-radius); margin-bottom: 12px; }
+.signs-hub__services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 30px; }
+.signs-hub__services article { padding: var(--services-card-padding,24px); min-width: 0; }
+
+.signs-hub__gallery { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; margin-top:30px; }
+.signs-hub__gallery figure { margin:0;min-width:0; }
+.signs-hub__gallery img { display:block; width:100%;height:320px;object-fit:contain; }
+.signs-hub__gallery figcaption { margin-top:14px; }
+.signs-hub__choice {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:28px;}
+.signs-hub__choice article {min-width:0;padding:24px;}
+@media (max-width: 1000px) {
+  .signs-hub__split { gap: 28px; }
+  .signs-hub__elements, .signs-hub__choice { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+   .signs-hub__split { grid-template-columns: minmax(0, 1fr); }
+  .signs-hub__services { grid-template-columns: minmax(0, 1fr); }.signs-hub__gallery{grid-template-columns:minmax(0,1fr)}.signs-hub__gallery img{height:auto;max-height:440px} }
+@media (max-width: 480px) {
+  .signs-hub-related__signs-hub-services { --services-card-padding: 12px; --ui-title-size: 14px; --paragraph-margin: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 18px; }
+  .signs-hub-related__signs-hub-services-card-text { font-size: 12px; line-height: 1.4; }
+  .signs-hub-light__signs-hub-split, .signs-hub-placement__signs-hub-split { --split-gap: 10px; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--split-gap); }
+  .signs-hub-light__signs-hub-split-card, .signs-hub-placement__signs-hub-split-card { --ui-title-size: 14px; --paragraph-margin: 0 0 10px; }
+  .signs-hub-light__card-image, .signs-hub-placement__card-image { height: 84px; margin-bottom: 8px; border-radius: 6px; }
+  .signs-hub-light__signs-hub-split-card-text, .signs-hub-placement__signs-hub-split-card-text, .signs-hub-placement__signs-hub-split-card-link { font-size: 12px; line-height: 1.4; }
+  .signs-hub__question p { padding-right: 0; }
+  .signs-hub__form .signs-hub__button { width: 100%; }
+  .signs-hub__choice { grid-template-columns: minmax(0, 1fr); }
+  .signs-hub__elements { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 18px; }
+  .signs-hub__element { --ui-title-size: 14px; --paragraph-margin: 0; padding: 12px; }
+  .signs-hub__element-image { height: 84px; margin-bottom: 8px; border-radius: 6px; }
+  .signs-hub-elements__signs-hub-element-text { font-size: 12px; line-height: 1.4; }
+}

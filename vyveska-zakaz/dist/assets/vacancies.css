@@ -1,0 +1,25 @@
+.vakansii-content { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.vacancy-card { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; overflow: hidden; border: 1px solid #e5e2ed; border-radius: 16px; background: #fff; }
+.vacancy-card__category { display: inline-block; margin-bottom: 20px; padding: 5px 11px; border-radius: 30px; background: #f0edf8; color: #41309b; font-size: 12px; line-height: 1.4; }
+.vacancy-card__title { margin: 0 0 16px; font-size: var(--mobile-heading-font-size,23px); line-height: 1.3; text-align: left; }
+.vacancy-card__description { margin: 0 0 24px; color: #6b6675; font-size: 15px; line-height: 1.65; }
+@media (max-width: 1000px) { .vakansii-content { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; } }
+@media (max-width: 600px) { .vakansii-content { grid-template-columns: minmax(0, 1fr); } .vacancy-card__title { font-size: var(--mobile-heading-font-size,22px); } }
+
+.vacancy-card__image { display: block; width: 100%; height: 210px; object-fit: cover; }
+.vacancy-card__body { display: flex; flex: 1; flex-direction: column; align-items: flex-start; box-sizing: border-box; width: 100%; padding: 28px; }
+.vacancy-card__phone { --link-color: #41309b; --link-hover-color: #2d2572; --link-decoration: underline; text-decoration: underline; text-underline-offset: 3px; margin: auto 0 0; padding-top: 4px; color: #41309b; font-size: 19px; font-weight: 600; line-height: 1.5; }
+@media (max-width: 600px) { .vacancy-card__body { padding: 24px; } }
+
+.vacancy-card__phone:focus { outline: 2px solid #8c78cc; outline-offset: 4px; }
+
+@media(max-width:480px){
+.vakansii-content{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.vacancy-card{--mobile-heading-font-size:14px;--h2-font-size:14px;border-radius:12px}
+.vacancy-card__image{height:104px}
+.vacancy-card__body{padding:12px;overflow-wrap:break-word}
+.vacancy-card__category{max-width:100%;box-sizing:border-box;margin-bottom:10px;padding:3px 6px;font-size:10px;line-height:1.2}
+.vacancy-card__title{--mobile-heading-font-size:14px;--h2-font-size:14px;max-width:100%;margin-bottom:10px;line-height:1.3}
+.vacancy-card__description{margin-bottom:12px;font-size:12px;line-height:1.4}
+.vacancy-card__phone{font-size:11px;line-height:1.4}
+}

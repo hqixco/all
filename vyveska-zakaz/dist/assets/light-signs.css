@@ -1,0 +1,55 @@
+.light-signs { padding-bottom: 24px; }
+.light-signs__eyebrow { margin: 0 0 14px; }
+.light-signs__text { margin: 0 0 18px; }
+.light-signs__intro { max-width: 850px; }
+.light-signs__subheading { margin: 0 0 14px; }
+.light-signs__process-photo img { display: block; width: 100%; height: auto; }
+.light-signs__button { display: inline-flex; align-items: center; justify-content: center; min-height: var(--mobile-button-height,var(--compact-button-height,48px)); text-align: center; cursor: pointer; }
+.light-signs__button:focus, .light-signs__secondary:focus { outline: 3px solid var(--ui-focus); outline-offset: 4px; }
+.light-signs__secondary { display: inline-block; padding: 10px 0; }
+.light-signs__section { scroll-margin-top: 24px; }
+.light-signs__type, .light-signs__small-card { min-width: 0; overflow: hidden; padding: var(--ui-card-padding); border: 1px solid var(--ui-border); border-radius: var(--ui-card-radius); background: var(--ui-surface); box-shadow: var(--ui-card-shadow); }
+.light-signs__type-image, .light-signs__small-card-image, .light-signs__step-image { display: block; width: 100%; height: 100px; object-fit: cover; border-radius: var(--ui-field-radius); margin-bottom: 12px; }
+.light-signs__tag { margin: 0 0 10px; }
+.light-signs__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-bottom: 24px; }
+.light-signs__factors strong { display: block; }
+.light-signs__price-note { display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: center; }
+.light-signs__price-note p { margin: 0; }
+.light-signs__project { margin: 0; overflow: hidden; }
+.light-signs__project img { display: block; width: 100%; height: 265px; object-fit: contain; }
+.light-signs__project figcaption { padding: 22px; }
+.light-signs__split { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+.light-signs__checklist { padding-left: 22px; margin: 0; }
+.light-signs__checklist li { margin-bottom: 12px; }
+.light-signs__faq { max-width: 940px; }
+.light-signs__question summary { cursor: pointer; }
+.light-signs__faq-heading { display: inline; margin: 0; }
+.light-signs__request { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 36px; }
+.light-signs__field { display: block; }
+.light-signs__field input, .light-signs__field textarea { display: block; box-sizing: border-box; width: 100%; }
+.light-signs__field textarea { resize: vertical; }
+.light-signs__consent { display: flex; align-items: flex-start; margin: 0 0 20px; }
+.light-signs__consent input { flex: 0 0 auto; width: 18px; height: 18px; margin: 5px 10px 0 0; -webkit-appearance: checkbox; appearance: auto; }
+.light-signs__footer-links { padding: 20px 0; }
+.light-signs__footer-links summary { cursor: pointer; padding: 10px 0; }
+.light-signs__footer-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px 24px; padding: 12px 0; margin: 0; list-style: none; }
+.light-signs__footer-list a { display: inline-block; padding: 4px 0; }
+@media (max-width: 1000px) {
+  .light-signs__split { gap: 24px; }
+  .light-signs__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .light-signs__request { padding: 24px; gap: 24px; }
+}
+@media (max-width: 760px) {
+  .light-signs__split, .light-signs__request, .light-signs__price-note { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .light-signs__footer-list { grid-template-columns: minmax(0, 1fr); }
+  .light-signs__grid { grid-template-columns: minmax(0, 1fr); }
+  .light-signs__project img { height: 280px; }
+  .light-signs__button { box-sizing: border-box; width: 100%; }
+}
+
+.light-signs-context{padding-top:24px;padding-bottom:24px}
+.light-signs-context__title{color:var(--ui-brand);font-size:var(--ui-title-size);line-height:1.3;margin:0 0 10px}
+.light-signs-context__text{--paragraph-margin:0;margin:0;font-size:var(--ui-text-size);line-height:1.5;color:var(--ui-ink)}
+@media(max-width:500px){.light-signs-context{padding-top:16px;padding-bottom:16px}.light-signs-context__title{margin-bottom:8px}}

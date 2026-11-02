@@ -1,0 +1,3 @@
+.primaries .primary__item{min-width:0}
+.primaries .primary__item-image{max-width:100%;height:auto}
+.primaries .primary__item-title{max-width:100%;min-width:0;overflow-wrap:break-word}

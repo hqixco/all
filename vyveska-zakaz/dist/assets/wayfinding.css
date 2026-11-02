@@ -1,0 +1,53 @@
+.wayfinding p { margin: 0 0 18px; }
+.wayfinding a:focus, .wayfinding button:focus, .wayfinding summary:focus { outline: 3px solid var(--ui-focus); outline-offset: 4px; }
+.wayfinding__breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; padding: var(--mobile-breadcrumb-top,22px) 20px var(--mobile-breadcrumb-bottom,8px) 20px; }
+.wayfinding__breadcrumbs > * { margin: var(--mobile-breadcrumb-item-margin,0 10px 8px 0); }
+.wayfinding__separator { display: inline-flex; }
+.wayfinding a.wayfinding__button, .wayfinding__button { display: inline-flex; align-items: center; justify-content: center; min-height: var(--mobile-button-height,var(--compact-button-height,48px)); text-align: center; cursor: pointer; }
+.wayfinding__section { scroll-margin-top: 20px; }
+.wayfinding__subheading { margin: 0 0 14px; }
+.wayfinding__intro { max-width: 880px; }
+.wayfinding__note { margin-top: 28px; }
+.wayfinding__split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; align-items: start; }
+.wayfinding__split > * { min-width: 0; }
+.wayfinding__faq { max-width: 980px; }
+.wayfinding__question summary { display: flex; justify-content: space-between; align-items: center; cursor: pointer; list-style: none; }
+.wayfinding__question summary::-webkit-details-marker { display: none; }
+.wayfinding__question summary svg { flex: 0 0 20px; margin-left: 18px; }
+.wayfinding__question[open] summary svg { transform: rotate(180deg); }
+.wayfinding__question p { padding-right: 40px; }
+.wayfinding__checklist { padding-left: 20px; margin: 24px 0; }
+.wayfinding__checklist li { margin-bottom: 10px; }
+.wayfinding__field { display: block; }
+.wayfinding__field input, .wayfinding__field textarea { display: block; width: 100%; max-width: 100%; box-sizing: border-box; }
+.wayfinding__field textarea { resize: vertical; min-height: 130px; }
+.wayfinding__field input:focus, .wayfinding__field textarea:focus { outline: 2px solid var(--ui-focus); outline-offset: 2px; }
+.wayfinding__consent { display: flex; align-items: flex-start; margin: 8px 0 22px; }
+.wayfinding__consent input { -webkit-appearance: checkbox; appearance: auto; width: 18px; height: 18px; flex: 0 0 18px; margin: 2px 10px 0 0; }
+
+.wayfinding__elements { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 30px; }
+.wayfinding__element { padding: 24px; min-width: 0; }
+.wayfinding__number { display: block; margin-bottom: 18px; }
+.wayfinding__services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 30px; }
+.wayfinding__services article { padding: var(--services-card-padding,24px); min-width: 0; }
+
+.wayfinding__gallery { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; margin-top:30px; }
+.wayfinding__gallery figure { margin:0;min-width:0; }
+.wayfinding__gallery img { display:block; width:100%;height:320px;object-fit:contain; }
+.wayfinding__gallery figcaption { margin-top:14px; }
+@media (max-width: 1000px) {
+  .wayfinding__split { gap: 28px; }
+  .wayfinding__elements { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) {
+   .wayfinding__split { grid-template-columns: minmax(0, 1fr); }
+   .wayfinding__services { grid-template-columns: minmax(0, 1fr); }.wayfinding__gallery{grid-template-columns:minmax(0,1fr)}.wayfinding__gallery img{height:auto;max-height:440px} }
+@media (max-width: 480px) {
+  .wayfinding-production__wayfinding-services { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; --services-card-padding: 12px; --ui-title-size: 14px; }
+  .wayfinding-production__wayfinding-services-card { overflow-wrap: break-word; }
+  .wayfinding-production__wayfinding-services-card-text { font-size: 12px; line-height: 1.4; }
+  .wayfinding__question p { padding-right: 0; }
+  .wayfinding__form .wayfinding__button { width: 100%; }
+  .wayfinding__elements { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; --ui-title-size: 14px; }
+  .wayfinding__element { padding: 12px; overflow-wrap: break-word; }
+  .wayfinding__number { font-size: 11px; margin-bottom: 6px; }
+  .wayfinding__element p { font-size: 12px; line-height: 1.4; margin-bottom: 0; } }

@@ -1,0 +1,26 @@
+.site-nav { flex: 1 0 100%; margin-top: 20px; position: relative; z-index: 5; }
+.site-nav__list { display: flex; justify-content: flex-end; list-style: none; padding: 0; margin: 0; }
+.site-nav__item { position: relative; }
+.site-nav__item > a, .site-nav__group > summary { display: block; padding: 10px 8px; font-size: 14px; cursor: pointer; color: inherit; }
+.site-nav__group > summary { display: flex; align-items: center; justify-content: space-between; list-style: none; }
+.site-nav__group > summary::-webkit-details-marker { display: none; }
+.site-nav__arrow { display: block; flex: 0 0 14px; width: 14px; height: 14px; margin-left: 8px; transition: transform .18s ease; }
+.site-nav__group[open] > summary .site-nav__arrow { transform: rotate(180deg); }
+.site-nav__submenu { position: absolute; top: 100%; left: 0; min-width: 260px; max-width: 360px; margin: 0; padding: 12px; list-style: none; background: #fff; color: #222; box-shadow: 0 4px 16px rgba(0,0,0,.18); }
+.site-nav__submenu a { display: block; padding: 8px; line-height: 1.4; }
+.site-links { margin-top: 32px; margin-bottom: 32px; }
+.site-links__list { display: flex; flex-wrap: wrap; list-style: none; padding: 0; margin: 0; }
+.site-links__list li { margin: 0 24px 12px 0; }
+.breadcrumbs [itemprop="itemListElement"] { display: inline-block; margin-right: 16px; }
+.carousel__link { display: block; height: 100%; color: inherit; text-decoration: none; }
+.carousel__link:hover, .carousel__link:focus { color: inherit; }
+@media (max-width: 1000px) {
+  .site-nav { box-sizing: border-box; width: 100%; min-width: 0; max-width: 100%; margin: 16px 0 0; background: #fff; color: #222; }
+  .page--interactive .site-nav:not(.site-nav--open) { display: none; }
+  .site-nav__list { display: block; width: 100%; min-width: 0; }
+  .site-nav__item, .site-nav__group { min-width: 0; max-width: 100%; }
+  .site-nav__item > a, .site-nav__group > summary, .site-nav__submenu a { white-space: normal; overflow-wrap: break-word; word-wrap: break-word; }
+  .site-nav__submenu { position: static; box-sizing: border-box; width: 100%; min-width: 0; max-width: 100%; box-shadow: none; padding: 0 16px 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) { .site-nav__arrow { transition: none; } }

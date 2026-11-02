@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Normalize the explicit homepage filename; keep query parameters.
+  RewriteCond %{HTTP_HOST} ^(?:www\.)?xn----jtbntedbhbs\.xn--p1ai(?::[0-9]+)?$ [NC]
+  RewriteCond %{THE_REQUEST} \s/+index\.html(?:[?\s]) [NC]
+  RewriteRule ^index\.html$ https://xn----jtbntedbhbs.xn--p1ai/ [R=301,L,NE]
+
+  # Scope host/scheme redirects to the production domain.
+  # Respect TLS termination at the hosting provider's reverse proxy.
+  RewriteCond %{HTTP_HOST} ^www\.xn----jtbntedbhbs\.xn--p1ai(?::[0-9]+)?$ [NC]
+  RewriteRule ^ https://xn----jtbntedbhbs.xn--p1ai%{REQUEST_URI} [R=301,L,NE]
+
+  RewriteCond %{HTTP_HOST} ^xn----jtbntedbhbs\.xn--p1ai(?::[0-9]+)?$ [NC]
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !^https$ [NC]
+  RewriteRule ^ https://xn----jtbntedbhbs.xn--p1ai%{REQUEST_URI} [R=301,L,NE]
+</IfModule>

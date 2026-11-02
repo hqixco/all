@@ -1,0 +1,7 @@
+.home-contact__wrapper,.home-reviews__container,.home-partners__wrapper,.home-faq__wrapper,.order-process__inner,.home-production__wrapper{box-sizing:border-box;width:100vw;max-width:var(--legacy-width);padding:0 20px;position:relative;left:50%;transform:translateX(-50%);margin-left:0;margin-right:0}
+.section-inset{box-sizing:border-box;padding-left:var(--section-inset,20px);padding-right:var(--section-inset,20px)}
+.home-contact,.home-reviews,.home-partners,.home-faq,.home-works,.order-process,.production-block{box-sizing:border-box;width:100vw;max-width:none;position:relative;left:50%;transform:translateX(-50%)}
+
+.otzyvy-reviews{--reviews-background:#fff;--section-background:#fff;--first-heading-align:center}
+
+@media(max-width:480px){.root__width{--section-inset:0px;--company-container-inset:0px;--nested-container-inset:0px}}

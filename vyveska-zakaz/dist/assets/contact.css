@@ -1,0 +1,60 @@
+.home-contact__home-split{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;align-items:center}
+@media(max-width:760px){.home-contact__home-split{grid-template-columns:minmax(0,1fr);gap:20px}}.home__contact-links{display:flex;flex-direction:column;margin:25px 0;}.home__contact-links a{margin-bottom:12px;}
+
+.home-contact__home-split{align-items:center}
+.home-contact__map{min-width:0;overflow:hidden;border-radius:18px;background:#fff}
+.home-contact__map-image{display:block;width:100%;height:auto}
+@media(max-width:760px){.home-contact__map{border-radius:14px}}
+
+.home-contact{--section-background:#fff;background:#fff;color:#111}
+.home-contact__home-contact-links-link,.home-contact__home-split-wrapper-link{--link-color:#111;--link-hover-color:#111;color:#111}
+
+.home-contact__geography{margin-top:30px}
+.home-contact__localities{font-size:0;margin:0 -4px -8px}
+.home-contact__locality{display:inline-block;max-width:calc(100% - 8px);margin:0 4px 8px;padding:7px 11px;border:1px solid #e4dfeb;border-radius:20px;background:#f7f5fa;color:#292335;font-size:13px;line-height:1.35;vertical-align:top;overflow-wrap:break-word}
+.home-contact__localities-details{margin-top:16px}
+.home-contact__localities-toggle{display:flex;align-items:center;justify-content:space-between;list-style:none;cursor:pointer;padding:12px 0;color:#111;font-size:15px;font-weight:600}
+.home-contact__localities-toggle::-webkit-details-marker{display:none}
+.home-contact__localities-toggle-icon{flex:0 0 18px;margin-left:12px}
+.home-contact__localities-details[open] .home-contact__localities-toggle-icon{transform:rotate(180deg)}
+.home-contact__localities-scroll{max-height:360px;overflow-y:auto;padding:16px;border:1px solid #e4dfeb;border-radius:12px;-webkit-overflow-scrolling:touch}
+.home-contact__locality-group{margin-bottom:20px}
+.home-contact__locality-group:last-child{margin-bottom:0}
+.home-contact__locality-group-title{font-size:14px;line-height:1.4;margin:0 0 12px;color:#111}
+
+@media(max-width:500px){.home-contact__home-contact-links{margin:14px 0}}
+
+@media(max-width:500px){.home-contact__home-contact-links-link{margin-bottom:8px}}
+
+@media(max-width:500px){.home-contact__geography{margin-top:18px}}
+
+@media(max-width:500px){.home-contact__localities{margin:0 -3px -6px}}
+
+@media(max-width:500px){.home-contact__locality{max-width:calc(100% - 6px);margin:0 3px 6px;padding:4px 7px;font-size:11px;line-height:1.3}}
+
+@media(max-width:500px){.home-contact__localities-details{margin-top:10px}}
+
+@media(max-width:500px){.home-contact__localities-toggle{padding:8px 0;font-size:13px;line-height:1.35}}
+
+@media(max-width:500px){.home-contact__localities-toggle-icon{width:16px;height:16px;flex-basis:16px;margin-left:8px}}
+
+@media(max-width:500px){.home-contact__localities-scroll{max-height:240px;padding:10px;border-radius:8px}}
+
+@media(max-width:500px){.home-contact__locality-group{margin-bottom:14px}}
+
+@media(max-width:500px){.home-contact__locality-group-title{font-size:12px;margin-bottom:8px}}
+
+@media(max-width:500px){.home-contact__map{border-radius:10px}}
+
+.home-contact__home-contact-links-link{display:flex;align-items:center}
+.home-contact__contact-icon{display:block;flex:0 0 18px;width:18px;height:18px;margin-right:8px;color:#59439b}
+.home-contact__contact-text{min-width:0;overflow-wrap:break-word}
+.home__contact-links a{font-size:20px;font-weight:700}
+
+@media(max-width:500px){.home-contact__home-split{gap:16px}}
+
+@media(max-width:500px){.home__contact-links a{font-size:16px;line-height:1.35}}
+
+@media(max-width:500px){.home-contact__geography h3{font-size:16px;margin-bottom:10px}}
+
+@media(max-width:500px){.home-contact__home-lead{font-size:14px;line-height:1.4}}
